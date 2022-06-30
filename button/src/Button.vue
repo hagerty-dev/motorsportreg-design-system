@@ -21,7 +21,7 @@ const props = defineProps({
 </script>
 
 <style lang="scss" scoped>
-@import '../../tokens/variables.css';
+@import '../../tokens/variables.scss';
 
 button {
   padding: var(--vue-spacing-00) var(--vue-spacing-2);
@@ -34,10 +34,8 @@ button {
   text-transform: uppercase;
 
   &.primary {
-    // background-color: var(--vue-color-primary);
     color: var(--vue-color-text-on-primary);
-    background-color: var(--figma-global-button-primary-background);
-    border: 1px solid black;
+    background-color: $figma-global-button-primary-background;
   }
 
   &.secondary {
