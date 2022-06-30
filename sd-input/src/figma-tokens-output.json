@@ -1,0 +1,147 @@
+{
+  "global": {
+    "button": {
+      "primary": {
+        "background": {
+          "value": "#10b981",
+          "type": "color"
+        },
+        "color": {
+          "value": "#f9fafb",
+          "type": "color"
+        },
+        "hover": {
+          "background": {
+            "value": "#059669",
+            "type": "color"
+          }
+        },
+        "active": {
+          "shadow": {
+            "value": "#064e3b",
+            "type": "color"
+          }
+        },
+        "focus": {
+          "outline": {
+            "value": "#f9fafb",
+            "type": "color"
+          }
+        },
+        "disabled": {
+          "background": {
+            "value": "#065f46",
+            "type": "color"
+          }
+        }
+      },
+      "outline": {
+        "background": {
+          "value": "#00000000",
+          "type": "color"
+        },
+        "border": {
+          "color": {
+            "value": "#f9fafb",
+            "type": "color"
+          }
+        },
+        "hover": {
+          "background": {
+            "value": "#ffffff1a",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "core": {
+      "colors": {
+        "primary": {
+          "50": {
+            "value": "#ecfdf5",
+            "type": "color"
+          },
+          "100": {
+            "value": "#d1fae5",
+            "type": "color"
+          },
+          "200": {
+            "value": "#a7f3d0",
+            "type": "color"
+          },
+          "300": {
+            "value": "#6ee7b7",
+            "type": "color"
+          },
+          "400": {
+            "value": "#34d399",
+            "type": "color"
+          },
+          "500": {
+            "value": "#10b981",
+            "type": "color"
+          },
+          "600": {
+            "value": "#059669",
+            "type": "color"
+          },
+          "700": {
+            "value": "#047857",
+            "type": "color"
+          },
+          "800": {
+            "value": "#065f46",
+            "type": "color"
+          },
+          "900": {
+            "value": "#064e3b",
+            "type": "color"
+          }
+        },
+        "grey": {
+          "50": {
+            "value": "#f9fafb",
+            "type": "color"
+          },
+          "100": {
+            "value": "#f3f4f6",
+            "type": "color"
+          },
+          "200": {
+            "value": "#e5e7eb",
+            "type": "color"
+          },
+          "300": {
+            "value": "#d1d5db",
+            "type": "color"
+          },
+          "400": {
+            "value": "#9ca3af",
+            "type": "color"
+          },
+          "500": {
+            "value": "#6b7280",
+            "type": "color"
+          },
+          "600": {
+            "value": "#4b5563",
+            "type": "color"
+          },
+          "700": {
+            "value": "#374151",
+            "type": "color"
+          },
+          "800": {
+            "value": "#1f2937",
+            "type": "color"
+          },
+          "900": {
+            "value": "#111827",
+            "type": "color"
+          }
+        }
+      }
+    }
+  },
+  "$themes": []
+}
