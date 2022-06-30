@@ -18,7 +18,7 @@
         },
         "active": {
           "shadow": {
-            "value": "{core.colors.primary.900}",
+            "value": "#064e3b",
             "type": "color"
           }
         },
