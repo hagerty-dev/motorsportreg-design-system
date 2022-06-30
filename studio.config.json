@@ -17,7 +17,7 @@
         ]
       ],
       ["components", ["button", "icon"]],
-      ["infrastructure", ["doc-layout", "types"]]
+      ["infrastructure", ["doc-layout", "types", "sd-input"]]
     ]
   },
   "doc": {
