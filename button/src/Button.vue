@@ -21,7 +21,7 @@ const props = defineProps({
 </script>
 
 <style lang="scss" scoped>
-@import '~/tokens/variables.css';
+@import '../../tokens/variables.css';
 
 button {
   padding: var(--vue-spacing-00) var(--vue-spacing-2);
