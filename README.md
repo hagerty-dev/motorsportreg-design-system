@@ -1,3 +1,3 @@
 # this is a test
 
-Of our design system workflow.
+Of our design system workflow :)
