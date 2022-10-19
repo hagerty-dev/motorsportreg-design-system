@@ -18,7 +18,7 @@
         },
         "active": {
           "shadow": {
-            "value": "#f00",
+            "value": "#0026ff",
             "type": "color"
           }
         },
