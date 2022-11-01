@@ -1,3 +1,1 @@
-# MSR TOKEN
-
-Ready to go
+# Demo index

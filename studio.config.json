@@ -4,16 +4,9 @@
     "menu": [
       "introduction",
       [
-        "tokens",
+        "semantic",
         [
-          "colors",
-          "tokens"
-        ]
-      ],
-      [
-        "components",
-        [
-          "button",
+          "colors"
         ]
       ],
       [
