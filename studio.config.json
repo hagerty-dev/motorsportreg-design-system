@@ -4,16 +4,16 @@
     "menu": [
       "introduction",
       [
-        "TOKENS",
+        "tokens",
         [
-          "color",
+          "colors",
           "tokens"
         ]
       ],
       [
         "components",
         [
-          "button"
+          "button",
         ]
       ],
       [
