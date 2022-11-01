@@ -4,13 +4,19 @@
     "menu": [
       "introduction",
       [
-        "tokens",
+        "semantic",
         [
-          "tokens"
+          "colors"
         ]
       ],
-      ["components", ["button", "icon"]],
-      ["infrastructure", ["doc-layout", "types", "sd-input"]]
+      [
+        "infrastructure",
+        [
+          "doc-layout",
+          "types",
+          "sd-input"
+        ]
+      ]
     ]
   },
   "doc": {
