@@ -1,3 +1,3 @@
-# Vue 3 starter
+# MSR Design System
 
-Of our design system workflow :)
+First run of our design system workflow

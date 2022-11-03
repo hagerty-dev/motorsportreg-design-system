@@ -2,15 +2,30 @@
   "packages": {
     "dir": "",
     "menu": [
-      "introduction",
+      "INTRODUCTION",
       [
-        "semantic",
+        "TOKENS",
         [
-          "colors"
+          "typography",
+          "colors",
+          "spacing"
         ]
       ],
       [
-        "infrastructure",
+        "SEMANTIC",
+        [
+          "text"
+        ]
+      ],
+      [
+        "COMPONENTS",
+        [
+          "button",
+          "alert"
+        ]
+      ],
+      [
+        "INFRASTRUCTURE",
         [
           "doc-layout",
           "types",
