@@ -1,0 +1,59 @@
+{
+  "tooltip": {
+    "padding-left": {
+      "value": "{space.200}",
+      "type": "spacing"
+    },
+    "padding-right": {
+      "value": "{space.200}",
+      "type": "spacing"
+    },
+    "padding-top": {
+      "value": "{space.200}",
+      "type": "spacing"
+    },
+    "text": {
+      "value": {
+        "fontFamily": "{fontFamily.GTAmerica}",
+        "fontWeight": "{fontWeight.regular}",
+        "lineHeight": "{lineHeight.standard}",
+        "fontSize": "{fontSize.50}",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "textDecoration": "none",
+        "textCase": "none"
+      },
+      "type": "typography",
+      "description": "Tooltip text"
+    },
+    "padding-bottom": {
+      "value": "{space.200}",
+      "type": "spacing"
+    },
+    "color": {
+      "background": {
+        "value": "{color.base.dark}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{color.base.light}",
+        "type": "color"
+      }
+    },
+    "border-radius": {
+      "value": "{borderRadius.200}",
+      "type": "borderRadius"
+    },
+    "shadow": {
+      "value": {
+        "x": "0",
+        "y": "10",
+        "blur": "25",
+        "spread": "0",
+        "color": "rgba(9,10,11,0.1)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    }
+  }
+}

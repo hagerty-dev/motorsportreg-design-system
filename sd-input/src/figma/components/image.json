@@ -1,0 +1,14 @@
+{
+  "image": {
+    "border-radius": {
+      "default": {
+        "value": "{borderRadius.none}",
+        "type": "borderRadius"
+      },
+      "rounded": {
+        "value": "{borderRadius.300}",
+        "type": "borderRadius"
+      }
+    }
+  }
+}
