@@ -1,1 +1,1 @@
-# Colors
+# Color tokens
