@@ -1,0 +1,637 @@
+{
+  "custom-select": {
+    "color": {
+      "background": {
+        "default": {
+          "value": "{color.base.light}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{color.gray.300}",
+          "type": "color"
+        },
+        "hover-selected": {
+          "value": "{color.gray.300}",
+          "type": "color"
+        },
+        "focus": {
+          "value": "{color.base.light}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{color.gray.200}",
+          "type": "color"
+        },
+        "selected": {
+          "value": "{color.gray.200}",
+          "type": "color"
+        }
+      },
+      "border": {
+        "default": {
+          "value": "{color.gray.500}",
+          "type": "color"
+        },
+        "selected": {
+          "value": "{color.base.dark}",
+          "type": "color"
+        }
+      },
+      "text": {
+        "default": {
+          "value": "{color.base.dark}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{color.gray.900}",
+          "type": "color"
+        }
+      }
+    },
+    "text": {
+      "value": {
+        "fontFamily": "{fontFamily.GTAmerica}",
+        "fontWeight": "{fontWeight.regular}",
+        "lineHeight": "{lineHeight.tight}",
+        "fontSize": "{fontSize.200}",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "textDecoration": "none",
+        "textCase": "none"
+      },
+      "type": "typography",
+      "description": "Custom select label"
+    },
+    "size": {
+      "scale": {
+        "value": "72",
+        "type": "sizing"
+      },
+      "list": {
+        "value": "48",
+        "type": "sizing"
+      }
+    },
+    "border-radius": {
+      "value": "{borderRadius.200}",
+      "type": "borderRadius"
+    },
+    "border-width": {
+      "default": {
+        "value": "{borderWidth.100}",
+        "type": "borderWidth"
+      },
+      "selected": {
+        "value": "{borderWidth.200}",
+        "type": "borderWidth",
+        "description": "Focus states "
+      },
+      "focus": {
+        "value": "{borderWidth.200}",
+        "type": "borderWidth",
+        "description": "Focus states "
+      }
+    },
+    "list": {
+      "space": {
+        "padding-left": {
+          "value": "16",
+          "type": "spacing"
+        },
+        "padding-right": {
+          "value": "16",
+          "type": "spacing"
+        }
+      }
+    }
+  },
+  "validation": {
+    "text": {
+      "value": {
+        "fontFamily": "{fontFamily.GTAmerica}",
+        "fontWeight": "{fontWeight.regular}",
+        "lineHeight": "{lineHeight.tight}",
+        "fontSize": "{fontSize.50}",
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0",
+        "textDecoration": "none",
+        "textCase": "none"
+      },
+      "type": "typography",
+      "description": "Validation text"
+    },
+    "border-radius": {
+      "value": "{borderRadius.100}",
+      "type": "borderRadius"
+    },
+    "space": {
+      "padding-left": {
+        "value": "8",
+        "type": "spacing"
+      },
+      "padding-right": {
+        "value": "8",
+        "type": "spacing"
+      },
+      "padding-top": {
+        "value": "4",
+        "type": "spacing"
+      },
+      "padding-bottom": {
+        "value": "6",
+        "type": "spacing"
+      }
+    },
+    "color": {
+      "background": {
+        "error": {
+          "value": "{feedback.color.background.critical}",
+          "type": "color"
+        },
+        "success": {
+          "value": "{feedback.color.background.success}",
+          "type": "color"
+        }
+      },
+      "text": {
+        "value": "{color.base.dark}",
+        "type": "color"
+      }
+    }
+  },
+  "radiobutton": {
+    "color": {
+      "background": {
+        "default": {
+          "value": "{color.base.light}",
+          "type": "color"
+        },
+        "checked": {
+          "value": "{color.base.dark}",
+          "type": "color"
+        },
+        "checked-hover": {
+          "value": "{color.gray.500}",
+          "type": "color"
+        }
+      },
+      "text": {
+        "label": {
+          "default": {
+            "value": "{color.base.dark}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{color.gray.700}",
+            "type": "color"
+          }
+        },
+        "heading": {
+          "value": "{color.base.dark}",
+          "type": "color"
+        }
+      },
+      "border": {
+        "default": {
+          "value": "{color.gray.600}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{color.base.dark}",
+          "type": "color"
+        },
+        "focus": {
+          "value": "{color.gray.600}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{color.gray.300}",
+          "type": "color"
+        },
+        "checked": {
+          "value": "{color.base.dark}",
+          "type": "color"
+        },
+        "checked-hover": {
+          "value": "{color.gray.500}",
+          "type": "color"
+        }
+      }
+    },
+    "border-radius": {
+      "value": "{borderRadius.circle}",
+      "type": "borderRadius"
+    },
+    "border-width": {
+      "value": "1.5",
+      "type": "borderWidth"
+    }
+  },
+  "checkbox": {
+    "color": {
+      "text": {
+        "label": {
+          "default": {
+            "value": "{color.base.dark}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{color.gray.700}",
+            "type": "color"
+          }
+        },
+        "heading": {
+          "value": "{color.base.dark}",
+          "type": "color"
+        }
+      },
+      "label": {
+        "checked": {
+          "value": "{color.base.dark}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{color.base.dark}",
+          "type": "color"
+        }
+      },
+      "border": {
+        "default": {
+          "value": "{color.gray.600}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{color.base.dark}",
+          "type": "color"
+        },
+        "focus": {
+          "value": "{color.gray.600}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{color.gray.300}",
+          "type": "color"
+        },
+        "checked": {
+          "value": "{color.base.dark}",
+          "type": "color"
+        },
+        "checked-hover": {
+          "value": "{color.gray.500}",
+          "type": "color"
+        }
+      },
+      "background": {
+        "default": {
+          "value": "{color.base.light}",
+          "type": "color"
+        },
+        "checked": {
+          "value": "{color.base.dark}",
+          "type": "color"
+        },
+        "checked-hover": {
+          "value": "{color.gray.500}",
+          "type": "color"
+        }
+      }
+    },
+    "border-radius": {
+      "value": "{borderRadius.100}",
+      "type": "borderRadius"
+    },
+    "border-width": {
+      "value": "1.5",
+      "type": "borderWidth"
+    }
+  },
+  "form": {
+    "field": {
+      "space": {
+        "small": {
+          "padding-left": {
+            "value": "16",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "16",
+            "type": "spacing"
+          }
+        },
+        "padding-gap": {
+          "value": "8",
+          "type": "spacing"
+        },
+        "large": {
+          "padding-left": {
+            "value": "20",
+            "type": "spacing"
+          },
+          "padding-right": {
+            "value": "20",
+            "type": "spacing"
+          }
+        }
+      },
+      "size": {
+        "large": {
+          "value": "56",
+          "type": "sizing"
+        },
+        "small": {
+          "value": "48",
+          "type": "sizing"
+        }
+      },
+      "border-width": {
+        "default": {
+          "value": "{borderWidth.100}",
+          "type": "borderWidth"
+        },
+        "focus": {
+          "value": "{borderWidth.200}",
+          "type": "borderWidth",
+          "description": ""
+        },
+        "error": {
+          "value": "{borderWidth.200}",
+          "type": "borderWidth",
+          "description": ""
+        }
+      },
+      "color": {
+        "background": {
+          "default": {
+            "value": "{color.base.light}",
+            "type": "color"
+          },
+          "readonly": {
+            "value": "{color.gray.200}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{color.gray.200}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{color.gray.400}",
+            "type": "color"
+          },
+          "focus": {
+            "value": "{color.base.dark}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{feedback.color.critical}",
+            "type": "color"
+          }
+        }
+      },
+      "text": {
+        "sublabel": {
+          "value": {
+            "fontFamily": "{fontFamily.GTAmerica}",
+            "fontWeight": "{fontWeight.regular}",
+            "lineHeight": "{lineHeight.tight}",
+            "fontSize": "{fontSize.50}",
+            "letterSpacing": "0%",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Form field sublabel"
+        },
+        "label": {
+          "value": {
+            "fontFamily": "{fontFamily.GTAmerica}",
+            "fontWeight": "{fontWeight.medium}",
+            "lineHeight": "{lineHeight.tight}",
+            "fontSize": "{fontSize.base}",
+            "letterSpacing": "0%",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Form field top label"
+        },
+        "input": {
+          "small": {
+            "value": {
+              "fontFamily": "{fontFamily.GTAmerica}",
+              "fontWeight": "{fontWeight.regular}",
+              "lineHeight": "{lineHeight.tight}",
+              "fontSize": "{fontSize.200}",
+              "letterSpacing": "0%",
+              "paragraphSpacing": "0",
+              "textDecoration": "none",
+              "textCase": "none"
+            },
+            "type": "typography",
+            "description": "Small form field input "
+          },
+          "large": {
+            "value": {
+              "fontFamily": "{fontFamily.GTAmerica}",
+              "fontWeight": "{fontWeight.regular}",
+              "lineHeight": "{lineHeight.tight}",
+              "fontSize": "{fontSize.250}",
+              "letterSpacing": "0%",
+              "paragraphSpacing": "0",
+              "textDecoration": "none",
+              "textCase": "none"
+            },
+            "type": "typography",
+            "description": "Large form field input "
+          }
+        }
+      },
+      "border-radius": {
+        "value": "{borderRadius.200}",
+        "type": "borderRadius"
+      }
+    },
+    "input": {
+      "color": {
+        "text": {
+          "placeholder": {
+            "value": "{color.gray.700}",
+            "type": "color",
+            "description": "In line label (no top label) "
+          },
+          "filled": {
+            "value": "{color.base.dark}",
+            "type": "color"
+          },
+          "focus": {
+            "value": "{color.gray.500}",
+            "type": "color"
+          },
+          "focus-filled": {
+            "value": "{color.base.dark}",
+            "type": "color",
+            "description": "Focus completed "
+          },
+          "error": {
+            "value": "{color.base.dark}",
+            "type": "color"
+          },
+          "readonly": {
+            "value": "{color.gray.700}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{color.gray.700}",
+            "type": "color"
+          },
+          "label": {
+            "value": "{color.base.dark}",
+            "type": "color",
+            "description": "Top label "
+          },
+          "hint": {
+            "value": "{color.gray.900}",
+            "type": "color",
+            "description": ""
+          },
+          "requirement": {
+            "value": "{color.gray.600}",
+            "type": "color",
+            "description": ""
+          }
+        }
+      }
+    }
+  },
+  "radio-button": {
+    "text": {
+      "small": {
+        "value": {
+          "fontFamily": "{fontFamily.GTAmerica}",
+          "fontWeight": "{fontWeight.regular}",
+          "lineHeight": "{lineHeight.tight}",
+          "fontSize": "{fontSize.200}",
+          "letterSpacing": "0%",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Small radio label"
+      },
+      "large": {
+        "value": {
+          "fontFamily": "{fontFamily.GTAmerica}",
+          "fontWeight": "{fontWeight.regular}",
+          "lineHeight": "{lineHeight.tight}",
+          "fontSize": "{fontSize.250}",
+          "letterSpacing": "0%",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "type": "typography",
+        "description": "Large radio label"
+      }
+    },
+    "list": {
+      "heading": {
+        "small": {
+          "value": {
+            "fontFamily": "{fontFamily.GTAmerica}",
+            "fontWeight": "{fontWeight.medium}",
+            "lineHeight": "{lineHeight.tight}",
+            "fontSize": "{fontSize.base}",
+            "letterSpacing": "0%",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Small radio heading"
+        },
+        "large": {
+          "value": {
+            "fontFamily": "{fontFamily.GTAmerica}",
+            "fontWeight": "{fontWeight.medium}",
+            "lineHeight": "{lineHeight.tight}",
+            "fontSize": "{fontSize.200}",
+            "letterSpacing": "0%",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Large radio heading"
+        }
+      }
+    }
+  },
+  "check-box": {
+    "text": {
+      "label": {
+        "small": {
+          "value": {
+            "fontFamily": "{fontFamily.GTAmerica}",
+            "fontWeight": "{fontWeight.regular}",
+            "lineHeight": "{lineHeight.tight}",
+            "fontSize": "{fontSize.200}",
+            "letterSpacing": "0%",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Small check box label"
+        },
+        "large": {
+          "value": {
+            "fontFamily": "{fontFamily.GTAmerica}",
+            "fontWeight": "{fontWeight.regular}",
+            "lineHeight": "{lineHeight.tight}",
+            "fontSize": "{fontSize.250}",
+            "letterSpacing": "0%",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Large check box label"
+        }
+      },
+      "heading": {
+        "small": {
+          "value": {
+            "fontFamily": "{fontFamily.GTAmerica}",
+            "fontWeight": "{fontWeight.medium}",
+            "lineHeight": "{lineHeight.tight}",
+            "fontSize": "{fontSize.base}",
+            "letterSpacing": "0%",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Small check box heading"
+        },
+        "large": {
+          "value": {
+            "fontFamily": "{fontFamily.GTAmerica}",
+            "fontWeight": "{fontWeight.medium}",
+            "lineHeight": "{lineHeight.tight}",
+            "fontSize": "{fontSize.200}",
+            "letterSpacing": "0%",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Large check box heading"
+        }
+      }
+    }
+  }
+}
