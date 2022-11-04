@@ -1,0 +1,600 @@
+.msr-alert-text-global {
+  font: var(--msr-alert-text-global);
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-alert-text-product {
+  font: var(--msr-alert-text-product);
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-alert-text-label {
+  font: var(--msr-alert-text-label);
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-alert-text-toast {
+  font: var(--msr-alert-text-toast);
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-avatar-label-xlarge {
+  font: var(--msr-avatar-label-xlarge);
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-avatar-label-large {
+  font: var(--msr-avatar-label-large);
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-avatar-label-medium {
+  font: var(--msr-avatar-label-medium);
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-avatar-label-small {
+  font: var(--msr-avatar-label-small);
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-avatar-label-xsmall {
+  font: var(--msr-avatar-label-xsmall);
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-button-text-large {
+  font: var(--msr-button-text-large);
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-button-text-medium {
+  font: var(--msr-button-text-medium);
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-button-text-small {
+  font: var(--msr-button-text-small);
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-filter-text-xsmall {
+  font: var(--msr-filter-text-xsmall);
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-filter-text-small {
+  font: var(--msr-filter-text-small);
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-custom-select-text {
+  font: var(--msr-custom-select-text);
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-validation-text {
+  font: var(--msr-validation-text);
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-form-field-text-sublabel {
+  font: var(--msr-form-field-text-sublabel);
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-form-field-text-label {
+  font: var(--msr-form-field-text-label);
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-form-field-text-input-small {
+  font: var(--msr-form-field-text-input-small);
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-form-field-text-input-large {
+  font: var(--msr-form-field-text-input-large);
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-radio-button-text-small {
+  font: var(--msr-radio-button-text-small);
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-radio-button-text-large {
+  font: var(--msr-radio-button-text-large);
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-radio-button-list-heading-small {
+  font: var(--msr-radio-button-list-heading-small);
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-radio-button-list-heading-large {
+  font: var(--msr-radio-button-list-heading-large);
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-check-box-text-label-small {
+  font: var(--msr-check-box-text-label-small);
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-check-box-text-label-large {
+  font: var(--msr-check-box-text-label-large);
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-check-box-text-heading-small {
+  font: var(--msr-check-box-text-heading-small);
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-check-box-text-heading-large {
+  font: var(--msr-check-box-text-heading-large);
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-hagerty-logo-text-large {
+  font: var(--msr-hagerty-logo-text-large);
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-hagerty-logo-text-small {
+  font: var(--msr-hagerty-logo-text-small);
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-menu-item-text {
+  font: var(--msr-menu-item-text);
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-modal-dialog-text-body {
+  font: var(--msr-modal-dialog-text-body);
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-modal-dialog-text-heading {
+  font: var(--msr-modal-dialog-text-heading);
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-pagination-button-text {
+  font: var(--msr-pagination-button-text);
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-pagination-text {
+  font: var(--msr-pagination-text);
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-toggle-text {
+  font: var(--msr-toggle-text);
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-tooltip-text {
+  font: var(--msr-tooltip-text);
+  letter-spacing: 0%;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-mobile-heading-bold-level100 {
+  font: var(--msr-mobile-heading-bold-level100);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-mobile-heading-bold-level200 {
+  font: var(--msr-mobile-heading-bold-level200);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-mobile-heading-bold-level300 {
+  font: var(--msr-mobile-heading-bold-level300);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-mobile-heading-bold-level400 {
+  font: var(--msr-mobile-heading-bold-level400);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-mobile-heading-medium-level100 {
+  font: var(--msr-mobile-heading-medium-level100);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-mobile-heading-medium-level200 {
+  font: var(--msr-mobile-heading-medium-level200);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-mobile-heading-medium-level300 {
+  font: var(--msr-mobile-heading-medium-level300);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-mobile-heading-medium-level400 {
+  font: var(--msr-mobile-heading-medium-level400);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-mobile-heading-extendedbold-level100 {
+  font: var(--msr-mobile-heading-extendedbold-level100);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-mobile-heading-extendedbold-level200 {
+  font: var(--msr-mobile-heading-extendedbold-level200);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-mobile-heading-extendedbold-level300 {
+  font: var(--msr-mobile-heading-extendedbold-level300);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-mobile-heading-extendedbold-level400 {
+  font: var(--msr-mobile-heading-extendedbold-level400);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-mobile-heading-extendedmedium-level100 {
+  font: var(--msr-mobile-heading-extendedmedium-level100);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-mobile-heading-extendedmedium-level200 {
+  font: var(--msr-mobile-heading-extendedmedium-level200);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-mobile-heading-extendedmedium-level300 {
+  font: var(--msr-mobile-heading-extendedmedium-level300);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-mobile-heading-extendedmedium-level400 {
+  font: var(--msr-mobile-heading-extendedmedium-level400);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-mobile-display-bold-level-100 {
+  font: var(--msr-mobile-display-bold-level-100);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-mobile-display-bold-level200 {
+  font: var(--msr-mobile-display-bold-level200);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-mobile-display-bold-level300 {
+  font: var(--msr-mobile-display-bold-level300);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-mobile-display-medium-level100 {
+  font: var(--msr-mobile-display-medium-level100);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-mobile-display-medium-level200 {
+  font: var(--msr-mobile-display-medium-level200);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-mobile-display-medium-level300 {
+  font: var(--msr-mobile-display-medium-level300);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-mobile-lead-level100 {
+  font: var(--msr-mobile-lead-level100);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-mobile-lead-level200 {
+  font: var(--msr-mobile-lead-level200);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-mobile-lead-level300 {
+  font: var(--msr-mobile-lead-level300);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-desktop-heading-bold-level100 {
+  font: var(--msr-desktop-heading-bold-level100);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-desktop-heading-bold-level200 {
+  font: var(--msr-desktop-heading-bold-level200);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-desktop-heading-bold-level300 {
+  font: var(--msr-desktop-heading-bold-level300);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-desktop-heading-bold-level400 {
+  font: var(--msr-desktop-heading-bold-level400);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-desktop-heading-bold-level500 {
+  font: var(--msr-desktop-heading-bold-level500);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-desktop-heading-bold-level600 {
+  font: var(--msr-desktop-heading-bold-level600);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-desktop-heading-bold-level700 {
+  font: var(--msr-desktop-heading-bold-level700);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-desktop-heading-medium-level100 {
+  font: var(--msr-desktop-heading-medium-level100);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-desktop-heading-medium-level200 {
+  font: var(--msr-desktop-heading-medium-level200);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-desktop-heading-medium-level300 {
+  font: var(--msr-desktop-heading-medium-level300);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-desktop-heading-medium-level400 {
+  font: var(--msr-desktop-heading-medium-level400);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-desktop-heading-medium-level500 {
+  font: var(--msr-desktop-heading-medium-level500);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-desktop-heading-medium-level600 {
+  font: var(--msr-desktop-heading-medium-level600);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-desktop-heading-medium-level700 {
+  font: var(--msr-desktop-heading-medium-level700);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-desktop-heading-extendedbold-level100 {
+  font: var(--msr-desktop-heading-extendedbold-level100);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-desktop-heading-extendedbold-level200 {
+  font: var(--msr-desktop-heading-extendedbold-level200);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-desktop-heading-extendedbold-level300 {
+  font: var(--msr-desktop-heading-extendedbold-level300);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-desktop-heading-extendedbold-level400 {
+  font: var(--msr-desktop-heading-extendedbold-level400);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-desktop-heading-extendedmedium-level100 {
+  font: var(--msr-desktop-heading-extendedmedium-level100);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-desktop-heading-extendedmedium-level200 {
+  font: var(--msr-desktop-heading-extendedmedium-level200);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-desktop-heading-extendedmedium-level300 {
+  font: var(--msr-desktop-heading-extendedmedium-level300);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-desktop-heading-extendedmedium-level400 {
+  font: var(--msr-desktop-heading-extendedmedium-level400);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-desktop-display-bold-level-100 {
+  font: var(--msr-desktop-display-bold-level-100);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-desktop-display-bold-level200 {
+  font: var(--msr-desktop-display-bold-level200);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-desktop-display-bold-level300 {
+  font: var(--msr-desktop-display-bold-level300);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-desktop-display-medium-level100 {
+  font: var(--msr-desktop-display-medium-level100);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-desktop-display-medium-level200 {
+  font: var(--msr-desktop-display-medium-level200);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-desktop-display-medium-level300 {
+  font: var(--msr-desktop-display-medium-level300);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-desktop-lead-level100 {
+  font: var(--msr-desktop-lead-level100);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-desktop-lead-level200 {
+  font: var(--msr-desktop-lead-level200);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-desktop-lead-level300 {
+  font: var(--msr-desktop-lead-level300);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-desktop-lead-level400 {
+  font: var(--msr-desktop-lead-level400);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-body-medium-level100 {
+  font: var(--msr-body-medium-level100);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-body-medium-level200 {
+  font: var(--msr-body-medium-level200);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-body-medium-level300 {
+  font: var(--msr-body-medium-level300);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-body-regular-level100 {
+  font: var(--msr-body-regular-level100);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-body-regular-level200 {
+  font: var(--msr-body-regular-level200);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}
+.msr-body-regular-level300 {
+  font: var(--msr-body-regular-level300);
+  letter-spacing: none;
+  text-transform: none;
+  text-decoration: none;
+}

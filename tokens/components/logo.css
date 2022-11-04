@@ -1,0 +1,8 @@
+:root{
+ --msr-hagerty-logo-text-large: 400 16px * 0.938px/110% GT America;
+ --msr-hagerty-logo-text-small: 400 14/110% GT America;
+ --msr-hagerty-logo-color-text-ondark: #fff;
+ --msr-hagerty-logo-color-background-ondark: #fff;
+ --msr-hagerty-logo-color-text-onlight: #000;
+ --msr-hagerty-logo-color-background-onlight: #000;
+}

@@ -1,0 +1,26 @@
+:root{
+ --msr-modal-color-background-default: #fff;
+ --msr-modal-color-text-default: #000;
+ --msr-modal-mobile-modifier-color-background-default: rgba(0, 0, 0, 0.7);
+ --msr-modal-dialog-text-body: 400 16px * 1.25px/150% GT America;
+ --msr-modal-dialog-text-heading: 500 16px * 2px/110% GT America;
+ --msr-modal-dialog-padding-left: 8px * 5px;
+ --msr-modal-dialog-padding-right: 8px * 5px;
+ --msr-modal-dialog-padding-top: 8px * 5px;
+ --msr-modal-dialog-padding-bottom: 8px * 5px;
+ --msr-modal-border-radius: 16px;
+ --msr-modal-shadow: 0 10 25 0 rgba(9,10,11,0.1);
+ --msr-modal-padding-gap: 8px * 4px;
+ --msr-modal-logo-padding-left: 8px * 4px;
+ --msr-modal-logo-padding-right: 8px * 4px;
+ --msr-modal-logo-padding-bottom: 8px * 4px;
+ --msr-modal-logo-padding-top: 8px * 4px;
+ --msr-modal-image-padding-bottom: 8px * 4px;
+ --msr-container-color-background: #fff;
+ --msr-container-border-radius: 16px;
+ --msr-container-shadow: 0 10 25 0 rgba(9,10,11,0.1);
+ --msr-container-padding-left: 8px * 3px;
+ --msr-container-padding-right: 8px * 3px;
+ --msr-container-padding-top: 8px * 3px;
+ --msr-container-padding-bottom: 8px * 3px;
+}

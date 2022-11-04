@@ -1,0 +1,23 @@
+:root{
+ --msr-pagination-button-size: 48;
+ --msr-pagination-button-text: 400 16px * 1.125px/110% GT America;
+ --msr-pagination-button-background-default: rgba(0, 0, 0, 0);
+ --msr-pagination-button-background-hover: #F4F6F8;
+ --msr-pagination-button-background-selected: #000;
+ --msr-pagination-button-background-focus: #000;
+ --msr-pagination-button-background-disabled: rgba(0, 0, 0, 0);
+ --msr-pagination-button-border-focus: #fff;
+ --msr-pagination-button-border-hover: #F4F6F8;
+ --msr-pagination-button-border-selected: #000;
+ --msr-pagination-button-border-radius: 1000px;
+ --msr-pagination-button-color-text-default: #000;
+ --msr-pagination-button-color-text-selected: #fff;
+ --msr-pagination-button-color-text-focus: #fff;
+ --msr-pagination-button-color-text-disabled: #484C51;
+ --msr-pagination-button-border-width-default: 1px;
+ --msr-pagination-button-border-width-focus: 2px;
+ --msr-pagination-button-shadow-focus: 0 0 0 2 #000;
+ --msr-pagination-text: 400 16px/120% GT America;
+ --msr-pagination-color-text-label: #000;
+ --msr-pagination-padding-gap: 16px;
+}

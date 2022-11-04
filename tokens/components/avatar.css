@@ -1,0 +1,15 @@
+:root{
+ --msr-avatar-color-background: linear-gradient(90deg, #000 0%, #484C51 100%);
+ --msr-avatar-color-text: #fff;
+ --msr-avatar-border-radius: 1000px;
+ --msr-avatar-label-xlarge: 500 16px * 2px/110% GT America;
+ --msr-avatar-label-large: 500 16px * 1.5px/110% GT America;
+ --msr-avatar-label-medium: 500 16px/110% GT America;
+ --msr-avatar-label-small: 500 12/110% GT America;
+ --msr-avatar-label-xsmall: 500 10/110% GT America;
+ --msr-avatar-size-xlarge: 104;
+ --msr-avatar-size-large: 96;
+ --msr-avatar-size-medium: 64;
+ --msr-avatar-size-small: 32;
+ --msr-avatar-size-xsmall: 24;
+}
