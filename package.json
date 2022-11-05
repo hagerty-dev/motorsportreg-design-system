@@ -15,6 +15,9 @@
   "dependencies": {
     "vue": "^3.1.4"
   },
+  "files": [
+    "tokens/variables.css"
+  ],
   "devDependencies": {
     "@divriots/dockit-core": "^0.9.1",
     "@divriots/dockit-vue": "^0.0.23",
