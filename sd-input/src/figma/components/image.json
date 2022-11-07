@@ -2,11 +2,11 @@
   "image": {
     "border-radius": {
       "default": {
-        "value": "{borderRadius.none}",
+        "value": "{border.radius.none}",
         "type": "borderRadius"
       },
       "rounded": {
-        "value": "{borderRadius.300}",
+        "value": "{border.radius.300}",
         "type": "borderRadius"
       }
     }

@@ -14,10 +14,10 @@
     },
     "text": {
       "value": {
-        "fontFamily": "{fontFamily.GTAmerica}",
-        "fontWeight": "{fontWeight.regular}",
-        "lineHeight": "{lineHeight.standard}",
-        "fontSize": "{fontSize.50}",
+        "fontFamily": "{font.family.GTAmerica}",
+        "fontWeight": "{font.weight.regular}",
+        "lineHeight": "{font.lineHeight.standard}",
+        "fontSize": "{font.size.50}",
         "letterSpacing": "0%",
         "paragraphSpacing": "0",
         "textDecoration": "none",
@@ -41,7 +41,7 @@
       }
     },
     "border-radius": {
-      "value": "{borderRadius.200}",
+      "value": "{border.radius.200}",
       "type": "borderRadius"
     },
     "shadow": {

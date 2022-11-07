@@ -28,10 +28,10 @@
       "text": {
         "body": {
           "value": {
-            "fontFamily": "{fontFamily.GTAmerica}",
-            "fontWeight": "{fontWeight.regular}",
-            "lineHeight": "{lineHeight.loose}",
-            "fontSize": "{fontSize.250}",
+            "fontFamily": "{font.family.GTAmerica}",
+            "fontWeight": "{font.weight.regular}",
+            "lineHeight": "{font.lineHeight.loose}",
+            "fontSize": "{font.size.250}",
             "letterSpacing": "0%",
             "paragraphSpacing": "0",
             "textDecoration": "none",
@@ -42,10 +42,10 @@
         },
         "heading": {
           "value": {
-            "fontFamily": "{fontFamily.GTAmerica}",
-            "fontWeight": "{fontWeight.extendedMedium}",
-            "lineHeight": "{lineHeight.tight}",
-            "fontSize": "{fontSize.400}",
+            "fontFamily": "{font.family.GTAmerica}",
+            "fontWeight": "{font.weight.extendedMedium}",
+            "lineHeight": "{font.lineHeight.tight}",
+            "fontSize": "{font.size.400}",
             "letterSpacing": "0%",
             "paragraphSpacing": "0",
             "textDecoration": "none",
@@ -73,7 +73,7 @@
       }
     },
     "border-radius": {
-      "value": "{borderRadius.300}",
+      "value": "{border.radius.300}",
       "type": "borderRadius"
     },
     "shadow": {
@@ -124,7 +124,7 @@
       }
     },
     "border-radius": {
-      "value": "{borderRadius.300}",
+      "value": "{border.radius.300}",
       "type": "borderRadius"
     },
     "shadow": {
