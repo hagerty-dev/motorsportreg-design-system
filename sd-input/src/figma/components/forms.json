@@ -50,10 +50,10 @@
     },
     "text": {
       "value": {
-        "fontFamily": "{fontFamily.GTAmerica}",
-        "fontWeight": "{fontWeight.regular}",
-        "lineHeight": "{lineHeight.tight}",
-        "fontSize": "{fontSize.200}",
+        "fontFamily": "{font.family.GTAmerica}",
+        "fontWeight": "{font.weight.regular}",
+        "lineHeight": "{font.lineHeight.tight}",
+        "fontSize": "{font.size.200}",
         "letterSpacing": "0%",
         "paragraphSpacing": "0",
         "textDecoration": "none",
@@ -73,21 +73,21 @@
       }
     },
     "border-radius": {
-      "value": "{borderRadius.200}",
+      "value": "{border.radius.200}",
       "type": "borderRadius"
     },
     "border-width": {
       "default": {
-        "value": "{borderWidth.100}",
+        "value": "{border.width.100}",
         "type": "borderWidth"
       },
       "selected": {
-        "value": "{borderWidth.200}",
+        "value": "{border.width.200}",
         "type": "borderWidth",
         "description": "Focus states "
       },
       "focus": {
-        "value": "{borderWidth.200}",
+        "value": "{border.width.200}",
         "type": "borderWidth",
         "description": "Focus states "
       }
@@ -108,10 +108,10 @@
   "validation": {
     "text": {
       "value": {
-        "fontFamily": "{fontFamily.GTAmerica}",
-        "fontWeight": "{fontWeight.regular}",
-        "lineHeight": "{lineHeight.tight}",
-        "fontSize": "{fontSize.50}",
+        "fontFamily": "{font.family.GTAmerica}",
+        "fontWeight": "{font.weight.regular}",
+        "lineHeight": "{font.lineHeight.tight}",
+        "fontSize": "{font.size.50}",
         "letterSpacing": "0%",
         "paragraphSpacing": "0",
         "textDecoration": "none",
@@ -121,7 +121,7 @@
       "description": "Validation text"
     },
     "border-radius": {
-      "value": "{borderRadius.100}",
+      "value": "{border.radius.100}",
       "type": "borderRadius"
     },
     "space": {
@@ -219,7 +219,7 @@
       }
     },
     "border-radius": {
-      "value": "{borderRadius.circle}",
+      "value": "{border.radius.circle}",
       "type": "borderRadius"
     },
     "border-width": {
@@ -297,7 +297,7 @@
       }
     },
     "border-radius": {
-      "value": "{borderRadius.100}",
+      "value": "{border.radius.100}",
       "type": "borderRadius"
     },
     "border-width": {
@@ -345,16 +345,16 @@
       },
       "border-width": {
         "default": {
-          "value": "{borderWidth.100}",
+          "value": "{border.width.100}",
           "type": "borderWidth"
         },
         "focus": {
-          "value": "{borderWidth.200}",
+          "value": "{border.width.200}",
           "type": "borderWidth",
           "description": ""
         },
         "error": {
-          "value": "{borderWidth.200}",
+          "value": "{border.width.200}",
           "type": "borderWidth",
           "description": ""
         }
@@ -392,10 +392,10 @@
       "text": {
         "sublabel": {
           "value": {
-            "fontFamily": "{fontFamily.GTAmerica}",
-            "fontWeight": "{fontWeight.regular}",
-            "lineHeight": "{lineHeight.tight}",
-            "fontSize": "{fontSize.50}",
+            "fontFamily": "{font.family.GTAmerica}",
+            "fontWeight": "{font.weight.regular}",
+            "lineHeight": "{font.lineHeight.tight}",
+            "fontSize": "{font.size.50}",
             "letterSpacing": "0%",
             "paragraphSpacing": "0",
             "textDecoration": "none",
@@ -406,10 +406,10 @@
         },
         "label": {
           "value": {
-            "fontFamily": "{fontFamily.GTAmerica}",
-            "fontWeight": "{fontWeight.medium}",
-            "lineHeight": "{lineHeight.tight}",
-            "fontSize": "{fontSize.base}",
+            "fontFamily": "{font.family.GTAmerica}",
+            "fontWeight": "{font.weight.medium}",
+            "lineHeight": "{font.lineHeight.tight}",
+            "fontSize": "{font.size.base}",
             "letterSpacing": "0%",
             "paragraphSpacing": "0",
             "textDecoration": "none",
@@ -421,10 +421,10 @@
         "input": {
           "small": {
             "value": {
-              "fontFamily": "{fontFamily.GTAmerica}",
-              "fontWeight": "{fontWeight.regular}",
-              "lineHeight": "{lineHeight.tight}",
-              "fontSize": "{fontSize.200}",
+              "fontFamily": "{font.family.GTAmerica}",
+              "fontWeight": "{font.weight.regular}",
+              "lineHeight": "{font.lineHeight.tight}",
+              "fontSize": "{font.size.200}",
               "letterSpacing": "0%",
               "paragraphSpacing": "0",
               "textDecoration": "none",
@@ -435,10 +435,10 @@
           },
           "large": {
             "value": {
-              "fontFamily": "{fontFamily.GTAmerica}",
-              "fontWeight": "{fontWeight.regular}",
-              "lineHeight": "{lineHeight.tight}",
-              "fontSize": "{fontSize.250}",
+              "fontFamily": "{font.family.GTAmerica}",
+              "fontWeight": "{font.weight.regular}",
+              "lineHeight": "{font.lineHeight.tight}",
+              "fontSize": "{font.size.250}",
               "letterSpacing": "0%",
               "paragraphSpacing": "0",
               "textDecoration": "none",
@@ -450,7 +450,7 @@
         }
       },
       "border-radius": {
-        "value": "{borderRadius.200}",
+        "value": "{border.radius.200}",
         "type": "borderRadius"
       }
     },
@@ -510,10 +510,10 @@
     "text": {
       "small": {
         "value": {
-          "fontFamily": "{fontFamily.GTAmerica}",
-          "fontWeight": "{fontWeight.regular}",
-          "lineHeight": "{lineHeight.tight}",
-          "fontSize": "{fontSize.200}",
+          "fontFamily": "{font.family.GTAmerica}",
+          "fontWeight": "{font.weight.regular}",
+          "lineHeight": "{font.lineHeight.tight}",
+          "fontSize": "{font.size.200}",
           "letterSpacing": "0%",
           "paragraphSpacing": "0",
           "textDecoration": "none",
@@ -524,10 +524,10 @@
       },
       "large": {
         "value": {
-          "fontFamily": "{fontFamily.GTAmerica}",
-          "fontWeight": "{fontWeight.regular}",
-          "lineHeight": "{lineHeight.tight}",
-          "fontSize": "{fontSize.250}",
+          "fontFamily": "{font.family.GTAmerica}",
+          "fontWeight": "{font.weight.regular}",
+          "lineHeight": "{font.lineHeight.tight}",
+          "fontSize": "{font.size.250}",
           "letterSpacing": "0%",
           "paragraphSpacing": "0",
           "textDecoration": "none",
@@ -541,10 +541,10 @@
       "heading": {
         "small": {
           "value": {
-            "fontFamily": "{fontFamily.GTAmerica}",
-            "fontWeight": "{fontWeight.medium}",
-            "lineHeight": "{lineHeight.tight}",
-            "fontSize": "{fontSize.base}",
+            "fontFamily": "{font.family.GTAmerica}",
+            "fontWeight": "{font.weight.medium}",
+            "lineHeight": "{font.lineHeight.tight}",
+            "fontSize": "{font.size.base}",
             "letterSpacing": "0%",
             "paragraphSpacing": "0",
             "textDecoration": "none",
@@ -555,10 +555,10 @@
         },
         "large": {
           "value": {
-            "fontFamily": "{fontFamily.GTAmerica}",
-            "fontWeight": "{fontWeight.medium}",
-            "lineHeight": "{lineHeight.tight}",
-            "fontSize": "{fontSize.200}",
+            "fontFamily": "{font.family.GTAmerica}",
+            "fontWeight": "{font.weight.medium}",
+            "lineHeight": "{font.lineHeight.tight}",
+            "fontSize": "{font.size.200}",
             "letterSpacing": "0%",
             "paragraphSpacing": "0",
             "textDecoration": "none",
@@ -575,10 +575,10 @@
       "label": {
         "small": {
           "value": {
-            "fontFamily": "{fontFamily.GTAmerica}",
-            "fontWeight": "{fontWeight.regular}",
-            "lineHeight": "{lineHeight.tight}",
-            "fontSize": "{fontSize.200}",
+            "fontFamily": "{font.family.GTAmerica}",
+            "fontWeight": "{font.weight.regular}",
+            "lineHeight": "{font.lineHeight.tight}",
+            "fontSize": "{font.size.200}",
             "letterSpacing": "0%",
             "paragraphSpacing": "0",
             "textDecoration": "none",
@@ -589,10 +589,10 @@
         },
         "large": {
           "value": {
-            "fontFamily": "{fontFamily.GTAmerica}",
-            "fontWeight": "{fontWeight.regular}",
-            "lineHeight": "{lineHeight.tight}",
-            "fontSize": "{fontSize.250}",
+            "fontFamily": "{font.family.GTAmerica}",
+            "fontWeight": "{font.weight.regular}",
+            "lineHeight": "{font.lineHeight.tight}",
+            "fontSize": "{font.size.250}",
             "letterSpacing": "0%",
             "paragraphSpacing": "0",
             "textDecoration": "none",
@@ -605,10 +605,10 @@
       "heading": {
         "small": {
           "value": {
-            "fontFamily": "{fontFamily.GTAmerica}",
-            "fontWeight": "{fontWeight.medium}",
-            "lineHeight": "{lineHeight.tight}",
-            "fontSize": "{fontSize.base}",
+            "fontFamily": "{font.family.GTAmerica}",
+            "fontWeight": "{font.weight.medium}",
+            "lineHeight": "{font.lineHeight.tight}",
+            "fontSize": "{font.size.base}",
             "letterSpacing": "0%",
             "paragraphSpacing": "0",
             "textDecoration": "none",
@@ -619,10 +619,10 @@
         },
         "large": {
           "value": {
-            "fontFamily": "{fontFamily.GTAmerica}",
-            "fontWeight": "{fontWeight.medium}",
-            "lineHeight": "{lineHeight.tight}",
-            "fontSize": "{fontSize.200}",
+            "fontFamily": "{font.family.GTAmerica}",
+            "fontWeight": "{font.weight.medium}",
+            "lineHeight": "{font.lineHeight.tight}",
+            "fontSize": "{font.size.200}",
             "letterSpacing": "0%",
             "paragraphSpacing": "0",
             "textDecoration": "none",

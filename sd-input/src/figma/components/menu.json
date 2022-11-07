@@ -2,7 +2,7 @@
   "menu": {
     "item": {
       "border-radius": {
-        "value": "{borderRadius.200}",
+        "value": "{border.radius.200}",
         "type": "borderRadius"
       },
       "color": {
@@ -39,10 +39,10 @@
       },
       "text": {
         "value": {
-          "fontFamily": "{fontFamily.GTAmerica}",
-          "fontWeight": "{fontWeight.regular}",
-          "lineHeight": "{lineHeight.tight}",
-          "fontSize": "{fontSize.250}",
+          "fontFamily": "{font.family.GTAmerica}",
+          "fontWeight": "{font.weight.regular}",
+          "lineHeight": "{font.lineHeight.tight}",
+          "fontSize": "{font.size.250}",
           "letterSpacing": "0%",
           "paragraphSpacing": "0",
           "textDecoration": "none",
@@ -63,11 +63,11 @@
       }
     },
     "border-radius": {
-      "value": "{borderRadius.200}",
+      "value": "{border.radius.200}",
       "type": "borderRadius"
     },
     "border-width": {
-      "value": "{borderWidth.100}",
+      "value": "{border.width.100}",
       "type": "borderWidth"
     },
     "color": {

@@ -3,10 +3,10 @@
     "text": {
       "large": {
         "value": {
-          "fontFamily": "{fontFamily.GTAmerica}",
-          "fontWeight": "{fontWeight.regular}",
-          "lineHeight": "{lineHeight.tight}",
-          "fontSize": "{fontSize.50}",
+          "fontFamily": "{font.family.GTAmerica}",
+          "fontWeight": "{font.weight.regular}",
+          "lineHeight": "{font.lineHeight.tight}",
+          "fontSize": "{font.size.50}",
           "letterSpacing": "0%",
           "paragraphSpacing": "0",
           "textDecoration": "none",
@@ -17,9 +17,9 @@
       },
       "small": {
         "value": {
-          "fontFamily": "{fontFamily.GTAmerica}",
-          "fontWeight": "{fontWeight.regular}",
-          "lineHeight": "{lineHeight.tight}",
+          "fontFamily": "{font.family.GTAmerica}",
+          "fontWeight": "{font.weight.regular}",
+          "lineHeight": "{font.lineHeight.tight}",
           "fontSize": "14",
           "letterSpacing": "0%",
           "paragraphSpacing": "0",

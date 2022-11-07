@@ -283,10 +283,10 @@
     "text": {
       "large": {
         "value": {
-          "fontFamily": "{fontFamily.GTAmerica}",
-          "fontWeight": "{fontWeight.regular}",
-          "lineHeight": "{lineHeight.tight}",
-          "fontSize": "{fontSize.250}",
+          "fontFamily": "{font.family.GTAmerica}",
+          "fontWeight": "{font.weight.regular}",
+          "lineHeight": "{font.lineHeight.tight}",
+          "fontSize": "{font.size.250}",
           "letterSpacing": "0%",
           "paragraphSpacing": "0",
           "textDecoration": "none",
@@ -297,10 +297,10 @@
       },
       "medium": {
         "value": {
-          "fontFamily": "{fontFamily.GTAmerica}",
-          "fontWeight": "{fontWeight.regular}",
-          "lineHeight": "{lineHeight.tight}",
-          "fontSize": "{fontSize.200}",
+          "fontFamily": "{font.family.GTAmerica}",
+          "fontWeight": "{font.weight.regular}",
+          "lineHeight": "{font.lineHeight.tight}",
+          "fontSize": "{font.size.200}",
           "letterSpacing": "0%",
           "paragraphSpacing": "0",
           "textDecoration": "none",
@@ -311,10 +311,10 @@
       },
       "small": {
         "value": {
-          "fontFamily": "{fontFamily.GTAmerica}",
-          "fontWeight": "{fontWeight.regular}",
-          "lineHeight": "{lineHeight.tight}",
-          "fontSize": "{fontSize.base}",
+          "fontFamily": "{font.family.GTAmerica}",
+          "fontWeight": "{font.weight.regular}",
+          "lineHeight": "{font.lineHeight.tight}",
+          "fontSize": "{font.size.base}",
           "letterSpacing": "0%",
           "paragraphSpacing": "0",
           "textDecoration": "none",
@@ -344,11 +344,11 @@
     },
     "border-radius": {
       "default": {
-        "value": "{borderRadius.pill}",
+        "value": "{border.radius.pill}",
         "type": "borderRadius"
       },
       "circle": {
-        "value": "{borderRadius.circle}",
+        "value": "{border.radius.circle}",
         "type": "borderRadius"
       }
     },
@@ -379,7 +379,7 @@
       }
     },
     "border-width": {
-      "value": "{borderWidth.100}",
+      "value": "{border.width.100}",
       "type": "borderWidth"
     }
   }
