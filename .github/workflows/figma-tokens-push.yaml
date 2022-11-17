@@ -21,4 +21,4 @@ jobs:
         destination_branch: "develop" # match your default branch
         pr_title: "Figma Tokens Update Pushed"
         pr_body: "🍥 Design Tokens were updated in Figma! This PR was created to update the code."
-        github_token: ${{ secrets.GH_PAT }}
+        # github_token: ${{ secrets.GH_PAT }}
