@@ -1,5 +1,8 @@
 name: Process Figma Tokens PR
 
+env:
+  GITHUB_TOKEN: ${{secrets.GH_PAT}}
+  
 on: pull_request
 
 jobs:
