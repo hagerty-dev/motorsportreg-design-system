@@ -10,7 +10,7 @@ jobs:
     timeout-minutes: 5
     steps:
       # checkout to the head of this PR
-      - uses: hagerty-dev/motorsportreg-design-system/workflows/.github/actions/checkout@develop
+      - uses: actions/checkout@develop
         with:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: ${{ github.event.pull_request.head.ref }}
@@ -25,7 +25,7 @@ jobs:
         run: npx style-dictionary build --config sd.config.cjs
 
       - name: Commit changes
-        uses: hagerty-dev/motorsportreg-design-system/EndBug/add-and-commit@v9
+        uses: EndBug/add-and-commit@v9
         with:
           author_name: Christo44
           author_email: christo@bare.bz
