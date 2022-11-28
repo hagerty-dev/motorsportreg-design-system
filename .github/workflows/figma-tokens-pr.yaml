@@ -1,6 +1,5 @@
 name: Process Figma Tokens PR
 
-  
 on: pull_request
 
 jobs:
@@ -11,7 +10,7 @@ jobs:
     timeout-minutes: 5
     steps:
       # checkout to the head of this PR
-      - uses: actions/checkout@master
+      - uses: actions/checkout@develop
         with:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: ${{ github.event.pull_request.head.ref }}
