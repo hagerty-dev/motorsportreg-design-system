@@ -22,8 +22,10 @@
     "@divriots/dockit-core": "^0.9.1",
     "@divriots/dockit-vue": "^0.0.23",
     "@vue/test-utils": "^2.0.0-rc.17",
-    "prettier": "^2.3.2",
-    "token-transformer": "^0.0.24",
-    "style-dictionary": "^3.7.1"
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "2.7.1",
+    "style-dictionary": "^3.7.1",
+    "token-transformer": "^0.0.24"
   }
 }
