@@ -1,0 +1,35 @@
+// IMPORT GLOBAL STYLING
+// -------------------------------------------------------------------- */
+@import '../../assets/src/global.scss';
+
+// DOCKIT OVERRIDES
+// -------------------------------------------------------------------- */
+:root {
+  --dockit-vue-spacer: 16px;
+  --dockit-vue-header-height: calc(
+    var(--dockit-vue-header-content-height) + 2 * var(--dockit-vue-spacer)
+  );
+  --dockit-vue-nav-width: calc(12rem + 2 * var(--dockit-vue-spacer));
+  --dockit-vue-header-content-height: 2rem;
+  --navigation-group-heading-color: #b1b5b9;
+}
+
+.prose {
+  max-width: 1000px;
+}
+
+// TEST GLOBAL FONT FACE STYLES
+// -------------------------------------------------------------------- */
+body,
+input,
+textarea,
+button,
+select {
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  //This works not
+  font-family: 'GT America', Arial, Helvetica, sans-serif;
+  border: 1px solid red;
+}
