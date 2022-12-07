@@ -1,6 +1,3 @@
-// Test font face
-@import url(//fonts.googleapis.com/css?family=Open+Sans);
-
 @font-face {
   font-family: 'Rollo';
   font-style: normal;
@@ -9,64 +6,3 @@
   src: url('fonts/Rollasan.woff2') format('woff2');
 }
 
-// @font-face {
-//   font-family: 'GT America';
-//   font-style: normal;
-//   font-weight: normal;
-//   font-display: fallback;
-//   src: url('/assets/src/fonts/GT-America-Standard-Regular.woff2')
-//       format('woff2'),
-//     url('/assets/src/fonts/GT-America-Standard-Regular.woff') format('woff');
-// }
-// @font-face {
-//   font-family: 'GT America';
-//   font-style: italic;
-//   font-weight: normal;
-//   font-display: fallback;
-//   src: url('fonts/GT-America-Standard-Regular-Italic.woff2') format('woff2'),
-//     url('fonts/GT-America-Standard-Regular-Italic.woff') format('woff');
-// }
-
-// @font-face {
-//   font-family: 'GT America';
-//   font-style: normal;
-//   font-weight: 500;
-//   font-display: fallback;
-//   src: url('fonts/GT-America-Standard-Medium.woff2') format('woff2'),
-//     url('fonts/GT-America-Standard-Medium.woff') format('woff');
-// }
-// @font-face {
-//   font-family: 'GT America';
-//   font-style: normal;
-//   font-weight: 700;
-//   font-display: fallback;
-//   src: url('fonts/GT-America-Standard-Bold.woff2') format('woff2'),
-//     url('fonts/GT-America-Standard-Bold.woff') format('woff');
-// }
-// @font-face {
-//   font-family: 'GT America';
-//   font-style: normal;
-//   font-stretch: expanded;
-//   font-weight: 500;
-//   font-display: fallback;
-//   src: url('fonts/GT-America-Extended-Medium.woff2') format('woff2'),
-//     url('fonts/GT-America-Extended-Medium.woff') format('woff');
-// }
-// @font-face {
-//   font-family: 'GT America';
-//   font-style: normal;
-//   font-stretch: expanded;
-//   font-weight: 700;
-//   font-display: fallback;
-//   src: url('fonts/GT-America-Extended-Bold.woff2') format('woff2'),
-//     url('fonts/GT-America-Extended-Bold.woff') format('woff');
-// }
-
-// @font-face {
-//   font-family: 'GT America Mono';
-//   font-style: normal;
-//   font-weight: normal;
-//   font-display: fallback;
-//   src: url('fonts/GT-America-Mono-Regular.woff2') format('woff2'),
-//     url('fonts/GT-America-Mono-Regular.woff') format('woff');
-// }
