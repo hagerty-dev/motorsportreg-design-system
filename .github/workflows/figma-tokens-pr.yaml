@@ -9,17 +9,14 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      # checkout to the head of this PR
-      - uses: actions/checkout@develop
+      - name: Get code
+        uses: actions/checkout@main
         with:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: ${{ github.event.pull_request.head.ref }}
 
       - name: Install Dependencies
-        run: npm install
-
-      - name: Run token-transformer
-        run: npx token-transformer sd-input/src/figma/core.json sd-input/src/sd-input.json --resolveReferences true --expandTypography true
+        run: npm ci
 
       - name: Run style-dictionary
         run: npx style-dictionary build --config sd.config.cjs
