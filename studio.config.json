@@ -3,35 +3,10 @@
     "dir": "",
     "menu": [
       "INTRODUCTION",
-      [
-        "TOKENS",
-        [
-          "typography",
-          "colors",
-          "spacing"
-        ]
-      ],
-      [
-        "SEMANTIC",
-        [
-          "text"
-        ]
-      ],
-      [
-        "COMPONENTS",
-        [
-          "button",
-          "alert"
-        ]
-      ],
-      [
-        "INFRASTRUCTURE",
-        [
-          "doc-layout",
-          "types",
-          "sd-input"
-        ]
-      ]
+      ["TOKENS", ["typography", "colors", "spacing"]],
+      ["SEMANTIC", ["text"]],
+      ["COMPONENTS", ["alert"]],
+      ["INFRASTRUCTURE", ["doc-layout", "types", "sd-input"]]
     ]
   },
   "doc": {
