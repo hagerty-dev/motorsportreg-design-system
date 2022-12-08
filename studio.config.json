@@ -2,11 +2,9 @@
   "packages": {
     "dir": "",
     "menu": [
-      "INTRODUCTION",
-      ["TOKENS", ["typography", "colors", "spacing"]],
-      ["SEMANTIC", ["text"]],
-      ["COMPONENTS", ["alert"]],
-      ["INFRASTRUCTURE", ["doc-layout", "types", "sd-input"]]
+      ["Introduction", ["introduction", "developer", "designer"]],
+      ["Styles", ["typography", "colors", "spacing"]],
+      ["Infrastructure", ["doc-layout", "types", "sd-input"]]
     ]
   },
   "doc": {

@@ -18,17 +18,39 @@
   max-width: 1000px;
 }
 
-// TEST GLOBAL FONT FACE STYLES
-// -------------------------------------------------------------------- */
-body,
-input,
-textarea,
-button,
-select {
-  font-family: 'Open Sans', sans-serif;
+.navigation .package[data-v-5b07cbfb] {
+  font-size: 14px;
+  color: var(--msr-color-gray-500);
+  opacity: 1;
+  margin: 24px 0 8px;
+  display: block;
+  text-transform: capitalize;
 }
 
+.navigation {
+  ul li {
+    padding: 0;
+    margin: 0;
+    color: var(--msr-color-gray-700);
+    a[data-v-5b07cbfb] {
+      padding: 0;
+      font-size: 16px;
+      text-transform: capitalize;
+    }
+    a[aria-current='location'][data-v-5b07cbfb] {
+      font-weight: inherit;
+      color: var(--msr-color-base-dark);
+      background-color: transparent;
+      padding: 0;
+      margin: 0;
+      border-radius: 0;
+    }
+  }
+}
+
+// TEST GLOBAL FONT FACE STYLES
+// -------------------------------------------------------------------- */
+
 h1 {
-  //This works not
-  font-family: 'Rollo', Arial, Helvetica, sans-serif;
+  font-family: 'GT America', Arial, Helvetica, sans-serif;
 }

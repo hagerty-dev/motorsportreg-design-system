@@ -17,10 +17,10 @@ import logoSvg from './logo.svg?raw';
 import * as docContext from '~doc-context';
 </script>
 
+<!-- https://github.com/divriots/dockit-vue/blob/20851255f54341e9bf3c1cc6d2dc8e6272b18427/layout/src/DefaultLayout.vue -->
+
 <style lang="scss" scoped>
 .logo {
-  color: #f8c307;
-
   > :first-child {
     height: 100%;
   }
