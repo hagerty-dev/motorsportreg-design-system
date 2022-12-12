@@ -6,4 +6,6 @@ This philosophy lives as a collection of our visual assets, icons, design tokens
 
 The MSR Design System supports developers and designers alike with tooling and assets to help us build consistent customer UI's efficiently using Figma and Vue.
 
-<a href="" class="button">Get Started</a>
+Ready to get started ? We have guides for
+<a href="" class="button">Designers</a> and
+<a href="" class="button">Developers</a>

@@ -2,9 +2,10 @@
   "packages": {
     "dir": "",
     "menu": [
-      ["Introduction", ["introduction", "developer", "designer"]],
-      ["Styles", ["typography", "colors", "spacing"]],
-      ["Infrastructure", ["doc-layout", "types", "sd-input"]]
+      ["get started", ["introduction", "developer", "designer"]],
+      ["styles", ["typography", "color", "spacing"]],
+      ["infrastructure", ["doc-layout", "types", "sd-input"]],
+      ["resources", ["contributing"]]
     ]
   },
   "doc": {
