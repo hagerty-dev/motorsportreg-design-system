@@ -61,15 +61,18 @@ export default {
   }
 
   &__sample {
-    min-width: 100px;
+    min-width: 150px;
     padding: 16px 24px;
     width: auto;
     border-right: 1px solid var(--msr-color-gray-300);
     font-size: 60px;
+    text-align: center;
   }
 
   &__sample-specimen {
-    max-width: 377px;
+    font-size: 32px;
+    line-height: 120%;
+    flex-grow: 1;
   }
 
   &__weight {

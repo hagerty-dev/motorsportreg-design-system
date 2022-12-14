@@ -16,17 +16,17 @@ Our design system leverages a purposeful set of typographic styles. We’ve stre
 
 ## Font Sub-family
 
-<div class="swatch" v-for="value in typographyType">
+<div class="swatch" v-for="font in typographyType">
   <div class="swatch__row">
-    <div class="swatch__heading">GT America {{value.type}}</div>
-    <div>
+    <div class="swatch__heading" :style="{fontStretch: font.stretch, fontWeight: font.weight}">GT America {{font.type}}</div>
+    <div :style="{fontStretch: font.stretch, fontWeight: font.weight}">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</div>
   </div>
 </div>
 
 ## Font weight
 
-<div class="swatch-table">
+<div class="msr-doc-table">
 <table>
   <thead>
     <tr>
@@ -57,7 +57,7 @@ Our design system leverages a purposeful set of typographic styles. We’ve stre
 
 ## Font size
 
-<div class="swatch-table">
+<div class="msr-doc-table">
 <table>
   <thead>
     <tr>

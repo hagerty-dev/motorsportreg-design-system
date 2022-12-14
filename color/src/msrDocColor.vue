@@ -1,15 +1,25 @@
 <template>
-  <div
-    :class="['msr-doc-swatch', { 'msr-doc-swatch_checker': checker }]"
-    v-for="color in data"
-  >
-    <div class="msr-doc-swatch__row">
-      <div class="msr-doc-swatch__heading">{{ color.token }}</div>
-      <div
-        class="msr-doc-swatch__sample"
-        :style="{ backgroundColor: color.value }"
-      ></div>
-    </div>
+  <div class="msr-doc-table">
+    <table :class="['msr-doc-swatch', { 'msr-doc-swatch_checker': checker }]">
+      <thead>
+        <tr>
+          <th>Description</th>
+          <th>Value</th>
+          <th>Preview</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-for="color in data">
+          <td>{{ color.token }}</td>
+          <td>{{ color.value }}</td>
+          <td
+            v-if="!color.preview"
+            :style="{ backgroundColor: color.value }"
+          ></td>
+          <td v-else :style="{ backgroundImage: color.value }"></td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 </template>
 

@@ -18,14 +18,17 @@ export const colorGradient = [
   {
     token: 'dark',
     value: 'linear-gradient(90deg, #000 0%, #484C51 100%)',
+    preview: 'linear-gradient(90deg, #000 0%, #484C51 100%)',
   },
   {
     token: 'blue',
     value: 'linear-gradient(90deg, #007BB3 0%, #0089C7 100%)',
+    preview: 'linear-gradient(90deg, #000 0%, #484C51 100%)',
   },
   {
     token: 'gray',
     value: 'linear-gradient(90deg, #DEE0E2 0%, #C8CACB 100%)',
+    preview: 'linear-gradient(90deg, #000 0%, #484C51 100%)',
   },
 ];
 
