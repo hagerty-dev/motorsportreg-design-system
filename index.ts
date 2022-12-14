@@ -3,6 +3,7 @@ export { default as MSRDocNavCardsRow } from '~/doc-layout/src/msrDocNavCardsRow
 export { default as MSRDocColor } from '~/color/src/msrDocColor.vue';
 export { default as MSRDocSpacing } from '~/spacing/src/msrDocSpacing.vue';
 export { default as MSRDocShadow } from '~/shadow/src/msrDocShadow.vue';
+export { default as MSRDocBorder } from '~/border/src/msrDocBorder.vue';
 export { default as MSRDocNavCards } from '~/doc-layout/src/msrDocNavCards.vue';
 export { default as registerComponents } from '~/doc-layout/src/register-components';
 export { default as MsrLayout } from '~/doc-layout/src/msrLayout.vue';
