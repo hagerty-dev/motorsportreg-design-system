@@ -44,7 +44,7 @@ export default {
   font-size: var(--dockit-swatch-title);
   &__sample {
     min-width: 2px;
-    background-color: var(--msr-color-gray-600);
+    background-color: var(--dockit-swatch-color);
     border-radius: 3px;
     display: inline-block;
     min-height: 30px;

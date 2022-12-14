@@ -53,6 +53,7 @@ export default {
     width: 100px;
     height: 50px;
     display: block;
+    border: 1px solid var(--dockit-swatch-color);
   }
 }
 </style>

@@ -14,7 +14,11 @@
   --navigation-group-heading-color: #b1b5b9;
   --dockit-swatch-title: 24px;
   --dockit-swatch-margin-bottom: 24px;
+  --dockit-swatch-color: var(--msr-color-gray-300);
 }
+
+// DOCKIT LAYOUT
+// -------------------------------------------------------------------- */
 
 .header {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03), 0 -1px 0 rgba(0, 0, 0, 0.06);
@@ -25,10 +29,6 @@
   flex-direction: column;
 }
 
-.markdown-body {
-  flex-grow: 1;
-}
-
 .prose {
   max-width: 980px;
   display: flex;
@@ -36,6 +36,7 @@
   flex-grow: 1;
   min-height: 100%;
   width: 100%;
+  padding-top: 24px;
 
   h1,
   h2,
@@ -49,8 +50,8 @@
     margin: 0 0 1.2rem;
   }
   h1 {
-    margin-bottom: 1.5rem;
     font-size: var(--msr-font-size-600);
+    margin-bottom: 2rem;
   }
   h2 {
     font-size: var(--msr-font-size-500);
@@ -80,6 +81,15 @@
   h5,
   h6 {
     font-weight: 500;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 1.2rem;
   }
 
   hr {
@@ -121,6 +131,16 @@
     font-family: Monaco, Consolas, 'Courier New', monospace;
   }
 }
+
+.markdown-body {
+  flex-grow: 1;
+  > h1 {
+    margin-top: 0;
+  }
+}
+
+// DOCKIT NAVIGATION
+// -------------------------------------------------------------------- */
 
 .navigation {
   .package[data-v-5b07cbfb] {
@@ -170,7 +190,7 @@ p {
   font-size: var(--msr-font-size-100);
 }
 
-// SWATCH
+// DOCKIT CUSTOM SWATCH
 // -------------------------------------------------------------------- */
 
 .swatch {
@@ -218,7 +238,8 @@ p {
     border-right: 1px solid var(--msr-color-gray-300);
     vertical-align: middle;
   }
-  tr :last-child {
+  tr td:last-child,
+  tr th:last-child {
     border-right: 0;
   }
 }

@@ -3,9 +3,12 @@
     "dir": "",
     "menu": [
       ["get started", ["introduction", "developer", "designer"]],
-      ["styles", ["typography", "color", "spacing", "shadow", "opacity"]],
+      [
+        "styles",
+        ["typography", "color", "spacing", "shadow", "opacity", "border"]
+      ],
       ["infrastructure", ["doc-layout", "types", "sd-input"]],
-      ["resources", ["contributing", "faq"]]
+      ["resources", ["contributing", "faq", "content"]]
     ]
   },
   "doc": {

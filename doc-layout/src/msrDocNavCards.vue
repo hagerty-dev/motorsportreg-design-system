@@ -1,5 +1,5 @@
 <template>
-  <a href="" class="msr-doc-nav-card">
+  <a :href="href" class="msr-doc-nav-card">
     <span v-if="title" class="msr-doc-nav-card__title">{{ title }}</span>
     <span class="msr-doc-nav-card__content">
       <slot name="content">{{ content }}</slot></span
@@ -15,6 +15,10 @@ export default {
       default: null,
     },
     content: {
+      type: String,
+      default: null,
+    },
+    href: {
       type: String,
       default: null,
     },

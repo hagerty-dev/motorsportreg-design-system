@@ -14,16 +14,26 @@
           <td>
             {{ border.value }}
           </td>
-          <td>
+          <!-- border radius token -->
+          <td v-if="border.radius">
             <div
               v-if="border.token === 'circle'"
-              class="msr-doc-swatch__sample"
-              :style="{ borderRadius: border.value, width: '72px' }"
+              class="msr-doc-swatch__sample_radius"
+              :style="{ borderRadius: border.radius, width: '72px' }"
             ></div>
             <div
               v-else
-              class="msr-doc-swatch__sample"
-              :style="{ borderRadius: border.value, width: '100px' }"
+              class="msr-doc-swatch__sample_radius"
+              :style="{ borderRadius: border.radius }"
+            ></div>
+          </td>
+          <!-- border width token -->
+          <td v-if="border.width">
+            <div
+              class="msr-doc-swatch__sample_width"
+              :style="{
+                borderWidth: border.width,
+              }"
             ></div>
           </td>
         </tr>
@@ -51,9 +61,19 @@ export default {
 .msr-doc-swatch {
   font-size: var(--dockit-swatch-title);
   &__sample {
-    background-color: var(--msr-color-gray-300);
-    height: 72px;
     display: block;
+  }
+  &__sample_width {
+    width: 100%;
+    height: 72px;
+    border-color: var(--dockit-swatch-color);
+    border-style: solid;
+    border-radius: 3px;
+  }
+  &__sample_radius {
+    background-color: var(--dockit-swatch-color);
+    height: 72px;
+    width: 100%;
   }
 }
 </style>

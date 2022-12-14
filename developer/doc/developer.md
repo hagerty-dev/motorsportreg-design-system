@@ -27,7 +27,6 @@ When adding SASS/SCSS to your project make sure to have the correct SCSS loaders
 ```js
 npm install --save-dev sass-loader
 npm install --save-dev node-sass
-`{{process.env.MY_VARIABLE}}`
 ```
 
 To access the tokens globally add them like this,
