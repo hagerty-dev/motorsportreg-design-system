@@ -1,0 +1,17 @@
+.dark {
+  --dockit-layout-bg: #202020;
+  --border-color: #e5e5e5;
+}
+
+.light {
+  --dockit-layout-bg: #ffffff;
+  --border-color: #131313;
+}
+
+.box {
+  width: 6rem;
+  height: 6rem;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  background-color: #f8c307;
+  border-radius: 0.2rem;
+}

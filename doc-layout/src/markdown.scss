@@ -1,0 +1,21 @@
+.header-anchor {
+  opacity: 0;
+  margin-left: -1em;
+  position: relative;
+  text-decoration: none;
+}
+
+:hover > .header-anchor,
+.header-anchor:hover {
+  opacity: 1;
+}
+
+.prose {
+  max-width: 800px;
+  margin: auto;
+}
+
+// workaround for tailwind not supporting `not-prose` on simple `prose` styling
+.prose .not-prose {
+  color: black;
+}

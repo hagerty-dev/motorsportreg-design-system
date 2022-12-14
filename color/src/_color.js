@@ -31,16 +31,16 @@ export const colorGradient = [
 
 export const colorTransparency = [
   {
-    token: '70',
-    value: 'rgba({color.base.dark},0.7)',
+    token: '90',
+    value: '#000000e6',
   },
   {
-    token: '90',
-    value: 'rgba({color.base.dark},0.9)',
+    token: '70',
+    value: '#000000b3',
   },
   {
     token: '00',
-    value: 'rgba({color.base.dark},0)',
+    value: '#00000000',
   },
 ];
 
@@ -55,8 +55,8 @@ export const colorBlue = [
 ];
 
 export const colorRed = [
-  { token: 'medium', value: '#008CB8' },
-  { token: 'light', value: '#D6F5FF' },
+  { token: 'medium', value: '#BD2D00' },
+  { token: 'light', value: '#FFE2E0' },
 ];
 
 export const colorGreen = [

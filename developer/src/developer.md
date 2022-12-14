@@ -8,13 +8,15 @@ This UI library is made up of Vue `2.x` and Scss components. The Vue components 
 
 ### Installation
 
-To get access to our MSRDUI make sure to install our NPM package:
+To get access to our MSR Design System make sure to install our NPM package:
 
 ```js
 npm i @backlight-dev/debt-squeal-u99rm.vue3-l4zu8jbp
 ```
 
 This will provide you with our base tokens that contain color, spacing, typography etc in your `node_modules` directory
+
+---
 
 ### Usage
 
@@ -25,6 +27,7 @@ When adding SASS/SCSS to your project make sure to have the correct SCSS loaders
 ```js
 npm install --save-dev sass-loader
 npm install --save-dev node-sass
+`{{process.env.MY_VARIABLE}}`
 ```
 
 To access the tokens globally add them like this,
@@ -52,6 +55,7 @@ export default {
 ```
 
 In this way, our tokens are accessible from and in any components or `.vue` file. Classes declared in global files are accessible in Vue template tags and can be overwritten within your Vue `<style></style>` tag
+`
 
 ## Dependencies
 

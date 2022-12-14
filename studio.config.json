@@ -10,5 +10,6 @@
   },
   "doc": {
     "markdownEngine": "vue"
-  }
+  },
+  "css": "~/tokens/variables.css"
 }

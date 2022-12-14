@@ -1,27 +1,21 @@
 # Designer workflow
 
-## System organisation
+## Introduction
 
-- Tokens
-- Mixins
+The MSR Design System provides our team with an even approach to how we build projects, aiding communication between designers, engineers and product leaders.
+
+By following this guide, and making cohesive things with our system helps drive cohesive experiences for customers and as our design language evolves, our teams have access to up to date standards and practices
 
 ## Figma
 
 - Library usage
 - Plugins
-- Plugin usage
 
-## Design specifications
+## Tokens for Figma
 
-- Components\*
-- Tokens (Fonts, Color, Core etc)
-- Icons
+The [Figma Tokens Studio plugin](https://jansix.at/resources/figma-tokens) is used to integrate tokens into your designs in Figma.
 
-## Figma
-
-### How to use the tokens _in Figma_
-
-#### How to get the tokens into Figma
+See the FAQ for more info around [Tokens](./faq/doc/faq.md)
 
 1. Open the Figma Tokens plugin
 1. You will see the welcome screen. Click on `Get started`
@@ -62,3 +56,9 @@ Congratulations, you have successfully pushed your token updates to the design s
 1. Review the changes in the Backlight preview that appears on the PR.
 1. If the PR is approved and the Backlight preview looks good, you or the developer may merge the PR.
 1. Release a new version of the design system via Backlight. This can be done by clicking on the `Box` in the left sidebar in Backlight and clicking `Release`.
+
+## Design specifications. WIP
+
+- Components\*
+- Tokens (Fonts, Color, Core etc)
+- Icons
