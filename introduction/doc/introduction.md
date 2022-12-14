@@ -14,10 +14,11 @@ The MSR Design System supports developers and designers alike with tooling and a
 
 ### Ready to get started ?
 
-Check out our guides for Designers and Engineers
+Check out our guides for Designers and [Engineers](../../developer)
+Check out our guides for Designers and [Engineers](https://studio.backlight.dev/edit/UW3iv58lc62042Fad92k/developer/doc/developer.md)
 
 <MSRDocNavCardsRow>
-  <MSRDocNavCards title="Designers">
+  <MSRDocNavCards title="Designers" href="../../developer">
     <template #content>Understand our design foundations</template>
   </MSRDocNavCards>
   <MSRDocNavCards title="Developers">
