@@ -196,7 +196,7 @@ p {
   border-radius: var(--msr-border-radius-200);
   overflow-x: auto;
   margin: 0 0 var(--dockit-swatch-margin-bottom);
-
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
   table {
     margin: 0;
     border: none;
