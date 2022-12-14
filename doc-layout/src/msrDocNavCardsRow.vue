@@ -1,6 +1,6 @@
 <template>
-  <div class="msr-doc__nav-cards">
-    <div class="msr-doc__nav-cards__row"><slot></slot></div>
+  <div class="msr-doc-nav-cards">
+    <div class="msr-doc-nav-cards__row"><slot></slot></div>
   </div>
 </template>
 
@@ -20,7 +20,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.msr-doc__nav {
+.msr-doc-nav {
   display: block;
   margin-top: var(--msr-space-50);
   height: 100%;

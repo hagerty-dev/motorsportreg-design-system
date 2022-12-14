@@ -1,15 +1,20 @@
 export const typographyType = [
   {
     type: 'Regular',
+    weight: '400',
+    stretch: 'normal',
   },
   {
     type: 'Extended',
+    weight: '500',
+    stretch: 'expanded',
   },
 ];
 
 export const typographyWeight = [
   { token: 'regular', weight: 'normal' },
-  { token: 'bold', weight: 'normal' },
+  { token: 'medium', weight: '500' },
+  { token: 'bold', weight: '600' },
 ];
 
 export const typographySize = [
@@ -29,9 +34,9 @@ export const typographySize = [
 ];
 
 export const typographyLineHeight = [
-  { token: 'none', lineHeight: '100%' },
-  { token: 'tight', lineHeight: '110%' },
-  { token: 'extra', lineHeight: '120%' },
-  { token: 'standard', lineHeight: '125%' },
-  { token: 'loose', lineHeight: '150%' },
+  { token: 'None', lineHeight: '100%' },
+  { token: 'Tight', lineHeight: '110%' },
+  { token: 'Extra', lineHeight: '120%' },
+  { token: 'Standard', lineHeight: '125%' },
+  { token: 'Loose', lineHeight: '150%' },
 ];

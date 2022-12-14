@@ -4,9 +4,8 @@
   // import colorPalette from '../../sd-input/src/figma/core.json';
   // import { MSRDocColor } from '../../index';
   // const basePalette = x
-
   // <div v-for="x in colorPalette.color.gray">
-  //{{
+    //{{
     //x.value
   //}}</div>
 </script>
@@ -15,44 +14,48 @@
 
 Our design system leverages a purposeful set of color styles as the perfect starting point for any project. When it comes to color, contrast is critical for ensuring text is legible. We've added WCAG 2.1 contrast ratios to our color system so you can make sure you're designing with accessibility in mind.
 
-## Base
+## UI color
+
+### Base
 
 These are base black and white color styles.
 
 <MSRDocColor :data="colorBase" />
 
-## Gray
+### Gray
 
 Gray is a neutral color and is the foundation of the color system. Almost everything in UI design — form fields, backgrounds, dividers — are usually gray.
 
 <MSRDocColor :data="colorGray" />
 
-## Brand
+### Brand
 
 The primary color is our Hagerty "brand" color, and is used across all interactive elements such as buttons, links, inputs, etc.
 
 <MSRDocColor :data="colorBrand" />
 
-## Gradient
+### Gradient
 
 <MSRDocColor :data="colorGradient"/>
 
-## Yellow
+### Transparency
+
+<MSRDocColor :data="colorTransparency" checker />
+
+## Feedback color
+
+### Yellow
 
 <MSRDocColor :data="colorYellow" />
 
-## Blue
+### Blue
 
 <MSRDocColor :data="colorBlue" />
 
-## Red
+### Red
 
 <MSRDocColor :data="colorRed" />
 
-## Green
+### Green
 
 <MSRDocColor :data="colorGreen" />
-
-## Transparency
-
-<MSRDocColor :data="colorTransparency" checker />

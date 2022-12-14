@@ -4,6 +4,10 @@
       <div class="logo" aria-label="dockit-vue" v-html="logoSvg"></div>
     </template>
     <slot></slot>
+    <div class="msr-doc-footer">
+      <div>🏎️ By Hagerty Motorsports, LLC</div>
+      <div>MotorsportReg Design System 2022</div>
+    </div>
   </DefaultLayout>
 </template>
 
@@ -24,5 +28,14 @@ import * as docContext from '~doc-context';
   > :first-child {
     height: 100%;
   }
+}
+.msr-doc-footer {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2.5rem 0 0;
+  margin-bottom: -16px;
+  display: flex;
+  width: 100%;
+  font-size: 14px;
 }
 </style>

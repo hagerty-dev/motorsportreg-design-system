@@ -5,7 +5,7 @@
       ["get started", ["introduction", "developer", "designer"]],
       ["styles", ["typography", "color", "spacing"]],
       ["infrastructure", ["doc-layout", "types", "sd-input"]],
-      ["resources", ["contributing"]]
+      ["resources", ["contributing", "faq"]]
     ]
   },
   "doc": {

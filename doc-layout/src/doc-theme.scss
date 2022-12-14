@@ -13,36 +13,127 @@
   --dockit-vue-header-content-height: 2rem;
   --navigation-group-heading-color: #b1b5b9;
   --dockit-swatch-title: 24px;
+  --dockit-swatch-margin-bottom: 24px;
+}
+
+.header {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03), 0 -1px 0 rgba(0, 0, 0, 0.06);
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.markdown-body {
+  flex-grow: 1;
 }
 
 .prose {
-  max-width: 960px;
-  :where(p):not(:where([class~='not-prose'] *)) {
-    margin: 0;
+  max-width: 980px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  min-height: 100%;
+  width: 100%;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  li,
+  li > p {
+    margin: 0 0 1.2rem;
+  }
+  h1 {
+    margin-bottom: 1.5rem;
+    font-size: var(--msr-font-size-600);
+  }
+  h2 {
+    font-size: var(--msr-font-size-500);
+  }
+  h3 {
+    font-size: var(--msr-font-size-400);
+  }
+  h4 {
+    font-size: var(--msr-font-size-300);
+  }
+  h5 {
+    font-size: var(--msr-font-size-200);
+  }
+  h6 {
+    font-size: var(--msr-font-size-100);
+  }
+  p,
+  li {
+    font-size: var(--msr-font-size-200);
+  }
+  ul ~ ul {
+    margin-left: 0.5rem;
+  }
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 500;
   }
 
-  :where(h1, h2, h3, h4, h5, h6, p, li, li > *) {
-    margin: 0 0 1rem;
-    padding: 0.5rem 0 0 0;
-  }
-
-  :where(hr):not(:where([class~='not-prose'] *)) {
+  hr {
     height: 1px;
     background-color: var(--msr-color-gray-500);
     display: block;
     border: 0;
     margin: var(--msr-space-300) 0;
   }
+
+  code {
+    font-weight: normal;
+    font-size: 0.8rem;
+    color: var(--msr-color-red-medium);
+    &::before,
+    &::after {
+      content: '';
+    }
+  }
+
+  table {
+    width: 100%;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+  p code,
+  li code {
+    line-height: 1;
+    padding: 0.2rem 0.5rem;
+    margin: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    overflow: auto;
+    background-color: var(--msr-color-gray-200);
+    border-radius: 0.375rem;
+    font-family: Monaco, Consolas, 'Courier New', monospace;
+  }
 }
 
 .navigation {
-  &.package[data-v-5b07cbfb] {
+  .package[data-v-5b07cbfb] {
     font-size: 14px;
-    color: var(--msr-color-gray-500);
+    color: var(--msr-color-base-dark);
     opacity: 1;
-    margin: 24px 0 8px;
+    margin: var(--msr-space-150) 0 var(--msr-space-100);
     display: block;
     text-transform: capitalize;
+  }
+
+  ul ~ ul {
+    margin-left: 0;
   }
 
   ul li {
@@ -53,53 +144,27 @@
       padding: 0;
       font-size: 16px;
       text-transform: capitalize;
+      margin: 0 0 var(--msr-space-100);
+      font-weight: 400;
+      &:hover {
+        color: var(--msr-color-red-medium);
+        transition: color 300ms ease-in-out;
+      }
     }
     a[aria-current='location'][data-v-5b07cbfb] {
       font-weight: inherit;
       color: var(--msr-color-base-dark);
+      color: var(--msr-color-red-medium);
       background-color: transparent;
       padding: 0;
-      margin: 0;
+      margin: 0 0 var(--msr-space-100);
       border-radius: 0;
     }
   }
 }
 
-table {
-  width: 100%;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-code {
-  line-height: 1;
-  padding: 0.2rem 0.5rem;
-  margin: 0;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  overflow: auto;
-  background-color: var(--msr-color-gray-200);
-  border-radius: 0.375rem;
-  font-family: Monaco, Consolas, 'Courier New', monospace;
-}
-.prose :where(code):not(:where([class~='not-prose'] *)) {
-  font-weight: normal;
-  font-size: 0.8rem;
-  color: var(--msr-color-red-medium);
-  &::before,
-  &::after {
-    content: '';
-  }
-}
-
 // FONT FACE
 // -------------------------------------------------------------------- */
-
-h1 {
-  font-family: 'GT America', Arial, Helvetica, sans-serif;
-}
 
 p {
   font-size: var(--msr-font-size-100);
@@ -110,6 +175,7 @@ p {
 
 .swatch {
   font-size: 18px;
+  margin: 0 0 var(--dockit-swatch-margin-bottom);
   &__row {
     display: flex;
     flex-direction: row;
@@ -125,10 +191,12 @@ p {
   }
 }
 
-.swatch-table {
+.msr-doc-table {
   border: 1px solid var(--msr-color-gray-300);
   border-radius: var(--msr-border-radius-200);
   overflow-x: auto;
+  margin: 0 0 var(--dockit-swatch-margin-bottom);
+
   table {
     margin: 0;
     border: none;
