@@ -1,6 +1,6 @@
 <script setup>
-  import { MSRDocBorder } from '../../index'
-  import { border, borderWidth } from '../src/_border.js';
+  import { MSRDocBorder } from '../index'
+  import { border, borderWidth } from './src/_border.js';
   </script>
 
 # Core Border

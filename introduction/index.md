@@ -1,5 +1,5 @@
 <script setup>
-  import { MSRDocNavCardsRow, MSRDocNavCards } from '../../index';
+  import { MSRDocNavCardsRow, MSRDocNavCards } from '../index';
 </script>
 
 # Welcome to the<br/>Motorsport Design System
@@ -17,10 +17,10 @@ The MSR Design System supports developers and designers alike with tooling and a
 Check out our guides for Designers and Engineers
 
 <MSRDocNavCardsRow>
-  <MSRDocNavCards title="Designers" href="../../designer/doc/designer.md">
+  <MSRDocNavCards title="Designers" href="../../designer">
     <template #content>Understand our design foundations</template>
   </MSRDocNavCards>
-  <MSRDocNavCards title="Developers" href="../../developer/doc/developer.md">
+  <MSRDocNavCards title="Developers" href="../../developer">
     <template #content>Resources in code for web</template>
   </MSRDocNavCards>
 </MSRDocNavCardsRow>
