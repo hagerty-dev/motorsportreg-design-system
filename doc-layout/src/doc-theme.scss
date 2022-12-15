@@ -208,13 +208,12 @@
 // DOCKIT FOOTER
 // -------------------------------------------------------------------- */
 .msr-doc-footer {
-  position: absolute;
+  position: relative;
   flex-direction: row;
   justify-content: space-between;
   padding: 2.5rem 0;
-  margin-bottom: -8px;
+  margin-top: -64px;
   display: flex;
-  bottom: 0;
   width: 100%;
   font-size: 14px;
   background-color: var(--dockit-layout-bg);
