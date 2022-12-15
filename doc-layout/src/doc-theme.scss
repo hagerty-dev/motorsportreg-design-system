@@ -49,8 +49,6 @@
 .content-container[data-v-8bb72a6e] {
   display: flex;
   flex-direction: column;
-  min-height: calc(100vh - var(--dockit-footer-height));
-  padding-bottom: calc(5 * var(--dockit-vue-spacer));
 }
 
 .prose {
@@ -76,7 +74,7 @@
   }
   h1 {
     font-size: var(--msr-font-size-600);
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
   }
   h2 {
     font-size: var(--msr-font-size-500);
@@ -114,12 +112,12 @@
   h4,
   h5,
   h6 {
-    margin-top: 1.2rem;
+    margin-top: 1.6rem;
   }
 
   hr {
     height: 1px;
-    background-color: var(--border-color);
+    background-color: var(--dockit-border-color);
     display: block;
     border: 0;
     margin: var(--msr-space-300) 0;
@@ -132,6 +130,15 @@
     &::before,
     &::after {
       content: '';
+    }
+  }
+
+  &.prose pre {
+    background: #1e1e1e;
+    font-family: Menlo, Monaco, Consolas, 'Andale Mono', 'Ubuntu Mono',
+      'Courier New', monospace;
+    font-size: 1rem;
+    code {
     }
   }
 
@@ -167,9 +174,7 @@
 
 .navigation[data-v-8bb72a6e] {
   padding-top: calc(1.5 * var(--dockit-vue-spacer));
-  height: calc(
-    100vh - var(--dockit-footer-height) - var(--dockit-vue-header-height)
-  );
+
   .package {
     font-size: 14px;
     color: var(--dockit-navigation-package);
@@ -227,14 +232,11 @@
   height: var(--dockit-footer-height);
   background-color: var(--dockit-layout-bg);
   z-index: 10000;
-  padding: 1.5rem calc(2 * var(--dockit-vue-spacer)) 0;
-  padding-left: calc(3 * var(--dockit-vue-spacer));
+  padding: 1.5rem 0;
   color: var(--dockit-prose-body-sub);
-  border-top: 1px solid var(--border-color);
-  @media screen and (min-width: 1024px) {
-    padding-right: 1rem;
-    padding-left: 1rem;
-  }
+  border-top: 1px solid var(--dockit-border-color);
+  max-width: 1000px;
+  margin: 64px auto 0;
 }
 
 // FONT FACE
@@ -266,7 +268,7 @@ p {
 }
 
 .msr-doc-table {
-  border: 1px solid var(--border-color-bold);
+  border: 1px solid var(--dockit-border-color-bold);
   border-radius: var(--msr-border-radius-200);
   overflow-x: auto;
   margin: 0 0 var(--dockit-swatch-margin-bottom);
@@ -288,8 +290,8 @@ p {
   td {
     font-size: var(--msr-font-size-100);
     padding: 16px 24px 14px;
-    border-top: 1px solid var(--border-color-bold);
-    border-right: 1px solid var(--border-color-bold);
+    border-top: 1px solid var(--dockit-border-color-bold);
+    border-right: 1px solid var(--dockit-border-color-bold);
     vertical-align: middle;
   }
   tr td:last-child,

@@ -1,142 +1,37 @@
-# Contributing
+# Frequently asked questions
 
-You can find a useful governance process above. Use it to decide when to use an existing component, modify an existing component, add a new component or build a custom component for your feature.
+## What is a design token ?
 
-## Report an issue
+...
 
-## Propose a new component
+## How do I use tokens ?
 
-## Update a component, or token, or document
+...
 
-### Document Markdown formatting
+## I can't find a token that has what I need
 
-Here are a few standard Markdown formatting examples:
+1. Does it make sense to create a token for this use case?
+2. Can the design be adjusted to use an existing tokens instead? For example, can we use an exisitng 48px or 56px space token instead of adding a 52px token?
+3. If we really need the new value, will it be re-usable for other features or is it a snowflake?\*
+4. If it makes sense to create a new token and not a snowflake, discuss your use case with the design team and confirm there is no existing token for your needs
+5. Ask the design team to add the token for you.
 
----
+I can find a component that almost does what I need, but not quite
 
-# Header 1
+    Does it make sense to modify a component for this use case? Will the modifications be resuable for other features or is it a snowflake?*
+    If it makes sense to modify an exisiting component and not create a snowflake, discuss your use case with the design team and confirm there is no existing component for your needs.
+    Ask the design team to create a prototype with the required modifications for you. Use this prototype design to build a prototype component.
+    Review the prototype with the design team and product team to ensure the modifications fit the use case. If not, iterate on the prototype until it does.
+    Ask the design team to update the component design in the design system.
+    Add the modifications to the component in the design system.
+    Use the new component in your feature.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+I can't find a component that does what I need
 
-## Header 2
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-### Header 3
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-#### Header 4
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-##### Header 5
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-###### Header 6
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-# Markdown
-
-## Horizontal Rules
-
----
-
----
-
----
-
-## Emphasis
-
-**This is bold text**
-
-_This is italic text_
-
-~~Strikethrough~~
-
-## Blockquotes
-
-> Blockquotes can also be nested...
->
-> > ...by using additional greater-than signs right next to each other...
-> >
-> > > ...or with spaces between arrows.
-
-## Lists
-
-Unordered
-
-- Create a list by starting a line with `+`, `-`, or `*`
-- Sub-lists are made by indenting 2 spaces:
-  - Marker character change forces new list start:
-    - Ac tristique libero volutpat at
-    * Facilisis in pretium nisl aliquet
-    - Nulla volutpat aliquam velit
-- Very easy!
-
-Ordered
-
-1. Lorem ipsum dolor sit amet
-2. Consectetur adipiscing elit
-3. Integer molestie lorem at massa
-
-4. You can use sequential numbers...
-5. ...or keep all the numbers as `1.`
-
-Start numbering with offset:
-
-57. foo
-1. bar
-
-## Code
-
-Inline `code`
-
-Indented code
-
-    // Some comments
-    line 1 of code
-    line 2 of code
-    line 3 of code
-
-Block code "fences"
-
-```
-Sample text here...
-```
-
-Syntax highlighting
-
-```js
-var foo = function (bar) {
-  return bar++;
-};
-
-console.log(foo(5));
-```
-
-## Tables
-
-| Option | Description                                                               |
-| ------ | ------------------------------------------------------------------------- |
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default.    |
-| ext    | extension to be used for dest files.                                      |
-
-Right aligned columns
-
-| Option |                                                               Description |
-| -----: | ------------------------------------------------------------------------: |
-|   data | path to data files to supply the data that will be passed into templates. |
-| engine |    engine to be used for processing templates. Handlebars is the default. |
-|    ext |                                      extension to be used for dest files. |
-
-## Links
-
-[link text](https://backlight.dev)
-
-[link with title](https://backlight.dev 'title text!')
-
-Autoconverted link https://backlight.dev
+    Does it make sense to create a component for this use case? Will it be resuable for other features or is it a snowflake?*
+    If it makes sense to create a new component and not a snowflake, discuss your use case with the design team and confirm there is no existing component for your needs.
+    Ask the design team to create a prototype component for you. Use this prototype design to build a prototype component.
+    Review the prototype with the design team and product team to ensure it fits the use case. If not, iterate on the prototype until it does.
+    Ask the design team to add the component design to the design system.
+    Build the new component in the design system.
+    Use the new component in your feature.

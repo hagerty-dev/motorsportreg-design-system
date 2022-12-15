@@ -2,7 +2,7 @@
   import { MSRDocNavCardsRow, MSRDocNavCards } from '../index';
 </script>
 
-# Welcome to the<br/>Motorsport Design System
+# Welcome to the<br/>MotorsportReg Design System
 
 The MSR Design system contains documentation, tools and standards that support us in developing accessible, cohesive and quality experiences at MSR.
 

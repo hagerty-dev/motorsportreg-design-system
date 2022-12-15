@@ -1,5 +1,7 @@
 # Contributing
 
+TODO: [Governance graphic]
+
 You can find a useful governance process above. Use it to decide when to use an existing component, modify an existing component, add a new component or build a custom component for your feature.
 
 ## What makes a good contribution ?
