@@ -10,8 +10,8 @@ You can find a useful governance process above. Use it to decide when to use an 
 
 If you find a bug or issue with a component, reach out in our Slack channel:[#motorsportreg-design-system](#) or alternatively open an issue on [Github](#)
 
-@TODO: Slack channel ?
-@TODO: Github issues.. do we want to go down that route ?
+TODO: Slack channel ?
+TODO: Github issues.. do we want to go down that route ?
 
 ---
 
@@ -19,7 +19,7 @@ If you find a bug or issue with a component, reach out in our Slack channel:[#mo
 
 Get started with the Design Submission form. We'll follow-up for details on how to submit a component proposal.
 
-@TODO component submission ideas. Form ? Pivotal ?
+TODO component submission ideas. Form ? Pivotal ?
 
 ---
 
