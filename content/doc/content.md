@@ -6,7 +6,7 @@
 
 Our documentation is written using MDJS. Below are formatting examples :
 
-@TODO: Expose markdown code for writers
+TODO: Expose markdown code for writers
 
 # Header 1
 

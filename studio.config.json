@@ -5,7 +5,16 @@
       ["get started", ["introduction", "developer", "designer"]],
       [
         "styles",
-        ["typography", "color", "spacing", "shadow", "opacity", "border"]
+        [
+          "typography",
+          "color",
+          "spacing",
+          "shadow",
+          "opacity",
+          "border",
+          "motion",
+          "z-index"
+        ]
       ],
       ["infrastructure", ["doc-layout", "types", "sd-input"]],
       ["resources", ["contributing", "faq", "content"]]

@@ -14,6 +14,8 @@ To get access to our MSR Design System make sure to install our NPM package:
 npm i @backlight-dev/debt-squeal-u99rm.vue3-l4zu8jbp
 ```
 
+TODO: node version to package.json ?
+
 This will provide you with our base tokens that contain color, spacing, typography etc in your `node_modules` directory
 
 ---
