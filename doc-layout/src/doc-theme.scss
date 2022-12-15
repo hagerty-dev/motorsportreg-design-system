@@ -22,6 +22,24 @@
 
 .header {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03), 0 -1px 0 rgba(0, 0, 0, 0.06);
+  .content-top {
+    .color-switch[data-v-8bb72a6e],
+    .navigation-toggle[data-v-8bb72a6e] {
+      color: var(--msr-color-base-dark);
+      background-color: transparent;
+    }
+    .feather-moon,
+    .feather-menu {
+      background-color: transparent;
+      color: var(--msr-color-gray-100);
+    }
+  }
+}
+
+.logo {
+  > :first-child {
+    height: 100%;
+  }
 }
 
 .content-container {
@@ -142,8 +160,8 @@
 // DOCKIT NAVIGATION
 // -------------------------------------------------------------------- */
 
-.navigation {
-  .package[data-v-5b07cbfb] {
+.navigation[data-v-8bb72a6e] {
+  .package {
     font-size: 14px;
     color: var(--msr-color-base-dark);
     opacity: 1;
@@ -160,18 +178,19 @@
     padding: 0;
     margin: 0;
     color: var(--msr-color-gray-700);
-    a[data-v-5b07cbfb] {
+    a[data-v-8bb72a6e] {
       padding: 0;
       font-size: 16px;
       text-transform: capitalize;
       margin: 0 0 var(--msr-space-100);
       font-weight: 400;
+      background-color: transparent;
       &:hover {
         color: var(--msr-color-red-medium);
         transition: color 300ms ease-in-out;
       }
     }
-    a[aria-current='location'][data-v-5b07cbfb] {
+    a[aria-current='location'][data-v-8bb72a6e] {
       font-weight: inherit;
       color: var(--msr-color-base-dark);
       color: var(--msr-color-red-medium);
@@ -180,6 +199,31 @@
       margin: 0 0 var(--msr-space-100);
       border-radius: 0;
     }
+  }
+  @media screen and (max-width: 1023px) {
+    box-shadow: 2px 0px 4px rgba(0, 0, 0, 0.03), -1px 0 0 rgba(0, 0, 0, 0.06);
+    z-index: 10001;
+  }
+}
+// DOCKIT FOOTER
+// -------------------------------------------------------------------- */
+.msr-doc-footer {
+  position: absolute;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2.5rem 0;
+  margin-bottom: -8px;
+  display: flex;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+  background-color: var(--dockit-layout-bg);
+  z-index: 10000;
+  padding: calc(2 * var(--dockit-vue-spacer));
+  padding-left: calc(3 * var(--dockit-vue-spacer));
+  @media screen and (min-width: 1024px) {
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
 }
 

@@ -45,17 +45,18 @@
     </div>
   </aside>
   <main :class="`content-container ${colorTheme}`">
-    Xxxx
     <article class="prose dark:prose-invert">
       <slot></slot>
     </article>
   </main>
+  <div :class="`msr-doc-footer ${colorTheme}`">
+    <div>🏎️ By Hagerty Motorsports, LLC</div>
+    <div>MotorsportReg Design System 2022</div>
+  </div>
 </template>
 
 <script setup lang="ts">
-import 'https://cdn.jsdelivr.net/npm/dark-tailwindcss-typography@0.5.0-dark.0/typography.min.css';
-import 'https://cdn.jsdelivr.net/npm/prism-themes@1.9.0/themes/prism-vsc-dark-plus.min.css';
-import '@divriots/dockit-core/style.css';
+import 'https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.9.0/prism-one-light.min.css';
 import type { Page, Context } from '@divriots/studio-doc-compiler';
 import { setupSpeedyLinks } from '@divriots/dockit-core/speedy-links';
 import moonSvg from './moon.svg?raw';
