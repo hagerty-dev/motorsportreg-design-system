@@ -33,7 +33,6 @@ export default {
     border: 1px solid var(--msr-color-gray-300);
     padding: var(--msr-space-200) var(--msr-space-200)
       calc(var(--msr-space-200) + 8px);
-    background: var(--msr-color-base-light);
     border-radius: var(--msr-border-radius-300);
     text-decoration: none;
     transition: border-color 300ms ease-in-out;
