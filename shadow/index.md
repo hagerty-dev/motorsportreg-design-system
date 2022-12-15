@@ -1,6 +1,6 @@
 <script setup>
-  import { MSRDocShadow } from '../../index'
-  import { shadow } from '../src/_shadow.js';
+  import { MSRDocShadow } from '../index'
+  import { shadow } from './src/_shadow.js';
   </script>
 
 # Core Shadow

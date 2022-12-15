@@ -56,7 +56,6 @@
 </template>
 
 <script setup lang="ts">
-import 'https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.9.0/prism-one-light.min.css';
 import type { Page, Context } from '@divriots/studio-doc-compiler';
 import { setupSpeedyLinks } from '@divriots/dockit-core/speedy-links';
 import moonSvg from './moon.svg?raw';

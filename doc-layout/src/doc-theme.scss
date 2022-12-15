@@ -15,6 +15,7 @@
   --dockit-swatch-title: 24px;
   --dockit-swatch-margin-bottom: 24px;
   --dockit-swatch-color: var(--msr-color-gray-300);
+  --dockit-footer-height: 64px;
 }
 
 // DOCKIT LAYOUT
@@ -22,6 +23,9 @@
 
 .header {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03), 0 -1px 0 rgba(0, 0, 0, 0.06);
+  .logo {
+    color: var(--dockit-prose-body);
+  }
   .content-top {
     .color-switch[data-v-8bb72a6e],
     .navigation-toggle[data-v-8bb72a6e] {
@@ -42,9 +46,11 @@
   }
 }
 
-.content-container {
+.content-container[data-v-8bb72a6e] {
   display: flex;
   flex-direction: column;
+  min-height: calc(100vh - var(--dockit-footer-height));
+  padding-bottom: calc(5 * var(--dockit-vue-spacer));
 }
 
 .prose {
@@ -55,6 +61,7 @@
   min-height: 100%;
   width: 100%;
   padding-top: 24px;
+  color: var(--dockit-prose-body);
 
   h1,
   h2,
@@ -112,7 +119,7 @@
 
   hr {
     height: 1px;
-    background-color: var(--msr-color-gray-500);
+    background-color: var(--border-color);
     display: block;
     border: 0;
     margin: var(--msr-space-300) 0;
@@ -140,9 +147,7 @@
   li code {
     line-height: 1;
     padding: 0.2rem 0.5rem;
-    margin: 0;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    margin: 0.5em 0.15rem;
     overflow: auto;
     background-color: var(--msr-color-gray-200);
     border-radius: 0.375rem;
@@ -161,9 +166,13 @@
 // -------------------------------------------------------------------- */
 
 .navigation[data-v-8bb72a6e] {
+  padding-top: calc(1.5 * var(--dockit-vue-spacer));
+  height: calc(
+    100vh - var(--dockit-footer-height) - var(--dockit-vue-header-height)
+  );
   .package {
     font-size: 14px;
-    color: var(--msr-color-base-dark);
+    color: var(--dockit-navigation-package);
     opacity: 1;
     margin: var(--msr-space-150) 0 var(--msr-space-100);
     display: block;
@@ -177,7 +186,6 @@
   ul li {
     padding: 0;
     margin: 0;
-    color: var(--msr-color-gray-700);
     a[data-v-8bb72a6e] {
       padding: 0;
       font-size: 16px;
@@ -185,15 +193,16 @@
       margin: 0 0 var(--msr-space-100);
       font-weight: 400;
       background-color: transparent;
+      color: var(--dockit-navigation);
       &:hover {
-        color: var(--msr-color-red-medium);
+        color: var(--dockit-navigation-location);
         transition: color 300ms ease-in-out;
       }
     }
     a[aria-current='location'][data-v-8bb72a6e] {
       font-weight: inherit;
       color: var(--msr-color-base-dark);
-      color: var(--msr-color-red-medium);
+      color: var(--dockit-navigation-location);
       background-color: transparent;
       padding: 0;
       margin: 0 0 var(--msr-space-100);
@@ -212,14 +221,16 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 2.5rem 0;
-  margin-top: -64px;
   display: flex;
   width: 100%;
   font-size: 14px;
+  height: var(--dockit-footer-height);
   background-color: var(--dockit-layout-bg);
   z-index: 10000;
-  padding: calc(2 * var(--dockit-vue-spacer));
+  padding: 1.5rem calc(2 * var(--dockit-vue-spacer)) 0;
   padding-left: calc(3 * var(--dockit-vue-spacer));
+  color: var(--dockit-prose-body-sub);
+  border-top: 1px solid var(--border-color);
   @media screen and (min-width: 1024px) {
     padding-right: 1rem;
     padding-left: 1rem;
@@ -255,7 +266,7 @@ p {
 }
 
 .msr-doc-table {
-  border: 1px solid var(--msr-color-gray-300);
+  border: 1px solid var(--border-color-bold);
   border-radius: var(--msr-border-radius-200);
   overflow-x: auto;
   margin: 0 0 var(--dockit-swatch-margin-bottom);
@@ -277,8 +288,8 @@ p {
   td {
     font-size: var(--msr-font-size-100);
     padding: 16px 24px 14px;
-    border-top: 1px solid var(--msr-color-gray-300);
-    border-right: 1px solid var(--msr-color-gray-300);
+    border-top: 1px solid var(--border-color-bold);
+    border-right: 1px solid var(--border-color-bold);
     vertical-align: middle;
   }
   tr td:last-child,
