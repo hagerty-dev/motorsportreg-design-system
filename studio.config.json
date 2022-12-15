@@ -2,7 +2,10 @@
   "packages": {
     "dir": "",
     "menu": [
-      ["get started", ["introduction", "developer", "designer"]],
+      [
+        "get started",
+        ["introduction", "developer", "designer", "accessibility"]
+      ],
       [
         "styles",
         [
@@ -17,7 +20,7 @@
         ]
       ],
       ["infrastructure", ["doc-layout", "types", "sd-input"]],
-      ["resources", ["contributing", "faq", "content"]]
+      ["resources", ["icons", "content", "contributing", "faq"]]
     ]
   },
   "doc": {

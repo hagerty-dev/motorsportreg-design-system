@@ -4,15 +4,21 @@
 
 The MSR Design System provides our team with an even approach to how we build projects, aiding communication between designers, engineers and product leaders.
 
-By following this guide, and making cohesive things with our system helps drive cohesive experiences for customers and as our design language evolves, our teams have access to up to date standards and practices
+By following this guide, and using it to build things, our system helps drive cohesive experiences for customers and as our design language evolves, our teams have access to up to date standards and practices.
 
 ## Tokens for Figma Plugin
 
-The [Figma Tokens Studio plugin](https://jansix.at/resources/figma-tokens) is used to integrate tokens into your designs in Figma.
+The [Figma Tokens Studio plugin](https://jansix.at/resources/figma-tokens) is used to integrate tokens into your designs in Figma. Using the plugin tokens can agnostically be share via JSON and transformed for use on web projects.
 
 See the FAQ for more info around [Tokens](./faq/doc/faq.md)
 
-### Library usage
+### Installing the plugin
+
+Install Tokens Studio for Figma by hitting the Install button [on this page](https://jansix.at/resources/figma-tokens)
+
+If you launch the plugin for the very first time, you won't have any tokens defined just yet. Click on **Get started** to get started.
+
+### Importing our Design system Token Library
 
 1. Open the Figma Tokens plugin
 2. Click on **Get started**
@@ -28,7 +34,7 @@ See the FAQ for more info around [Tokens](./faq/doc/faq.md)
 
 5. Click **Save**. You will now be prompted to pull the existing tokens from the repo. Click **Yes**.
 
-Congratulations, you have now linked your Figma project to the design tokens stored in the Design system. If you go back to the **Tokens** tab, you will be able to see the shared tokens.
+Awesome, your Figma project now has the synced tokens stored locally from this Design system. If you go back to the **Tokens** tab, you will be able to see the shared tokens.
 
 #### Use tokens in your design
 
@@ -56,6 +62,10 @@ Congratulations, you have successfully pushed your token updates to the design s
 
 ## Design specifications. WIP
 
-- Components\*
-- Tokens (Fonts, Color, Core etc)
-- Icons
+TODO: Spec WIP
+
+### Components
+
+### Tokens (Fonts, Color, Core etc)
+
+### Icons

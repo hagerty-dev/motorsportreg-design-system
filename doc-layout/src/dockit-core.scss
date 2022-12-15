@@ -1,8 +1,8 @@
 .dark {
   --dockit-layout-bg: var(--msr-color-gray-900);
-  --border-color: var(--msr-color-gray-700);
+  --dockit-border-color: var(--msr-color-gray-700);
   --border-color-bold: var(--msr-color-gray-600);
-  --dockit-prose-body: var(--msr-color-gray-200);
+  --dockit-dockit-prose-body: var(--msr-color-gray-200);
   --dockit-prose-body-sub: var(--msr-color-gray-600);
   --dockit-navigation-package: var(--msr-color-gray-600);
   --dockit-navigation: var(--msr-color-gray-200);
@@ -11,8 +11,8 @@
 
 .light {
   --dockit-layout-bg: #ffffff;
-  --border-color: var(--msr-color-gray-300);
-  --border-color-bold: var(--msr-color-gray-400);
+  --dockit-border-color: var(--msr-color-gray-300);
+  --dockit-border-color-bold: var(--msr-color-gray-400);
   --dockit-prose-body: var(--msr-color-base-dark);
   --dockit-prose-body-sub: var(--msr-color-gray-800);
   --dockit-navigation-package: var(--msr-color-base-dark);

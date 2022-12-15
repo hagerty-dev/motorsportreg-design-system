@@ -6,6 +6,8 @@
 
 # Core Typography
 
+The core font used across our products is [GT America](https://www.gt-america.com) by GrilliType. Which is modern serif which stands out and is bold and accessible.
+
 Our design system leverages a purposeful set of typographic styles. We’ve stress-tested this typographic scale across dozens of projects to make sure it’s robust enough to use across (almost) any project, while remaining as accessible as possible for everyone.
 
 ## Font family

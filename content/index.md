@@ -1,4 +1,4 @@
-## Writing Documentation
+# Writing Documentation
 
 ---
 

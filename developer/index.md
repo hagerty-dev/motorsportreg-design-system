@@ -60,7 +60,7 @@ In this way, our tokens are accessible from and in any components or `.vue` file
 
 ## Dependencies
 
-Not included in the UI distribution is [GT America](https://www.gt-america.com) from GilliType. For licensing and speciments [visit them here](https://www.grillitype.com/typeface/gt-america)
+Not included in the UI distribution is [GT America](https://www.gt-america.com) from GrilliType. For licensing and speciments [visit them here](https://www.grillitype.com/typeface/gt-america)
 
 If you are a offical Hagerty partner or developer who has access to our platform, you can add this dependencies to your Vue project:
 
