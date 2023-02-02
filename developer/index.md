@@ -2,29 +2,34 @@
 
 ## Introduction
 
-This UI library is made up of Vue `2.x` and Scss components. The Vue components are modular and their styling is scoped and imported internally. There are also SCSS components which provide mixins, tokens and reset styling to extend or use as is.
+This UI library is made up of reusable Vue `2.x` and SCSS components. The Vue components are modular and their styling is scoped and imported internally. There are also SCSS components which provide mixins, tokens and reset styling to extend or use as is.
 
 ## NPM
 
 ### Installation
 
-To get access to our MSR Design System make sure to install our NPM package:
+<!-- TODO While this is only tokens today, components are to follow, which will change installation and setup -->
+
+To get access to our MSR Design System make sure to install our official NPM package:
 
 ```js
 npm i @backlight-dev/debt-squeal-u99rm.vue3-l4zu8jbp
 ```
 
-TODO: node version to package.json ?
+<!-- TODO:
+--- node version required to package.json
+--- import global style tokens path reference
+-->
 
-This will provide you with our base tokens that contain color, spacing, typography etc in your `node_modules` directory
+This will provide you with our base tokens that contain color, spacing, typography etc in your `node_modules` directory as `backlight-dev`
 
 ---
 
 ### Usage
 
-Once installed, configure it's import in either your `vue.config.js` file, or if you ❤️ Nuxt like we do, add the dependencies to your `nuxt.config.js` as outlined below.
+Once installed, configure the token import in either your `vue.config.js` file, or if you ❤️ Nuxt like we do, add the dependencies to your `nuxt.config.js` as outlined below.
 
-When adding SASS/SCSS to your project make sure to have the correct SCSS loaders installed. We use `sass-loader` and `node-sass`
+Note: Before adding SASS/SCSS to your project make sure to have the correct SCSS loaders installed. We use `sass-loader` and `node-sass`
 
 ```js
 npm install --save-dev sass-loader
@@ -32,6 +37,15 @@ npm install --save-dev node-sass
 ```
 
 To access the tokens globally add them like this,
+
+#### Import the core token css tokens in Nuxt:
+
+```js
+// nuxt.config.js
+export default {
+  css: ['@backlight-dev/debt-squeal-u99rm.vue3-l4zu8jbp/core.css'],
+},
+```
 
 #### Import the core token css tokens in Vue:
 
@@ -46,25 +60,22 @@ To access the tokens globally add them like this,
   },;
 ```
 
-#### Import the core token css tokens in Nuxt:
-
-```js
-// nuxt.config.js
-export default {
-  css: ['@backlight-dev/debt-squeal-u99rm.vue3-l4zu8jbp/core.css'],
-},
-```
-
-In this way, our tokens are accessible from and in any components or `.vue` file. Classes declared in global files are accessible in Vue template tags and can be overwritten within your Vue `<style></style>` tag
+In this way, our tokens are globally accessible from, and in all components. Classes declared in global files are accessible in Vue template tags and can be overwritten within your Vue `<style></style>` tag
 `
 
 ## Dependencies
 
-Not included in the UI distribution is [GT America](https://www.gt-america.com) from GrilliType. For licensing and speciments [visit them here](https://www.grillitype.com/typeface/gt-america)
+### Global SCSS
 
-If you are a offical Hagerty partner or developer who has access to our platform, you can add this dependencies to your Vue project:
+...
 
-#### Import GT America in Vue:
+### Fonts
+
+Not included in the UI distribution is [GT America](https://www.gt-america.com) from GrilliType. For licensing and specimens [visit them here](https://www.grillitype.com/typeface/gt-america)
+
+If you are a offical Hagerty partner, or developer who has access to our platform, you can add this dependencies to your Vue project:
+
+#### Import the font dependency in Vue:
 
 ```js
 // App.vue
@@ -81,7 +92,7 @@ or alternatively in:
 @import 'https://apps.static.sandbox.hagerty.com/fonts/GT%20America/gt-america.css';
 ```
 
-#### Import GT America in Nuxt:
+#### Import the font dependency in Nuxt:
 
 ```js
 // nuxt.config.js
@@ -97,7 +108,7 @@ head: {
 
 ## Tokens
 
-### How to use the tokens _in the Code_
+### How to use the tokens in your project
 
 Make sure you are running the latest version of the Design system before using the tokens to ensure you have access to the latest changes. To do this, update the version in the `package.json` file and run `npm i`.
 
@@ -111,6 +122,4 @@ p {
 }
 ```
 
-## Components
-
-Coming soon...
+<!-- TODO: ## Components -->
