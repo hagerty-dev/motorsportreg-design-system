@@ -19,7 +19,7 @@ The MSR Design System supports developers and designers alike with tooling and a
 Check out our guides for Designers and Engineers
 
 <MSRDocNavCardsRow>
-  <MSRDocNavCards title="Designers" href="../../designer">
+  <MSRDocNavCards title="Designers" href="../developer">
     <template #content>Understand our design foundations</template>
   </MSRDocNavCards>
   <MSRDocNavCards title="Developers" href="../../developer">
