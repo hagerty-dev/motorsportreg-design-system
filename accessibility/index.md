@@ -24,8 +24,9 @@ A simple list of things to keep in mind when testing your app or site's accessib
 - **Typography** that employs typefaces and sizes that are accessible within your layout. Structure copy to promote relevant contextual information
 - **Forms** that use accessible patterns, labels which inform the purpose of a field, aria descriptions where applicable and care when developing error messaging
 - **Text alternatives** to non-decorative images or non-essential icons. Adding captions, audio description or transcripts to video
-
+.
 <!-- TODO: Manual accessibility testing
+
 
 - https://wave.webaim.org/extension/
 - Screen readers
