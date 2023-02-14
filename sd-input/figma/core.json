@@ -133,20 +133,22 @@
         "type": "fontWeights",
         "description": "700"
       },
-      "extendedMedium": {
-        "value": "Extended Medium",
-        "type": "fontWeights",
-        "description": "500"
-      },
-      "extendedRegular": {
-        "value": "Extended Regular",
-        "type": "fontWeights",
-        "description": "400"
-      },
-      "extendedBold": {
-        "value": "Extended Bold",
-        "type": "fontWeights",
-        "description": "700"
+      "extended": {
+        "medium": {
+          "value": "Extended Medium",
+          "type": "fontWeights",
+          "description": "500"
+        },
+        "regular": {
+          "value": "Extended Regular",
+          "type": "fontWeights",
+          "description": "400"
+        },
+        "bold": {
+          "value": "Extended Bold",
+          "type": "fontWeights",
+          "description": "700"
+        }
       }
     },
     "textCase": {
@@ -206,8 +208,7 @@
       },
       "400": {
         "value": "#C8CACB",
-        "type": "color",
-        "description": "Input outlines"
+        "type": "color"
       },
       "500": {
         "value": "#B1B5B9",
@@ -215,8 +216,7 @@
       },
       "600": {
         "value": "#8E949A",
-        "type": "color",
-        "description": "Placeholder text"
+        "type": "color"
       },
       "700": {
         "value": "#6F757C",
@@ -228,8 +228,7 @@
       },
       "900": {
         "value": "#484C51",
-        "type": "color",
-        "description": "Secondary text"
+        "type": "color"
       }
     },
     "gradient": {

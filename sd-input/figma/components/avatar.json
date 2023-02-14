@@ -18,7 +18,7 @@
       "xlarge": {
         "value": {
           "fontFamily": "{font.family.GTAmerica}",
-          "fontWeight": "{font.weight.extendedMedium}",
+          "fontWeight": "{font.weight.extended.medium}",
           "lineHeight": "{font.lineHeight.tight}",
           "fontSize": "{font.size.400}",
           "letterSpacing": "0%",
@@ -32,7 +32,7 @@
       "large": {
         "value": {
           "fontFamily": "{font.family.GTAmerica}",
-          "fontWeight": "{font.weight.extendedMedium}",
+          "fontWeight": "{font.weight.extended.medium}",
           "lineHeight": "{font.lineHeight.tight}",
           "fontSize": "{font.size.300}",
           "letterSpacing": "0%",
@@ -46,7 +46,7 @@
       "medium": {
         "value": {
           "fontFamily": "{font.family.GTAmerica}",
-          "fontWeight": "{font.weight.extendedMedium}",
+          "fontWeight": "{font.weight.extended.medium}",
           "lineHeight": "{font.lineHeight.tight}",
           "fontSize": "{font.size.base}",
           "letterSpacing": "0%",
@@ -60,7 +60,7 @@
       "small": {
         "value": {
           "fontFamily": "{font.family.GTAmerica}",
-          "fontWeight": "{font.weight.extendedMedium}",
+          "fontWeight": "{font.weight.extended.medium}",
           "lineHeight": "{font.lineHeight.tight}",
           "fontSize": "12",
           "letterSpacing": "0%",
@@ -74,7 +74,7 @@
       "xsmall": {
         "value": {
           "fontFamily": "{font.family.GTAmerica}",
-          "fontWeight": "{font.weight.extendedMedium}",
+          "fontWeight": "{font.weight.extended.medium}",
           "lineHeight": "{font.lineHeight.tight}",
           "fontSize": "10",
           "letterSpacing": "0%",

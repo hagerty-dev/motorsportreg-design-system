@@ -43,7 +43,7 @@
           "type": "color"
         },
         "disabled": {
-          "value": "{color.gray.900}",
+          "value": "{text.color.default}",
           "type": "color"
         }
       }
@@ -110,8 +110,8 @@
       "value": {
         "fontFamily": "{font.family.GTAmerica}",
         "fontWeight": "{font.weight.regular}",
-        "lineHeight": "{font.lineHeight.tight}",
-        "fontSize": "{font.size.50}",
+        "lineHeight": "{font.lineHeight.standard}",
+        "fontSize": "{font.size.100}",
         "letterSpacing": "0%",
         "paragraphSpacing": "0",
         "textDecoration": "none",
@@ -121,24 +121,24 @@
       "description": "Validation text"
     },
     "border-radius": {
-      "value": "{border.radius.100}",
+      "value": "{border.radius.200}",
       "type": "borderRadius"
     },
     "space": {
       "padding-left": {
-        "value": "8",
+        "value": "{space.100}",
         "type": "spacing"
       },
       "padding-right": {
-        "value": "8",
+        "value": "{space.100}",
         "type": "spacing"
       },
       "padding-top": {
-        "value": "4",
+        "value": "{space.50}",
         "type": "spacing"
       },
       "padding-bottom": {
-        "value": "6",
+        "value": "{space.50}",
         "type": "spacing"
       }
     },
@@ -156,6 +156,12 @@
       "text": {
         "value": "{color.base.dark}",
         "type": "color"
+      },
+      "critical": {
+        "text": {
+          "value": "{feedback.color.critical}",
+          "type": "color"
+        }
       }
     }
   },
@@ -193,7 +199,7 @@
       },
       "border": {
         "default": {
-          "value": "{color.gray.600}",
+          "value": "{color.gray.500}",
           "type": "color"
         },
         "hover": {
@@ -223,7 +229,7 @@
       "type": "borderRadius"
     },
     "border-width": {
-      "value": "1.5",
+      "value": "{border.width.100}",
       "type": "borderWidth"
     }
   },
@@ -257,7 +263,7 @@
       },
       "border": {
         "default": {
-          "value": "{color.gray.600}",
+          "value": "{color.gray.500}",
           "type": "color"
         },
         "hover": {
@@ -301,7 +307,7 @@
       "type": "borderRadius"
     },
     "border-width": {
-      "value": "1.5",
+      "value": "{border.width.100}",
       "type": "borderWidth"
     }
   },
@@ -376,7 +382,7 @@
         },
         "border": {
           "default": {
-            "value": "{color.gray.400}",
+            "value": "{color.gray.500}",
             "type": "color"
           },
           "focus": {
@@ -480,11 +486,11 @@
             "type": "color"
           },
           "readonly": {
-            "value": "{color.gray.700}",
+            "value": "{text.color.default}",
             "type": "color"
           },
           "disabled": {
-            "value": "{color.gray.700}",
+            "value": "{text.color.default}",
             "type": "color"
           },
           "label": {
@@ -579,6 +585,20 @@
             "fontWeight": "{font.weight.regular}",
             "lineHeight": "{font.lineHeight.tight}",
             "fontSize": "{font.size.200}",
+            "letterSpacing": "0%",
+            "paragraphSpacing": "0",
+            "textDecoration": "none",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Small check box label"
+        },
+        "xSmall": {
+          "value": {
+            "fontFamily": "{font.family.GTAmerica}",
+            "fontWeight": "{font.weight.regular}",
+            "lineHeight": "{font.lineHeight.tight}",
+            "fontSize": "{font.size.100}",
             "letterSpacing": "0%",
             "paragraphSpacing": "0",
             "textDecoration": "none",
