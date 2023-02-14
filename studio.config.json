@@ -21,7 +21,8 @@
      "opacity",
      "border",
      "motion",
-     "z-index"
+     "z-index",
+     "tokens"
     ]
    ],
    [

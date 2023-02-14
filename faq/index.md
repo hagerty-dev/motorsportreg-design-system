@@ -2,6 +2,9 @@
 
 ## What is a design token ?
 
+Tokens are thoughtfully named css values that we use across the library to
+build our components. They can also be used to create new or custom features with
+the MDS visual language. They define decisions such as spacing, size, color and more and are carefully name spaced to aid usability.
 ...
 
 ## How do I use tokens ?
