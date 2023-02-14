@@ -1,29 +1,53 @@
 {
-  "packages": {
-    "dir": "",
-    "menu": [
-      [
-        "get started",
-        ["introduction", "developer", "designer", "accessibility"]
-      ],
-      [
-        "styles",
-        [
-          "typography",
-          "color",
-          "spacing",
-          "shadow",
-          "opacity",
-          "border",
-          "motion",
-          "z-index"
-        ]
-      ],
-      ["infrastructure", ["doc-layout", "types", "sd-input"]],
-      ["resources", ["icons", "content", "contributing", "faq"]]
+ "packages": {
+  "dir": "",
+  "menu": [
+   [
+    "get started",
+    [
+     "introduction",
+     "developer",
+     "designer",
+     "accessibility"
     ]
-  },
-  "doc": {
-    "markdownEngine": "vue"
-  }
+   ],
+   [
+    "styles",
+    [
+     "typography",
+     "color",
+     "spacing",
+     "shadow",
+     "opacity",
+     "border",
+     "motion",
+     "z-index"
+    ]
+   ],
+   [
+    "infrastructure",
+    [
+     "doc-layout",
+     "types",
+     "sd-input"
+    ]
+   ],
+   [
+    "resources",
+    [
+     "icons",
+     "content",
+     "contributing",
+     "faq"
+    ]
+   ],
+   "index.html"
+  ]
+ },
+ "doc": {
+  "markdownEngine": "vue"
+ },
+ "dependencies": {
+  "autoInstall": false
+ }
 }
