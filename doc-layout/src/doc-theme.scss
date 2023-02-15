@@ -29,13 +29,13 @@
   .content-top {
     .color-switch[data-v-8bb72a6e],
     .navigation-toggle[data-v-8bb72a6e] {
-      color: var(--msr-color-base-dark);
+      color: var(--dockit-prose-body);
       background-color: transparent;
     }
     .feather-moon,
     .feather-menu {
       background-color: transparent;
-      color: var(--msr-color-gray-100);
+      color: var(--dockit-navigation);
     }
   }
 }
@@ -71,6 +71,7 @@
   li,
   li > p {
     margin: 0 0 1.2rem;
+    padding: 0;
   }
   h1 {
     font-size: var(--msr-font-size-600);
@@ -94,6 +95,11 @@
   p,
   li {
     font-size: var(--msr-font-size-200);
+  }
+  p,
+  li,
+  li > p {
+    margin: 0 0 1rem;
   }
   ul ~ ul {
     margin-left: 0.5rem;
@@ -126,7 +132,7 @@
   code {
     font-weight: normal;
     font-size: 0.8rem;
-    color: var(--msr-color-red-medium);
+    color: var(--dockit-navigation-location);
     &::before,
     &::after {
       content: '';
@@ -138,8 +144,6 @@
     font-family: Menlo, Monaco, Consolas, 'Andale Mono', 'Ubuntu Mono',
       'Courier New', monospace;
     font-size: 1rem;
-    code {
-    }
   }
 
   table {
@@ -156,7 +160,7 @@
     padding: 0.2rem 0.5rem;
     margin: 0.5em 0.15rem;
     overflow: auto;
-    background-color: var(--msr-color-gray-200);
+    background-color: var(--dockit-cell);
     border-radius: 0.375rem;
     font-family: Monaco, Consolas, 'Courier New', monospace;
   }
@@ -206,7 +210,6 @@
     }
     a[aria-current='location'][data-v-8bb72a6e] {
       font-weight: inherit;
-      color: var(--msr-color-base-dark);
       color: var(--dockit-navigation-location);
       background-color: transparent;
       padding: 0;
@@ -225,7 +228,6 @@
   position: relative;
   flex-direction: row;
   justify-content: space-between;
-  padding: 2.5rem 0;
   display: flex;
   width: 100%;
   font-size: 14px;

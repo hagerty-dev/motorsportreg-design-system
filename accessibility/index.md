@@ -8,14 +8,14 @@ Over 1.3 billion people self identify as having a disability, which makes this t
 
 ## Why is digital accessibility important ?
 
-- It is a best practice when building and designing sites and apps
+- It is a best practice when building and designing websites and apps
 - Better design by being accessible for everyone
 - By being accessible we show our support to towards all business users and value their impact
 - Legal compliancy
 
 ## Audit checklist
 
-A simple list of things to keep in mind when testing your app or site's accessibility score.
+A simple list of things to keep in mind when testing your app or website's accessibility score.
 
 - **Standard markup**
 - **Focus management**
@@ -24,7 +24,10 @@ A simple list of things to keep in mind when testing your app or site's accessib
 - **Typography** that employs typefaces and sizes that are accessible within your layout. Structure copy to promote relevant contextual information
 - **Forms** that use accessible patterns, labels which inform the purpose of a field, aria descriptions where applicable and care when developing error messaging
 - **Text alternatives** to non-decorative images or non-essential icons. Adding captions, audio description or transcripts to video
-.
+
+## Resource
+
+- Learn more about preparing for accessibility https://web.dev/learn/accessibility/
 <!-- TODO: Manual accessibility testing
 
 
