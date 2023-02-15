@@ -36,7 +36,7 @@ If you launch the plugin for the very first time, you won't have any tokens defi
 
 Your Figma project now has the synced tokens stored locally from this MSR Design system. If you go back to the **Tokens** tab, you will be able to see the tokens shared from the `motorsportreg-design-system` repository.
 
-#### Use tokens in your design
+#### Apply tokens to your design
 
 1. To use tokens in your Figma file, you need to activate them as required. Under the **Tokens** tab, in the left sidebar, activate each set of tokens by clicking their checkbox.
 2. Apply tokens to your design by left-clicking on a token to apply it to one or more layers
@@ -46,8 +46,7 @@ Your Figma project now has the synced tokens stored locally from this MSR Design
 If you have updated a token or added new tokens, you need to sync these changes with the MSR Design system so that they are backed up & developers can use them.
 
 1. Open the Figma Tokens plugin
-1. Click on **Settings** and select **Github** as the token storage. Click **Edit** on you existing credentials.
-1. Set your Default Branch to: `figma-tokens`. This is an important step, as the branch name has to be correct for the sync to be successful.
+1. Set your Default Branch to: `figma-tokens`. This is an important step, as the branch name has to be correct for the sync to be successful, and this is where your changes will live.
 1. You will be prompted to push your local changes to the repo. If they are ready to push, click **Push**. If you are not ready to push your changes, click **Cancel**.
 1. In the bottom left of the Figma Tokens Plugin, you will see your branch name and two arrows. If you didn't push your changes in the previous step, but you are now ready to push, you can click the **Up Arrow**. Make sure the branch is still set to `figma-tokens` and provide a short, descriptive commit message so that your intentions or changes are clear and so you can review it again later if needed. Click **Push**.
 
@@ -60,7 +59,7 @@ Congratulations, you have successfully pushed your token updates to the MSR Desi
 1. If the PR is approved and the Backlight preview looks good, you or the developer may merge the PR.
 1. Release a new version of the MSR Design system via Backlight. This can be done by clicking on the **Release button** in the left sidebar in Backlight and clicking **Release**.
 
-## Design specifications. WIP
+## Design specifications
 
 TODO: Spec WIP
 

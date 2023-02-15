@@ -156,7 +156,7 @@ ul {
   display: flex;
   height: var(--dockit-vue-header-height);
   z-index: 10000;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid var(--dockit-border-color);
 
   .logo {
     padding: var(--dockit-vue-spacer);

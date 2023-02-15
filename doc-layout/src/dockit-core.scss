@@ -2,11 +2,13 @@
   --dockit-layout-bg: var(--msr-color-gray-900);
   --dockit-border-color: var(--msr-color-gray-700);
   --border-color-bold: var(--msr-color-gray-600);
-  --dockit-dockit-prose-body: var(--msr-color-gray-200);
+  --dockit-prose-body: var(--msr-color-gray-200);
   --dockit-prose-body-sub: var(--msr-color-gray-600);
   --dockit-navigation-package: var(--msr-color-gray-600);
   --dockit-navigation: var(--msr-color-gray-200);
-  --dockit-navigation-location: var(--msr-color-red-light);
+  --dockit-navigation-location: #d4b3ff;
+  --dockit-border: var(--msr-color-gray-700);
+  --dockit-cell: var(--msr-color-gray-800);
 }
 
 .light {
@@ -17,7 +19,8 @@
   --dockit-prose-body-sub: var(--msr-color-gray-800);
   --dockit-navigation-package: var(--msr-color-base-dark);
   --dockit-navigation: var(--msr-color-gray-700);
-  --dockit-navigation-location: var(--msr-color-red-medium);
+  --dockit-navigation-location: #6b21cc;
+  --dockit-cell: var(--msr-color-gray-200);
 }
 
 .box {

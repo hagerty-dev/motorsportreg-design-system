@@ -1,4 +1,4 @@
-# Frequently asked questions
+# Frequently asked questions 🤨
 
 ## What is a design token ?
 
@@ -19,22 +19,22 @@ the MDS visual language. They define decisions such as spacing, size, color and 
 4. If it makes sense to create a new token and not a snowflake, discuss your use case with the design team and confirm there is no existing token for your needs
 5. Ask the design team to add the token for you.
 
-I can find a component that almost does what I need, but not quite
+## I can find a component that almost does what I need, but not quite
 
-    Does it make sense to modify a component for this use case? Will the modifications be resuable for other features or is it a snowflake?*
-    If it makes sense to modify an exisiting component and not create a snowflake, discuss your use case with the design team and confirm there is no existing component for your needs.
-    Ask the design team to create a prototype with the required modifications for you. Use this prototype design to build a prototype component.
-    Review the prototype with the design team and product team to ensure the modifications fit the use case. If not, iterate on the prototype until it does.
-    Ask the design team to update the component design in the design system.
-    Add the modifications to the component in the design system.
-    Use the new component in your feature.
+1. Does it make sense to modify a component for this use case? Will the modifications be resuable for other features or is it a snowflake?\*
+2. If it makes sense to modify an exisiting component and not create a snowflake, discuss your use case with the design team and confirm there is no existing component for your needs.
+3. Ask the design team to create a prototype with the required modifications for you. Use this prototype design to build a prototype component.
+4. Review the prototype with the design team and product team to ensure the modifications fit the use case. If not, iterate on the prototype until it does.
+5. Ask the design team to update the component design in the design system.
+6. Add the modifications to the component in the design system.
+7. Use the new component in your feature.
 
-I can't find a component that does what I need
+## I can't find a component that does what I need
 
-    Does it make sense to create a component for this use case? Will it be resuable for other features or is it a snowflake?*
-    If it makes sense to create a new component and not a snowflake, discuss your use case with the design team and confirm there is no existing component for your needs.
-    Ask the design team to create a prototype component for you. Use this prototype design to build a prototype component.
-    Review the prototype with the design team and product team to ensure it fits the use case. If not, iterate on the prototype until it does.
-    Ask the design team to add the component design to the design system.
-    Build the new component in the design system.
-    Use the new component in your feature.
+1. Does it make sense to create a component for this use case? Will it be resuable for other features or is it a snowflake?\*
+2. If it makes sense to create a new component and not a snowflake, discuss your use case with the design team and confirm there is no existing component for your needs.
+3. Ask the design team to create a prototype component for you. Use this prototype design to build a prototype component.
+4. Review the prototype with the design team and product team to ensure it fits the use case. If not, iterate on the prototype until it does.
+5. Ask the design team to add the component design to the design system.
+6. Build the new component in the design system.
+7. Use the new component in your feature.
