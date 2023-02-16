@@ -1,0 +1,13 @@
+{
+  "border": {
+    "bottom": {
+      "default": {
+        "value": {
+          "borderWidthBottom": "{border.width.100}",
+          "border": "{border.color.default}"
+        },
+        "type": "composition"
+      }
+    }
+  }
+}

@@ -1,7 +1,10 @@
 {
   "tokenSetOrder": [
     "core",
-    "semantic",
+    "semantic/color",
+    "semantic/border",
+    "figma/text styles",
+    "components/text",
     "components/button",
     "components/forms",
     "components/alert",

@@ -43,7 +43,7 @@
         "heading": {
           "value": {
             "fontFamily": "{font.family.GTAmerica}",
-            "fontWeight": "{font.weight.extendedMedium}",
+            "fontWeight": "{font.weight.extended.medium}",
             "lineHeight": "{font.lineHeight.tight}",
             "fontSize": "{font.size.400}",
             "letterSpacing": "0%",

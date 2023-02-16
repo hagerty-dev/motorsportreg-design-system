@@ -13,7 +13,7 @@
   --dockit-vue-header-content-height: 2rem;
   --navigation-group-heading-color: #b1b5b9;
   --dockit-swatch-title: 24px;
-  --dockit-swatch-margin-bottom: 24px;
+  --dockit-swatch-margin-bottom: 32px;
   --dockit-swatch-color: var(--msr-color-gray-300);
   --dockit-footer-height: 64px;
 }
@@ -253,6 +253,7 @@
 
 p {
   font-size: var(--msr-font-size-100);
+  padding-top: 0;
 }
 
 // DOCKIT CUSTOM SWATCH
@@ -282,6 +283,7 @@ p {
   overflow-x: auto;
   margin: 0 0 var(--dockit-swatch-margin-bottom);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+
   table {
     margin: 0;
     border: none;
