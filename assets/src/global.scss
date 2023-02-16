@@ -2,10 +2,11 @@
 // -------------------------------------------------------------------- */
 // Variables (Points to Tokens)
 @import '_variables.scss';
+
 // Reset Generic
 @import '_reset.scss';
-// GT-America Font face
-@import '_font-face.scss';
 
+// GT-America Font face
 // Temporary ->
-// @import 'https://d1jv48tuz4bz39.cloudfront.net/fonts/gt-america/gt-america.css';
+@import 'https://d1jv48tuz4bz39.cloudfront.net/fonts/gt-america/gt-america.css';
+// @import '_font-face.scss';
