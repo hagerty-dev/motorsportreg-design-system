@@ -55,10 +55,10 @@ export default {
     display: grid;
     gap: 24px;
     &_2 {
-      grid-template-columns: auto auto;
+      grid-template-columns: 1fr 1fr;
     }
     &_3 {
-      grid-template-columns: auto auto auto;
+      grid-template-columns: 1fr 1fr 1fr;
     }
   }
 }

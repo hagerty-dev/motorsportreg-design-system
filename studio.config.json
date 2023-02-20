@@ -9,7 +9,7 @@
       [
         "styles",
         [
-          "overview",
+          "style-overview",
           "typography",
           "color",
           "spacing",
