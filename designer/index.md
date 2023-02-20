@@ -1,8 +1,6 @@
 # Designer workflow
 
-## Introduction
-
-The MSR Design System provides our team with an even approach to how we build projects, aiding communication between designers, engineers and product leaders.
+###### The MSR Design System provides our team with an even approach to how we build projects, aiding communication between designers, engineers and product leaders.
 
 By following this guide, and using it to build things, our system helps drive cohesive experiences for customers and as our design language evolves, our teams have access to up to date standards and practices.
 

@@ -1,8 +1,6 @@
 # Developer workflow
 
-## Introduction
-
-This UI library is made up of reusable Vue `2.x` and SCSS components. The Vue components are modular and their styling is scoped and imported internally. There are also SCSS components which provide mixins, tokens and reset styling to extend or use as is.
+###### This UI library is made up of reusable Vue `2.x` and SCSS components. The Vue components are modular and their styling is scoped and imported internally. There are also SCSS components which provide mixins, tokens and reset styling to extend or use as is.
 
 ## Get started
 

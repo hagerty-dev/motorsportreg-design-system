@@ -19,41 +19,9 @@
   --dockit-prose-spacer: 1.25rem;
   --dockit-prose-spacer-m: 2rem;
   --dockit-prose-spacer-l: 2.5rem;
-  --dockit-border-color: var(--msr-color-gray-400);
-  --dockit-border-color-bold: var(--msr-color-gray-400);
-}
-
-// DOCKIT LAYOUT
-// -------------------------------------------------------------------- */
-
-.header {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03), 0 -1px 0 rgba(0, 0, 0, 0.06);
-  .logo {
-    color: var(--dockit-prose-body);
-  }
-  .content-top {
-    .color-switch[data-v-8bb72a6e],
-    .navigation-toggle[data-v-8bb72a6e] {
-      color: var(--dockit-prose-body);
-      background-color: transparent;
-    }
-    .feather-moon,
-    .feather-menu {
-      background-color: transparent;
-      color: var(--dockit-navigation);
-    }
-  }
-}
-
-.logo {
-  > :first-child {
-    height: 100%;
-  }
-}
-
-.content-container[data-v-8bb72a6e] {
-  display: flex;
-  flex-direction: column;
+  --dockit-border-color: var(--msr-color-gray-600);
+  --dockit-border-color-bold: var(--msr-color-gray-600);
+  --dockit-section-spacer: var(--msr-space-500);
 }
 
 .prose {
@@ -80,7 +48,7 @@
   }
   h1 {
     font-size: var(--msr-font-size-900);
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
   }
   h2 {
     font-size: var(--msr-font-size-700);
@@ -103,7 +71,7 @@
   h3,
   h4,
   h5 {
-    margin-top: 1.6rem;
+    margin-top: var(--dockit-section-spacer);
     line-height: var(--msr-font-line-height-tight);
     font-weight: var(--msr-font-weight-medium);
     font-weight: 500;
@@ -111,9 +79,15 @@
   }
 
   h6 {
-    margin-top: 1.6rem;
+    margin-top: 2rem;
     line-height: var(--msr-font-line-height-loose);
     font-weight: var(--msr-font-weight-regular);
+    code {
+      font-size: var(--msr-font-size-300);
+      background-color: var(--dockit-cell);
+      padding: 0.1rem 0.5rem;
+      border-radius: 0.375rem;
+    }
   }
 
   p,
@@ -141,7 +115,7 @@
     background-color: var(--dockit-border-color);
     display: block;
     border: 0;
-    margin: var(--msr-space-300) 0;
+    margin: var(--dockit-section-spacer) 0;
   }
 
   code {
@@ -152,6 +126,12 @@
     &::after {
       content: '';
     }
+  }
+
+  b,
+  strong {
+    font-weight: var(--msr-font-weight-medium);
+    font-weight: 500;
   }
 
   &.prose pre {
@@ -200,6 +180,11 @@
       border: 1px solid #dee2e6;
     }
   }
+
+  .header-anchor {
+    position: absolute;
+    left: 0.5rem;
+  }
 }
 
 .markdown-body {
@@ -207,6 +192,39 @@
   > h1 {
     margin-top: 0;
   }
+}
+
+// DOCKIT LAYOUT
+// -------------------------------------------------------------------- */
+
+.header {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03), 0 -1px 0 rgba(0, 0, 0, 0.06);
+  .logo {
+    color: var(--dockit-prose-body);
+  }
+  .content-top {
+    .color-switch[data-v-8bb72a6e],
+    .navigation-toggle[data-v-8bb72a6e] {
+      color: var(--dockit-prose-body);
+      background-color: transparent;
+    }
+    .feather-moon,
+    .feather-menu {
+      background-color: transparent;
+      color: var(--dockit-navigation);
+    }
+  }
+}
+
+.logo {
+  > :first-child {
+    height: 100%;
+  }
+}
+
+.content-container[data-v-8bb72a6e] {
+  display: flex;
+  flex-direction: column;
 }
 
 // DOCKIT NAVIGATION
@@ -296,13 +314,6 @@
     flex-grow: 1;
     width: 24rem;
     padding-right: 16px;
-  }
-}
-
-.prose {
-  .header-anchor {
-    position: absolute;
-    left: 0.5rem;
   }
 }
 
