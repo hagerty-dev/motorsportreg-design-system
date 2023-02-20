@@ -244,15 +244,19 @@
 
   .package {
     font-size: 14px;
-    color: var(--dockit-navigation-package);
+    color: var(--dockit-navigation);
     opacity: 1;
-    margin: var(--msr-space-150) 0 var(--msr-space-100);
+    margin: var(--msr-space-200) 0 var(--msr-space-100);
     display: block;
-    text-transform: capitalize;
+    text-transform: uppercase;
   }
 
   ul ~ ul {
     margin-left: 0;
+    margin-top: 0;
+  }
+
+  ul {
     margin-top: 0;
   }
 
@@ -266,7 +270,8 @@
       margin: 0 0 var(--msr-space-100);
       font-weight: 400;
       background-color: transparent;
-      color: var(--dockit-navigation);
+      color: var(--dockit-navigation-package);
+
       &:hover {
         color: var(--dockit-navigation-location);
         transition: color 300ms ease-in-out;
