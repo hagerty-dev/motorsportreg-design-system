@@ -15,6 +15,10 @@ export default {
       type: String,
       default: null,
     },
+    column: {
+      type: String,
+      default: null,
+    },
   },
 };
 </script>

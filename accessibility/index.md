@@ -25,7 +25,7 @@ A simple list of things to keep in mind when testing your app or website's acces
 - **Forms** that use accessible patterns, labels which inform the purpose of a field, aria descriptions where applicable and care when developing error messaging
 - **Text alternatives** to non-decorative images or non-essential icons. Adding captions, audio description or transcripts to video
 
-## Resource
+## Resources
 
 - Learn more about preparing for accessibility https://web.dev/learn/accessibility/
 <!-- TODO: Manual accessibility testing
