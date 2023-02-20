@@ -1,5 +1,5 @@
 <template>
-  <div class="msr-doc-nav-cards">
+  <div :class="['msr-doc-nav-cards', 'msr-doc-nav-cards_`#{column}`']">
     <div class="msr-doc-nav-cards__row"><slot></slot></div>
   </div>
 </template>
@@ -32,7 +32,9 @@ export default {
   &-cards__row {
     display: grid;
     gap: 24px;
-    grid-template-columns: repeat(6, 1fr);
+    &_by3 {
+      grid-template-columns: auto;
+    }
   }
 }
 </style>

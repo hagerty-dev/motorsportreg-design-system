@@ -29,30 +29,31 @@ export default {
 <style lang="scss" scoped>
 .msr-doc-nav {
   &-card {
-    grid-column: span 3;
-    border: 1px solid var(--msr-color-gray-300);
+    background-color: var(--msr-color-gray-200);
     padding: var(--msr-space-200) var(--msr-space-200)
       calc(var(--msr-space-200) + 8px);
     border-radius: var(--msr-border-radius-300);
     text-decoration: none;
-    transition: border-color 300ms ease-in-out;
+    transition: background-color 300ms ease-in-out;
     height: 100%;
+    color: var(--msr-color-base-dark);
+    font-weight: var(--msr-font-weight-regular);
 
     &__title {
       display: block;
-      font-size: 15px;
-      font-weight: 400;
-      color: var(--msr-color-gray-600);
+      font-size: var(--msr-font-size-300);
     }
 
     &__content {
       display: block;
       line-height: var(--msr-font-line-height-tight);
       margin-top: var(--msr-space-50);
+      font-size: var(--msr-font-size-200);
     }
 
     &:hover {
-      border-color: var(--msr-color-gray-600);
+      background-color: var(--dockit-navigation-location-hover);
+      color: var(--msr-color-base-dark);
     }
   }
 }

@@ -172,6 +172,7 @@
 
   a {
     color: var(--dockit-navigation-location);
+    font-weight: var(--msr-font-weight-regular);
     &:hover {
       color: var(--dockit-navigation-location-current);
     }
