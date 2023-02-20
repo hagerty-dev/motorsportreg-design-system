@@ -36,7 +36,7 @@
                     ? 'location'
                     : undefined
                 "
-                >{{ child.key }}</a
+                >{{ filters(child.key) }}</a
               >
             </li>
           </ul>
@@ -95,6 +95,11 @@ const toggleMenu = () => (menuOpen.value = !menuOpen.value);
 const displayNav = computed(() => (menuOpen.value ? 'block' : 'none'));
 
 provide(ColorThemeKey, colorTheme);
+
+const filters = (string) => {
+  const result = string.replace('-', ' ');
+  return result;
+};
 </script>
 
 <style lang="scss">
