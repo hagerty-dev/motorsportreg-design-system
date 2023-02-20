@@ -1,4 +1,6 @@
-# 📖 Welcome to the<br/>MotorsportReg Design System
+<span style="font-size: 72px">📖</span>
+
+# Welcome to the MotorsportReg Design System
 
 The MSR Design system contains documentation, tools and standards that support us in developing accessible, cohesive and quality experiences at MSR.
 

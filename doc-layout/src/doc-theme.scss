@@ -16,6 +16,11 @@
   --dockit-swatch-margin-bottom: 32px;
   --dockit-swatch-color: var(--msr-color-gray-300);
   --dockit-footer-height: 64px;
+  --dockit-prose-spacer: 1.25rem;
+  --dockit-prose-spacer-m: 2rem;
+  --dockit-prose-spacer-l: 2.5rem;
+  --dockit-border-color: var(--msr-color-gray-400);
+  --dockit-border-color-bold: var(--msr-color-gray-400);
 }
 
 // DOCKIT LAYOUT
@@ -70,55 +75,65 @@
   p,
   li,
   li > p {
-    margin: 0 0 1.2rem;
+    margin: 0 0 var(--dockit-prose-spacer);
     padding: 0;
   }
   h1 {
-    font-size: var(--msr-font-size-600);
+    font-size: var(--msr-font-size-900);
     margin-bottom: 2.5rem;
   }
   h2 {
-    font-size: var(--msr-font-size-500);
+    font-size: var(--msr-font-size-700);
   }
   h3 {
-    font-size: var(--msr-font-size-400);
+    font-size: var(--msr-font-size-500);
   }
   h4 {
-    font-size: var(--msr-font-size-300);
+    font-size: var(--msr-font-size-350);
   }
   h5 {
-    font-size: var(--msr-font-size-200);
+    font-size: var(--msr-font-size-300);
   }
   h6 {
-    font-size: var(--msr-font-size-100);
-  }
-  p,
-  li {
-    font-size: var(--msr-font-size-200);
-  }
-  p,
-  li,
-  li > p {
-    margin: 0 0 1rem;
-  }
-  ul ~ ul {
-    margin-left: 0.5rem;
-  }
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-weight: 500;
+    font-size: var(--msr-font-size-300);
   }
 
   h1,
   h2,
   h3,
   h4,
-  h5,
+  h5 {
+    margin-top: 1.6rem;
+    line-height: var(--msr-font-line-height-tight);
+    font-weight: var(--msr-font-weight-medium);
+    font-weight: 500;
+    position: relative;
+  }
+
   h6 {
     margin-top: 1.6rem;
+    line-height: var(--msr-font-line-height-loose);
+    font-weight: var(--msr-font-weight-regular);
+  }
+
+  p,
+  li {
+    font-size: var(--msr-font-size-200);
+    font-weight: var(--msr-font-weight-regular);
+    line-height: var(--msr-font-line-height-loose);
+  }
+
+  p,
+  li,
+  li > p {
+    margin: 0 0 var(--dockit-prose-spacer);
+  }
+  ul ~ ul {
+    margin-left: 0.5rem;
+  }
+  li ~ ul,
+  li > ul {
+    margin-top: var(--dockit-prose-spacer);
   }
 
   hr {
@@ -149,6 +164,7 @@
   table {
     width: 100%;
   }
+
   table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -163,6 +179,26 @@
     background-color: var(--dockit-cell);
     border-radius: 0.375rem;
     font-family: Monaco, Consolas, 'Courier New', monospace;
+  }
+
+  a {
+    color: var(--dockit-navigation-location);
+    &:hover {
+      color: var(--dockit-navigation-location-current);
+    }
+  }
+
+  table:not(.msr-doc-table table) {
+    border: 1px solid var(--dockit-border-color);
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    td,
+    th {
+      padding: 0.75rem;
+      vertical-align: top;
+      border: 1px solid #dee2e6;
+    }
   }
 }
 
@@ -190,6 +226,7 @@
 
   ul ~ ul {
     margin-left: 0;
+    margin-top: 0;
   }
 
   ul li {
@@ -241,14 +278,6 @@
   margin: 64px auto 0;
 }
 
-// FONT FACE
-// -------------------------------------------------------------------- */
-
-p {
-  font-size: var(--msr-font-size-100);
-  padding-top: 0;
-}
-
 // DOCKIT CUSTOM SWATCH
 // -------------------------------------------------------------------- */
 
@@ -267,6 +296,13 @@ p {
     flex-grow: 1;
     width: 24rem;
     padding-right: 16px;
+  }
+}
+
+.prose {
+  .header-anchor {
+    position: absolute;
+    left: 0.5rem;
   }
 }
 
@@ -294,6 +330,7 @@ p {
   td {
     font-size: var(--msr-font-size-100);
     padding: 16px 24px 14px;
+    // border: none;
     border-top: 1px solid var(--dockit-border-color-bold);
     border-right: 1px solid var(--dockit-border-color-bold);
     vertical-align: middle;

@@ -7,7 +7,7 @@ a number, an animation ease as Bezier coordinates.
 Design Tokens help us create a
 unified design language.
 
-### The available set
+### Base tokens:
 
 ```css
 --msr-border-width-100: 1px;
