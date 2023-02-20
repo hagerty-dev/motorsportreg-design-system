@@ -20,7 +20,7 @@ And we aim to provide our developers and designers alike with tooling and assets
 
 Check out our guides for Designers and Engineers
 
-<MSRDocNavCardsRow>
+<MSRDocNavCardsRow column="2">
 <MSRDocNavCards title="Designers" href="../designer/">
 <template #content>Understand our design foundations</template>
 </MSRDocNavCards>

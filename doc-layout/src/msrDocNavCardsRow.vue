@@ -1,6 +1,6 @@
 <template>
-  <div :class="['msr-doc-nav-cards', 'msr-doc-nav-cards_`#{column}`']">
-    <div class="msr-doc-nav-cards__row"><slot></slot></div>
+  <div class="msr-doc-nav-cards">
+    <div :class="['msr-doc-nav-cards__row', columns]"><slot></slot></div>
   </div>
 </template>
 
@@ -20,6 +20,28 @@ export default {
       default: null,
     },
   },
+
+  // return [
+  //       this.size === 'large'
+  //         ? 'form-element_large'
+  //         : this.size === 'small'
+  //         ? 'form-element_small'
+  //         : this.size === 'xsmall'
+  //         ? 'form-element_xsmall'
+  //         : null,
+  //     ]
+
+  computed: {
+    columns() {
+      return [
+        this.column === '2'
+          ? 'msr-doc-nav-cards__row_2'
+          : this.column === '3'
+          ? 'msr-doc-nav-cards__row_3'
+          : null,
+      ];
+    },
+  },
 };
 </script>
 
@@ -32,8 +54,11 @@ export default {
   &-cards__row {
     display: grid;
     gap: 24px;
-    &_by3 {
-      grid-template-columns: auto;
+    &_2 {
+      grid-template-columns: auto auto;
+    }
+    &_3 {
+      grid-template-columns: auto auto auto;
     }
   }
 }

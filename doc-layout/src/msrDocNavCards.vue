@@ -30,9 +30,8 @@ export default {
 .msr-doc-nav {
   &-card {
     background-color: var(--msr-color-gray-200);
-    padding: var(--msr-space-200) var(--msr-space-200)
-      calc(var(--msr-space-200) + 8px);
-    border-radius: var(--msr-border-radius-300);
+    padding: var(--msr-space-400);
+    border-radius: var(--msr-border-radius-400);
     text-decoration: none;
     transition: background-color 300ms ease-in-out;
     height: 100%;
