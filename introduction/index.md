@@ -10,7 +10,7 @@
 
 This philosophy lives as a collection of our visual assets, icons, design tokens, Vue components, utilities and documentation which tie it all together.
 
-The MSR Design System supports developers and designers alike with tooling and assets to help us build consistent customer UI's efficiently using Figma and Vue.
+This document and system of tokens aims to provide developers and designers alike with tooling and assets to help us build consistent customer UI's efficiently using Figma and Vue.
 
 <strong>Note:</strong> While this documentation project is ongoing, this is an intial effort to capture our philosophy.
 
