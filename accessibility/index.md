@@ -1,8 +1,8 @@
 # Accessibility
 
-This design system aims to adhere's to the [World Wide Web Consortium’s (W3C) Web Content Accessibility Guidelines (WCAG 2.1)](https://www.w3.org/TR/WCAG21/)
+###### We strive to be part of and help create an environment which empowers simpler & better life experiences, for everyone. Being inclusive and open allows meaningfull collaboration and equal interaction of our websites and web apps.
 
-We strive to be part of and help create an environment which empowers simpler & better life experiences, for everyone. Being inclusive and open allows meaningfull collaboration and equal interaction of our websites and web apps.
+This design system aims to adhere's to the [World Wide Web Consortium’s (W3C) Web Content Accessibility Guidelines (WCAG 2.1)](https://www.w3.org/TR/WCAG21/)
 
 Over 1.3 billion people self identify as having a disability, which makes this the largest minority group worldwide, estimated by the <a href="https://www.who.int/teams/noncommunicable-diseases/sensory-functions-disability-and-rehabilitation/world-report-on-disability" target="_blank">WHO (World Health Organization)</a>
 

@@ -29,8 +29,6 @@ yarn add @backlight-dev/debt-squeal-u99rm.vue3-l4zu8jbp
 
 This will provide you with our base tokens that contain color, spacing, typography etc in your `node_modules` directory as `@backlight-dev`
 
----
-
 ### Usage
 
 Once installed, configure the token import in either your `vue.config.js` file, or if you ❤️ Nuxt like we do, add the dependencies to your `nuxt.config.js` as outlined below.
@@ -111,7 +109,7 @@ head: {
 </style>
 ```
 
-## or alternatively in:
+or alternatively in:
 
 ```js
 // main.js

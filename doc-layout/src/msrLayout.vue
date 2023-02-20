@@ -49,7 +49,7 @@
       <slot></slot>
     </article>
     <div :class="`msr-doc-footer ${colorTheme}`">
-      <div>🏎️ By Hagerty Motorsports, LLC</div>
+      <div>📖 By Hagerty Motorsports, LLC</div>
       <div>MotorsportReg Design System 2022 - 2023</div>
     </div>
   </main>

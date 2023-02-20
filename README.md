@@ -1,4 +1,4 @@
-<span style="font-size: 72px">📖</span>
+<span style="font-size: 72px">🏎️ </span>
 
 # MotorsportReg Design System
 
@@ -12,6 +12,6 @@ And we aim to provide our developers and designers alike with tooling and assets
 
 ---
 
-### 🚀 Ready to get started ?
+### Ready to get started ?
 
 Check out our guides for [Designers]('blob/main/designer/index.md') and [Engineers]('blob/main/designer/index.md')

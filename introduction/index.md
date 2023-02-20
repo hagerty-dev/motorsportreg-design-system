@@ -2,7 +2,7 @@
   import { MSRDocNavCardsRow, MSRDocNavCards } from '../index';
 </script>
 
-<span style="font-size: 72px">📖</span>
+<span style="font-size: 72px">🏎️ </span>
 
 # MotorsportReg Design System
 
@@ -16,7 +16,7 @@ And we aim to provide our developers and designers alike with tooling and assets
 
 ---
 
-### 🚀 Ready to get started ?
+### Ready to get started ?
 
 Check out our guides for Designers and Engineers
 

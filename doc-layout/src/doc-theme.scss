@@ -22,6 +22,7 @@
   --dockit-border-color: var(--msr-color-gray-600);
   --dockit-border-color-bold: var(--msr-color-gray-600);
   --dockit-section-spacer: var(--msr-space-500);
+  --dockit-section-spacer-2: var(--msr-space-600);
 }
 
 .prose {
@@ -47,14 +48,13 @@
     padding: 0;
   }
   h1 {
-    font-size: var(--msr-font-size-900);
-    margin-bottom: 2rem;
+    font-size: var(--msr-font-size-800);
   }
   h2 {
-    font-size: var(--msr-font-size-700);
+    font-size: var(--msr-font-size-600);
   }
   h3 {
-    font-size: var(--msr-font-size-500);
+    font-size: var(--msr-font-size-400);
   }
   h4 {
     font-size: var(--msr-font-size-350);
@@ -71,15 +71,20 @@
   h3,
   h4,
   h5 {
-    margin-top: var(--dockit-section-spacer);
+    margin-top: var(--dockit-section-spacer-2);
     line-height: var(--msr-font-line-height-tight);
     font-weight: var(--msr-font-weight-medium);
     font-weight: 500;
     position: relative;
   }
 
+  h2 {
+    margin-top: calc(var(--dockit-section-spacer) * 1.1);
+  }
+
   h6 {
-    margin-top: 2rem;
+    margin-top: calc(var(--dockit-section-spacer));
+    margin-bottom: calc(var(--dockit-section-spacer) * 0.8);
     line-height: var(--msr-font-line-height-loose);
     font-weight: var(--msr-font-weight-regular);
     code {
@@ -115,7 +120,7 @@
     background-color: var(--dockit-border-color);
     display: block;
     border: 0;
-    margin: var(--dockit-section-spacer) 0;
+    margin: var(--dockit-section-spacer-2) 0;
   }
 
   code {
@@ -132,6 +137,10 @@
   strong {
     font-weight: var(--msr-font-weight-medium);
     font-weight: 500;
+  }
+
+  ul li::marker {
+    color: var(--dockit-prose-body);
   }
 
   &.prose pre {
