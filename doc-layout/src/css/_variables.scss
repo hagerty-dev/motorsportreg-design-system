@@ -1,0 +1,20 @@
+:root {
+  --dockit-vue-spacer: 16px;
+  --dockit-vue-header-height: calc(
+    var(--dockit-vue-header-content-height) + 2 * var(--dockit-vue-spacer)
+  );
+  --dockit-vue-nav-width: calc(12rem + 2 * var(--dockit-vue-spacer));
+  --dockit-vue-header-content-height: 2rem;
+  --navigation-group-heading-color: #b1b5b9;
+  --dockit-swatch-title: 24px;
+  --dockit-swatch-margin-bottom: 32px;
+  --dockit-swatch-color: var(--msr-color-gray-300);
+  --dockit-footer-height: 64px;
+  --dockit-prose-spacer: 1.25rem;
+  --dockit-prose-spacer-m: 2rem;
+  --dockit-prose-spacer-l: 2.5rem;
+  --dockit-border-color: var(--msr-color-gray-600);
+  --dockit-border-color-bold: var(--msr-color-gray-600);
+  --dockit-section-spacer: var(--msr-space-500);
+  --dockit-section-spacer-2: var(--msr-space-600);
+}

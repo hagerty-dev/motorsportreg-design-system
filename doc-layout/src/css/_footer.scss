@@ -1,0 +1,18 @@
+// DOCKIT FOOTER
+// -------------------------------------------------------------------- */
+.msr-doc-footer {
+  position: relative;
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  font-size: 14px;
+  height: var(--dockit-footer-height);
+  background-color: var(--dockit-layout-bg);
+  z-index: 10000;
+  padding: 1.5rem 0;
+  color: var(--dockit-prose-body-sub);
+  border-top: 1px solid var(--dockit-border-color);
+  max-width: 1000px;
+  margin: 64px auto 0;
+}
