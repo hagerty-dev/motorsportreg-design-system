@@ -53,7 +53,7 @@ export default {
     }
 
     &:hover {
-      background-color: var(--dockit-navigation-location-hover);
+      background-color: var(--dockit-navigation-interaction-hover);
       color: var(--msr-color-base-dark);
     }
   }

@@ -1,6 +1,10 @@
 <template>
   <div class="msr-doc-nav-cards">
-    <div :class="['msr-doc-nav-cards__row', columns]"><slot></slot></div>
+    <div
+      :class="['msr-doc-nav-cards__row', 'msr-doc-nav-cards__row_' + column]"
+    >
+      <slot></slot>
+    </div>
   </div>
 </template>
 
@@ -18,28 +22,6 @@ export default {
     column: {
       type: String,
       default: null,
-    },
-  },
-
-  // return [
-  //       this.size === 'large'
-  //         ? 'form-element_large'
-  //         : this.size === 'small'
-  //         ? 'form-element_small'
-  //         : this.size === 'xsmall'
-  //         ? 'form-element_xsmall'
-  //         : null,
-  //     ]
-
-  computed: {
-    columns() {
-      return [
-        this.column === '2'
-          ? 'msr-doc-nav-cards__row_2'
-          : this.column === '3'
-          ? 'msr-doc-nav-cards__row_3'
-          : null,
-      ];
     },
   },
 };

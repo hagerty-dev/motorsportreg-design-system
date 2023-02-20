@@ -126,7 +126,7 @@
   code {
     font-weight: normal;
     font-size: 0.8rem;
-    color: var(--dockit-navigation-location);
+    color: var(--dockit-navigation-interaction);
     &::before,
     &::after {
       content: '';
@@ -171,10 +171,10 @@
   }
 
   a {
-    color: var(--dockit-navigation-location);
+    color: var(--dockit-navigation-interaction);
     font-weight: var(--msr-font-weight-regular);
     &:hover {
-      color: var(--dockit-navigation-location-current);
+      color: var(--dockit-navigation-interaction-current);
     }
   }
 
@@ -274,13 +274,13 @@
       color: var(--dockit-navigation-package);
 
       &:hover {
-        color: var(--dockit-navigation-location);
+        color: var(--dockit-navigation-interaction);
         transition: color 300ms ease-in-out;
       }
     }
     a[aria-current='location'][data-v-8bb72a6e] {
       font-weight: inherit;
-      color: var(--dockit-navigation-location);
+      color: var(--dockit-navigation-interaction);
       background-color: transparent;
       padding: 0;
       margin: 0 0 var(--msr-space-100);
