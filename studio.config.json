@@ -4,12 +4,7 @@
     "menu": [
       [
         "get started",
-        [
-          "introduction",
-          "developer",
-          "designer",
-          "accessibility"
-        ]
+        ["introduction", "developer", "designer", "accessibility"]
       ],
       [
         "styles",
@@ -25,23 +20,8 @@
           "tokens"
         ]
       ],
-      [
-        "infrastructure",
-        [
-          "doc-layout",
-          "types",
-          "sd-input"
-        ]
-      ],
-      [
-        "resources",
-        [
-          "icons",
-          "content",
-          "contributing",
-          "faq"
-        ]
-      ],
+      ["infrastructure", ["doc-layout", "types", "sd-input"]],
+      ["resources", ["icons", "template", "contributing", "faq"]],
       "index.html"
     ]
   },

@@ -1,48 +1,22 @@
-# Writing Documentation
-
----
-
-## Document formatting
-
-Our documentation is written using MDJS. Below are formatting examples :
-
-TODO: Expose markdown code for writers
-
 # Header 1
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+###### Lead text follows header 1, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
 
 ## Header 2
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
 ### Header 3
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 #### Header 4
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
 ##### Header 5
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+###### Header 6 is used for Lead paragraph with a length of two lines at most. As Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-###### Header 6
+Paragraph Text as Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-# Markdown
-
-## Horizontal Rules
+Paragraph Text as Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 ---
-
----
-
----
-
-## Emphasis
 
 **This is bold text**
 
@@ -50,17 +24,13 @@ _This is italic text_
 
 ~~Strikethrough~~
 
-## Blockquotes
-
 > Blockquotes can also be nested...
 >
 > > ...by using additional greater-than signs right next to each other...
 > >
 > > > ...or with spaces between arrows.
 
-## Lists
-
-Unordered
+Unordered List
 
 - Create a list by starting a line with `+`, `-`, or `*`
 - Sub-lists are made by indenting 2 spaces:
@@ -70,7 +40,7 @@ Unordered
     - Nulla volutpat aliquam velit
 - Very easy!
 
-Ordered
+Ordered List
 
 1. Lorem ipsum dolor sit amet
 2. Consectetur adipiscing elit
@@ -83,6 +53,8 @@ Start numbering with offset:
 
 57. foo
 1. bar
+
+---
 
 ## Code
 
@@ -111,6 +83,8 @@ var foo = function (bar) {
 console.log(foo(5));
 ```
 
+---
+
 ## Tables
 
 | Option | Description                                                               |
@@ -126,6 +100,8 @@ Right aligned columns
 |   data | path to data files to supply the data that will be passed into templates. |
 | engine |    engine to be used for processing templates. Handlebars is the default. |
 |    ext |                                      extension to be used for dest files. |
+
+---
 
 ## Links
 
