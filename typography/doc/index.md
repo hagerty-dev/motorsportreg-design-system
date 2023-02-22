@@ -1,5 +1,5 @@
 <script setup>
-  import { MSRDocTypography } from '../src/msrDocTypography.vue';
+  import { MSRDocTypography } from '../../index'
   import { typographyWeight, typographyLineHeight, typographySize, typographyType } from '../src/_type.js';
   
 </script>
@@ -18,13 +18,34 @@ Our design system leverages a purposeful set of typographic styles. We’ve stre
 
 ## Font Sub-family
 
-<div class="swatch" v-for="font in typographyType">
+<div class="msr-doc-table">
+<table>
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Value</th>
+      <th>Preview</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr v-for="value in typographyType">
+      <td>{{value.token}}
+      </td>
+      <td>{{value.weight}}</td>
+      <td :style="{fontStretch: value.stretch, fontWeight: value.weight}">GT America {{value.style}}</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<!-- <div class="swatch" v-for="font in typographyType">
   <div class="swatch__row">
-    <div class="swatch__heading" :style="{fontStretch: font.stretch, fontWeight: font.weight}">GT America {{font.type}}</div>
+    <div class="swatch__heading" :style="{fontStretch: font.stretch, fontWeight: font.weight}">GT America {{font.token}}</div>
+    <div></div>
     <div :style="{fontStretch: font.stretch, fontWeight: font.weight}">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</div>
   </div>
-</div>
+</div> -->
 
 ## Font weight
 

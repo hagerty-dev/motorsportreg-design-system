@@ -1,11 +1,13 @@
 export const typographyType = [
   {
-    type: 'Regular',
+    token: 'font.weight.regular',
+    style: 'Regular',
     weight: '400',
     stretch: 'normal',
   },
   {
-    type: 'Extended',
+    token: 'font.weight.extended',
+    style: 'Extended',
     weight: '500',
     stretch: 'expanded',
   },

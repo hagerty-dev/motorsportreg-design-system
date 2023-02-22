@@ -1,5 +1,5 @@
 <script setup>
-  import { MSRDocShadow } from '../src/msrDocShadow.vue'
+  import { MSRDocShadow } from '../../index'
   import { shadow } from '../src/_shadow.js';
   </script>
 

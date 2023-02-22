@@ -1,9 +1,9 @@
 <script setup>
-  import { MSRDocBorder } from '../src/msrDocBorder.vue'
+  import {MSRDocBorder} from '../../index'
   import { border, borderWidth } from '../src/_border.js';
   </script>
 
-# Core Border
+# Border
 
 Border tokens set stroke weight stroke color and stroke radius.
 

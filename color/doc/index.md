@@ -1,5 +1,5 @@
 <script setup>
-  import { MSRDocColor } from '../src/msrDocColor.vue'
+  import {MSRDocColor}  from '../../index'
   import { colorBase, colorGray, colorGradient, colorTransparency, colorYellow, colorBlue, colorRed, colorGreen, colorBrand } from '../src/_color.js';
 
 </script>

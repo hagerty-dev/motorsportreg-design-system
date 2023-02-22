@@ -1,5 +1,5 @@
 <script setup>
-  import { MSRDocNavCardsRow, MSRDocNavCards } from '../index';
+  import { MSRDocNavCardsRow, MSRDocNavCards } from '../../index';
 </script>
 
 <span style="font-size: 72px">🏎️ </span>
@@ -21,10 +21,10 @@ And we aim to provide our developers and designers alike with tooling and assets
 Check out our guides for Designers and Engineers
 
 <MSRDocNavCardsRow column="2">
-<MSRDocNavCards title="Designers" href="../designer/">
+<MSRDocNavCards title="Designers" href="../doc/designer/">
 <template #content>Understand our design foundations</template>
 </MSRDocNavCards>
-<MSRDocNavCards title="Developers" href="../developer/">
+<MSRDocNavCards title="Developers" href="../doc/developer/">
 <template #content>Resources in code for web</template>
 </MSRDocNavCards>
 </MSRDocNavCardsRow>

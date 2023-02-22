@@ -1,1 +1,1 @@
-# Icon resource
+# Icons

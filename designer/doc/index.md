@@ -32,7 +32,7 @@ If you launch the plugin for the very first time, you won't have any tokens defi
 
 5. Click **Save**. You will now be prompted to pull the existing tokens from the repo. Click **Yes**.
 
-Your Figma project now has the synced tokens stored locally from this MSR Design system. If you go back to the **Tokens** tab, you will be able to see the tokens shared from the `motorsportreg-design-system` repository.
+Your Figma project now has the synced tokens stored locally from this MSR Design system. If you go back to the **Tokens** tab, you will be able to see the tokens shared from the `motorsportreg-design-system` repository
 
 #### Apply tokens to your design
 
