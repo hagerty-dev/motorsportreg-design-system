@@ -106,17 +106,55 @@ const filters = (string) => {
 };
 
 onMounted(() => {
-  const menuEl = document.getElementById('main');
-  const getHeadings = document.getElementsByTagName('h2');
-  const ulEl = document.getElementById('submenu');
+  const menuEl = document.getElementById('main'),
+    getHeadings = document.querySelectorAll<HTMLElement>('h2[id]'),
+    ulEl = document.querySelector<HTMLElement>('ul#submenu');
 
   for (let i = 0; i < getHeadings.length; i++) {
     let liEl = document.createElement('li');
-    liEl.textContent = getHeadings[i].textContent;
-    ulEl?.appendChild(liEl);
+    liEl.textContent = getHeadings[i].textContent.slice(1);
+
+    liEl.setAttribute('id', getHeadings[i].id);
+
+    ulEl.appendChild(liEl);
   }
-  // menuEl?.appendChild(ulEL[0]);
-  // console.log(ulEl);
+
+  // TOC menu using Intersection observer test
+  if (getHeadings.length > 1) {
+    const updatePageMenu = (headingLi, observer) => {
+      headingLi.forEach((entry) => {
+        // verify the element is intersecting
+        const id = entry.target.getAttribute('id');
+        if (entry.intersectionRatio > 0) {
+          document
+            .querySelector(`ul#submenu li[id="${id}"`)
+            .classList.add('current');
+        } else {
+          document.querySelector(`ul#submenu li`).classList.remove('current');
+          // let newLink = document
+          //   .querySelector(`[li="${id}"]`)
+          //   .classList.add('current');
+        }
+      });
+    };
+
+    // init the observer
+    const options = {
+      root: null, // relative to document viewport
+      rootMargin: '-2px', // margin around root. Values are similar to css property. Unitless values not allowed
+      threshold: 1.0, // visible amount of item shown in relation to root
+    };
+
+    const observer = new IntersectionObserver(updatePageMenu, options);
+
+    // document.querySelectorAll('#main h2[id]').forEach((section) => {
+    //   observer.observe(section);
+    // });
+
+    document
+      .querySelectorAll('#main h2[id]')
+      .forEach((headingLi) => observer.observe(headingLi));
+  }
 });
 </script>
 
@@ -152,6 +190,42 @@ html {
   scroll-padding-top: calc(
     var(--dockit-vue-header-height) + var(--dockit-vue-spacer)
   );
+}
+#submenu {
+  position: fixed;
+  z-index: 9999;
+  top: var(--dockit-vue-header-height);
+  height: calc(100vh - var(--dockit-vue-header-height));
+  width: var(--dockit-vue-nav-width);
+  box-sizing: border-box;
+  overflow-y: auto;
+  right: 24px;
+  padding-top: 48px;
+  display: none;
+  &:before {
+    content: 'On this page';
+    display: block;
+    font-weight: 700;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  li {
+    color: black;
+    transition: color 0.5s;
+    font-size: 16px;
+    line-height: 28px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    &.current {
+      color: gray;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    display: block;
+  }
 }
 </style>
 
@@ -286,40 +360,6 @@ ul {
     padding-left: calc(
       var(--dockit-vue-nav-width) + 3 * var(--dockit-vue-spacer)
     );
-  }
-}
-
-#submenu {
-  position: fixed;
-  z-index: 9999;
-  top: var(--dockit-vue-header-height);
-  height: calc(100vh - var(--dockit-vue-header-height));
-  width: var(--dockit-vue-nav-width);
-  box-sizing: border-box;
-  overflow-y: auto;
-  right: 24px;
-  padding-top: 48px;
-  display: none;
-  &:before {
-    content: 'On this page';
-    display: block;
-    font-weight: 700;
-    margin-bottom: 16px;
-    text-transform: uppercase;
-    font-size: 12px;
-  }
-  li {
-    color: black;
-    transition: color 0.5s;
-    font-size: 16px;
-    line-height: 28px;
-    display: block;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-  @media screen and (min-width: 1024px) {
-    display: block;
   }
 }
 </style>
