@@ -44,15 +44,19 @@
       </ul>
     </div>
   </aside>
-  <main :class="`content-container ${colorTheme}`">
+  <main id="main" :class="`content-container ${colorTheme}`">
     <article class="prose dark:prose-invert">
       <slot></slot>
     </article>
+
     <div :class="`msr-doc-footer ${colorTheme}`">
       <div>📖 By Hagerty Motorsports, LLC</div>
       <div>MotorsportReg Design System 2022 - 2023</div>
     </div>
   </main>
+  <ul id="submenu">
+    <!-- -->
+  </ul>
 </template>
 
 <script setup lang="ts">
@@ -62,7 +66,7 @@ import moonSvg from './moon.svg?raw';
 import sunSvg from './sun.svg?raw';
 import menuSvg from './menu.svg?raw';
 import xSvg from './x.svg?raw';
-import { computed, provide, ref } from 'vue';
+import { computed, provide, ref, onMounted } from 'vue';
 import { ColorThemeKey } from './LayoutConstants';
 
 const props = defineProps<{
@@ -100,6 +104,20 @@ const filters = (string) => {
   const result = string.replace('-', ' ');
   return result;
 };
+
+onMounted(() => {
+  const menuEl = document.getElementById('main');
+  const getHeadings = document.getElementsByTagName('h2');
+  const ulEl = document.getElementById('submenu');
+
+  for (let i = 0; i < getHeadings.length; i++) {
+    let liEl = document.createElement('li');
+    liEl.textContent = getHeadings[i].textContent;
+    ulEl?.appendChild(liEl);
+  }
+  // menuEl?.appendChild(ulEL[0]);
+  // console.log(ulEl);
+});
 </script>
 
 <style lang="scss">
@@ -262,9 +280,46 @@ ul {
   padding-left: calc(3 * var(--dockit-vue-spacer));
 
   @media screen and (min-width: 1024px) {
+    padding-right: calc(
+      var(--dockit-vue-nav-width) + 4 * var(--dockit-vue-spacer)
+    );
     padding-left: calc(
       var(--dockit-vue-nav-width) + 3 * var(--dockit-vue-spacer)
     );
+  }
+}
+
+#submenu {
+  position: fixed;
+  z-index: 9999;
+  top: var(--dockit-vue-header-height);
+  height: calc(100vh - var(--dockit-vue-header-height));
+  width: var(--dockit-vue-nav-width);
+  box-sizing: border-box;
+  overflow-y: auto;
+  right: 24px;
+  padding-top: 48px;
+  display: none;
+  &:before {
+    content: 'On this page';
+    display: block;
+    font-weight: 700;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  li {
+    color: black;
+    transition: color 0.5s;
+    font-size: 16px;
+    line-height: 28px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  @media screen and (min-width: 1024px) {
+    display: block;
   }
 }
 </style>
