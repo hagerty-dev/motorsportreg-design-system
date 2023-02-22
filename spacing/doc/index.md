@@ -1,5 +1,5 @@
 <script setup>
-  import { MSRDocSpacing } from '../../index'
+  import { MSRDocSpacing } from '../src/msrDocSpacing.vue'
   import { spacing } from '../src/_spacing.js';
   </script>
 

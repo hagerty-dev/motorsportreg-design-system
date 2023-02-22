@@ -1,6 +1,6 @@
 <script setup>
-  import { MSRDocTypography } from '../index';
-  import { typographyWeight, typographyLineHeight, typographySize, typographyType } from './src/_type.js';
+  import { MSRDocTypography } from '../src/msrDocTypography.vue';
+  import { typographyWeight, typographyLineHeight, typographySize, typographyType } from '../src/_type.js';
   
 </script>
 

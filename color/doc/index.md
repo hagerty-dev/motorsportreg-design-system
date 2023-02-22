@@ -1,13 +1,7 @@
 <script setup>
-  import { MSRDocColor } from '../index'
-  import { colorBase, colorGray, colorGradient, colorTransparency, colorYellow, colorBlue, colorRed, colorGreen, colorBrand } from './src/_color.js';
-  // import colorPalette from '../../sd-input/src/figma/core.json';
-  // import { MSRDocColor } from '../../index';
-  // const basePalette = x
-  // <div v-for="x in colorPalette.color.gray">
-    //{{
-    //x.value
-  //}}</div>
+  import { MSRDocColor } from '../src/msrDocColor.vue'
+  import { colorBase, colorGray, colorGradient, colorTransparency, colorYellow, colorBlue, colorRed, colorGreen, colorBrand } from '../src/_color.js';
+
 </script>
 
 # Core Color
