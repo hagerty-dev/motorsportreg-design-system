@@ -172,5 +172,10 @@ unified design language.
 --msr-shadow-500: 0px 20px 24px -4px rgba(0, 0, 0, 0.08), 0px 8px 8px -4px rgba(0, 0, 0, 0.03);
 --msr-shadow-600: 0px 24px 48px -12px rgba(0, 0, 0, 0.18);
 --msr-shadow-700: 0px 32px 64px -12px rgba(0, 0, 0, 0.16);
+```
+
+## Opacity
+
+```css
 --msr-opacity-zero: 0;
 ```
