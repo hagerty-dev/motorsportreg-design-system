@@ -1,66 +1,66 @@
 export const spacing = [
   {
-    token: '25',
+    token: 'space.25',
     value: '2px',
   },
   {
-    token: '50',
+    token: 'space.50',
     value: '4px',
   },
   {
-    token: '100',
+    token: 'space.100',
     value: '8px',
   },
   {
-    token: '150',
+    token: 'space.150',
     value: '12px',
   },
   {
-    token: '200',
+    token: 'space.200',
     value: '16px',
   },
   {
-    token: '300',
+    token: 'space.300',
     value: '24px',
   },
   {
-    token: '400',
+    token: 'space.400',
     value: '32px',
   },
   {
-    token: '500',
+    token: 'space.500',
     value: '40px',
   },
   {
-    token: '600',
+    token: 'space.600',
     value: '48px',
   },
   {
-    token: '700',
+    token: 'space.700',
     value: '55px',
   },
   {
-    token: '800',
+    token: 'space.800',
     value: '64px',
   },
   {
-    token: '900',
+    token: 'space.900',
     value: '72px',
   },
   {
-    token: '1000',
+    token: 'space.1000',
     value: '80px',
   },
   {
-    token: '1100',
+    token: 'space.1100',
     value: '88px',
   },
   {
-    token: '1200',
+    token: 'space.1200',
     value: '96px',
   },
   {
-    token: 'base',
+    token: 'space.base',
     value: '8px',
   },
 ];

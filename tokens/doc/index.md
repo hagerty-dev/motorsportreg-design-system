@@ -7,11 +7,16 @@ a number, an animation ease as Bezier coordinates.
 Design Tokens help us create a
 unified design language.
 
-### Base tokens:
+## Border width
 
 ```css
 --msr-border-width-100: 1px;
 --msr-border-width-200: 2px;
+```
+
+## Border radius
+
+```css
 --msr-border-radius-100: 3px;
 --msr-border-radius-200: 8px;
 --msr-border-radius-300: 16px;
@@ -19,6 +24,11 @@ unified design language.
 --msr-border-radius-circle: 1000px;
 --msr-border-radius-pill: 9999px;
 --msr-border-radius-none: 0px;
+```
+
+## Font size
+
+```css
 --msr-font-size-50: 15.008px;
 --msr-font-size-100: 16px;
 --msr-font-size-200: 18px;
@@ -32,6 +42,11 @@ unified design language.
 --msr-font-size-800: 56px;
 --msr-font-size-900: 64px;
 --msr-font-size-base: 16px;
+```
+
+## Font weight
+
+```css
 --msr-font-family-gt-america: GT America;
 --msr-font-weight-regular: Regular;
 --msr-font-weight-medium: Medium;
@@ -39,14 +54,34 @@ unified design language.
 --msr-font-weight-extended-medium: Extended Medium;
 --msr-font-weight-extended-regular: Extended Regular;
 --msr-font-weight-extended-bold: Extended Bold;
---msr-font-text-case-capitalize: capitalize;
+```
+
+## Line height
+
+```css
 --msr-font-line-height-tight: 110%;
 --msr-font-line-height-none: 100%;
 --msr-font-line-height-extra: 120%;
 --msr-font-line-height-standard: 125%;
 --msr-font-line-height-loose: 150%;
+```
+
+## Text transform
+
+```css
+--msr-font-text-case-capitalize: capitalize;
+```
+
+## Text style
+
+```css
 --msr-font-text-decoration-underline: underline;
 --msr-font-text-decoration-none: none;
+```
+
+## Color
+
+```css
 --msr-color-gray-200: #f4f6f8;
 --msr-color-gray-300: #dee0e2;
 --msr-color-gray-400: #c8cacb;
@@ -55,18 +90,6 @@ unified design language.
 --msr-color-gray-700: #6f757c;
 --msr-color-gray-800: #545c63;
 --msr-color-gray-900: #484c51;
---msr-color-gradient-dark: linear-gradient(90deg, #000 0%, #484c51 100%);
---msr-color-gradient-blue: linear-gradient(90deg, #007bb3 0%, #0089c7 100%);
---msr-color-gradient-gray: linear-gradient(90deg, #dee0e2 0%, #c8cacb 100%);
---msr-color-transparency-3: rgba(0, 0, 0, 0.03);
---msr-color-transparency-5: rgba(0, 0, 0, 0.05);
---msr-color-transparency-8: rgba(0, 0, 0, 0.08);
---msr-color-transparency-10: rgba(0, 0, 0, 0.1);
---msr-color-transparency-16: rgba(0, 0, 0, 0.16);
---msr-color-transparency-18: rgba(0, 0, 0, 0.18);
---msr-color-transparency-70: rgba(0, 0, 0, 0.7);
---msr-color-transparency-90: rgba(0, 0, 0, 0.9);
---msr-color-transparency-00: rgba(0, 0, 0, 0);
 --msr-color-base-light: #fff;
 --msr-color-base-dark: #000;
 --msr-color-yellow-medium: #e6c005;
@@ -83,11 +106,43 @@ unified design language.
 --msr-color-brand-secondary-default: #000;
 --msr-color-brand-secondary-medium: #484c51;
 --msr-color-brand-secondary-light: #f4f6f8;
+```
+
+## Gradient
+
+```css
+--msr-color-gradient-dark: linear-gradient(90deg, #000 0%, #484c51 100%);
+--msr-color-gradient-blue: linear-gradient(90deg, #007bb3 0%, #0089c7 100%);
+--msr-color-gradient-gray: linear-gradient(90deg, #dee0e2 0%, #c8cacb 100%);
+```
+
+## Transparency
+
+```css
+--msr-color-transparency-3: rgba(0, 0, 0, 0.03);
+--msr-color-transparency-5: rgba(0, 0, 0, 0.05);
+--msr-color-transparency-8: rgba(0, 0, 0, 0.08);
+--msr-color-transparency-10: rgba(0, 0, 0, 0.1);
+--msr-color-transparency-16: rgba(0, 0, 0, 0.16);
+--msr-color-transparency-18: rgba(0, 0, 0, 0.18);
+--msr-color-transparency-70: rgba(0, 0, 0, 0.7);
+--msr-color-transparency-90: rgba(0, 0, 0, 0.9);
+--msr-color-transparency-00: rgba(0, 0, 0, 0);
+```
+
+## Size
+
+```css
 --msr-size-16: 16px;
 --msr-size-24: 24px;
 --msr-size-32: 32px;
 --msr-size-48: 48px;
 --msr-size-56: 56px;
+```
+
+## Space
+
+```css
 --msr-space-25: 8px / 4;
 --msr-space-50: 8px / 2;
 --msr-space-100: 8px;
@@ -105,6 +160,11 @@ unified design language.
 --msr-space-1200: 96px;
 --msr-space-none: 0px;
 --msr-space-base: 8px;
+```
+
+## Shadow
+
+```css
 --msr-shadow-100: 0px 1px 2px 0px rgba(0, 0, 0, 0.03);
 --msr-shadow-200: 0px 1px 3px 0px rgba(0, 0, 0, 0.1), 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
 --msr-shadow-300: 0px 4px 8px -2px rgba(0, 0, 0, 0.08), 0px 2px 4px -2px rgba(0, 0, 0, 0.03);
