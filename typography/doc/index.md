@@ -28,24 +28,15 @@ Our design system leverages a purposeful set of typographic styles. We’ve stre
     </tr>
   </thead>
   <tbody>
-    <tr v-for="value in typographyType">
-      <td>{{value.token}}
+    <tr v-for="t in typographyType">
+      <td>{{t.token}}
       </td>
-      <td>{{value.weight}}</td>
-      <td :style="{fontStretch: value.stretch, fontWeight: value.weight}">GT America {{value.style}}</td>
+      <td>{{t.weight}}</td>
+      <td :style="{fontStretch: t.stretch, fontWeight: t.weight}">GT America {{t.style}}</td>
     </tr>
   </tbody>
 </table>
 </div>
-
-<!-- <div class="swatch" v-for="font in typographyType">
-  <div class="swatch__row">
-    <div class="swatch__heading" :style="{fontStretch: font.stretch, fontWeight: font.weight}">GT America {{font.token}}</div>
-    <div></div>
-    <div :style="{fontStretch: font.stretch, fontWeight: font.weight}">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</div>
-  </div>
-</div> -->
 
 ## Font weight
 
@@ -55,13 +46,14 @@ Our design system leverages a purposeful set of typographic styles. We’ve stre
     <tr>
       <th>Description</th>
       <th>Value</th>
+      <th>Preview</th>
     </tr>
   </thead>
   <tbody>
-    <tr v-for="value in typographyWeight">
-      <td :style="{fontWeight: value.token}">Font weight {{value.token}}
-      </td>
-      <td>{{value.weight}}</td>
+    <tr v-for="w in typographyWeight">
+      <td>{{w.token}}</td>
+      <td>{{w.value}}</td>
+      <td :style="{fontWeight: w.value}">Font weight {{w.preview}}</td>
     </tr>
   </tbody>
   
@@ -70,12 +62,24 @@ Our design system leverages a purposeful set of typographic styles. We’ve stre
 
 ## Line Height
 
-<div class="swatch" v-for="value in typographyLineHeight">
-  <div class="swatch__row">
-    <div class="swatch__heading">{{value.token}}</div>
-    <div :style="{lineHeight: value.lineHeight, fontSize: '18px'}">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</div>
-  </div>
+<div class="msr-doc-table">
+<table>
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Value</th>
+      <th>Preview</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr v-for="lh in typographyLineHeight">
+      <td>{{lh.token}}</td>
+      <td>{{lh.value}}</td>
+      <td :style="{lineHeight: lh.value}">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+    </tr>
+  </tbody>
+  
+</table>
 </div>
 
 ## Font size
@@ -86,13 +90,16 @@ Our design system leverages a purposeful set of typographic styles. We’ve stre
     <tr>
       <th>Description</th>
       <th>Value</th>
+      <th>Preview</th>
     </tr>
   </thead>
   <tbody>
-  <tr v-for="value in typographySize">
-    <td :style="{fontSize: value.fontSize}">Font size {{value.token}}
+  <tr v-for="s in typographySize">
+    <td>{{s.token}}
     </td>
-    <td>{{value.fontSize}}</td>
+    <td>{{s.value}}</td>
+    <td :style="{fontSize: s.value}">Abc
+    </td>
   </tr>
   </tbody>
   

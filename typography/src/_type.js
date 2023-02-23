@@ -14,31 +14,31 @@ export const typographyType = [
 ];
 
 export const typographyWeight = [
-  { token: 'regular', weight: 'normal' },
-  { token: 'medium', weight: '500' },
-  { token: 'bold', weight: '600' },
+  { token: 'font.weight.regular', value: 'normal', preview: 'regular' },
+  { token: 'font.weight.medium', value: '500', preview: 'medium' },
+  { token: 'font.weight.bold', value: '600', preview: 'bold' },
 ];
 
 export const typographySize = [
-  { token: '50', fontSize: '15px' },
-  { token: '100', fontSize: '16px' },
-  { token: '200', fontSize: '18px' },
-  { token: '250', fontSize: '20px' },
-  { token: '300', fontSize: '24px' },
-  { token: '350', fontSize: '28px' },
-  { token: '400', fontSize: '32px' },
-  { token: '500', fontSize: '36px' },
-  { token: '600', fontSize: '40px' },
-  { token: '700', fontSize: '48px' },
-  { token: '800', fontSize: '56px' },
-  { token: '900', fontSize: '64px' },
-  { token: 'base', fontSize: '16px' },
+  { token: 'font.size.50', value: '15px', preview: '' },
+  { token: 'font.size.100', value: '16px', preview: '' },
+  { token: 'font.size.200', value: '18px', preview: '' },
+  { token: 'font.size.250', value: '20px', preview: '' },
+  { token: 'font.size.300', value: '24px', preview: '' },
+  { token: 'font.size.350', value: '28px', preview: '' },
+  { token: 'font.size.400', value: '32px', preview: '' },
+  { token: 'font.size.500', value: '36px', preview: '' },
+  { token: 'font.size.600', value: '40px', preview: '' },
+  { token: 'font.size.700', value: '48px', preview: '' },
+  { token: 'font.size.800', value: '56px', preview: '' },
+  { token: 'font.size.900', value: '64px', preview: '' },
+  { token: 'font.size.base', value: '16px', preview: '' },
 ];
 
 export const typographyLineHeight = [
-  { token: 'None', lineHeight: '100%' },
-  { token: 'Tight', lineHeight: '110%' },
-  { token: 'Extra', lineHeight: '120%' },
-  { token: 'Standard', lineHeight: '125%' },
-  { token: 'Loose', lineHeight: '150%' },
+  { token: 'font.lineHeight.none', value: '100%', preview: '' },
+  { token: 'font.lineHeight.tight', value: '110%', preview: '' },
+  { token: 'font.lineHeight.extra', value: '120%', preview: '' },
+  { token: 'font.lineHeight.standard', value: '125%', preview: '' },
+  { token: 'font.lineHeight.loose', value: '150%', preview: '' },
 ];
