@@ -42,3 +42,29 @@ export const typographyLineHeight = [
   { token: 'font.lineHeight.standard', value: '125%', preview: '' },
   { token: 'font.lineHeight.loose', value: '150%', preview: '' },
 ];
+
+export const typographyDecoration = [
+  {
+    token: 'font.textDecoration.underline',
+    value: 'underline',
+    preview: 'underlined',
+  },
+  {
+    token: 'font.textDecoration.none',
+    value: 'none',
+    preview: 'no text style',
+  },
+];
+
+export const typographyCapitalization = [
+  {
+    token: 'font.textCase.capitalize',
+    value: 'capitalize',
+    preview: 'Capitalized',
+  },
+  {
+    token: 'font.textCase.none',
+    value: 'none',
+    preview: 'no text style',
+  },
+];

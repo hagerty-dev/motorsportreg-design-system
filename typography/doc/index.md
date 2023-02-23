@@ -1,7 +1,7 @@
 <script setup>
   import { MSRDocTypography } from '../../index'
-  import { typographyWeight, typographyLineHeight, typographySize, typographyType } from '../src/_type.js';
-  
+  import { typographyWeight, typographyLineHeight, typographySize, typographyType, typographyDecoration, typographyCapitalization } from '../src/_type.js';
+  // TODO: move to exports going forward. Slots for previews so we have control and a univeral component
 </script>
 
 # Core Typography
@@ -108,10 +108,48 @@ Our design system leverages a purposeful set of typographic styles. We’ve stre
 
 ## Text Decoration
 
-<p>Default decoration: Lorem ipsum sic dolor amet</p>
-<p>Capitalized case: <span style="text-decoration: underline;">Lorem ipsum sic dolor amet</span></p>
+<div class="msr-doc-table">
+<table>
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Value</th>
+      <th>Preview</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr v-for="s in typographyDecoration">
+    <td>{{s.token}}
+    </td>
+    <td>{{s.value}}</td>
+    <td :style="{textDecoration: s.value}">Lorem ipsum sic dolor amet
+    </td>
+  </tr>
+  </tbody>
+  
+</table>
+</div>
 
 ## Text Case
 
-<p>Default case: Lorem ipsum sic dolor amet</p>
-<p>Capitalized case: <span style="text-transform: capitalize;">Lorem ipsum sic dolor amet</span></p>
+<div class="msr-doc-table">
+<table>
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Value</th>
+      <th>Preview</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr v-for="s in typographyCapitalization">
+    <td>{{s.token}}
+    </td>
+    <td>{{s.value}}</td>
+    <td :style="{textTransform: s.value}">Lorem ipsum sic dolor amet
+    </td>
+  </tr>
+  </tbody>
+  
+</table>
+</div>

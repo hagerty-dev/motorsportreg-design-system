@@ -7,3 +7,4 @@ export { default as MSRDocColor } from '~/color/src/msrDocColor.vue';
 export { default as MSRDocSpacing } from '/spacing/src/msrDocSpacing.vue';
 export { default as MSRDocShadow } from '~/shadow/src/msrDocShadow.vue';
 export { default as MSRDocBorder } from '~/border/src/msrDocBorder.vue';
+export { default as MSRDocTypeography } from '~/typography/src/MSRDocTypeography.vue';
