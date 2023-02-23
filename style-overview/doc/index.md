@@ -4,14 +4,16 @@
 
 # Style Overview
 
+##
+
 <MSRDocNavCardsRow column="3">
-  <MSRDocNavCards title="Typography" href="../doc/typography/"><template #content>...</template></MSRDocNavCards>
-  <MSRDocNavCards title="Color" href="../doc/color/"><template #content>...</template></MSRDocNavCards>
-  <MSRDocNavCards title="Spacing" href="../doc/spacing/"><template #content>...</template></MSRDocNavCards>
-  <MSRDocNavCards title="Opacity" href="../doc/opacity/"><template #content>...</template></MSRDocNavCards>
-  <MSRDocNavCards title="Shadow" href="../doc/shadow/"><template #content>...</template></MSRDocNavCards>
-  <MSRDocNavCards title="Border" href="../doc/border/"><template #content>...</template></MSRDocNavCards>
-  <MSRDocNavCards title="Motion" href="../doc/motion/"><template #content>...</template></MSRDocNavCards>
-  <MSRDocNavCards title="Z-index" href="../doc/z-index/"><template #content>...</template></MSRDocNavCards>
-  <MSRDocNavCards title="Tokens" href="../doc/tokens/"><template #content>...</template></MSRDocNavCards>
+  <MSRDocNavCards title="Typography" href="../typography/doc"><template #content>...</template></MSRDocNavCards>
+  <MSRDocNavCards title="Color" href="../color/doc"><template #content>...</template></MSRDocNavCards>
+  <MSRDocNavCards title="Spacing" href="../spacing/doc"><template #content>...</template></MSRDocNavCards>
+  <MSRDocNavCards title="Opacity" href="../opacity/doc"><template #content>...</template></MSRDocNavCards>
+  <MSRDocNavCards title="Shadow" href="../shadow/doc"><template #content>...</template></MSRDocNavCards>
+  <MSRDocNavCards title="Border" href="../border/doc"><template #content>...</template></MSRDocNavCards>
+  <MSRDocNavCards title="Motion" href="../motion/doc"><template #content>...</template></MSRDocNavCards>
+  <MSRDocNavCards title="Z-index" href="../z-index/doc"><template #content>...</template></MSRDocNavCards>
+  <MSRDocNavCards title="Tokens" href="../tokens/doc"><template #content>...</template></MSRDocNavCards>
 </MSRDocNavCardsRow>
