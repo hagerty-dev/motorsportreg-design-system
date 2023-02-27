@@ -44,7 +44,7 @@
       </ul>
     </div>
   </aside>
-  <main id="main" :class="`content-container ${colorTheme}`">
+  <main id="main" :class="`main content-container ${colorTheme}`">
     <article class="prose dark:prose-invert">
       <slot></slot>
     </article>
@@ -54,9 +54,7 @@
       <div>MotorsportReg Design System 2022 - 2023</div>
     </div>
   </main>
-  <ul id="submenu">
-    <!-- -->
-  </ul>
+  <div id="toc"></div>
 </template>
 
 <script setup lang="ts">
@@ -96,8 +94,8 @@ const toggleColorTheme = () => {
 };
 const menuOpen = ref(false);
 const toggleMenu = () => (menuOpen.value = !menuOpen.value);
-const displayNav = computed(() => (menuOpen.value ? 'block' : 'none'));
 
+const displayNav = computed(() => (menuOpen.value ? 'block' : 'none'));
 provide(ColorThemeKey, colorTheme);
 
 const filters = (string) => {
@@ -106,55 +104,33 @@ const filters = (string) => {
 };
 
 onMounted(() => {
-  const menuEl = document.getElementById('main'),
-    getHeadings = document.querySelectorAll<HTMLElement>('h2[id]'),
-    ulEl = document.querySelector<HTMLElement>('ul#submenu');
+  const htmlTableOfContents = (documentRef) => {
+    let documentRefX = documentRef || document;
+    const toc = documentRefX.getElementById('toc');
+    const ul = documentRefX.createElement('ul');
+    const tocMenuTitle = documentRefX.createElement('h5');
+    const headings = [].slice.call(documentRefX.body.querySelectorAll('h2'));
+    tocMenuTitle.innerHTML += 'Menu';
+    if (headings.length > 1) {
+      headings.forEach(function (heading, index) {
+        const anchor = documentRefX.createElement('a');
+        anchor.setAttribute('name', 'toc' + index);
+        anchor.setAttribute('id', 'toc' + index);
+        const link = documentRefX.createElement('a');
+        link.setAttribute('href', '#toc' + index);
+        link.textContent = heading.textContent.slice(1);
+        const div = documentRefX.createElement('li');
+        div.setAttribute('class', 'toc-' + heading.tagName.toLowerCase());
+        div.appendChild(link);
+        ul.appendChild(div);
 
-  for (let i = 0; i < getHeadings.length; i++) {
-    let liEl = document.createElement('li');
-    liEl.textContent = getHeadings[i].textContent.slice(1);
-
-    liEl.setAttribute('id', getHeadings[i].id);
-
-    ulEl.appendChild(liEl);
-  }
-
-  // TOC menu using Intersection observer test
-  if (getHeadings.length > 1) {
-    const updatePageMenu = (headingLi, observer) => {
-      headingLi.forEach((entry) => {
-        // verify the element is intersecting
-        const id = entry.target.getAttribute('id');
-        if (entry.intersectionRatio > 0) {
-          document
-            .querySelector(`ul#submenu li[id="${id}"`)
-            .classList.add('current');
-        } else {
-          document.querySelector(`ul#submenu li`).classList.remove('current');
-          // let newLink = document
-          //   .querySelector(`[li="${id}"]`)
-          //   .classList.add('current');
-        }
+        heading.parentNode.insertBefore(anchor, heading);
       });
-    };
-
-    // init the observer
-    const options = {
-      root: null, // relative to document viewport
-      rootMargin: '-2px', // margin around root. Values are similar to css property. Unitless values not allowed
-      threshold: 1.0, // visible amount of item shown in relation to root
-    };
-
-    const observer = new IntersectionObserver(updatePageMenu, options);
-
-    // document.querySelectorAll('#main h2[id]').forEach((section) => {
-    //   observer.observe(section);
-    // });
-
-    document
-      .querySelectorAll('#main h2[id]')
-      .forEach((headingLi) => observer.observe(headingLi));
-  }
+      toc.appendChild(tocMenuTitle);
+      toc.appendChild(ul);
+    }
+  };
+  htmlTableOfContents();
 });
 </script>
 
@@ -191,7 +167,8 @@ html {
     var(--dockit-vue-header-height) + var(--dockit-vue-spacer)
   );
 }
-#submenu {
+#submenu,
+#toc {
   position: fixed;
   z-index: 9999;
   top: var(--dockit-vue-header-height);
@@ -200,31 +177,32 @@ html {
   box-sizing: border-box;
   overflow-y: auto;
   right: 24px;
-  padding-top: 48px;
+  padding-top: 64px;
   display: none;
-  &:before {
-    content: 'On this page';
-    display: block;
-    font-weight: 700;
-    margin-bottom: 16px;
-    text-transform: uppercase;
-    font-size: 12px;
-  }
   li {
-    color: black;
-    transition: color 0.5s;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 28px;
     display: block;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    &.current {
+    a {
+      color: black;
+      transition: color 0.5s;
+    }
+    &.current,
+    a:hover {
       color: gray;
     }
   }
   @media screen and (min-width: 1024px) {
     display: block;
+  }
+  h5 {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-bottom: 6px;
   }
 }
 </style>
