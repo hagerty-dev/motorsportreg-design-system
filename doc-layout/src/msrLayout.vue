@@ -105,22 +105,21 @@ const filters = (string) => {
 
 onMounted(() => {
   // TODO Split to file
-  const htmlTableOfContents = (documentRef) => {
-    let documentRefX = documentRef || document;
-    const toc = documentRefX.getElementById('toc');
-    const ul = documentRefX.createElement('ul');
-    const tocMenuTitle = documentRefX.createElement('h5');
-    const headings = [].slice.call(documentRefX.body.querySelectorAll('h2'));
+  const htmlTableOfContents = () => {
+    const toc = document.getElementById('toc');
+    const ul = document.createElement('ul');
+    const tocMenuTitle = document.createElement('h5');
+    const headings = [].slice.call(document.body.querySelectorAll('h2'));
     tocMenuTitle.innerHTML += 'Menu';
     if (headings.length > 1) {
       headings.forEach(function (heading, index) {
-        const anchor = documentRefX.createElement('a');
+        const anchor = document.createElement('a');
         anchor.setAttribute('name', 'toc' + index);
         anchor.setAttribute('id', 'toc' + index);
-        const link = documentRefX.createElement('a');
+        const link = document.createElement('a');
         link.setAttribute('href', '#toc' + index);
         link.textContent = heading.textContent.slice(1);
-        const div = documentRefX.createElement('li');
+        const div = document.createElement('li');
         div.setAttribute('class', 'toc-' + heading.tagName.toLowerCase());
         div.appendChild(link);
         ul.appendChild(div);
