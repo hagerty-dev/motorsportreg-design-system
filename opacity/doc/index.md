@@ -18,7 +18,7 @@
 ];
 </script>
 
-# Core opacity
+# Opacity
 
 ##
 

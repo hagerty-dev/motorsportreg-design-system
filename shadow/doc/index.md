@@ -3,7 +3,7 @@
   import { shadow } from '../src/_shadow.js';
   </script>
 
-# Core Shadow
+# Shadow
 
 ###### Shadows allow you to add depth and realism to designs by positioning elements on a z-axis.
 

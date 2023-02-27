@@ -4,7 +4,7 @@
   // TODO: move to exports going forward. Slots for previews so we have control and a univeral component
 </script>
 
-# Core Typography
+# Typography
 
 The core font used across our products is [GT America](https://www.gt-america.com) by GrilliType. Which is modern serif which stands out and is bold and accessible.
 
