@@ -104,6 +104,7 @@ const filters = (string) => {
 };
 
 onMounted(() => {
+  // TODO Split to file
   const htmlTableOfContents = (documentRef) => {
     let documentRefX = documentRef || document;
     const toc = documentRefX.getElementById('toc');
@@ -130,7 +131,7 @@ onMounted(() => {
       toc.appendChild(ul);
     }
   };
-  htmlTableOfContents();
+  return htmlTableOfContents();
 });
 </script>
 
