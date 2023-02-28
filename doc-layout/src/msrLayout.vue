@@ -51,7 +51,7 @@
 
     <div :class="`msr-doc-footer ${colorTheme}`">
       <div>📖 By Hagerty Motorsports, LLC</div>
-      <div>MotorsportReg Design System 2022 - 2023</div>
+      <div>MotorsportReg Design System 2022 - {{ currentYear }}</div>
     </div>
   </main>
   <div id="toc"></div>
@@ -60,12 +60,14 @@
 <script setup lang="ts">
 import type { Page, Context } from '@divriots/studio-doc-compiler';
 import { setupSpeedyLinks } from '@divriots/dockit-core/speedy-links';
-import moonSvg from './moon.svg?raw';
-import sunSvg from './sun.svg?raw';
-import menuSvg from './menu.svg?raw';
-import xSvg from './x.svg?raw';
+import moonSvg from './assets/moon.svg?raw';
+import sunSvg from './assets/sun.svg?raw';
+import menuSvg from './assets/menu.svg?raw';
+import xSvg from './assets/x.svg?raw';
 import { computed, provide, ref, onMounted } from 'vue';
 import { ColorThemeKey } from './LayoutConstants';
+
+const currentYear = new Date().getFullYear();
 
 const props = defineProps<{
   docContext: Context & {

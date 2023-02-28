@@ -21,10 +21,10 @@ And we aim to provide our developers and designers alike with tooling and assets
 Check out our guides for Designers and Engineers
 
 <MSRDocNavCardsRow column="2">
-<MSRDocNavCards title="Designers" href="../designer/doc">
+<MSRDocNavCards title="Designers" href="../../designer/doc">
 <template #content>Understand our design foundations</template>
 </MSRDocNavCards>
-<MSRDocNavCards title="Developers" href="../developer/doc">
+<MSRDocNavCards title="Developers" href="../../developer/doc">
 <template #content>Resources in code for web</template>
 </MSRDocNavCards>
 </MSRDocNavCardsRow>
