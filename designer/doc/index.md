@@ -47,12 +47,13 @@ If you have updated a token or added new tokens, you need to sync these changes 
 1. Set your Default Branch to: `figma-tokens`. This is an important step, as the branch name has to be correct for the sync to be successful, and this is where your changes will live.
 1. You will be prompted to push your local changes to the repo. If they are ready to push, click **Push**. If you are not ready to push your changes, click **Cancel**.
 1. In the bottom left of the Figma Tokens Plugin, you will see your branch name and two arrows. If you didn't push your changes in the previous step, but you are now ready to push, you can click the **Up Arrow**. Make sure the branch is still set to `figma-tokens` and provide a short, descriptive commit message so that your intentions or changes are clear and so you can review it again later if needed. Click **Push**.
+1. Skip the Pull request button. As a pull request will be automatically created for review.
 
 Congratulations, you have successfully pushed your token updates to the MSR Design system. There are a few final steps before they can be shipped to production.
 
 #### Token review
 
-1. Ask a developer to review and approve the PR that is created in the <a href="https://github.com/hagerty-dev/motorsportreg-design-system/pulls)">MSR Design system repo</a>
+1. Ask a developer to review and approve the PR that was created in the <a href="https://github.com/hagerty-dev/motorsportreg-design-system/pulls)">MSR Design system repo</a>
 1. Review the changes in the Backlight preview that appears on the PR.
 1. If the PR is approved and the Backlight preview looks good, you or the developer may merge the PR.
 1. Release a new version of the MSR Design system via Backlight. This can be done by clicking on the **Release button** in the left sidebar in Backlight and clicking **Release**.
