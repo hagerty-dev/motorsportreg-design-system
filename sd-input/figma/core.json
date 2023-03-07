@@ -51,7 +51,7 @@
         "description": "15px / 0.938rem"
       },
       "100": {
-        "value": "{font.size.base}*1",
+        "value": "{font.size.base} * 1",
         "type": "fontSizes",
         "description": "16px / 1rem"
       },
@@ -390,15 +390,15 @@
   },
   "space": {
     "25": {
-      "value": "{space.base} / 4",
+      "value": "{space.base} * 0.25",
       "type": "spacing"
     },
     "50": {
-      "value": "{space.base} / 2",
+      "value": "{space.base} * 0.5",
       "type": "spacing"
     },
     "100": {
-      "value": "{space.base}",
+      "value": "{space.base} * 1",
       "type": "spacing"
     },
     "150": {
