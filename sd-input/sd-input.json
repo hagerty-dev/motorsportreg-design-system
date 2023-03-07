@@ -480,20 +480,22 @@
       "type": "fontWeights",
       "description": "700"
     },
-    "extendedMedium": {
-      "value": "Extended Medium",
-      "type": "fontWeights",
-      "description": "500"
-    },
-    "extendedRegular": {
-      "value": "Extended Regular",
-      "type": "fontWeights",
-      "description": "400"
-    },
-    "extendedBold": {
-      "value": "Extended Bold",
-      "type": "fontWeights",
-      "description": "700"
+    "extended": {
+      "medium": {
+        "value": "Extended Medium",
+        "type": "fontWeights",
+        "description": "500"
+      },
+      "regular": {
+        "value": "Extended Regular",
+        "type": "fontWeights",
+        "description": "400"
+      },
+      "bold": {
+        "value": "Extended Bold",
+        "type": "fontWeights",
+        "description": "700"
+      }
     }
   },
   "textCase": {
