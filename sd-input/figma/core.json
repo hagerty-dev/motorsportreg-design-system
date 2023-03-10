@@ -238,7 +238,7 @@
         "description": "Primary button hover "
       },
       "blue": {
-        "value": "linear-gradient(90deg, {color.brand.primary.default} 0%, {color.brand.primary.bright} 100%)",
+        "value": "linear-gradient(90deg, {color.hagerty.default} 0%, {color.hagerty.bright} 100%)",
         "type": "color"
       },
       "gray": {
@@ -335,34 +335,32 @@
         "type": "color"
       }
     },
-    "brand": {
-      "primary": {
-        "default": {
-          "value": "#007BB3",
-          "type": "color"
-        },
-        "bright": {
-          "value": "#0089C7",
-          "type": "color"
-        },
-        "light": {
-          "value": "#EAF9FF",
-          "type": "color"
-        }
+    "hagerty": {
+      "default": {
+        "value": "#007BB3",
+        "type": "color"
       },
-      "secondary": {
-        "default": {
-          "value": "{color.base.dark}",
-          "type": "color"
-        },
-        "medium": {
-          "value": "{color.gray.900}",
-          "type": "color"
-        },
-        "light": {
-          "value": "{color.gray.200}",
-          "type": "color"
-        }
+      "bright": {
+        "value": "#0089C7",
+        "type": "color"
+      },
+      "light": {
+        "value": "#EAF9FF",
+        "type": "color"
+      }
+    },
+    "primary": {
+      "default": {
+        "value": "{color.base.dark}",
+        "type": "color"
+      },
+      "medium": {
+        "value": "{color.gray.900}",
+        "type": "color"
+      },
+      "light": {
+        "value": "{color.gray.200}",
+        "type": "color"
       }
     }
   },

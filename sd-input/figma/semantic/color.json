@@ -9,12 +9,8 @@
         "value": "{color.gray.900}",
         "type": "color"
       },
-      "actionPrimary": {
-        "value": "{color.brand.primary.default}",
-        "type": "color"
-      },
-      "actionSecondary": {
-        "value": "{color.brand.secondary.default}",
+      "action": {
+        "value": "{color.base.dark}",
         "type": "color"
       },
       "nonessential": {
@@ -29,11 +25,7 @@
         "value": "{color.gray.500}",
         "type": "color"
       },
-      "actionPrimary--ondark": {
-        "value": "{color.brand.primary.bright}",
-        "type": "color"
-      },
-      "actionSecondary--ondark": {
+      "action--ondark": {
         "value": "{color.base.light}",
         "type": "color"
       },
@@ -49,7 +41,7 @@
         "value": "{color.base.dark}",
         "type": "color"
       },
-      "default--ondark": {
+      "inverse": {
         "value": "{color.base.light}",
         "type": "color"
       }
@@ -113,21 +105,29 @@
     "color": {
       "primary": {
         "default": {
-          "value": "{color.brand.primary.default}",
+          "value": "{color.primary.default}",
           "type": "color"
         },
         "hover": {
-          "value": "{color.brand.primary.bright}",
+          "value": "{color.primary.medium}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{color.gray.400}",
           "type": "color"
         }
       },
       "secondary": {
         "default": {
-          "value": "{color.brand.secondary.default}",
+          "value": "{color.base.light}",
           "type": "color"
         },
         "hover": {
-          "value": "{color.brand.secondary.medium}",
+          "value": "{color.gray.400}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{color.gray.200}",
           "type": "color"
         }
       }
@@ -135,20 +135,16 @@
   },
   "background": {
     "color": {
-      "light": {
+      "default": {
         "value": "{color.base.light}",
         "type": "color"
       },
-      "dark": {
+      "inverse": {
         "value": "{color.base.dark}",
         "type": "color"
       },
-      "gray": {
+      "secondary": {
         "value": "{color.gray.200}",
-        "type": "color"
-      },
-      "brand": {
-        "value": "{color.brand.primary.default}",
         "type": "color"
       }
     }
@@ -159,7 +155,7 @@
         "value": "{color.gray.300}",
         "type": "color"
       },
-      "dark": {
+      "inverse": {
         "value": "{color.base.dark}",
         "type": "color"
       },
