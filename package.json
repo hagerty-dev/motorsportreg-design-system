@@ -1,5 +1,5 @@
 {
-  "name": "@backlight-dev/msr-dev",
+  "name": "@backlight-dev/debt-squeal-u99rm.vue3-l4zu8jbp",
   "version": "0.2.11",
   "description": "",
   "license": "MIT",
@@ -13,6 +13,7 @@
   },
   "types": "index.d.ts",
   "dependencies": {
+    "color2k": "^2.0.2",
     "vue": "^3.1.4"
   },
   "files": [
@@ -26,7 +27,8 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "2.7.1",
-    "style-dictionary": "^3.7.1",
-    "token-transformer": "^0.0.24"
+    "style-dictionary": "^3.7.2",
+    "token-transformer": "^0.0.29",
+    "expr-eval": "*"
   }
 }
