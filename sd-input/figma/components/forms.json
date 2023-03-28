@@ -43,7 +43,7 @@
           "type": "color"
         },
         "disabled": {
-          "value": "{text.color.default}",
+          "value": "{color.text.default}",
           "type": "color"
         }
       }
@@ -145,11 +145,11 @@
     "color": {
       "background": {
         "error": {
-          "value": "{feedback.color.background.critical}",
+          "value": "{color.feedback.background.critical}",
           "type": "color"
         },
         "success": {
-          "value": "{feedback.color.background.success}",
+          "value": "{color.feedback.background.success}",
           "type": "color"
         }
       },
@@ -159,7 +159,7 @@
       },
       "critical": {
         "text": {
-          "value": "{feedback.color.critical}",
+          "value": "{color.feedback.critical}",
           "type": "color"
         }
       }
@@ -390,7 +390,7 @@
             "type": "color"
           },
           "error": {
-            "value": "{feedback.color.critical}",
+            "value": "{color.feedback.critical}",
             "type": "color"
           }
         }
@@ -486,11 +486,11 @@
             "type": "color"
           },
           "readonly": {
-            "value": "{text.color.default}",
+            "value": "{color.text.default}",
             "type": "color"
           },
           "disabled": {
-            "value": "{text.color.default}",
+            "value": "{color.text.default}",
             "type": "color"
           },
           "label": {

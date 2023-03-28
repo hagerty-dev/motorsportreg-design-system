@@ -4,7 +4,7 @@
       "default": {
         "value": {
           "borderWidthBottom": "{border.width.100}",
-          "border": "{border.color.default}"
+          "border": "{color.border.default}"
         },
         "type": "composition"
       }
