@@ -1,0 +1,28 @@
+:root{
+ --msr-filter-xsmall-padding-top: 10.5px;
+ --msr-filter-xsmall-padding-bottom: 11.5px;
+ --msr-filter-xsmall-padding-left: 16px;
+ --msr-filter-xsmall-padding-right: 16px;
+ --msr-filter-small-padding-top: 13px;
+ --msr-filter-small-padding-bottom: 15px;
+ --msr-filter-small-padding-left: 24px;
+ --msr-filter-small-padding-right: 24px;
+ --msr-filter-border-radius: 9999px;
+ --msr-filter-border-width-default: 1px;
+ --msr-filter-border-width-focus: 2px;
+ --msr-filter-border-width-selected: 2px;
+ --msr-filter-shadow-focus: 0 0 0 2 #000;
+ --msr-filter-shadow-focus-selected: 0 0 0 2 #8E949A;
+ --msr-filter-text-xsmall: 400 16px/110% GT America;
+ --msr-filter-text-small: 400 16px * 1.125px/110% GT America;
+ --msr-filter-color-background-default: #fff;
+ --msr-filter-color-background-hover: #F4F6F8;
+ --msr-filter-color-background-focus: #fff;
+ --msr-filter-color-background-disabled: #F4F6F8;
+ --msr-filter-color-background-selected: #F4F6F8;
+ --msr-filter-color-background-focus-selected: #F4F6F8;
+ --msr-filter-color-border-default: #DEE0E2;
+ --msr-filter-color-border-selected: #000;
+ --msr-filter-color-text-default: #000;
+ --msr-filter-color-text-disabled: #484C51;
+}

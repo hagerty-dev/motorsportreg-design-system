@@ -1,0 +1,17 @@
+:root{
+ --msr-menu-item-border-radius: 8px;
+ --msr-menu-item-color-background-hover: #F4F6F8;
+ --msr-menu-item-color-text-default: #000;
+ --msr-menu-item-color-text-default-secondary: #484C51;
+ --msr-menu-item-color-text-disabled: #8E949A;
+ --msr-menu-item-space-left: 8px * 2px;
+ --msr-menu-item-space-right: 8px * 2px;
+ --msr-menu-item-text: 400 16px * 1.25px/110% GT America;
+ --msr-menu-space-bottom: 8px * 2px;
+ --msr-menu-space-top: 8px * 2px;
+ --msr-menu-border-radius: 8px;
+ --msr-menu-border-width: 1px;
+ --msr-menu-color-background: #fff;
+ --msr-menu-color-border: #DEE0E2;
+ --msr-menu-shadow: 0 10 25 0 rgba(9,10,11,0.1);
+}

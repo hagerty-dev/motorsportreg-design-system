@@ -1,0 +1,11 @@
+:root{
+ --msr-tooltip-padding-left: 8px * 2px;
+ --msr-tooltip-padding-right: 8px * 2px;
+ --msr-tooltip-padding-top: 8px * 2px;
+ --msr-tooltip-text: 400 16px * 0.938px/125% GT America;
+ --msr-tooltip-padding-bottom: 8px * 2px;
+ --msr-tooltip-color-background: #000;
+ --msr-tooltip-color-text: #fff;
+ --msr-tooltip-border-radius: 8px;
+ --msr-tooltip-shadow: 0 10 25 0 rgba(9,10,11,0.1);
+}

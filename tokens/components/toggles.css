@@ -1,0 +1,19 @@
+:root{
+ --msr-toggle-text: 400 16px * 1.125px/110% GT America;
+ --msr-toggle-switch-padding-left: 24px;
+ --msr-toggle-switch-padding-right: 24px;
+ --msr-toggle-switch-padding-bottom: 11px;
+ --msr-toggle-switch-padding-top: 9px;
+ --msr-toggle-switch-color-text: #000;
+ --msr-toggle-switch-color-background-on: #fff;
+ --msr-toggle-switch-color-background-hover: #C8CACB;
+ --msr-toggle-switch-color-background-off: rgba(0, 0, 0, 0);
+ --msr-toggle-switch-border-radius: 9999px;
+ --msr-toggle-padding-left: 4px;
+ --msr-toggle-padding-right: 4px;
+ --msr-toggle-padding-top: 4px;
+ --msr-toggle-padding-bottom: 4px;
+ --msr-toggle-padding-gap: 2px;
+ --msr-toggle-color-background: #DEE0E2;
+ --msr-toggle-border-radius: 9999px;
+}

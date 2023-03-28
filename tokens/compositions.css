@@ -1,0 +1,4 @@
+.msr-border-bottom-default {
+	border-bottom-width: var(--border-width-100);
+	border-color: var(--border-color-default);
+}

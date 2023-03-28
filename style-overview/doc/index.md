@@ -1,5 +1,5 @@
 <script setup>
-  import { MSRDocNavCardsRow, MSRDocNavCards } from '../../index';
+  import { MSRDocNavCardsRow, MSRDocNavCards } from '../../../index';
 </script>
 
 # Style Overview

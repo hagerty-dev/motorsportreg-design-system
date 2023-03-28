@@ -1,0 +1,67 @@
+// IMPORT GLOBAL STYLING
+// -------------------------------------------------------------------- */
+@import '~/assets/src/global.scss';
+@import './css/_variables.scss'; // <-- dockit variables
+
+// DOCKIT OVERRIDES
+// -------------------------------------------------------------------- */
+@import './css/_prose.scss';
+@import './css/_header.scss';
+@import './css/_navigation.scss';
+@import './css/_footer.scss';
+
+// DOCKIT CUSTOM SWATCH
+// -------------------------------------------------------------------- */
+
+.swatch {
+  font-size: 18px;
+  margin: 0 0 var(--dockit-swatch-margin-bottom);
+  &__row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    border-top: 1px solid var(--msr-color-gray-300);
+  }
+  &__heading {
+    flex-grow: 1;
+    width: 24rem;
+    padding-right: 16px;
+  }
+}
+
+.msr-doc-table {
+  border: 1px solid var(--dockit-border-color-bold);
+  border-radius: var(--msr-border-radius-200);
+  overflow-x: auto;
+  margin: 0 0 var(--dockit-swatch-margin-bottom);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+
+  table {
+    margin: 0;
+    border: none;
+  }
+  thead:first-child tr:first-child th,
+  tbody:first-child tr:first-child td {
+    border-top: 0;
+  }
+  thead th {
+    background: var(--msr-color-gray-200);
+    font-weight: 600;
+    color: var(--msr-color-gray-800);
+  }
+  th,
+  td {
+    font-size: var(--msr-font-size-100);
+    padding: 16px 24px 14px;
+    // border: none;
+    border-top: 1px solid var(--dockit-border-color-bold);
+    border-right: 1px solid var(--dockit-border-color-bold);
+    vertical-align: middle;
+  }
+  tr td:last-child,
+  tr th:last-child {
+    border-right: 0;
+  }
+}
