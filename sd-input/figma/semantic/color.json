@@ -13,6 +13,10 @@
         "value": "{color.base.dark}",
         "type": "color"
       },
+      "disabled": {
+        "value": "{color.gray.700}",
+        "type": "color"
+      },
       "nonessential": {
         "value": "{color.gray.600}",
         "type": "color"
@@ -41,6 +45,10 @@
       },
       "inverse": {
         "value": "{color.base.light}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.gray.700}",
         "type": "color"
       }
     },
@@ -89,31 +97,61 @@
       }
     },
     "interactive": {
-      "primary": {
-        "default": {
-          "value": "{color.primary.default}",
-          "type": "color"
+      "background": {
+        "primary": {
+          "default": {
+            "value": "{color.base.dark}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{color.gray.1000}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{color.gray.200}",
+            "type": "color"
+          }
         },
-        "hover": {
-          "value": "{color.primary.medium}",
-          "type": "color"
+        "basic": {
+          "default": {
+            "value": "{color.base.light}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{color.gray.300}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{color.gray.100}",
+            "type": "color"
+          }
         },
-        "disabled": {
-          "value": "{color.gray.400}",
+        "flat": {
+          "value": "{color.transparency.00}",
           "type": "color"
         }
       },
-      "secondary": {
-        "default": {
+      "border": {
+        "basic": {
+          "value": "{color.gray.300}",
+          "type": "color"
+        }
+      },
+      "content": {
+        "primary": {
           "value": "{color.base.light}",
           "type": "color"
         },
-        "hover": {
-          "value": "{color.gray.400}",
+        "basic": {
+          "value": "{color.base.dark}",
           "type": "color"
         },
         "disabled": {
-          "value": "{color.gray.200}",
+          "value": "{color.gray.700}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{color.gray.1000}",
           "type": "color"
         }
       }

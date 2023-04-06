@@ -198,6 +198,10 @@
   },
   "color": {
     "gray": {
+      "100": {
+        "value": "#FCFCFD",
+        "type": "color"
+      },
       "200": {
         "value": "#F4F6F8",
         "type": "color"
@@ -228,6 +232,10 @@
       },
       "900": {
         "value": "#484C51",
+        "type": "color"
+      },
+      "1000": {
+        "value": "#303336",
         "type": "color"
       }
     },
@@ -365,24 +373,52 @@
     }
   },
   "size": {
-    "16": {
-      "value": "16px",
+    "50": {
+      "value": "{size.base} * 0.5",
       "type": "sizing"
     },
-    "24": {
-      "value": "24px",
+    "100": {
+      "value": "{size.base} * 1",
       "type": "sizing"
     },
-    "32": {
-      "value": "32px",
+    "150": {
+      "value": "{size.base} * 1.5",
       "type": "sizing"
     },
-    "48": {
-      "value": "48px",
+    "200": {
+      "value": "{size.base} * 2",
       "type": "sizing"
     },
-    "56": {
-      "value": "56px",
+    "250": {
+      "value": "{size.base} * 2.5",
+      "type": "sizing"
+    },
+    "275": {
+      "value": "{size.base} * 2.75",
+      "type": "sizing"
+    },
+    "300": {
+      "value": "{size.base} * 3",
+      "type": "sizing"
+    },
+    "400": {
+      "value": "{size.base} * 4",
+      "type": "sizing"
+    },
+    "500": {
+      "value": "{size.base} * 5",
+      "type": "sizing"
+    },
+    "600": {
+      "value": "{size.base} * 6",
+      "type": "sizing"
+    },
+    "700": {
+      "value": "{size.base} * 7",
+      "type": "sizing"
+    },
+    "base": {
+      "value": "8",
       "type": "sizing"
     }
   },
@@ -409,6 +445,10 @@
     },
     "300": {
       "value": "{space.base} * 3",
+      "type": "spacing"
+    },
+    "350": {
+      "value": "{space.base} * 3.5",
       "type": "spacing"
     },
     "400": {
@@ -456,7 +496,7 @@
       "type": "spacing"
     }
   },
-  "shadow": {
+  "elevation": {
     "100": {
       "value": {
         "x": "0",
