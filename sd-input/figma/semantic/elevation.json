@@ -1,0 +1,17 @@
+{
+  "elevation": {
+    "interactive": {
+      "focus": {
+        "value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "2",
+          "color": "{color.base.dark}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      }
+    }
+  }
+}

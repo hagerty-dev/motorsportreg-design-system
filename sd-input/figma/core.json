@@ -5,6 +5,10 @@
         "value": "1px",
         "type": "borderWidth"
       },
+      "150": {
+        "value": "1.5px",
+        "type": "borderWidth"
+      },
       "200": {
         "value": "2px",
         "type": "borderWidth"
@@ -389,6 +393,10 @@
       "value": "{size.base} * 2",
       "type": "sizing"
     },
+    "225": {
+      "value": "{size.base} * 2.25",
+      "type": "sizing"
+    },
     "250": {
       "value": "{size.base} * 2.5",
       "type": "sizing"
@@ -399,6 +407,10 @@
     },
     "300": {
       "value": "{size.base} * 3",
+      "type": "sizing"
+    },
+    "350": {
+      "value": "{size.base} * 3.5",
       "type": "sizing"
     },
     "400": {
@@ -441,6 +453,10 @@
     },
     "200": {
       "value": "{space.base} * 2",
+      "type": "spacing"
+    },
+    "250": {
+      "value": "{space.base} * 2.5",
       "type": "spacing"
     },
     "300": {

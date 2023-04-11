@@ -224,7 +224,7 @@
     "id": "fb86c28da832dc6057ac9512f2ad9687345fd214",
     "name": "Light",
     "selectedTokenSets": {
-      "core": "enabled",
+      "core": "source",
       "components/button": "enabled",
       "components/forms": "enabled",
       "components/alert": "enabled",
@@ -240,7 +240,8 @@
       "components/toggles": "enabled",
       "semantic/color": "enabled",
       "components/text": "enabled",
-      "semantic/border": "enabled"
+      "semantic/border": "enabled",
+      "semantic/elevation": "enabled"
     },
     "$figmaStyleReferences": {}
   }

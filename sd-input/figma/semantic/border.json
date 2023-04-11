@@ -1,13 +1,22 @@
 {
   "border": {
-    "bottom": {
-      "default": {
+    "interactive": {
+      "focus": {
         "value": {
-          "borderWidthBottom": "{border.width.100}",
-          "border": "{color.border.default}"
+          "width": "{border.width.100}",
+          "style": "solid",
+          "color": "rgba(255,255,255,0.01)"
         },
-        "type": "composition"
+        "type": "border"
       }
+    },
+    "bottom": {
+      "value": {
+        "color": "{color.border.default}",
+        "width": "{border.width.100}",
+        "style": "solid"
+      },
+      "type": "border"
     }
   }
 }
