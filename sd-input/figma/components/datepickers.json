@@ -2,12 +2,12 @@
   "datepicker": {
     "day": {
       "desktop": {
-        "value": "{size.48}",
+        "value": "{size.600}",
         "type": "sizing",
         "description": "The size of the day in the month calendar on desktop"
       },
       "mobile": {
-        "value": "{size.56}",
+        "value": "{size.700}",
         "type": "sizing",
         "description": "The size of the day in the month calendar on mobile"
       }
