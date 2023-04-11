@@ -33,6 +33,10 @@
         "flat": {
           "value": "{color.interactive.background.flat}",
           "type": "color"
+        },
+        "focus": {
+          "value": "{color.interactive.background.focus}",
+          "type": "color"
         }
       },
       "content": {
@@ -96,6 +100,50 @@
         },
         "type": "typography",
         "description": "Small button label"
+      },
+      "link": {
+        "large": {
+          "value": {
+            "fontFamily": "{font.family.GTAmerica}",
+            "fontWeight": "{font.weight.regular}",
+            "lineHeight": "{font.lineHeight.tight}",
+            "fontSize": "{font.size.250}",
+            "letterSpacing": "0%",
+            "paragraphSpacing": "0",
+            "textDecoration": "{font.textDecoration.underline}",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Large button label"
+        },
+        "medium": {
+          "value": {
+            "fontFamily": "{font.family.GTAmerica}",
+            "fontWeight": "{font.weight.regular}",
+            "lineHeight": "{font.lineHeight.tight}",
+            "fontSize": "{font.size.200}",
+            "letterSpacing": "0%",
+            "paragraphSpacing": "0",
+            "textDecoration": "{font.textDecoration.underline}",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Medium button label"
+        },
+        "small": {
+          "value": {
+            "fontFamily": "{font.family.GTAmerica}",
+            "fontWeight": "{font.weight.regular}",
+            "lineHeight": "{font.lineHeight.tight}",
+            "fontSize": "{font.size.base}",
+            "letterSpacing": "0%",
+            "paragraphSpacing": "0",
+            "textDecoration": "{font.textDecoration.underline}",
+            "textCase": "none"
+          },
+          "type": "typography",
+          "description": "Small button label"
+        }
       }
     },
     "size": {
@@ -137,6 +185,10 @@
         "iconOnly": {
           "value": "{border.radius.circle}",
           "type": "borderRadius"
+        },
+        "focus": {
+          "value": "{border.radius.100}",
+          "type": "borderRadius"
         }
       },
       "basic": {
@@ -145,6 +197,10 @@
           "width": "{border.width.100}",
           "style": "solid"
         },
+        "type": "border"
+      },
+      "focus": {
+        "value": "{border.interactive.focus}",
         "type": "border"
       }
     },
@@ -155,6 +211,10 @@
       },
       "medium": {
         "value": "{space.none} {space.300}",
+        "type": "spacing"
+      },
+      "small": {
+        "value": "{space.none} {space.250}",
         "type": "spacing"
       },
       "gap": {
@@ -169,7 +229,7 @@
     "icon": {
       "size": {
         "small": {
-          "value": "{size.250}",
+          "value": "{size.225}",
           "type": "sizing"
         },
         "medium": {
@@ -177,9 +237,19 @@
           "type": "sizing"
         },
         "large": {
-          "value": "{size.300}",
+          "value": "{size.350}",
           "type": "sizing"
         }
+      },
+      "borderWidth": {
+        "value": "{border.width.150}",
+        "type": "borderWidth"
+      }
+    },
+    "elevation": {
+      "focus": {
+        "value": "{elevation.interactive.focus}",
+        "type": "boxShadow"
       }
     }
   }

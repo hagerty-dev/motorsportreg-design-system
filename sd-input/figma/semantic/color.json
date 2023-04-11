@@ -118,7 +118,7 @@
             "type": "color"
           },
           "hover": {
-            "value": "{color.gray.300}",
+            "value": "{color.gray.200}",
             "type": "color"
           },
           "disabled": {
@@ -128,6 +128,10 @@
         },
         "flat": {
           "value": "{color.transparency.00}",
+          "type": "color"
+        },
+        "focus": {
+          "value": "rgba(255,255,255,0.01)",
           "type": "color"
         }
       },
