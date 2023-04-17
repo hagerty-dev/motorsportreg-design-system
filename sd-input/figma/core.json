@@ -49,8 +49,8 @@
   },
   "font": {
     "size": {
-      "50": {
-        "value": "{font.size.base} * 0.938",
+      "94": {
+        "value": "{font.size.base} * 0.94",
         "type": "fontSizes",
         "description": "15px / 0.938rem"
       },
@@ -59,52 +59,52 @@
         "type": "fontSizes",
         "description": "16px / 1rem"
       },
-      "200": {
+      "112": {
         "value": "{font.size.base} * 1.125",
         "type": "fontSizes",
         "description": "18px / 1.125rem"
       },
-      "250": {
+      "125": {
         "value": "{font.size.base} * 1.25",
         "type": "fontSizes",
         "description": "20px / 1.25rem"
       },
-      "300": {
+      "150": {
         "value": "{font.size.base} * 1.5",
         "type": "fontSizes",
         "description": "24px / 1.5rem"
       },
-      "350": {
+      "175": {
         "value": "{font.size.base} * 1.75",
         "type": "fontSizes",
         "description": "28px / 1.75rem"
       },
-      "400": {
+      "200": {
         "value": "{font.size.base} * 2",
         "type": "fontSizes",
         "description": "32px / 2rem"
       },
-      "500": {
+      "225": {
         "value": "{font.size.base} * 2.25",
         "type": "fontSizes",
         "description": "36px / 2.25rem"
       },
-      "600": {
+      "250": {
         "value": "{font.size.base} * 2.5",
         "type": "fontSizes",
         "description": "40px / 2.5rem"
       },
-      "700": {
+      "300": {
         "value": "{font.size.base} *3",
         "type": "fontSizes",
         "description": "48px / 3rem"
       },
-      "800": {
+      "350": {
         "value": "{font.size.base} * 3.5",
         "type": "fontSizes",
         "description": "56px / 3.5rem"
       },
-      "900": {
+      "400": {
         "value": "{font.size.base} * 4",
         "type": "fontSizes",
         "description": "64px / 4rem"
@@ -245,7 +245,7 @@
     },
     "gradient": {
       "dark": {
-        "value": "linear-gradient(90deg, {color.base.dark} 0%, {color.gray.900} 100%)",
+        "value": "linear-gradient(90deg, {color.base.dark} 0%, {color.gray.1000} 100%)",
         "type": "color",
         "description": "Primary button hover "
       },
@@ -430,7 +430,7 @@
       "type": "sizing"
     },
     "base": {
-      "value": "8",
+      "value": "8px",
       "type": "sizing"
     }
   },
@@ -638,5 +638,9 @@
   "opacity-zero": {
     "value": "0",
     "type": "opacity"
+  },
+  "1px": {
+    "value": "1px",
+    "type": "dimension"
   }
 }

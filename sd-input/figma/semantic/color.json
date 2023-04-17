@@ -104,11 +104,15 @@
             "type": "color"
           },
           "hover": {
-            "value": "{color.gray.1000}",
+            "value": "{color.gradient.dark}",
             "type": "color"
           },
           "disabled": {
             "value": "{color.gray.200}",
+            "type": "color"
+          },
+          "active": {
+            "value": "{color.gray.1000}",
             "type": "color"
           }
         },
@@ -129,10 +133,6 @@
         "flat": {
           "value": "{color.transparency.00}",
           "type": "color"
-        },
-        "focus": {
-          "value": "rgba(255,255,255,0.01)",
-          "type": "color"
         }
       },
       "border": {
@@ -151,7 +151,7 @@
           "type": "color"
         },
         "disabled": {
-          "value": "{color.gray.700}",
+          "value": "{color.gray.600}",
           "type": "color"
         },
         "hover": {

@@ -42,7 +42,7 @@
           "fontFamily": "{font.family.GTAmerica}",
           "fontWeight": "{font.weight.regular}",
           "lineHeight": "{font.lineHeight.tight}",
-          "fontSize": "{font.size.250}",
+          "fontSize": "{font.size.125}",
           "letterSpacing": "0%",
           "paragraphSpacing": "0",
           "textDecoration": "none",
