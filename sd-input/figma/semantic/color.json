@@ -133,6 +133,24 @@
         "flat": {
           "value": "{color.transparency.00}",
           "type": "color"
+        },
+        "destructive": {
+          "default": {
+            "value": "{color.red.medium}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{color.red.medium}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{color.red.light}",
+            "type": "color"
+          },
+          "active": {
+            "value": "{color.red.medium}",
+            "type": "color"
+          }
         }
       },
       "border": {
@@ -152,6 +170,10 @@
         },
         "disabled": {
           "value": "{color.gray.600}",
+          "type": "color"
+        },
+        "destructive": {
+          "value": "{color.red.medium}",
           "type": "color"
         }
       }
