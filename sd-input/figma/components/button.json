@@ -113,7 +113,7 @@
         "value": {
           "fontFamily": "{font.family.GTAmerica}",
           "fontWeight": "{font.weight.regular}",
-          "lineHeight": "18px",
+          "lineHeight": "20px",
           "fontSize": "{font.size.100}",
           "letterSpacing": "0%",
           "paragraphSpacing": "0",
@@ -266,7 +266,7 @@
         "type": "sizing"
       },
       "small": {
-        "value": "{size.525}",
+        "value": "{size.450}",
         "type": "sizing"
       }
     },
@@ -292,15 +292,15 @@
     },
     "space": {
       "large": {
-        "value": "{space.150} {space.350}",
-        "type": "spacing"
-      },
-      "medium": {
         "value": "{space.150} {space.300}",
         "type": "spacing"
       },
-      "small": {
+      "medium": {
         "value": "{space.150} {space.250}",
+        "type": "spacing"
+      },
+      "small": {
+        "value": "{space.100} {space.200}",
         "type": "spacing"
       },
       "gap": {
