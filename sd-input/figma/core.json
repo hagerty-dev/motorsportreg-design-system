@@ -417,12 +417,16 @@
       "value": "{size.base} * 4",
       "type": "sizing"
     },
+    "450": {
+      "value": "{size.base} * 4.5",
+      "type": "sizing"
+    },
     "500": {
       "value": "{size.base} * 5",
       "type": "sizing"
     },
-    "525": {
-      "value": "{size.base} * 5.25",
+    "550": {
+      "value": "{size.base} * 5.5",
       "type": "sizing"
     },
     "600": {
