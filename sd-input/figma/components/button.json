@@ -333,6 +333,14 @@
         "value": "{elevation.interactive.focus}",
         "type": "boxShadow"
       }
+    },
+    "opacity": {
+      "content": {
+        "loading": {
+          "value": "{opacity-0}",
+          "type": "opacity"
+        }
+      }
     }
   }
 }
