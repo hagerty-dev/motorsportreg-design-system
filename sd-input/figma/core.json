@@ -646,9 +646,5 @@
   "opacity-0": {
     "value": "0",
     "type": "opacity"
-  },
-  "1px": {
-    "value": "1px",
-    "type": "dimension"
   }
 }
