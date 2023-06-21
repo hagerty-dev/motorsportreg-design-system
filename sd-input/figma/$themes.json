@@ -69,8 +69,6 @@
       "color.yellow.light": "S:1fba7f6e31690bba415c938e53342df29de8fd20,",
       "color.blue.medium": "S:cd9fbcbe7eca54c701c2cec2c8ecf5fabdf23aa0,",
       "color.blue.light": "S:33cf148b6d2d141c01fe9e9ea273cc76428a2729,",
-      "color.red.medium": "S:db5a8c6554eb6235c419d170a8688fe18ca99898,",
-      "color.red.light": "S:a1116e8529def6d4f120bb555ad7a139042edcd9,",
       "color.green.medium": "S:da946e9faeeb0ade310976a74dd267e896f918d7,",
       "color.green.light": "S:ea2554acad8df5024ac50bd1b40e0b5e4019b822,",
       "color.brand.primary.bright": "S:9054a244c1204da220a108b37f030ed8b53e213a,",
@@ -217,7 +215,9 @@
       "color.background.secondary": "S:e59278424b75432acac700169abe4b0f12789819,",
       "color.border.default": "S:e9c077428d86647d328051b93c8bbfbe0aabb124,",
       "color.border.inverse": "S:a0420f3868a5560756847473f0ae1e24c6848ca0,",
-      "color.border.default--ondark": "S:c5bda9bbb273e976978e6530855e52cd0b6de113,"
+      "color.border.default--ondark": "S:c5bda9bbb273e976978e6530855e52cd0b6de113,",
+      "color.red.medium-deprecate": "S:db5a8c6554eb6235c419d170a8688fe18ca99898,",
+      "color.red.light-deprecate": "S:a1116e8529def6d4f120bb555ad7a139042edcd9,"
     }
   },
   {

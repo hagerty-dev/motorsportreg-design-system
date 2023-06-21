@@ -119,6 +119,10 @@
       "GTAmerica": {
         "value": "GT America",
         "type": "fontFamilies"
+      },
+      "Inter": {
+        "value": "Inter",
+        "type": "fontFamilies"
       }
     },
     "weight": {
@@ -328,11 +332,51 @@
       }
     },
     "red": {
-      "medium": {
+      "100": {
+        "value": "#FEF9F8",
+        "type": "color"
+      },
+      "200": {
+        "value": "#FDE9E8",
+        "type": "color"
+      },
+      "300": {
+        "value": "#F9C9C5",
+        "type": "color"
+      },
+      "400": {
+        "value": "#F6A9A3",
+        "type": "color"
+      },
+      "500": {
+        "value": "#F2867D",
+        "type": "color"
+      },
+      "600": {
+        "value": "#ED594C",
+        "type": "color"
+      },
+      "700": {
+        "value": "#D43325",
+        "type": "color"
+      },
+      "800": {
+        "value": "#B42B1F",
+        "type": "color"
+      },
+      "900": {
+        "value": "#912319",
+        "type": "color"
+      },
+      "1000": {
+        "value": "#6C1A13",
+        "type": "color"
+      },
+      "medium-deprecate": {
         "value": "#BD2D00",
         "type": "color"
       },
-      "light": {
+      "light-deprecate": {
         "value": "#FFE2E0",
         "type": "color"
       }
