@@ -49,6 +49,11 @@
   },
   "font": {
     "size": {
+      "87": {
+        "value": "{font.size.base} * 0.875",
+        "type": "fontSizes",
+        "description": "14px / 0.875rem"
+      },
       "94": {
         "value": "{font.size.base} * 0.94",
         "type": "fontSizes",
@@ -122,6 +127,10 @@
       },
       "Inter": {
         "value": "Inter",
+        "type": "fontFamilies"
+      },
+      "Helvetica": {
+        "value": "Helvetica",
         "type": "fontFamilies"
       }
     },
