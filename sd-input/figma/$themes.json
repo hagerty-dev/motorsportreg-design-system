@@ -3,9 +3,11 @@
     "id": "256245e7ff02a59febf77c0602b044b84a3bede0",
     "name": "Figma Styles",
     "selectedTokenSets": {
-      "core": "source",
       "semantic/color": "enabled",
-      "figma/text styles": "enabled"
+      "figma/text styles": "enabled",
+      "global/core": "source",
+      "global/light-colors": "disabled",
+      "global/dark-colors": "disabled"
     },
     "$figmaStyleReferences": {
       "text.heading.level-100.small.bold": "S:40e5e981a68b3fb62917bf5e16d097630a03d658,",
@@ -224,7 +226,6 @@
     "id": "fb86c28da832dc6057ac9512f2ad9687345fd214",
     "name": "Light",
     "selectedTokenSets": {
-      "core": "source",
       "components/button": "enabled",
       "components/forms": "enabled",
       "components/alert": "enabled",
@@ -241,7 +242,10 @@
       "semantic/color": "enabled",
       "components/text": "enabled",
       "semantic/border": "enabled",
-      "semantic/elevation": "enabled"
+      "semantic/elevation": "enabled",
+      "global/core": "source",
+      "global/light-colors": "disabled",
+      "global/dark-colors": "disabled"
     },
     "$figmaStyleReferences": {}
   }
