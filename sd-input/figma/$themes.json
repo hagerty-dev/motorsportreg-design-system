@@ -5,9 +5,7 @@
     "selectedTokenSets": {
       "semantic/color": "enabled",
       "figma/text styles": "enabled",
-      "core/global": "source",
-      "core/light-colors": "disabled",
-      "core/dark-colors": "disabled"
+      "core/global": "source"
     },
     "$figmaStyleReferences": {
       "text.heading.level-100.small.bold": "S:40e5e981a68b3fb62917bf5e16d097630a03d658,",
@@ -244,8 +242,7 @@
       "semantic/border": "enabled",
       "semantic/elevation": "enabled",
       "core/global": "source",
-      "core/light-colors": "source",
-      "core/dark-colors": "disabled"
+      "core/light-colors": "source"
     },
     "$figmaStyleReferences": {}
   },
@@ -272,7 +269,6 @@
       "components/filters": "enabled",
       "components/toggles": "enabled",
       "core/global": "source",
-      "core/light-colors": "disabled",
       "core/dark-colors": "source"
     }
   }
