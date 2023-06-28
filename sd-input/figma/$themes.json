@@ -3,9 +3,9 @@
     "id": "256245e7ff02a59febf77c0602b044b84a3bede0",
     "name": "Figma Styles",
     "selectedTokenSets": {
-      "core": "source",
       "semantic/color": "enabled",
-      "figma/text styles": "enabled"
+      "figma/text styles": "enabled",
+      "core/global": "source"
     },
     "$figmaStyleReferences": {
       "text.heading.level-100.small.bold": "S:40e5e981a68b3fb62917bf5e16d097630a03d658,",
@@ -224,7 +224,6 @@
     "id": "fb86c28da832dc6057ac9512f2ad9687345fd214",
     "name": "Light",
     "selectedTokenSets": {
-      "core": "source",
       "components/button": "enabled",
       "components/forms": "enabled",
       "components/alert": "enabled",
@@ -241,8 +240,36 @@
       "semantic/color": "enabled",
       "components/text": "enabled",
       "semantic/border": "enabled",
-      "semantic/elevation": "enabled"
+      "semantic/elevation": "enabled",
+      "core/global": "source",
+      "core/light-colors": "source"
     },
     "$figmaStyleReferences": {}
+  },
+  {
+    "id": "8d459b656f46a3d1a4439f799db1ade7fcbdb38a",
+    "name": "Dark",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "semantic/color": "enabled",
+      "semantic/border": "enabled",
+      "semantic/elevation": "enabled",
+      "components/button": "enabled",
+      "components/text": "enabled",
+      "components/forms": "enabled",
+      "components/alert": "enabled",
+      "components/tooltip": "enabled",
+      "components/avatar": "enabled",
+      "components/modal": "enabled",
+      "components/logo": "enabled",
+      "components/image": "enabled",
+      "components/menu": "enabled",
+      "components/pagination": "enabled",
+      "components/datepickers": "enabled",
+      "components/filters": "enabled",
+      "components/toggles": "enabled",
+      "core/global": "source",
+      "core/dark-colors": "source"
+    }
   }
 ]
