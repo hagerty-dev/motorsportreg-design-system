@@ -1,11 +1,11 @@
 {
   "tokenSetOrder": [
-    "core/global",
-    "core/light-colors",
-    "core/dark-colors",
-    "semantic/color",
-    "semantic/border",
-    "semantic/elevation",
+    "primitives",
+    "light",
+    "dark",
+    "semantics/color",
+    "semantics/border",
+    "semantics/elevation",
     "figma/text styles",
     "components/button",
     "components/text",

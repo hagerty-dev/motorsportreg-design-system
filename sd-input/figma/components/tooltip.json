@@ -32,11 +32,11 @@
     },
     "color": {
       "background": {
-        "value": "{color.base.dark}",
+        "value": "{color.base.black}",
         "type": "color"
       },
       "text": {
-        "value": "{color.base.light}",
+        "value": "{color.base.white}",
         "type": "color"
       }
     },

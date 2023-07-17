@@ -3,13 +3,13 @@
     "color": {
       "background": {
         "default": {
-          "value": "{color.base.light}",
+          "value": "{color.base.white}",
           "type": "color"
         }
       },
       "text": {
         "default": {
-          "value": "{color.base.dark}",
+          "value": "{color.base.black}",
           "type": "color"
         }
       }
@@ -119,7 +119,7 @@
   "container": {
     "color": {
       "background": {
-        "value": "{color.base.light}",
+        "value": "{color.base.white}",
         "type": "color"
       }
     },

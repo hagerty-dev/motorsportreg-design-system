@@ -46,19 +46,19 @@
     },
     "color": {
       "text--ondark": {
-        "value": "{color.base.light}",
+        "value": "{color.base.white}",
         "type": "color"
       },
       "background--ondark": {
-        "value": "{color.base.light}",
+        "value": "{color.base.white}",
         "type": "color"
       },
       "text--onlight": {
-        "value": "{color.base.dark}",
+        "value": "{color.base.black}",
         "type": "color"
       },
       "background--onlight": {
-        "value": "{color.base.dark}",
+        "value": "{color.base.black}",
         "type": "color"
       }
     }

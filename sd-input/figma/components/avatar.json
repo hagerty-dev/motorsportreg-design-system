@@ -6,7 +6,7 @@
         "type": "color"
       },
       "text": {
-        "value": "{color.base.light}",
+        "value": "{color.base.white}",
         "type": "color"
       }
     },

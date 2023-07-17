@@ -29,11 +29,11 @@
           "type": "color"
         },
         "selected": {
-          "value": "{color.base.dark}",
+          "value": "{color.base.black}",
           "type": "color"
         },
         "focus": {
-          "value": "{color.base.dark}",
+          "value": "{color.base.black}",
           "type": "color"
         },
         "disabled": {
@@ -43,7 +43,7 @@
       },
       "border": {
         "focus": {
-          "value": "{color.base.light}",
+          "value": "{color.base.white}",
           "type": "color"
         },
         "hover": {
@@ -51,7 +51,7 @@
           "type": "color"
         },
         "selected": {
-          "value": "{color.base.dark}",
+          "value": "{color.base.black}",
           "type": "color"
         }
       },
@@ -62,15 +62,15 @@
       "color": {
         "text": {
           "default": {
-            "value": "{color.base.dark}",
+            "value": "{color.base.black}",
             "type": "color"
           },
           "selected": {
-            "value": "{color.base.light}",
+            "value": "{color.base.white}",
             "type": "color"
           },
           "focus": {
-            "value": "{color.base.light}",
+            "value": "{color.base.white}",
             "type": "color"
           },
           "disabled": {
@@ -96,7 +96,7 @@
             "y": "0",
             "blur": "0",
             "spread": "2",
-            "color": "{color.base.dark}",
+            "color": "{color.base.black}",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -120,7 +120,7 @@
     "color": {
       "text": {
         "label": {
-          "value": "{color.base.dark}",
+          "value": "{color.base.black}",
           "type": "color"
         }
       }
