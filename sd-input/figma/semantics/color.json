@@ -9,7 +9,7 @@
         "value": "{color.gray.1100}",
         "type": "color"
       },
-      "action": {
+      "action-deprecate": {
         "value": "{color.base.black}",
         "type": "color"
       },
@@ -17,7 +17,7 @@
         "value": "{color.gray.700}",
         "type": "color"
       },
-      "nonessential-deprecate": {
+      "nonessential": {
         "value": "{color.gray.900}",
         "type": "color"
       },

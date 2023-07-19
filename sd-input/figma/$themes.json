@@ -161,7 +161,6 @@
       "button.color.content.disabled": "e15d5bfe641c1f34e876b4249e71c21d3b8731a0",
       "color.text.primary": "9a1b491bb485f27f4f7010620a3d51fd1871a3d1",
       "color.text.subtle": "f26cc98faa4ef7b3f41bacc4cd47dbc48535e311",
-      "color.text.action": "5f8c8ccfbd31b8e829ecf932adbe013e0107e503",
       "color.text.disabled-deprecate": "bc395a63b9737968fbce0129db053e8c8200927a",
       "color.icon.primary": "55d5a4d62805e89ecea56a57e6fe3893d427c1a1",
       "color.icon.subtle": "c06452dac44172876251798492faed8d066003b6",
@@ -575,12 +574,13 @@
       "button.icon.size.medium": "4885a54c9f932c6f6124e7c4c1dc753b39004d24",
       "button.icon.size.large": "14b004beba8fd9a57e3815a11e88b9bd95a79b0e",
       "border.width.icon.150": "8dcb48db3ec3db0bc25a9a8e8618f8dd39e09ec9",
-      "color.text.nonessential-deprecate": "cb63917ee9b9331b4ed67fc089b7d22651fbd0f8",
       "color.text.default--ondark-deprecate": "3af6a762f70fe928520d6495f2ba9c7205566216",
       "color.text.subtle--ondark-deprecate": "e229519543d796f37656e86c3e20e7e2ae78f9c1",
       "color.text.action--ondark-deprecate": "a477b71c319a18adbce1fc65d8d235bc0102cdb6",
       "color.text.nonessential--ondark-deprecate": "1445b8c35846a4938374cb0c51b92e5ffb939932",
-      "color.icon.inverse-deprecate": "b73993fd7d8a7f8ea32991d12d6bb0283b275823"
+      "color.icon.inverse-deprecate": "b73993fd7d8a7f8ea32991d12d6bb0283b275823",
+      "color.text.action-deprecate": "5f8c8ccfbd31b8e829ecf932adbe013e0107e503",
+      "color.text.nonessential": "cb63917ee9b9331b4ed67fc089b7d22651fbd0f8"
     },
     "group": "Mode"
   },
@@ -746,7 +746,6 @@
       "button.color.content.disabled": "e15d5bfe641c1f34e876b4249e71c21d3b8731a0",
       "color.text.primary": "9a1b491bb485f27f4f7010620a3d51fd1871a3d1",
       "color.text.subtle": "f26cc98faa4ef7b3f41bacc4cd47dbc48535e311",
-      "color.text.action": "5f8c8ccfbd31b8e829ecf932adbe013e0107e503",
       "color.text.disabled-deprecate": "bc395a63b9737968fbce0129db053e8c8200927a",
       "color.icon.primary": "55d5a4d62805e89ecea56a57e6fe3893d427c1a1",
       "color.icon.subtle": "c06452dac44172876251798492faed8d066003b6",
@@ -1160,12 +1159,13 @@
       "button.icon.size.medium": "4885a54c9f932c6f6124e7c4c1dc753b39004d24",
       "button.icon.size.large": "14b004beba8fd9a57e3815a11e88b9bd95a79b0e",
       "border.width.icon.150": "8dcb48db3ec3db0bc25a9a8e8618f8dd39e09ec9",
-      "color.text.nonessential-deprecate": "cb63917ee9b9331b4ed67fc089b7d22651fbd0f8",
       "color.text.default--ondark-deprecate": "3af6a762f70fe928520d6495f2ba9c7205566216",
       "color.text.subtle--ondark-deprecate": "e229519543d796f37656e86c3e20e7e2ae78f9c1",
       "color.text.action--ondark-deprecate": "a477b71c319a18adbce1fc65d8d235bc0102cdb6",
       "color.text.nonessential--ondark-deprecate": "1445b8c35846a4938374cb0c51b92e5ffb939932",
-      "color.icon.inverse-deprecate": "b73993fd7d8a7f8ea32991d12d6bb0283b275823"
+      "color.icon.inverse-deprecate": "b73993fd7d8a7f8ea32991d12d6bb0283b275823",
+      "color.text.action-deprecate": "5f8c8ccfbd31b8e829ecf932adbe013e0107e503",
+      "color.text.nonessential": "cb63917ee9b9331b4ed67fc089b7d22651fbd0f8"
     },
     "group": "Mode"
   },
