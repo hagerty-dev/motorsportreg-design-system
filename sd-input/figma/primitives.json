@@ -214,51 +214,51 @@
     }
   },
   "color": {
-    "gray-deprecate": {
-      "100": {
+    "gray": {
+      "100-deprecate": {
         "value": "#FCFCFD",
         "type": "color"
       },
-      "200": {
+      "200-deprecate": {
         "value": "#F4F6F8",
         "type": "color"
       },
-      "300": {
+      "300-deprecate": {
         "value": "#DEE0E2",
         "type": "color"
       },
-      "400": {
+      "400-deprecate": {
         "value": "#C8CACB",
         "type": "color"
       },
-      "500": {
+      "500-deprecate": {
         "value": "#B1B5B9",
         "type": "color"
       },
-      "600": {
+      "600-deprecate": {
         "value": "#8E949A",
         "type": "color"
       },
-      "700": {
+      "700-deprecate": {
         "value": "#6F757C",
         "type": "color"
       },
-      "800": {
+      "800-deprecate": {
         "value": "#545C63",
         "type": "color"
       },
-      "900": {
+      "900-deprecate": {
         "value": "#484C51",
         "type": "color"
       },
-      "1000": {
+      "1000-deprecate": {
         "value": "#303336",
         "type": "color"
       }
     },
     "gradient": {
       "dark": {
-        "value": "linear-gradient(90deg, {color.base.black} 0%, {color.gray-deprecate.1000} 100%)",
+        "value": "linear-gradient(90deg, {color.base.black} 0%, {color.gray.1000} 100%)",
         "type": "color",
         "description": "Primary button hover "
       },
@@ -267,7 +267,7 @@
         "type": "color"
       },
       "gray": {
-        "value": "linear-gradient(90deg, {color.gray-deprecate.300} 0%, {color.gray-deprecate.400} 100%)",
+        "value": "linear-gradient(90deg, {color.gray.300} 0%, {color.gray.400} 100%)",
         "type": "color",
         "description": "on-dark button hover states"
       }
@@ -321,63 +321,63 @@
       }
     },
     "yellow": {
-      "medium": {
+      "medium-deprecate": {
         "value": "#E6C005",
         "type": "color"
       },
-      "light": {
+      "light-deprecate": {
         "value": "#FDFABA",
         "type": "color"
       }
     },
     "blue": {
-      "medium": {
+      "medium-deprecate": {
         "value": "#008CB8",
         "type": "color"
       },
-      "light": {
+      "light-deprecate": {
         "value": "#D6F5FF",
         "type": "color"
       }
     },
     "red": {
-      "100": {
+      "100-deprecate": {
         "value": "#FEF9F8",
         "type": "color"
       },
-      "200": {
+      "200-deprecate": {
         "value": "#FDE9E8",
         "type": "color"
       },
-      "300": {
+      "300-deprecate": {
         "value": "#F9C9C5",
         "type": "color"
       },
-      "400": {
+      "400-deprecate": {
         "value": "#F6A9A3",
         "type": "color"
       },
-      "500": {
+      "500-deprecate": {
         "value": "#F2867D",
         "type": "color"
       },
-      "600": {
+      "600-deprecate": {
         "value": "#ED594C",
         "type": "color"
       },
-      "700": {
+      "700-deprecate": {
         "value": "#D43325",
         "type": "color"
       },
-      "800": {
+      "800-deprecate": {
         "value": "#B42B1F",
         "type": "color"
       },
-      "900": {
+      "900-deprecate": {
         "value": "#912319",
         "type": "color"
       },
-      "1000": {
+      "1000-deprecate": {
         "value": "#6C1A13",
         "type": "color"
       },
@@ -391,11 +391,11 @@
       }
     },
     "green": {
-      "medium": {
+      "medium-deprecate": {
         "value": "#00AD82",
         "type": "color"
       },
-      "light": {
+      "light-deprecate": {
         "value": "#D6FFF5",
         "type": "color"
       }
@@ -420,11 +420,11 @@
         "type": "color"
       },
       "medium": {
-        "value": "{color.gray-deprecate.900}",
+        "value": "{color.gray.900}",
         "type": "color"
       },
       "light": {
-        "value": "{color.gray-deprecate.200}",
+        "value": "{color.gray.200}",
         "type": "color"
       }
     },

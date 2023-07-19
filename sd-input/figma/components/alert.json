@@ -81,7 +81,7 @@
           "type": "color"
         },
         "subtle": {
-          "value": "{color.gray-deprecate.900}",
+          "value": "{color.gray.900}",
           "type": "color"
         }
       }

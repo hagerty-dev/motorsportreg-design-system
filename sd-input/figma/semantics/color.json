@@ -13,28 +13,28 @@
         "value": "{color.base.black}",
         "type": "color"
       },
-      "disabled-deperecate": {
-        "value": "{color.gray-deprecate.700}",
+      "disabled-deprecate": {
+        "value": "{color.gray.700}",
         "type": "color"
       },
-      "nonessential": {
+      "nonessential-deprecate": {
         "value": "{color.gray.900}",
         "type": "color"
       },
-      "default--ondark": {
+      "default--ondark-deprecate": {
         "value": "{color.base.white}",
         "type": "color"
       },
-      "subtle--ondark": {
-        "value": "{color.gray-deprecate.500}",
+      "subtle--ondark-deprecate": {
+        "value": "{color.gray.500}",
         "type": "color"
       },
-      "action--ondark": {
+      "action--ondark-deprecate": {
         "value": "{color.base.white}",
         "type": "color"
       },
-      "nonessential--ondark": {
-        "value": "{color.gray-deprecate.600}",
+      "nonessential--ondark-deprecate": {
+        "value": "{color.gray.600}",
         "type": "color"
       }
     },
@@ -43,12 +43,12 @@
         "value": "{color.base.black}",
         "type": "color"
       },
-      "inverse": {
+      "inverse-deprecate": {
         "value": "{color.base.white}",
         "type": "color"
       },
       "subtle": {
-        "value": "{color.gray-deprecate.700}",
+        "value": "{color.gray.700}",
         "type": "color"
       }
     },
@@ -63,32 +63,32 @@
           "type": "color"
         },
         "warning": {
-          "value": "{color.yellow.light}",
+          "value": "{color.yellow.light-deprecate}",
           "type": "color"
         },
         "informative": {
-          "value": "{color.blue.light}",
+          "value": "{color.blue.light-deprecate}",
           "type": "color"
         },
         "success": {
-          "value": "{color.green.light}",
+          "value": "{color.green.light-deprecate}",
           "type": "color"
         },
         "unknown": {
-          "value": "{color.gray-deprecate.200}",
+          "value": "{color.gray.200}",
           "type": "color"
         }
       },
       "success": {
-        "value": "{color.green.medium}",
+        "value": "{color.green.medium-deprecate}",
         "type": "color"
       },
       "warning": {
-        "value": "{color.yellow.medium}",
+        "value": "{color.yellow.medium-deprecate}",
         "type": "color"
       },
       "informative": {
-        "value": "{color.blue.medium}",
+        "value": "{color.blue.medium-deprecate}",
         "type": "color"
       },
       "unknown": {
@@ -108,11 +108,11 @@
             "type": "color"
           },
           "disabled": {
-            "value": "{color.gray-deprecate.200}",
+            "value": "{color.gray.200}",
             "type": "color"
           },
           "active": {
-            "value": "{color.gray-deprecate.1000}",
+            "value": "{color.gray.1000}",
             "type": "color"
           }
         },
@@ -122,11 +122,11 @@
             "type": "color"
           },
           "hover": {
-            "value": "{color.gray-deprecate.200}",
+            "value": "{color.gray.200}",
             "type": "color"
           },
           "disabled": {
-            "value": "{color.gray-deprecate.100}",
+            "value": "{color.gray.100}",
             "type": "color"
           }
         },
@@ -155,7 +155,7 @@
       },
       "border": {
         "basic": {
-          "value": "{color.gray-deprecate.300}",
+          "value": "{color.gray.300}",
           "type": "color"
         }
       },
@@ -169,7 +169,7 @@
           "type": "color"
         },
         "disabled": {
-          "value": "{color.gray-deprecate.600}",
+          "value": "{color.gray.600}",
           "type": "color"
         },
         "destructive": {
@@ -188,13 +188,13 @@
         "type": "color"
       },
       "secondary": {
-        "value": "{color.gray-deprecate.200}",
+        "value": "{color.gray.200}",
         "type": "color"
       }
     },
     "border": {
       "default": {
-        "value": "{color.gray-deprecate.300}",
+        "value": "{color.gray.300}",
         "type": "color"
       },
       "inverse": {
