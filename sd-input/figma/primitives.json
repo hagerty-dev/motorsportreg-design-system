@@ -214,7 +214,7 @@
     }
   },
   "color": {
-    "gray": {
+    "gray-deprecate": {
       "100": {
         "value": "#FCFCFD",
         "type": "color"
@@ -258,7 +258,7 @@
     },
     "gradient": {
       "dark": {
-        "value": "linear-gradient(90deg, {color.base.black} 0%, {color.gray.1000} 100%)",
+        "value": "linear-gradient(90deg, {color.base.black} 0%, {color.gray-deprecate.1000} 100%)",
         "type": "color",
         "description": "Primary button hover "
       },
@@ -267,7 +267,7 @@
         "type": "color"
       },
       "gray": {
-        "value": "linear-gradient(90deg, {color.gray.300} 0%, {color.gray.400} 100%)",
+        "value": "linear-gradient(90deg, {color.gray-deprecate.300} 0%, {color.gray-deprecate.400} 100%)",
         "type": "color",
         "description": "on-dark button hover states"
       }
@@ -420,11 +420,11 @@
         "type": "color"
       },
       "medium": {
-        "value": "{color.gray.900}",
+        "value": "{color.gray-deprecate.900}",
         "type": "color"
       },
       "light": {
-        "value": "{color.gray.200}",
+        "value": "{color.gray-deprecate.200}",
         "type": "color"
       }
     },

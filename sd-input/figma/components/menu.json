@@ -8,7 +8,7 @@
       "color": {
         "background": {
           "hover": {
-            "value": "{color.gray.200}",
+            "value": "{color.gray-deprecate.200}",
             "type": "color"
           }
         },
@@ -18,11 +18,11 @@
             "type": "color"
           },
           "default-secondary": {
-            "value": "{color.gray.900}",
+            "value": "{color.gray-deprecate.900}",
             "type": "color"
           },
           "disabled": {
-            "value": "{color.gray.600}",
+            "value": "{color.gray-deprecate.600}",
             "type": "color"
           }
         }
@@ -76,7 +76,7 @@
         "type": "color"
       },
       "border": {
-        "value": "{color.gray.300}",
+        "value": "{color.gray-deprecate.300}",
         "type": "color"
       }
     },

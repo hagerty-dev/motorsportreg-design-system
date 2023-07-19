@@ -1,5 +1,5 @@
 {
-  "hagerty-logo": {
+  "logo": {
     "text": {
       "medium": {
         "value": {
@@ -45,22 +45,8 @@
       }
     },
     "color": {
-      "text--ondark": {
-        "value": "{color.base.white}",
-        "type": "color"
-      },
-      "background--ondark": {
-        "value": "{color.base.white}",
-        "type": "color"
-      },
-      "text--onlight": {
-        "value": "{color.base.black}",
-        "type": "color"
-      },
-      "background--onlight": {
-        "value": "{color.base.black}",
-        "type": "color"
-      }
+      "value": "{color.hiContrast}",
+      "type": "color"
     }
   }
 }
