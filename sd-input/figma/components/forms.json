@@ -3,7 +3,7 @@
     "color": {
       "background": {
         "default": {
-          "value": "{color.base.light}",
+          "value": "{color.base.white}",
           "type": "color"
         },
         "hover": {
@@ -15,7 +15,7 @@
           "type": "color"
         },
         "focus": {
-          "value": "{color.base.light}",
+          "value": "{color.base.white}",
           "type": "color"
         },
         "disabled": {
@@ -33,17 +33,17 @@
           "type": "color"
         },
         "selected": {
-          "value": "{color.base.dark}",
+          "value": "{color.base.black}",
           "type": "color"
         }
       },
       "text": {
         "default": {
-          "value": "{color.base.dark}",
+          "value": "{color.base.black}",
           "type": "color"
         },
         "disabled": {
-          "value": "{color.text.default}",
+          "value": "{color.text.primary}",
           "type": "color"
         }
       }
@@ -154,7 +154,7 @@
         }
       },
       "text": {
-        "value": "{color.base.dark}",
+        "value": "{color.base.black}",
         "type": "color"
       },
       "critical": {
@@ -169,11 +169,11 @@
     "color": {
       "background": {
         "default": {
-          "value": "{color.base.light}",
+          "value": "{color.base.white}",
           "type": "color"
         },
         "checked": {
-          "value": "{color.base.dark}",
+          "value": "{color.base.black}",
           "type": "color"
         },
         "checked-hover": {
@@ -184,7 +184,7 @@
       "text": {
         "label": {
           "default": {
-            "value": "{color.base.dark}",
+            "value": "{color.base.black}",
             "type": "color"
           },
           "disabled": {
@@ -193,7 +193,7 @@
           }
         },
         "heading": {
-          "value": "{color.base.dark}",
+          "value": "{color.base.black}",
           "type": "color"
         }
       },
@@ -203,7 +203,7 @@
           "type": "color"
         },
         "hover": {
-          "value": "{color.base.dark}",
+          "value": "{color.base.black}",
           "type": "color"
         },
         "focus": {
@@ -215,7 +215,7 @@
           "type": "color"
         },
         "checked": {
-          "value": "{color.base.dark}",
+          "value": "{color.base.black}",
           "type": "color"
         },
         "checked-hover": {
@@ -238,7 +238,7 @@
       "text": {
         "label": {
           "default": {
-            "value": "{color.base.dark}",
+            "value": "{color.base.black}",
             "type": "color"
           },
           "disabled": {
@@ -247,17 +247,17 @@
           }
         },
         "heading": {
-          "value": "{color.base.dark}",
+          "value": "{color.base.black}",
           "type": "color"
         }
       },
       "label": {
         "checked": {
-          "value": "{color.base.dark}",
+          "value": "{color.base.black}",
           "type": "color"
         },
         "hover": {
-          "value": "{color.base.dark}",
+          "value": "{color.base.black}",
           "type": "color"
         }
       },
@@ -267,7 +267,7 @@
           "type": "color"
         },
         "hover": {
-          "value": "{color.base.dark}",
+          "value": "{color.base.black}",
           "type": "color"
         },
         "focus": {
@@ -279,7 +279,7 @@
           "type": "color"
         },
         "checked": {
-          "value": "{color.base.dark}",
+          "value": "{color.base.black}",
           "type": "color"
         },
         "checked-hover": {
@@ -289,11 +289,11 @@
       },
       "background": {
         "default": {
-          "value": "{color.base.light}",
+          "value": "{color.base.white}",
           "type": "color"
         },
         "checked": {
-          "value": "{color.base.dark}",
+          "value": "{color.base.black}",
           "type": "color"
         },
         "checked-hover": {
@@ -368,7 +368,7 @@
       "color": {
         "background": {
           "default": {
-            "value": "{color.base.light}",
+            "value": "{color.base.white}",
             "type": "color"
           },
           "readonly": {
@@ -386,7 +386,7 @@
             "type": "color"
           },
           "focus": {
-            "value": "{color.base.dark}",
+            "value": "{color.base.black}",
             "type": "color"
           },
           "error": {
@@ -469,7 +469,7 @@
             "description": "In line label (no top label) "
           },
           "filled": {
-            "value": "{color.base.dark}",
+            "value": "{color.base.black}",
             "type": "color"
           },
           "focus": {
@@ -477,24 +477,24 @@
             "type": "color"
           },
           "focus-filled": {
-            "value": "{color.base.dark}",
+            "value": "{color.base.black}",
             "type": "color",
             "description": "Focus completed "
           },
           "error": {
-            "value": "{color.base.dark}",
+            "value": "{color.base.black}",
             "type": "color"
           },
           "readonly": {
-            "value": "{color.text.default}",
+            "value": "{color.text.primary}",
             "type": "color"
           },
           "disabled": {
-            "value": "{color.text.default}",
+            "value": "{color.text.primary}",
             "type": "color"
           },
           "label": {
-            "value": "{color.base.dark}",
+            "value": "{color.base.black}",
             "type": "color",
             "description": "Top label "
           },

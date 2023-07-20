@@ -7,7 +7,7 @@
           "y": "0",
           "blur": "0",
           "spread": "2",
-          "color": "{color.base.dark}",
+          "color": "{color.base.black}",
           "type": "dropShadow"
         },
         "type": "boxShadow"

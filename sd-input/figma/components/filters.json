@@ -61,7 +61,7 @@
           "y": "0",
           "blur": "0",
           "spread": "2",
-          "color": "{color.base.dark}",
+          "color": "{color.base.black}",
           "type": "dropShadow"
         },
         "type": "boxShadow"
@@ -111,7 +111,7 @@
     "color": {
       "background": {
         "default": {
-          "value": "{color.base.light}",
+          "value": "{color.base.white}",
           "type": "color"
         },
         "hover": {
@@ -119,7 +119,7 @@
           "type": "color"
         },
         "focus": {
-          "value": "{color.base.light}",
+          "value": "{color.base.white}",
           "type": "color"
         },
         "disabled": {
@@ -141,13 +141,13 @@
           "type": "color"
         },
         "selected": {
-          "value": "{color.base.dark}",
+          "value": "{color.base.black}",
           "type": "color"
         }
       },
       "text": {
         "default": {
-          "value": "{color.base.dark}",
+          "value": "{color.base.black}",
           "type": "color"
         },
         "disabled": {

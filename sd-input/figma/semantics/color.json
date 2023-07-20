@@ -1,50 +1,50 @@
 {
   "color": {
     "text": {
-      "default": {
-        "value": "{color.base.dark}",
+      "primary": {
+        "value": "{color.hiContrast}",
         "type": "color"
       },
       "subtle": {
-        "value": "{color.gray.900}",
+        "value": "{color.gray.1100}",
         "type": "color"
       },
-      "action": {
-        "value": "{color.base.dark}",
+      "action-deprecate": {
+        "value": "{color.base.black}",
         "type": "color"
       },
-      "disabled": {
+      "disabled-deprecate": {
         "value": "{color.gray.700}",
         "type": "color"
       },
       "nonessential": {
-        "value": "{color.gray.600}",
+        "value": "{color.gray.900}",
         "type": "color"
       },
-      "default--ondark": {
-        "value": "{color.base.light}",
+      "default--ondark-deprecate": {
+        "value": "{color.base.white}",
         "type": "color"
       },
-      "subtle--ondark": {
+      "subtle--ondark-deprecate": {
         "value": "{color.gray.500}",
         "type": "color"
       },
-      "action--ondark": {
-        "value": "{color.base.light}",
+      "action--ondark-deprecate": {
+        "value": "{color.base.white}",
         "type": "color"
       },
-      "nonessential--ondark": {
+      "nonessential--ondark-deprecate": {
         "value": "{color.gray.600}",
         "type": "color"
       }
     },
     "icon": {
-      "default": {
-        "value": "{color.base.dark}",
+      "primary": {
+        "value": "{color.base.black}",
         "type": "color"
       },
-      "inverse": {
-        "value": "{color.base.light}",
+      "inverse-deprecate": {
+        "value": "{color.base.white}",
         "type": "color"
       },
       "subtle": {
@@ -63,15 +63,15 @@
           "type": "color"
         },
         "warning": {
-          "value": "{color.yellow.light}",
+          "value": "{color.yellow.light-deprecate}",
           "type": "color"
         },
         "informative": {
-          "value": "{color.blue.light}",
+          "value": "{color.blue.light-deprecate}",
           "type": "color"
         },
         "success": {
-          "value": "{color.green.light}",
+          "value": "{color.green.light-deprecate}",
           "type": "color"
         },
         "unknown": {
@@ -80,19 +80,19 @@
         }
       },
       "success": {
-        "value": "{color.green.medium}",
+        "value": "{color.green.medium-deprecate}",
         "type": "color"
       },
       "warning": {
-        "value": "{color.yellow.medium}",
+        "value": "{color.yellow.medium-deprecate}",
         "type": "color"
       },
       "informative": {
-        "value": "{color.blue.medium}",
+        "value": "{color.blue.medium-deprecate}",
         "type": "color"
       },
       "unknown": {
-        "value": "{color.base.dark}",
+        "value": "{color.base.black}",
         "type": "color"
       }
     },
@@ -100,7 +100,7 @@
       "background": {
         "primary": {
           "default": {
-            "value": "{color.base.dark}",
+            "value": "{color.base.black}",
             "type": "color"
           },
           "hover": {
@@ -118,7 +118,7 @@
         },
         "basic": {
           "default": {
-            "value": "{color.base.light}",
+            "value": "{color.base.white}",
             "type": "color"
           },
           "hover": {
@@ -161,11 +161,11 @@
       },
       "content": {
         "primary": {
-          "value": "{color.base.light}",
+          "value": "{color.base.white}",
           "type": "color"
         },
         "basic": {
-          "value": "{color.base.dark}",
+          "value": "{color.base.black}",
           "type": "color"
         },
         "disabled": {
@@ -179,12 +179,12 @@
       }
     },
     "background": {
-      "default": {
-        "value": "{color.base.light}",
+      "primary": {
+        "value": "{color.loContrast}",
         "type": "color"
       },
-      "inverse": {
-        "value": "{color.base.dark}",
+      "inverse-deprecate": {
+        "value": "{color.base.black}",
         "type": "color"
       },
       "secondary": {
@@ -198,11 +198,11 @@
         "type": "color"
       },
       "inverse": {
-        "value": "{color.base.dark}",
+        "value": "{color.base.black}",
         "type": "color"
       },
       "default--ondark": {
-        "value": "{color.base.light}",
+        "value": "{color.base.white}",
         "type": "color"
       }
     }

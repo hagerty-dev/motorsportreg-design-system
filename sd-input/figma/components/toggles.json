@@ -33,12 +33,12 @@
       },
       "color": {
         "text": {
-          "value": "{color.base.dark}",
+          "value": "{color.base.black}",
           "type": "color"
         },
         "background": {
           "on": {
-            "value": "{color.base.light}",
+            "value": "{color.base.white}",
             "type": "color"
           },
           "hover": {
