@@ -330,7 +330,7 @@
     },
     "elevation": {
       "focus": {
-        "value": "{elevation.interactive.focus}",
+        "value": "{elevation.ui.focus}",
         "type": "boxShadow"
       }
     },

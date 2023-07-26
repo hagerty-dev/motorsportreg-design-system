@@ -1799,5 +1799,25 @@
       "color.transparency.5-deprecate": "1ab76aee988c1ab2c9428cc0078dc90c1fc136f6"
     },
     "group": "Core"
+  },
+  {
+    "id": "c56580bddc20720c687568205e53e98eaa06b2bf",
+    "name": "Marketing",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "primitives": "source",
+      "brand/marketing": "enabled"
+    },
+    "group": "Brands"
+  },
+  {
+    "id": "e0a5beacd1dda4a173cdeec97e58f6521740b698",
+    "name": "Product",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "primitives": "source",
+      "brand/product": "enabled"
+    },
+    "group": "Brands"
   }
 ]

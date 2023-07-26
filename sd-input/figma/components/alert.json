@@ -4,23 +4,23 @@
       "background": {
         "product": {
           "critical": {
-            "value": "{color.feedback.background.critical}",
+            "value": "{color.ui.background.critical}",
             "type": "color"
           },
           "warning": {
-            "value": "{color.feedback.background.warning}",
+            "value": "{color.ui.background.warning}",
             "type": "color"
           },
           "info": {
-            "value": "{color.feedback.background.informative}",
+            "value": "{color.ui.background.informative}",
             "type": "color"
           },
           "success": {
-            "value": "{color.feedback.background.success}",
+            "value": "{color.ui.background.success}",
             "type": "color"
           },
           "tip": {
-            "value": "{color.feedback.background.unknown}",
+            "value": "{color.ui.background.unknown}",
             "type": "color"
           },
           "tip-ondark": {
@@ -30,15 +30,15 @@
         },
         "global": {
           "critical": {
-            "value": "{color.feedback.background.critical}",
+            "value": "{color.ui.background.critical}",
             "type": "color"
           },
           "warning": {
-            "value": "{color.feedback.background.warning}",
+            "value": "{color.ui.background.warning}",
             "type": "color"
           },
           "info": {
-            "value": "{color.feedback.background.informative}",
+            "value": "{color.ui.background.informative}",
             "type": "color"
           },
           "info-ondark": {
@@ -48,19 +48,19 @@
         },
         "label": {
           "critical": {
-            "value": "{color.feedback.background.critical}",
+            "value": "{color.ui.background.critical}",
             "type": "color"
           },
           "warning": {
-            "value": "{color.feedback.background.warning}",
+            "value": "{color.ui.background.warning}",
             "type": "color"
           },
           "info": {
-            "value": "{color.feedback.background.informative}",
+            "value": "{color.ui.background.informative}",
             "type": "color"
           },
           "success": {
-            "value": "{color.feedback.background.success}",
+            "value": "{color.ui.background.success}",
             "type": "color"
           }
         },
