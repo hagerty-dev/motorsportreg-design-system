@@ -14,7 +14,7 @@
     },
     "text": {
       "value": {
-        "fontFamily": "{font.family.GTAmerica}",
+        "fontFamily": "{font.family.brand}",
         "fontWeight": "{font.weight.regular}",
         "lineHeight": "{font.lineHeight.standard}",
         "fontSize": "{font.size.94}",
