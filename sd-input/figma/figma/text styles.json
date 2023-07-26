@@ -5,7 +5,7 @@
         "small": {
           "bold": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.bold}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.200}",
@@ -19,7 +19,7 @@
           },
           "medium": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.medium}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.200}",
@@ -33,7 +33,7 @@
           },
           "extendedbold": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.extended.bold}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.200}",
@@ -47,7 +47,7 @@
           },
           "extendedmedium": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.extended.medium}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.200}",
@@ -63,7 +63,7 @@
         "large": {
           "bold": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.bold}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.250}",
@@ -77,7 +77,7 @@
           },
           "medium": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.medium}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.250}",
@@ -91,7 +91,7 @@
           },
           "extendedbold": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.extended.bold}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.250}",
@@ -105,7 +105,7 @@
           },
           "extendedmedium": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.extended.medium}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.250}",
@@ -123,7 +123,7 @@
         "small": {
           "bold": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.bold}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.200}",
@@ -137,7 +137,7 @@
           },
           "medium": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.medium}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.200}",
@@ -151,7 +151,7 @@
           },
           "extendedbold": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.extended.bold}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.200}",
@@ -165,7 +165,7 @@
           },
           "extendedmedium": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.extended.medium}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.200}",
@@ -181,7 +181,7 @@
         "large": {
           "bold": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.bold}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.225}",
@@ -195,7 +195,7 @@
           },
           "medium": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.medium}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.225}",
@@ -209,7 +209,7 @@
           },
           "extendedbold": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.extended.bold}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.225}",
@@ -223,7 +223,7 @@
           },
           "extendedmedium": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.extended.medium}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.225}",
@@ -241,7 +241,7 @@
         "small": {
           "bold": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.bold}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.175}",
@@ -255,7 +255,7 @@
           },
           "medium": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.medium}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.175}",
@@ -269,7 +269,7 @@
           },
           "extendedbold": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.extended.bold}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.175}",
@@ -283,7 +283,7 @@
           },
           "extendedmedium": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.extended.medium}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.175}",
@@ -299,7 +299,7 @@
         "large": {
           "bold": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.bold}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.200}",
@@ -313,7 +313,7 @@
           },
           "medium": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.medium}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.200}",
@@ -327,7 +327,7 @@
           },
           "extendedbold": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.extended.bold}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.200}",
@@ -341,7 +341,7 @@
           },
           "extendedmedium": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.extended.medium}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.200}",
@@ -359,7 +359,7 @@
         "small": {
           "bold": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.bold}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.150}",
@@ -373,7 +373,7 @@
           },
           "medium": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.medium}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.150}",
@@ -387,7 +387,7 @@
           },
           "extendedbold": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.extended.bold}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.150}",
@@ -401,7 +401,7 @@
           },
           "extendedmedium": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.extended.medium}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.150}",
@@ -417,7 +417,7 @@
         "large": {
           "bold": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.bold}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.175}",
@@ -431,7 +431,7 @@
           },
           "medium": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.medium}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.175}",
@@ -445,7 +445,7 @@
           },
           "extendedbold": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.extended.bold}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.175}",
@@ -459,7 +459,7 @@
           },
           "extendedmedium": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.extended.medium}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.175}",
@@ -476,7 +476,7 @@
       "level-500": {
         "bold": {
           "value": {
-            "fontFamily": "{font.family.GTAmerica}",
+            "fontFamily": "{font.family.brand}",
             "fontWeight": "{font.weight.bold}",
             "lineHeight": "{font.lineHeight.tight}",
             "fontSize": "{font.size.150}",
@@ -490,7 +490,7 @@
         },
         "medium": {
           "value": {
-            "fontFamily": "{font.family.GTAmerica}",
+            "fontFamily": "{font.family.brand}",
             "fontWeight": "{font.weight.medium}",
             "lineHeight": "{font.lineHeight.tight}",
             "fontSize": "{font.size.150}",
@@ -506,7 +506,7 @@
       "level-600": {
         "bold": {
           "value": {
-            "fontFamily": "{font.family.GTAmerica}",
+            "fontFamily": "{font.family.brand}",
             "fontWeight": "{font.weight.bold}",
             "lineHeight": "{font.lineHeight.tight}",
             "fontSize": "{font.size.125}",
@@ -520,7 +520,7 @@
         },
         "medium": {
           "value": {
-            "fontFamily": "{font.family.GTAmerica}",
+            "fontFamily": "{font.family.brand}",
             "fontWeight": "{font.weight.medium}",
             "lineHeight": "{font.lineHeight.tight}",
             "fontSize": "{font.size.125}",
@@ -539,7 +539,7 @@
         "large": {
           "extendedbold": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.extended.bold}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.400}",
@@ -553,7 +553,7 @@
           },
           "extendedmedium": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.extended.medium}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.400}",
@@ -569,7 +569,7 @@
         "small": {
           "extendedbold": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.extended.bold}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.350}",
@@ -583,7 +583,7 @@
           },
           "extendedmedium": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.extended.medium}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.350}",
@@ -601,7 +601,7 @@
         "large": {
           "extendedbold": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.extended.bold}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.350}",
@@ -615,7 +615,7 @@
           },
           "extendedmedium": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.extended.medium}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.350}",
@@ -631,7 +631,7 @@
         "small": {
           "extendedbold": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.extended.bold}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.300}",
@@ -645,7 +645,7 @@
           },
           "extendedmedium": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.extended.medium}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.300}",
@@ -663,7 +663,7 @@
         "large": {
           "extendedbold": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.extended.bold}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.300}",
@@ -677,7 +677,7 @@
           },
           "extendedmedium": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.extended.medium}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.300}",
@@ -693,7 +693,7 @@
         "small": {
           "extendedbold": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.extended.bold}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.250}",
@@ -707,7 +707,7 @@
           },
           "extendedmedium": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.extended.medium}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.250}",
@@ -727,7 +727,7 @@
         "large": {
           "regular": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.regular}",
               "lineHeight": "{font.lineHeight.standard}",
               "fontSize": "{font.size.175}",
@@ -741,7 +741,7 @@
           },
           "medium": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.medium}",
               "lineHeight": "{font.lineHeight.standard}",
               "fontSize": "{font.size.175}",
@@ -757,7 +757,7 @@
         "small": {
           "regular": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.regular}",
               "lineHeight": "{font.lineHeight.standard}",
               "fontSize": "{font.size.150}",
@@ -771,7 +771,7 @@
           },
           "medium": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.medium}",
               "lineHeight": "{font.lineHeight.standard}",
               "fontSize": "{font.size.150}",
@@ -789,7 +789,7 @@
         "large": {
           "regular": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.regular}",
               "lineHeight": "{font.lineHeight.standard}",
               "fontSize": "{font.size.150}",
@@ -803,7 +803,7 @@
           },
           "medium": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.medium}",
               "lineHeight": "{font.lineHeight.standard}",
               "fontSize": "{font.size.150}",
@@ -819,7 +819,7 @@
         "small": {
           "regular": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.regular}",
               "lineHeight": "{font.lineHeight.standard}",
               "fontSize": "{font.size.125}",
@@ -833,7 +833,7 @@
           },
           "medium": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.medium}",
               "lineHeight": "{font.lineHeight.standard}",
               "fontSize": "{font.size.125}",
@@ -851,7 +851,7 @@
         "large": {
           "regular": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.regular}",
               "lineHeight": "{font.lineHeight.standard}",
               "fontSize": "{font.size.125}",
@@ -865,7 +865,7 @@
           },
           "medium": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.medium}",
               "lineHeight": "{font.lineHeight.standard}",
               "fontSize": "{font.size.125}",
@@ -884,7 +884,7 @@
       "level-100": {
         "medium": {
           "value": {
-            "fontFamily": "{font.family.GTAmerica}",
+            "fontFamily": "{font.family.brand}",
             "fontWeight": "{font.weight.medium}",
             "lineHeight": "{font.lineHeight.loose}",
             "fontSize": "{font.size.125}",
@@ -898,7 +898,7 @@
         },
         "regular": {
           "value": {
-            "fontFamily": "{font.family.GTAmerica}",
+            "fontFamily": "{font.family.brand}",
             "fontWeight": "{font.weight.regular}",
             "lineHeight": "{font.lineHeight.loose}",
             "fontSize": "{font.size.125}",
@@ -914,7 +914,7 @@
       "level-200": {
         "medium": {
           "value": {
-            "fontFamily": "{font.family.GTAmerica}",
+            "fontFamily": "{font.family.brand}",
             "fontWeight": "{font.weight.medium}",
             "lineHeight": "{font.lineHeight.loose}",
             "fontSize": "{font.size.112}",
@@ -928,7 +928,7 @@
         },
         "regular": {
           "value": {
-            "fontFamily": "{font.family.GTAmerica}",
+            "fontFamily": "{font.family.brand}",
             "fontWeight": "{font.weight.regular}",
             "lineHeight": "{font.lineHeight.loose}",
             "fontSize": "{font.size.112}",
@@ -944,7 +944,7 @@
       "level-300": {
         "medium": {
           "value": {
-            "fontFamily": "{font.family.GTAmerica}",
+            "fontFamily": "{font.family.brand}",
             "fontWeight": "{font.weight.medium}",
             "lineHeight": "{font.lineHeight.loose}",
             "fontSize": "{font.size.base}",
@@ -958,7 +958,7 @@
         },
         "regular": {
           "value": {
-            "fontFamily": "{font.family.GTAmerica}",
+            "fontFamily": "{font.family.brand}",
             "fontWeight": "{font.weight.regular}",
             "lineHeight": "{font.lineHeight.loose}",
             "fontSize": "{font.size.base}",

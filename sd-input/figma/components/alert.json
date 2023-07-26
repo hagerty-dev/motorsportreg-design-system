@@ -89,7 +89,7 @@
     "text": {
       "global": {
         "value": {
-          "fontFamily": "{font.family.GTAmerica}",
+          "fontFamily": "{font.family.brand}",
           "fontWeight": "{font.weight.regular}",
           "lineHeight": "{font.lineHeight.tight}",
           "fontSize": "{font.size.112}",
@@ -103,7 +103,7 @@
       },
       "product": {
         "value": {
-          "fontFamily": "{font.family.GTAmerica}",
+          "fontFamily": "{font.family.brand}",
           "fontWeight": "{font.weight.regular}",
           "lineHeight": "{font.lineHeight.standard}",
           "fontSize": "{font.size.100}",
@@ -117,7 +117,7 @@
       },
       "label": {
         "value": {
-          "fontFamily": "{font.family.GTAmerica}",
+          "fontFamily": "{font.family.brand}",
           "fontWeight": "{font.weight.regular}",
           "lineHeight": "{font.lineHeight.tight}",
           "fontSize": "{font.size.base}",
@@ -131,7 +131,7 @@
       },
       "toast": {
         "value": {
-          "fontFamily": "{font.family.GTAmerica}",
+          "fontFamily": "{font.family.brand}",
           "fontWeight": "{font.weight.regular}",
           "lineHeight": "{font.lineHeight.tight}",
           "fontSize": "{font.size.base}",

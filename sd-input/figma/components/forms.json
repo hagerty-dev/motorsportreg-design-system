@@ -50,7 +50,7 @@
     },
     "text": {
       "value": {
-        "fontFamily": "{font.family.GTAmerica}",
+        "fontFamily": "{font.family.brand}",
         "fontWeight": "{font.weight.regular}",
         "lineHeight": "{font.lineHeight.tight}",
         "fontSize": "{font.size.112}",
@@ -108,7 +108,7 @@
   "validation": {
     "text": {
       "value": {
-        "fontFamily": "{font.family.GTAmerica}",
+        "fontFamily": "{font.family.brand}",
         "fontWeight": "{font.weight.regular}",
         "lineHeight": "{font.lineHeight.standard}",
         "fontSize": "{font.size.100}",
@@ -398,7 +398,7 @@
       "text": {
         "sublabel": {
           "value": {
-            "fontFamily": "{font.family.GTAmerica}",
+            "fontFamily": "{font.family.brand}",
             "fontWeight": "{font.weight.regular}",
             "lineHeight": "{font.lineHeight.tight}",
             "fontSize": "{font.size.94}",
@@ -412,7 +412,7 @@
         },
         "label": {
           "value": {
-            "fontFamily": "{font.family.GTAmerica}",
+            "fontFamily": "{font.family.brand}",
             "fontWeight": "{font.weight.medium}",
             "lineHeight": "{font.lineHeight.tight}",
             "fontSize": "{font.size.base}",
@@ -427,7 +427,7 @@
         "input": {
           "small": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.regular}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.112}",
@@ -441,7 +441,7 @@
           },
           "large": {
             "value": {
-              "fontFamily": "{font.family.GTAmerica}",
+              "fontFamily": "{font.family.brand}",
               "fontWeight": "{font.weight.regular}",
               "lineHeight": "{font.lineHeight.tight}",
               "fontSize": "{font.size.125}",
@@ -516,7 +516,7 @@
     "text": {
       "small": {
         "value": {
-          "fontFamily": "{font.family.GTAmerica}",
+          "fontFamily": "{font.family.brand}",
           "fontWeight": "{font.weight.regular}",
           "lineHeight": "{font.lineHeight.tight}",
           "fontSize": "{font.size.112}",
@@ -530,7 +530,7 @@
       },
       "large": {
         "value": {
-          "fontFamily": "{font.family.GTAmerica}",
+          "fontFamily": "{font.family.brand}",
           "fontWeight": "{font.weight.regular}",
           "lineHeight": "{font.lineHeight.tight}",
           "fontSize": "{font.size.125}",
@@ -547,7 +547,7 @@
       "heading": {
         "small": {
           "value": {
-            "fontFamily": "{font.family.GTAmerica}",
+            "fontFamily": "{font.family.brand}",
             "fontWeight": "{font.weight.medium}",
             "lineHeight": "{font.lineHeight.tight}",
             "fontSize": "{font.size.base}",
@@ -561,7 +561,7 @@
         },
         "large": {
           "value": {
-            "fontFamily": "{font.family.GTAmerica}",
+            "fontFamily": "{font.family.brand}",
             "fontWeight": "{font.weight.medium}",
             "lineHeight": "{font.lineHeight.tight}",
             "fontSize": "{font.size.112}",
@@ -581,7 +581,7 @@
       "label": {
         "small": {
           "value": {
-            "fontFamily": "{font.family.GTAmerica}",
+            "fontFamily": "{font.family.brand}",
             "fontWeight": "{font.weight.regular}",
             "lineHeight": "{font.lineHeight.tight}",
             "fontSize": "{font.size.112}",
@@ -595,7 +595,7 @@
         },
         "xSmall": {
           "value": {
-            "fontFamily": "{font.family.GTAmerica}",
+            "fontFamily": "{font.family.brand}",
             "fontWeight": "{font.weight.regular}",
             "lineHeight": "{font.lineHeight.tight}",
             "fontSize": "{font.size.100}",
@@ -609,7 +609,7 @@
         },
         "large": {
           "value": {
-            "fontFamily": "{font.family.GTAmerica}",
+            "fontFamily": "{font.family.brand}",
             "fontWeight": "{font.weight.regular}",
             "lineHeight": "{font.lineHeight.tight}",
             "fontSize": "{font.size.125}",
@@ -625,7 +625,7 @@
       "heading": {
         "small": {
           "value": {
-            "fontFamily": "{font.family.GTAmerica}",
+            "fontFamily": "{font.family.brand}",
             "fontWeight": "{font.weight.medium}",
             "lineHeight": "{font.lineHeight.tight}",
             "fontSize": "{font.size.base}",
@@ -639,7 +639,7 @@
         },
         "large": {
           "value": {
-            "fontFamily": "{font.family.GTAmerica}",
+            "fontFamily": "{font.family.brand}",
             "fontWeight": "{font.weight.medium}",
             "lineHeight": "{font.lineHeight.tight}",
             "fontSize": "{font.size.112}",

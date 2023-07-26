@@ -18,7 +18,7 @@
       "color": {
         "background": {
           "default": {
-            "value": "{color.transparency.70}",
+            "value": "{color.transparency.70-deprecate}",
             "type": "color"
           }
         }
@@ -28,7 +28,7 @@
       "text": {
         "body": {
           "value": {
-            "fontFamily": "{font.family.GTAmerica}",
+            "fontFamily": "{font.family.brand}",
             "fontWeight": "{font.weight.regular}",
             "lineHeight": "{font.lineHeight.loose}",
             "fontSize": "{font.size.125}",
@@ -42,7 +42,7 @@
         },
         "heading": {
           "value": {
-            "fontFamily": "{font.family.GTAmerica}",
+            "fontFamily": "{font.family.brand}",
             "fontWeight": "{font.weight.extended.medium}",
             "lineHeight": "{font.lineHeight.tight}",
             "fontSize": "{font.size.200}",
