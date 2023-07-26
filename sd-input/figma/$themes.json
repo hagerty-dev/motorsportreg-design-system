@@ -21,7 +21,9 @@
       "semantics/border": "enabled",
       "semantics/elevation": "enabled",
       "primitives": "source",
-      "light": "enabled"
+      "light": "enabled",
+      "brand/marketing": "disabled",
+      "brand/product": "disabled"
     },
     "$figmaStyleReferences": {},
     "$figmaCollectionId": "VariableCollectionId:3114:24767",
@@ -607,7 +609,9 @@
       "semantics/border": "enabled",
       "semantics/elevation": "enabled",
       "primitives": "source",
-      "dark": "enabled"
+      "dark": "enabled",
+      "brand/marketing": "disabled",
+      "brand/product": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:3114:24767",
     "$figmaModeId": "3114:10",
@@ -1174,7 +1178,9 @@
     "name": "Default",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "primitives": "enabled"
+      "primitives": "enabled",
+      "brand/marketing": "disabled",
+      "brand/product": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:3114:25325",
     "$figmaModeId": "3114:11",
@@ -1799,5 +1805,25 @@
       "color.transparency.5-deprecate": "1ab76aee988c1ab2c9428cc0078dc90c1fc136f6"
     },
     "group": "Core"
+  },
+  {
+    "id": "c56580bddc20720c687568205e53e98eaa06b2bf",
+    "name": "Marketing",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "primitives": "source",
+      "brand/marketing": "enabled"
+    },
+    "group": "Brands"
+  },
+  {
+    "id": "e0a5beacd1dda4a173cdeec97e58f6521740b698",
+    "name": "Product",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "primitives": "source",
+      "brand/product": "enabled"
+    },
+    "group": "Brands"
   }
 ]

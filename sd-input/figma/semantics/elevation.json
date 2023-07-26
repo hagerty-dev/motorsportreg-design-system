@@ -121,14 +121,14 @@
       ],
       "type": "boxShadow"
     },
-    "interactive": {
+    "ui": {
       "focus": {
         "value": {
           "x": "0",
           "y": "0",
           "blur": "0",
           "spread": "2",
-          "color": "{color.base.black}",
+          "color": "{color.hiContrast}",
           "type": "dropShadow"
         },
         "type": "boxShadow"

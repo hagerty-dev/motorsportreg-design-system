@@ -6,6 +6,8 @@
     "semantics/color",
     "semantics/border",
     "semantics/elevation",
+    "brand/marketing",
+    "brand/product",
     "figma/text styles",
     "components/button",
     "components/text",

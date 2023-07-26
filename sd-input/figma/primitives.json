@@ -125,7 +125,7 @@
         "value": "GT America,Helvetica,Helvetica Neue,Aria,sans-serif",
         "type": "fontFamilies"
       },
-      "sans-serif": {
+      "sansSerif": {
         "value": "Inter,Helvetica,Helvetica Neue,Aria,sans-serif",
         "type": "fontFamilies"
       },

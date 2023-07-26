@@ -145,11 +145,11 @@
     "color": {
       "background": {
         "error": {
-          "value": "{color.feedback.background.critical}",
+          "value": "{color.ui.background.critical}",
           "type": "color"
         },
         "success": {
-          "value": "{color.feedback.background.success}",
+          "value": "{color.ui.background.success}",
           "type": "color"
         }
       },
@@ -159,7 +159,7 @@
       },
       "critical": {
         "text": {
-          "value": "{color.feedback.critical}",
+          "value": "{color.ui.critical}",
           "type": "color"
         }
       }
@@ -390,7 +390,7 @@
             "type": "color"
           },
           "error": {
-            "value": "{color.feedback.critical}",
+            "value": "{color.ui.critical}",
             "type": "color"
           }
         }

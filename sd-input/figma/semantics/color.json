@@ -52,47 +52,47 @@
         "type": "color"
       }
     },
-    "feedback": {
+    "ui": {
       "critical": {
-        "value": "{color.red.700}",
+        "value": "{color.red.1100}",
         "type": "color"
       },
       "background": {
         "critical": {
-          "value": "{color.red.light-deprecate}",
+          "value": "{color.red.400}",
           "type": "color"
         },
         "warning": {
-          "value": "{color.yellow.light-deprecate}",
+          "value": "{color.yellow.400}",
           "type": "color"
         },
         "informative": {
-          "value": "{color.blue.light-deprecate}",
+          "value": "{color.blue.400}",
           "type": "color"
         },
         "success": {
-          "value": "{color.green.light-deprecate}",
+          "value": "{color.green.400}",
           "type": "color"
         },
         "unknown": {
-          "value": "{color.gray.200}",
+          "value": "{color.gray.400}",
           "type": "color"
         }
       },
       "success": {
-        "value": "{color.green.medium-deprecate}",
+        "value": "{color.green.1100}",
         "type": "color"
       },
       "warning": {
-        "value": "{color.yellow.medium-deprecate}",
+        "value": "{color.yellow.1100}",
         "type": "color"
       },
       "informative": {
-        "value": "{color.blue.medium-deprecate}",
+        "value": "{color.blue.1100}",
         "type": "color"
       },
       "unknown": {
-        "value": "{color.base.black}",
+        "value": "{color.gray.1100}",
         "type": "color"
       }
     },
