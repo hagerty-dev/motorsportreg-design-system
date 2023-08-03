@@ -2,7 +2,7 @@
   "border": {
     "default": {
       "value": {
-        "color": "{color.border.default}",
+        "color": "{color.container.border.subtle}",
         "width": "{border.width.100}",
         "style": "solid"
       },

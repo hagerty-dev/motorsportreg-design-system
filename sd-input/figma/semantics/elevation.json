@@ -127,8 +127,8 @@
           "x": "0",
           "y": "0",
           "blur": "0",
-          "spread": "2",
-          "color": "{color.hiContrast}",
+          "spread": "3",
+          "color": "{color.indigo.700}",
           "type": "dropShadow"
         },
         "type": "boxShadow"

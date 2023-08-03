@@ -40,7 +40,7 @@
     },
     "icon": {
       "primary": {
-        "value": "{color.base.black}",
+        "value": "{color.gray.1200}",
         "type": "color"
       },
       "inverse-deprecate": {
@@ -178,32 +178,36 @@
         }
       }
     },
-    "background": {
-      "primary": {
-        "value": "{color.loContrast}",
-        "type": "color"
-      },
-      "inverse-deprecate": {
-        "value": "{color.base.black}",
-        "type": "color"
-      },
-      "secondary": {
-        "value": "{color.gray.200}",
-        "type": "color"
+    "page": {
+      "background": {
+        "primary": {
+          "value": "{color.loContrast}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{color.gray.100}",
+          "type": "color"
+        }
       }
     },
-    "border": {
-      "default": {
-        "value": "{color.gray.300}",
+    "container": {
+      "border": {
+        "value": "{color.gray.700}",
         "type": "color"
       },
-      "inverse": {
-        "value": "{color.base.black}",
+      "separator": {
+        "value": "{color.gray.600}",
         "type": "color"
       },
-      "default--ondark": {
-        "value": "{color.base.white}",
-        "type": "color"
+      "background": {
+        "primary": {
+          "value": "{color.loContrast}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{color.gray.200}",
+          "type": "color"
+        }
       }
     }
   }
