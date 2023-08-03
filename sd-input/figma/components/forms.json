@@ -355,9 +355,8 @@
           "type": "borderWidth"
         },
         "focus": {
-          "value": "{border.width.200}",
-          "type": "borderWidth",
-          "description": ""
+          "value": "{border.width.100}",
+          "type": "borderWidth"
         },
         "error": {
           "value": "{border.width.200}",
