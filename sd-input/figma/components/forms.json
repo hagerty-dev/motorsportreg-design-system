@@ -344,8 +344,12 @@
           "value": "56",
           "type": "sizing"
         },
-        "small": {
+        "medium": {
           "value": "48",
+          "type": "sizing"
+        },
+        "small": {
+          "value": "{size.500}",
           "type": "sizing"
         }
       },

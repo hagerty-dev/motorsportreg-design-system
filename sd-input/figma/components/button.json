@@ -283,7 +283,7 @@
       },
       "basic": {
         "value": {
-          "color": "{color.interactive.border.basic}",
+          "color": "{color.interactive.border.basic.default}",
           "width": "{border.width.100}",
           "style": "solid"
         },

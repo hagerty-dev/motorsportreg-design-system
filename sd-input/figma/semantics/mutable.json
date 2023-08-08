@@ -1,9 +1,9 @@
 {
   "color": {
-    "page": {
+    "app": {
       "background": {
         "primary": {
-          "value": "{color.gray.200}",
+          "value": "{color.gray.100}",
           "type": "color"
         }
       }
@@ -11,7 +11,7 @@
     "container": {
       "background": {
         "primary": {
-          "value": "{color.gray.200}",
+          "value": "{color.gray.100}",
           "type": "color"
         }
       }
