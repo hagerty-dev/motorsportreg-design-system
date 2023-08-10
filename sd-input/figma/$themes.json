@@ -21,7 +21,8 @@
       "semantics/border": "enabled",
       "semantics/elevation": "enabled",
       "primitives": "source",
-      "light": "enabled"
+      "light": "enabled",
+      "semantics/text": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaCollectionId": "VariableCollectionId:3114:24767",
@@ -53,7 +54,8 @@
       "semantics/elevation": "enabled",
       "primitives": "source",
       "dark": "enabled",
-      "semantics/mutable": "enabled"
+      "semantics/mutable": "enabled",
+      "semantics/text": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:3114:24767",
     "$figmaModeId": "3114:10",

@@ -49,6 +49,11 @@
   },
   "font": {
     "size": {
+      "80": {
+        "value": "{font.size.base} * 0.813",
+        "type": "fontSizes",
+        "description": "13px / 0.813rem"
+      },
       "87": {
         "value": "{font.size.base} * 0.875",
         "type": "fontSizes",

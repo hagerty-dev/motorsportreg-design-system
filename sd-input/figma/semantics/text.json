@@ -1,0 +1,60 @@
+{
+  "text": {
+    "input": {
+      "value": {
+        "value": {
+          "fontFamily": "{font.family.primary}",
+          "fontWeight": "{font.weight.regular}",
+          "lineHeight": "{font.lineHeight.snug}",
+          "fontSize": "{font.size.112}"
+        },
+        "type": "typography"
+      },
+      "value-small": {
+        "value": {
+          "fontFamily": "{font.family.primary}",
+          "fontWeight": "{font.weight.regular}",
+          "lineHeight": "{font.lineHeight.snug}",
+          "fontSize": "{font.size.94}"
+        },
+        "type": "typography"
+      },
+      "label": {
+        "value": {
+          "fontFamily": "{font.family.primary}",
+          "fontWeight": "{font.weight.medium}",
+          "lineHeight": "{font.lineHeight.tight}",
+          "fontSize": "{font.size.94}"
+        },
+        "type": "typography"
+      },
+      "label-small": {
+        "value": {
+          "fontFamily": "{font.family.primary}",
+          "fontWeight": "{font.weight.medium}",
+          "lineHeight": "{font.lineHeight.tight}",
+          "fontSize": "{font.size.87}"
+        },
+        "type": "typography"
+      },
+      "optional": {
+        "value": {
+          "fontFamily": "{font.family.primary}",
+          "fontWeight": "{font.weight.regular}",
+          "lineHeight": "{font.lineHeight.tight}",
+          "fontSize": "{font.size.80}"
+        },
+        "type": "typography"
+      },
+      "message": {
+        "value": {
+          "fontFamily": "{font.family.primary}",
+          "fontWeight": "{font.weight.regular}",
+          "lineHeight": "{font.lineHeight.tight}",
+          "fontSize": "{font.size.87}"
+        },
+        "type": "typography"
+      }
+    }
+  }
+}
