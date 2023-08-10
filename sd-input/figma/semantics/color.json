@@ -54,7 +54,7 @@
     },
     "ui": {
       "critical": {
-        "value": "{color.red.1100}",
+        "value": "{color.red.900}",
         "type": "color"
       },
       "background": {
@@ -208,6 +208,70 @@
         },
         "secondary": {
           "value": "{color.gray.200}",
+          "type": "color"
+        }
+      }
+    },
+    "input": {
+      "background": {
+        "default": {
+          "value": "{color.loContrast}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{color.gray.300}",
+          "type": "color"
+        },
+        "selected": {
+          "value": "{color.hiContrast}",
+          "type": "color"
+        }
+      },
+      "border": {
+        "selected": {
+          "value": "{color.hiContrast}",
+          "type": "color"
+        },
+        "default": {
+          "value": "{color.gray.800}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{color.gray.900}",
+          "type": "color"
+        },
+        "active": {
+          "value": "{color.hiContrast}",
+          "type": "color"
+        },
+        "error": {
+          "value": "{color.ui.critical}",
+          "type": "color"
+        },
+        "error-hover": {
+          "value": "{color.red.1000}",
+          "type": "color"
+        },
+        "error-active": {
+          "value": "{color.red.1100}",
+          "type": "color"
+        }
+      },
+      "text": {
+        "label": {
+          "value": "{color.text.primary}",
+          "type": "color"
+        },
+        "value": {
+          "value": "{color.text.primary}",
+          "type": "color"
+        },
+        "placeholder": {
+          "value": "{color.text.nonessential}",
+          "type": "color"
+        },
+        "message": {
+          "value": "{color.text.subtle}",
           "type": "color"
         }
       }
