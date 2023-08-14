@@ -51,7 +51,7 @@
           "fontFamily": "{font.family.primary}",
           "fontWeight": "{font.weight.regular}",
           "lineHeight": "{font.lineHeight.tight}",
-          "fontSize": "{font.size.87}"
+          "fontSize": "{font.size.80}"
         },
         "type": "typography"
       }
