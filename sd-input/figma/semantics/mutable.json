@@ -24,10 +24,8 @@
     },
     "input": {
       "background": {
-        "default": {
-          "value": "{color.gray.100}",
-          "type": "color"
-        }
+        "value": "{color.gray.100}",
+        "type": "color"
       }
     }
   }
