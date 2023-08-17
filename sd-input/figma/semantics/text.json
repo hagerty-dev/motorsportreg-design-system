@@ -5,8 +5,8 @@
         "value": {
           "fontFamily": "{font.family.primary}",
           "fontWeight": "{font.weight.regular}",
-          "lineHeight": "{font.lineHeight.snug}",
-          "fontSize": "{font.size.112}"
+          "lineHeight": "{font.lineHeight.loose}",
+          "fontSize": "{font.size.100}"
         },
         "type": "typography"
       },
@@ -14,7 +14,7 @@
         "value": {
           "fontFamily": "{font.family.primary}",
           "fontWeight": "{font.weight.regular}",
-          "lineHeight": "{font.lineHeight.snug}",
+          "lineHeight": "{font.lineHeight.loose}",
           "fontSize": "{font.size.94}"
         },
         "type": "typography"
@@ -23,8 +23,8 @@
         "value": {
           "fontFamily": "{font.family.primary}",
           "fontWeight": "{font.weight.medium}",
-          "lineHeight": "{font.lineHeight.tight}",
-          "fontSize": "{font.size.94}"
+          "lineHeight": "{font.lineHeight.extra}",
+          "fontSize": "{font.size.87}"
         },
         "type": "typography"
       },
@@ -32,8 +32,8 @@
         "value": {
           "fontFamily": "{font.family.primary}",
           "fontWeight": "{font.weight.medium}",
-          "lineHeight": "{font.lineHeight.tight}",
-          "fontSize": "{font.size.87}"
+          "lineHeight": "{font.lineHeight.extra}",
+          "fontSize": "{font.size.80}"
         },
         "type": "typography"
       },
@@ -41,8 +41,8 @@
         "value": {
           "fontFamily": "{font.family.primary}",
           "fontWeight": "{font.weight.regular}",
-          "lineHeight": "{font.lineHeight.tight}",
-          "fontSize": "{font.size.80}"
+          "lineHeight": "{font.lineHeight.extra}",
+          "fontSize": "{font.size.75}"
         },
         "type": "typography"
       },
@@ -50,7 +50,7 @@
         "value": {
           "fontFamily": "{font.family.primary}",
           "fontWeight": "{font.weight.regular}",
-          "lineHeight": "{font.lineHeight.tight}",
+          "lineHeight": "{font.lineHeight.loose}",
           "fontSize": "{font.size.80}"
         },
         "type": "typography"
