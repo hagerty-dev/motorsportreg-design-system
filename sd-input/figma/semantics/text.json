@@ -14,8 +14,8 @@
         "value": {
           "fontFamily": "{font.family.primary}",
           "fontWeight": "{font.weight.regular}",
-          "lineHeight": "{font.lineHeight.loose}",
-          "fontSize": "{font.size.94}"
+          "lineHeight": "{font.lineHeight.standard}",
+          "fontSize": "{font.size.87}"
         },
         "type": "typography"
       },
