@@ -25,35 +25,11 @@
       }
     },
     "ui": {
-      "critical": {
-        "value": "{color.red.900}",
-        "type": "color"
-      },
       "background": {
-        "critical": {
-          "value": "{color.red.400}",
-          "type": "color"
-        },
-        "warning": {
-          "value": "{color.yellow.400}",
-          "type": "color"
-        },
-        "success": {
-          "value": "{color.green.400}",
-          "type": "color"
-        },
         "unknown": {
           "value": "{color.gray.400}",
           "type": "color"
         }
-      },
-      "success": {
-        "value": "{color.green.1100}",
-        "type": "color"
-      },
-      "warning": {
-        "value": "{color.yellow.1100}",
-        "type": "color"
       },
       "unknown": {
         "value": "{color.gray.1100}",
@@ -65,10 +41,6 @@
         "primary": {
           "default": {
             "value": "{color.hiContrast}",
-            "type": "color"
-          },
-          "hover": {
-            "value": "{color.indigo.1200}",
             "type": "color"
           },
           "disabled": {
@@ -91,24 +63,6 @@
           },
           "disabled": {
             "value": "{color.gray.100}",
-            "type": "color"
-          }
-        },
-        "destructive": {
-          "default": {
-            "value": "{color.red.900}",
-            "type": "color"
-          },
-          "hover": {
-            "value": "{color.red.1000}",
-            "type": "color"
-          },
-          "disabled": {
-            "value": "{color.red.200}",
-            "type": "color"
-          },
-          "active": {
-            "value": "{color.red.800}",
             "type": "color"
           }
         }
@@ -201,18 +155,6 @@
         "value": "{color.hiContrast}",
         "type": "color"
       },
-      "border-error": {
-        "value": "{color.ui.critical}",
-        "type": "color"
-      },
-      "border-error-hover": {
-        "value": "{color.red.1000}",
-        "type": "color"
-      },
-      "border-error-focus": {
-        "value": "{color.red.1100}",
-        "type": "color"
-      },
       "text": {
         "label": {
           "value": "{color.text.primary}",
@@ -232,10 +174,6 @@
         },
         "help": {
           "value": "{color.text.subtle}",
-          "type": "color"
-        },
-        "message-error": {
-          "value": "{color.ui.critical}",
           "type": "color"
         }
       }
