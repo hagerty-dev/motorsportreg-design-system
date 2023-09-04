@@ -10,22 +10,6 @@
     "semantics/text",
     "semantics/space",
     "brand/marketing",
-    "brand/product",
-    "figma/text styles",
-    "components/button",
-    "components/text",
-    "components/forms",
-    "components/alert",
-    "components/tooltip",
-    "components/avatar",
-    "components/modal",
-    "components/logo",
-    "components/image",
-    "components/menu",
-    "components/pagination",
-    "components/datepickers",
-    "components/filters",
-    "components/toggles",
-    "testing"
+    "brand/product"
   ]
 }
