@@ -16,7 +16,7 @@
       "value": {
         "fontFamily": "{font.family.brand}",
         "fontWeight": "{font.weight.regular}",
-        "lineHeight": "{font.lineHeight.standard}",
+        "lineHeight": "{line.height.standard}",
         "fontSize": "{font.size.94}",
         "letterSpacing": "0%",
         "paragraphSpacing": "0",

@@ -181,15 +181,29 @@
           "description": "700"
         }
       }
-    },
-    "textCase": {
+    }
+  },
+  "text": {
+    "case": {
       "capitalize": {
         "value": "capitalize",
         "type": "textCase",
         "description": "Capitalize"
       }
     },
-    "lineHeight": {
+    "decoration": {
+      "underline": {
+        "value": "underline",
+        "type": "textDecoration"
+      },
+      "none": {
+        "value": "none",
+        "type": "textDecoration"
+      }
+    }
+  },
+  "line": {
+    "height": {
       "tight": {
         "value": "110%",
         "type": "lineHeights",
@@ -214,16 +228,6 @@
         "value": "133%",
         "type": "lineHeights",
         "description": "1.5"
-      }
-    },
-    "textDecoration": {
-      "underline": {
-        "value": "underline",
-        "type": "textDecoration"
-      },
-      "none": {
-        "value": "none",
-        "type": "textDecoration"
       }
     }
   },

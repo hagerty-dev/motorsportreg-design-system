@@ -30,7 +30,7 @@
           "value": {
             "fontFamily": "{font.family.brand}",
             "fontWeight": "{font.weight.regular}",
-            "lineHeight": "{font.lineHeight.loose}",
+            "lineHeight": "{line.height.loose}",
             "fontSize": "{font.size.125}",
             "letterSpacing": "0%",
             "paragraphSpacing": "0",
@@ -44,7 +44,7 @@
           "value": {
             "fontFamily": "{font.family.brand}",
             "fontWeight": "{font.weight.extended.medium}",
-            "lineHeight": "{font.lineHeight.tight}",
+            "lineHeight": "{line.height.tight}",
             "fontSize": "{font.size.200}",
             "letterSpacing": "0%",
             "paragraphSpacing": "0",

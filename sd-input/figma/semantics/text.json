@@ -1,11 +1,11 @@
 {
   "text": {
     "input": {
-      "value": {
+      "value-deprecate": {
         "value": {
           "fontFamily": "{font.family.primary}",
           "fontWeight": "{font.weight.regular}",
-          "lineHeight": "{font.lineHeight.loose}",
+          "lineHeight": "{line.height.loose}",
           "fontSize": "{font.size.100}"
         },
         "type": "typography"
@@ -14,7 +14,7 @@
         "value": {
           "fontFamily": "{font.family.primary}",
           "fontWeight": "{font.weight.regular}",
-          "lineHeight": "{font.lineHeight.standard}",
+          "lineHeight": "{line.height.standard}",
           "fontSize": "{font.size.87}"
         },
         "type": "typography"
@@ -23,7 +23,7 @@
         "value": {
           "fontFamily": "{font.family.primary}",
           "fontWeight": "{font.weight.medium}",
-          "lineHeight": "{font.lineHeight.extra}",
+          "lineHeight": "{line.height.extra}",
           "fontSize": "{font.size.87}"
         },
         "type": "typography"
@@ -32,28 +32,128 @@
         "value": {
           "fontFamily": "{font.family.primary}",
           "fontWeight": "{font.weight.medium}",
-          "lineHeight": "{font.lineHeight.extra}",
+          "lineHeight": "{line.height.extra}",
           "fontSize": "{font.size.80}"
         },
         "type": "typography"
       },
-      "optional": {
+      "optional-deprecate": {
         "value": {
           "fontFamily": "{font.family.primary}",
           "fontWeight": "{font.weight.regular}",
-          "lineHeight": "{font.lineHeight.extra}",
+          "lineHeight": "{line.height.extra}",
           "fontSize": "{font.size.75}"
         },
         "type": "typography"
       },
-      "message": {
+      "message-deprecate": {
         "value": {
           "fontFamily": "{font.family.primary}",
           "fontWeight": "{font.weight.regular}",
-          "lineHeight": "{font.lineHeight.loose}",
+          "lineHeight": "{line.height.extra}",
           "fontSize": "{font.size.80}"
         },
         "type": "typography"
+      }
+    }
+  },
+  "font": {
+    "family": {
+      "input": {
+        "input": {
+          "value": "{font.family.primary}",
+          "type": "fontFamilies"
+        },
+        "label": {
+          "value": "{font.family.primary}",
+          "type": "fontFamilies"
+        },
+        "message": {
+          "value": "{font.family.primary}",
+          "type": "fontFamilies"
+        },
+        "help": {
+          "value": "{font.family.primary}",
+          "type": "fontFamilies"
+        },
+        "optional": {
+          "value": "{font.family.primary}",
+          "type": "fontFamilies"
+        }
+      }
+    },
+    "weight": {
+      "input": {
+        "input": {
+          "value": "{font.weight.regular}",
+          "type": "fontWeights"
+        },
+        "label": {
+          "value": "{font.weight.medium}",
+          "type": "fontWeights"
+        },
+        "message": {
+          "value": "{font.weight.regular}",
+          "type": "fontWeights"
+        },
+        "help": {
+          "value": "{font.weight.regular}",
+          "type": "fontWeights"
+        },
+        "optional": {
+          "value": "{font.weight.regular}",
+          "type": "fontWeights"
+        }
+      }
+    },
+    "size": {
+      "input": {
+        "input": {
+          "value": "{font.size.87}",
+          "type": "fontSizes"
+        },
+        "label": {
+          "value": "{font.size.80}",
+          "type": "fontSizes"
+        },
+        "message": {
+          "value": "{font.size.80}",
+          "type": "fontSizes"
+        },
+        "help": {
+          "value": "{font.size.80}",
+          "type": "fontSizes"
+        },
+        "optional": {
+          "value": "{font.size.75}",
+          "type": "fontSizes"
+        }
+      }
+    }
+  },
+  "line": {
+    "height": {
+      "input": {
+        "input": {
+          "value": "{line.height.loose}",
+          "type": "lineHeights"
+        },
+        "label": {
+          "value": "{line.height.extra}",
+          "type": "lineHeights"
+        },
+        "message": {
+          "value": "{line.height.extra}",
+          "type": "lineHeights"
+        },
+        "help": {
+          "value": "{line.height.extra}",
+          "type": "lineHeights"
+        },
+        "optional": {
+          "value": "{line.height.extra}",
+          "type": "lineHeights"
+        }
       }
     }
   }

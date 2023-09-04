@@ -18,9 +18,32 @@
           "y": "0",
           "blur": "0",
           "spread": "3",
-          "color": "{color.red.700}",
+          "color": "{color.red.600}",
           "type": "dropShadow"
         },
+        "type": "boxShadow"
+      }
+    },
+    "action": {
+      "focus": {
+        "value": [
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "2",
+            "color": "{color.loContrast}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "4",
+            "color": "{color.indigo.800}",
+            "type": "dropShadow"
+          }
+        ],
         "type": "boxShadow"
       }
     }
