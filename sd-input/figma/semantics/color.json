@@ -57,27 +57,25 @@
         "value": "{color.red.900}",
         "type": "color"
       },
-      "background": {
-        "critical": {
-          "value": "{color.red.400}",
-          "type": "color"
-        },
-        "warning": {
-          "value": "{color.yellow.400}",
-          "type": "color"
-        },
-        "informative": {
-          "value": "{color.blue.400}",
-          "type": "color"
-        },
-        "success": {
-          "value": "{color.green.400}",
-          "type": "color"
-        },
-        "unknown": {
-          "value": "{color.gray.400}",
-          "type": "color"
-        }
+      "background-critical": {
+        "value": "{color.red.400}",
+        "type": "color"
+      },
+      "background-warning": {
+        "value": "{color.yellow.400}",
+        "type": "color"
+      },
+      "background-informative": {
+        "value": "{color.blue.400}",
+        "type": "color"
+      },
+      "background-success": {
+        "value": "{color.green.400}",
+        "type": "color"
+      },
+      "background-unknown": {
+        "value": "{color.gray.400}",
+        "type": "color"
       },
       "success": {
         "value": "{color.green.1100}",
@@ -97,99 +95,83 @@
       }
     },
     "interactive": {
-      "background": {
-        "primary": {
-          "default": {
-            "value": "{color.hiContrast}",
-            "type": "color"
-          },
-          "hover": {
-            "value": "{color.indigo.1200}",
-            "type": "color"
-          },
-          "disabled": {
-            "value": "{color.gray.400}",
-            "type": "color"
-          },
-          "active": {
-            "value": "{color.gray.1000}",
-            "type": "color"
-          }
-        },
-        "basic": {
-          "default": {
-            "value": "{color.loContrast}",
-            "type": "color"
-          },
-          "hover": {
-            "value": "{color.gray.200}",
-            "type": "color"
-          },
-          "disabled": {
-            "value": "{color.gray.100}",
-            "type": "color"
-          }
-        },
-        "flat": {
-          "value": "{color.transparency.00}",
-          "type": "color"
-        },
-        "destructive": {
-          "default": {
-            "value": "{color.red.900}",
-            "type": "color"
-          },
-          "hover": {
-            "value": "{color.red.1000}",
-            "type": "color"
-          },
-          "disabled": {
-            "value": "{color.red.200}",
-            "type": "color"
-          },
-          "active": {
-            "value": "{color.red.800}",
-            "type": "color"
-          }
-        }
+      "background-primary": {
+        "value": "{color.hiContrast}",
+        "type": "color"
       },
-      "border": {
-        "basic": {
-          "default": {
-            "value": "{color.gray.700}",
-            "type": "color"
-          },
-          "hover": {
-            "value": "{color.gray.800}",
-            "type": "color"
-          }
-        }
+      "background-primary-hover": {
+        "value": "{color.indigo.1200}",
+        "type": "color"
       },
-      "content": {
-        "primary": {
-          "value": "{color.loContrast}",
-          "type": "color"
-        },
-        "basic": {
-          "value": "{color.hiContrast}",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "{color.gray.900}",
-          "type": "color"
-        }
+      "background-primary-disabled": {
+        "value": "{color.gray.400}",
+        "type": "color"
+      },
+      "background-primary-active": {
+        "value": "{color.gray.1000}",
+        "type": "color"
+      },
+      "background-basic": {
+        "value": "{color.loContrast}",
+        "type": "color"
+      },
+      "background-basic-hover": {
+        "value": "{color.gray.200}",
+        "type": "color"
+      },
+      "background-basic-disabled": {
+        "value": "{color.gray.100}",
+        "type": "color"
+      },
+      "background-flat": {
+        "value": "{color.transparency.00}",
+        "type": "color"
+      },
+      "background-destructive": {
+        "value": "{color.red.900}",
+        "type": "color"
+      },
+      "background-destructive-hover": {
+        "value": "{color.red.1000}",
+        "type": "color"
+      },
+      "background-destructive-disabled": {
+        "value": "{color.red.200}",
+        "type": "color"
+      },
+      "background-destructive-active": {
+        "value": "{color.red.800}",
+        "type": "color"
+      },
+      "border-basic": {
+        "value": "{color.gray.700}",
+        "type": "color"
+      },
+      "border-basic-hover": {
+        "value": "{color.gray.800}",
+        "type": "color"
+      },
+      "content-primary": {
+        "value": "{color.loContrast}",
+        "type": "color"
+      },
+      "content-basic": {
+        "value": "{color.hiContrast}",
+        "type": "color"
+      },
+      "content-disabled": {
+        "value": "{color.gray.900}",
+        "type": "color"
       }
     },
     "app": {
-      "background": {
-        "primary": {
-          "value": "{color.loContrast}",
-          "type": "color"
-        },
-        "secondary": {
-          "value": "{color.gray.100}",
-          "type": "color"
-        }
+      "background-primary": {
+        "value": "{color.loContrast}",
+        "type": "color"
+      },
+      "background-secondary": {
+        "value": "{color.gray.100}",
+        "type": "color"
       }
     },
     "container": {
@@ -201,15 +183,13 @@
         "value": "{color.gray.600}",
         "type": "color"
       },
-      "background": {
-        "primary": {
-          "value": "{color.loContrast}",
-          "type": "color"
-        },
-        "secondary": {
-          "value": "{color.gray.200}",
-          "type": "color"
-        }
+      "background-primary": {
+        "value": "{color.loContrast}",
+        "type": "color"
+      },
+      "background-secondary": {
+        "value": "{color.gray.200}",
+        "type": "color"
       }
     },
     "input": {
