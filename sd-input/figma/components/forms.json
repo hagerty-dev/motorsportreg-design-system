@@ -145,11 +145,11 @@
     "color": {
       "background": {
         "error": {
-          "value": "{color.ui.background.critical}",
+          "value": "{color.ui.background-critical}",
           "type": "color"
         },
         "success": {
-          "value": "{color.ui.background.success}",
+          "value": "{color.ui.background-success}",
           "type": "color"
         }
       },
