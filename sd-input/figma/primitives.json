@@ -2788,7 +2788,7 @@
       "value": "{space.base} * 6",
       "type": "spacing"
     },
-    "none": {
+    "none-deprecate": {
       "value": "0px",
       "type": "spacing"
     },

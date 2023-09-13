@@ -79,6 +79,14 @@
         "optional": {
           "value": "{font.family.primary}",
           "type": "fontFamilies"
+        },
+        "legend": {
+          "value": "{font.family.primary}",
+          "type": "fontFamilies"
+        },
+        "option": {
+          "value": "{font.family.primary}",
+          "type": "fontFamilies"
         }
       }
     },
@@ -101,6 +109,14 @@
           "type": "fontWeights"
         },
         "optional": {
+          "value": "{font.weight.regular}",
+          "type": "fontWeights"
+        },
+        "legend": {
+          "value": "{font.weight.medium}",
+          "type": "fontWeights"
+        },
+        "option": {
           "value": "{font.weight.regular}",
           "type": "fontWeights"
         }
@@ -127,6 +143,14 @@
         "optional": {
           "value": "{font.size.75}",
           "type": "fontSizes"
+        },
+        "legend": {
+          "value": "{font.size.80}",
+          "type": "fontSizes"
+        },
+        "option": {
+          "value": "{font.size.87}",
+          "type": "fontSizes"
         }
       }
     }
@@ -152,6 +176,14 @@
         },
         "optional": {
           "value": "{line.height.extra}",
+          "type": "lineHeights"
+        },
+        "option": {
+          "value": "{line.height.loose}",
+          "type": "lineHeights"
+        },
+        "legend": {
+          "value": "{line.height.input.optional}",
           "type": "lineHeights"
         }
       }

@@ -5,7 +5,7 @@
     "dark",
     "semantics/color",
     "semantics/border",
-    "semantics/elevation",
+    "semantics/shadow",
     "semantics/mutable",
     "semantics/text",
     "semantics/space",

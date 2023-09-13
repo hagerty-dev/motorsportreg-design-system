@@ -19,10 +19,11 @@
       "components/text": "enabled",
       "semantics/color": "enabled",
       "semantics/border": "enabled",
-      "semantics/elevation": "enabled",
       "primitives": "source",
       "light": "enabled",
-      "semantics/text": "enabled"
+      "semantics/text": "enabled",
+      "semantics/space": "enabled",
+      "semantics/shadow": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaCollectionId": "VariableCollectionId:3114:24767",
@@ -51,11 +52,12 @@
       "components/toggles": "enabled",
       "semantics/color": "enabled",
       "semantics/border": "enabled",
-      "semantics/elevation": "enabled",
       "primitives": "source",
       "dark": "enabled",
       "semantics/mutable": "enabled",
-      "semantics/text": "enabled"
+      "semantics/text": "enabled",
+      "semantics/space": "enabled",
+      "semantics/shadow": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:3114:24767",
     "$figmaModeId": "3114:10",
