@@ -1,11 +1,17 @@
 {
   "border": {
     "width": {
-      "icon": {
-        "150": {
-          "value": "{border.width.150}",
-          "type": "borderWidth"
-        }
+      "input-focus": {
+        "value": "{border.width.150}",
+        "type": "borderWidth"
+      },
+      "input-checked": {
+        "value": "{border.width.150}",
+        "type": "borderWidth"
+      },
+      "input": {
+        "value": "{border.width.100}",
+        "type": "borderWidth"
       }
     }
   }
