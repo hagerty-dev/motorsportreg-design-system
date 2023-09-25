@@ -2650,6 +2650,18 @@
     }
   },
   "size": {
+    "12": {
+      "value": "{size.base} * 0.125",
+      "type": "sizing"
+    },
+    "20": {
+      "value": "1.5",
+      "type": "sizing"
+    },
+    "25": {
+      "value": "{size.base} * 0.25",
+      "type": "sizing"
+    },
     "50": {
       "value": "{size.base} * 0.5",
       "type": "sizing"

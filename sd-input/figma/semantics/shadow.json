@@ -47,5 +47,41 @@
         "type": "boxShadow"
       }
     }
+  },
+  "box": {
+    "shadow": {
+      "input": {
+        "value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "{size.12}",
+          "color": "{color.input.border}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "input-focus": {
+        "value": [
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "{size.12}",
+            "color": "{color.input.border-focus}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "{size.25}",
+            "color": "{color.input.focus-ring}",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow"
+      }
+    }
   }
 }
