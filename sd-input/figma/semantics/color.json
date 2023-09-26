@@ -277,6 +277,10 @@
           "value": "{color.text.subtle}",
           "type": "color"
         },
+        "optional": {
+          "value": "{color.text.nonessential}",
+          "type": "color"
+        },
         "placeholder": {
           "value": "{color.text.nonessential}",
           "type": "color"

@@ -13,16 +13,21 @@
         "value": "{size.12}",
         "type": "sizing"
       },
+      "input-hover": {
+        "value": "{size.12}",
+        "type": "sizing"
+      },
       "focus-ring": {
         "value": "{size.50}",
         "type": "sizing"
       },
-      "error-ring": {
-        "value": "{size.12}",
-        "type": "sizing"
-      },
-      "error-ring-offset": {
+      "input-error-focus": {
         "value": "{size.20}",
+        "type": "sizing",
+        "description": "Summary"
+      },
+      "focus-ring-error": {
+        "value": "{size.50}",
         "type": "sizing"
       }
     }
@@ -36,6 +41,13 @@
       "input-full": {
         "value": "{border.radius.full}",
         "type": "borderRadius"
+      }
+    },
+    "width": {
+      "error-ring": {
+        "value": "{border.width.150}",
+        "type": "borderWidth",
+        "description": "Border around summary of error messages at top op form"
       }
     }
   }

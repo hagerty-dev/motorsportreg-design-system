@@ -132,7 +132,7 @@
             "x": "0",
             "y": "0",
             "blur": "0",
-            "spread": "{size.border.input-focus}",
+            "spread": "{size.border.input-error-focus}",
             "color": "{color.input.border-error}",
             "type": "dropShadow"
           },
