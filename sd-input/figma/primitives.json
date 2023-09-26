@@ -35,13 +35,13 @@
         "value": "32px",
         "type": "borderRadius"
       },
-      "circle": {
+      "circle-deprecate": {
         "value": "1000px",
         "type": "borderRadius",
         "description": "Circles 50%"
       },
-      "pill": {
-        "value": "9999px",
+      "full": {
+        "value": "999px",
         "type": "borderRadius"
       },
       "none": {
@@ -2655,7 +2655,11 @@
       "type": "sizing"
     },
     "20": {
-      "value": "1.5",
+      "value": "roundTo({size.base} * 0.19,1)",
+      "type": "sizing"
+    },
+    "22": {
+      "value": "roundTo({size.base} * 0.375)",
       "type": "sizing"
     },
     "25": {
@@ -2737,7 +2741,7 @@
       "type": "spacing"
     },
     "50": {
-      "value": "{space.base} * 0.25",
+      "value": "{space.base} * 0.5",
       "type": "spacing"
     },
     "100": {

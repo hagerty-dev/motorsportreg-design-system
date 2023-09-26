@@ -225,7 +225,7 @@
       }
     },
     "border-radius": {
-      "value": "{border.radius.circle}",
+      "value": "{border.radius.circle-deprecate}",
       "type": "borderRadius"
     },
     "border-width": {

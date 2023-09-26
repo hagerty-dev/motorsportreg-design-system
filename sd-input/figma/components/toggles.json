@@ -52,7 +52,7 @@
         }
       },
       "border-radius": {
-        "value": "{border.radius.pill}",
+        "value": "{border.radius.full}",
         "type": "borderRadius"
       }
     },
@@ -83,7 +83,7 @@
       }
     },
     "border-radius": {
-      "value": "{border.radius.pill}",
+      "value": "{border.radius.full}",
       "type": "borderRadius"
     }
   }

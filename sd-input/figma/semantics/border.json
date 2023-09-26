@@ -1,17 +1,41 @@
 {
-  "border": {
-    "width": {
+  "size": {
+    "border": {
       "input-focus": {
-        "value": "{border.width.150}",
-        "type": "borderWidth"
+        "value": "{size.20}",
+        "type": "sizing"
       },
       "input-checked": {
-        "value": "{border.width.150}",
-        "type": "borderWidth"
+        "value": "{size.20}",
+        "type": "sizing"
       },
       "input": {
-        "value": "{border.width.100}",
-        "type": "borderWidth"
+        "value": "{size.12}",
+        "type": "sizing"
+      },
+      "focus-ring": {
+        "value": "{size.50}",
+        "type": "sizing"
+      },
+      "error-ring": {
+        "value": "{size.12}",
+        "type": "sizing"
+      },
+      "error-ring-offset": {
+        "value": "{size.20}",
+        "type": "sizing"
+      }
+    }
+  },
+  "border": {
+    "radius": {
+      "input": {
+        "value": "{border.radius.150}",
+        "type": "borderRadius"
+      },
+      "input-full": {
+        "value": "{border.radius.full}",
+        "type": "borderRadius"
       }
     }
   }

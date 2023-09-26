@@ -289,6 +289,16 @@
           "value": "{color.gray.800}",
           "type": "color"
         }
+      },
+      "range": {
+        "track": {
+          "value": "{color.gray.700}",
+          "type": "color"
+        },
+        "thumb": {
+          "value": "{color.indigo.900}",
+          "type": "color"
+        }
       }
     }
   }

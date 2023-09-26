@@ -50,13 +50,57 @@
   },
   "box": {
     "shadow": {
+      "input-hover": {
+        "value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "{size.border.input}",
+          "color": "{color.input.border-hover}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
       "input": {
         "value": {
           "x": "0",
           "y": "0",
           "blur": "0",
-          "spread": "{size.12}",
+          "spread": "{size.border.input}",
           "color": "{color.input.border}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "input-checked": {
+        "value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "{size.border.input-checked}",
+          "color": "{color.input.border-checked}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "input-error": {
+        "value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "{size.border.input}",
+          "color": "{color.input.border-error}",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "input-hover-error": {
+        "value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "{size.border.input}",
+          "color": "{color.input.border-hover-error}",
           "type": "dropShadow"
         },
         "type": "boxShadow"
@@ -67,7 +111,7 @@
             "x": "0",
             "y": "0",
             "blur": "0",
-            "spread": "{size.12}",
+            "spread": "{size.border.input-focus}",
             "color": "{color.input.border-focus}",
             "type": "dropShadow"
           },
@@ -75,8 +119,29 @@
             "x": "0",
             "y": "0",
             "blur": "0",
-            "spread": "{size.25}",
+            "spread": "{size.border.focus-ring}",
             "color": "{color.input.focus-ring}",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "input-focus-error": {
+        "value": [
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "{size.border.input-focus}",
+            "color": "{color.input.border-error}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "{size.border.focus-ring}",
+            "color": "{color.input.focus-ring-error}",
             "type": "dropShadow"
           }
         ],

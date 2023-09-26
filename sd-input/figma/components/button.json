@@ -273,11 +273,11 @@
     "border": {
       "radius": {
         "default": {
-          "value": "{border.radius.pill}",
+          "value": "{border.radius.full}",
           "type": "borderRadius"
         },
         "iconOnly": {
-          "value": "{border.radius.circle}",
+          "value": "{border.radius.circle-deprecate}",
           "type": "borderRadius"
         }
       },
