@@ -290,28 +290,6 @@
         "type": "border"
       }
     },
-    "space": {
-      "large": {
-        "value": "{space.150} {space.300}",
-        "type": "spacing"
-      },
-      "medium": {
-        "value": "{space.150} {space.250}",
-        "type": "spacing"
-      },
-      "small": {
-        "value": "{space.100} {space.200}",
-        "type": "spacing"
-      },
-      "gap": {
-        "value": "{space.100}",
-        "type": "spacing"
-      },
-      "tight": {
-        "value": "{space.50}",
-        "type": "spacing"
-      }
-    },
     "icon": {
       "size": {
         "small": {

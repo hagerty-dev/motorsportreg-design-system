@@ -1,17 +1,5 @@
 {
   "tooltip": {
-    "padding-left": {
-      "value": "{space.200}",
-      "type": "spacing"
-    },
-    "padding-right": {
-      "value": "{space.200}",
-      "type": "spacing"
-    },
-    "padding-top": {
-      "value": "{space.200}",
-      "type": "spacing"
-    },
     "text": {
       "value": {
         "fontFamily": "{font.family.brand}",
@@ -25,10 +13,6 @@
       },
       "type": "typography",
       "description": "Tooltip text"
-    },
-    "padding-bottom": {
-      "value": "{space.200}",
-      "type": "spacing"
     },
     "color": {
       "background": {

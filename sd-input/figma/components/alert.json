@@ -144,24 +144,6 @@
         "description": "Toast alert text"
       }
     },
-    "label": {
-      "padding-left": {
-        "value": "{space.base}",
-        "type": "spacing"
-      },
-      "padding-right": {
-        "value": "{space.base}",
-        "type": "spacing"
-      },
-      "padding-top": {
-        "value": "4",
-        "type": "spacing"
-      },
-      "padding-bottom": {
-        "value": "4",
-        "type": "spacing"
-      }
-    },
     "border-radius": {
       "label": {
         "value": "{border.radius.100}",
@@ -187,60 +169,6 @@
           "type": "dropShadow"
         },
         "type": "boxShadow"
-      }
-    },
-    "global": {
-      "padding-left": {
-        "value": "{space.800}",
-        "type": "spacing"
-      },
-      "padding-right": {
-        "value": "{space.400}",
-        "type": "spacing"
-      },
-      "padding-top": {
-        "value": "26",
-        "type": "spacing"
-      },
-      "padding-bottom": {
-        "value": "26",
-        "type": "spacing"
-      }
-    },
-    "product": {
-      "padding-left": {
-        "value": "{space.200}",
-        "type": "spacing"
-      },
-      "padding-right": {
-        "value": "{space.200}",
-        "type": "spacing"
-      },
-      "padding-top": {
-        "value": "{space.200}",
-        "type": "spacing"
-      },
-      "padding-bottom": {
-        "value": "{space.200}",
-        "type": "spacing"
-      }
-    },
-    "toast": {
-      "padding-left": {
-        "value": "{space.300}",
-        "type": "spacing"
-      },
-      "padding-right": {
-        "value": "{space.300}",
-        "type": "spacing"
-      },
-      "padding-top": {
-        "value": "{space.300}",
-        "type": "spacing"
-      },
-      "padding-bottom": {
-        "value": "{space.300}",
-        "type": "spacing"
       }
     }
   }

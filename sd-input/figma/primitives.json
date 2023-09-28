@@ -2741,7 +2741,7 @@
       "type": "spacing"
     },
     "50": {
-      "value": "{space.base} * 0.5",
+      "value": "{space.base} * 0.25",
       "type": "spacing"
     },
     "100": {

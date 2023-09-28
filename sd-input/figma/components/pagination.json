@@ -124,10 +124,6 @@
           "type": "color"
         }
       }
-    },
-    "padding-gap": {
-      "value": "16",
-      "type": "spacing"
     }
   }
 }

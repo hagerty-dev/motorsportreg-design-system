@@ -15,22 +15,6 @@
       "description": "Toggle label"
     },
     "switch": {
-      "padding-left": {
-        "value": "24",
-        "type": "spacing"
-      },
-      "padding-right": {
-        "value": "24",
-        "type": "spacing"
-      },
-      "padding-bottom": {
-        "value": "11",
-        "type": "spacing"
-      },
-      "padding-top": {
-        "value": "9",
-        "type": "spacing"
-      },
       "color": {
         "text": {
           "value": "{color.base.black}",
@@ -55,26 +39,6 @@
         "value": "{border.radius.full}",
         "type": "borderRadius"
       }
-    },
-    "padding-left": {
-      "value": "4",
-      "type": "spacing"
-    },
-    "padding-right": {
-      "value": "4",
-      "type": "spacing"
-    },
-    "padding-top": {
-      "value": "4",
-      "type": "spacing"
-    },
-    "padding-bottom": {
-      "value": "4",
-      "type": "spacing"
-    },
-    "padding-gap": {
-      "value": "2",
-      "type": "spacing"
     },
     "color": {
       "background": {

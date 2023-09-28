@@ -23,7 +23,8 @@
       "light": "enabled",
       "semantics/text": "enabled",
       "semantics/space": "enabled",
-      "semantics/shadow": "enabled"
+      "semantics/shadow": "enabled",
+      "semantics/size": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaCollectionId": "VariableCollectionId:3114:24767",
@@ -57,7 +58,8 @@
       "semantics/mutable": "enabled",
       "semantics/text": "enabled",
       "semantics/space": "enabled",
-      "semantics/shadow": "enabled"
+      "semantics/shadow": "enabled",
+      "semantics/size": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:3114:24767",
     "$figmaModeId": "3114:10",

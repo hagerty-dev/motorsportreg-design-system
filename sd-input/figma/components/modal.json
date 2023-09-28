@@ -54,22 +54,6 @@
           "type": "typography",
           "description": "Dialog heading"
         }
-      },
-      "padding-left": {
-        "value": "{space.500}",
-        "type": "spacing"
-      },
-      "padding-right": {
-        "value": "{space.500}",
-        "type": "spacing"
-      },
-      "padding-top": {
-        "value": "{space.500}",
-        "type": "spacing"
-      },
-      "padding-bottom": {
-        "value": "{space.500}",
-        "type": "spacing"
       }
     },
     "border-radius": {
@@ -86,34 +70,6 @@
         "type": "dropShadow"
       },
       "type": "boxShadow"
-    },
-    "padding-gap": {
-      "value": "{space.400}",
-      "type": "spacing"
-    },
-    "logo": {
-      "padding-left": {
-        "value": "{space.400}",
-        "type": "spacing"
-      },
-      "padding-right": {
-        "value": "{space.400}",
-        "type": "spacing"
-      },
-      "padding-bottom": {
-        "value": "{space.400}",
-        "type": "spacing"
-      },
-      "padding-top": {
-        "value": "{space.400}",
-        "type": "spacing"
-      }
-    },
-    "image": {
-      "padding-bottom": {
-        "value": "{space.400}",
-        "type": "spacing"
-      }
     }
   },
   "container": {
@@ -137,22 +93,6 @@
         "type": "dropShadow"
       },
       "type": "boxShadow"
-    },
-    "padding-left": {
-      "value": "{space.300}",
-      "type": "spacing"
-    },
-    "padding-right": {
-      "value": "{space.300}",
-      "type": "spacing"
-    },
-    "padding-top": {
-      "value": "{space.300}",
-      "type": "spacing"
-    },
-    "padding-bottom": {
-      "value": "{space.300}",
-      "type": "spacing"
     }
   }
 }
