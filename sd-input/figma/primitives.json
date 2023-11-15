@@ -2651,6 +2651,56 @@
         "value": "hsl(53, 100%, 91.0%)",
         "type": "color"
       }
+    },
+    "trueblueLight": {
+      "100": {
+        "value": "#fafbff",
+        "type": "color"
+      },
+      "200": {
+        "value": "#f7f9ff",
+        "type": "color"
+      },
+      "300": {
+        "value": "#eff2ff",
+        "type": "color"
+      },
+      "400": {
+        "value": "#e1e8ff",
+        "type": "color"
+      },
+      "500": {
+        "value": "#d3ddff",
+        "type": "color"
+      },
+      "600": {
+        "value": "#c2d0ff",
+        "type": "color"
+      },
+      "700": {
+        "value": "#a8bcff",
+        "type": "color"
+      },
+      "800": {
+        "value": "#86a2ff",
+        "type": "color"
+      },
+      "900": {
+        "value": "#0437ff",
+        "type": "color"
+      },
+      "1000": {
+        "value": "#0031f9",
+        "type": "color"
+      },
+      "1100": {
+        "value": "#001ecf",
+        "type": "color"
+      },
+      "1200": {
+        "value": "#000e7b",
+        "type": "color"
+      }
     }
   },
   "size": {
