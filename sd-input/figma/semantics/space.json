@@ -18,7 +18,7 @@
         "type": "spacing"
       },
       "messages-gap": {
-        "value": "{space.50}",
+        "value": "{space.100}",
         "type": "spacing"
       },
       "label-gap": {

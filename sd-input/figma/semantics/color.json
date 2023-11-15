@@ -278,7 +278,7 @@
           "type": "color"
         },
         "optional": {
-          "value": "{color.text.nonessential}",
+          "value": "{color.text.subtle}",
           "type": "color"
         },
         "placeholder": {

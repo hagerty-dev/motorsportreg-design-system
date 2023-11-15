@@ -152,12 +152,12 @@
       "regular": {
         "value": "Regular",
         "type": "fontWeights",
-        "description": "400"
+        "description": "450 Variable Font"
       },
       "medium": {
         "value": "Medium",
         "type": "fontWeights",
-        "description": "500"
+        "description": "550 Variable font"
       },
       "bold": {
         "value": "Bold",
@@ -180,6 +180,10 @@
           "type": "fontWeights",
           "description": "700"
         }
+      },
+      "semi-bold": {
+        "value": "Semi Bold",
+        "type": "fontWeights"
       }
     }
   },
@@ -227,7 +231,7 @@
       "loose": {
         "value": "133%",
         "type": "lineHeights",
-        "description": "1.5"
+        "description": "1.33"
       }
     }
   },
