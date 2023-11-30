@@ -255,6 +255,10 @@
         "value": "{color.red.700}",
         "type": "color"
       },
+      "selection": {
+        "value": "{color.cobaltLight.500}",
+        "type": "color"
+      },
       "error-ring": {
         "value": "{color.ui.critical}",
         "type": "color",

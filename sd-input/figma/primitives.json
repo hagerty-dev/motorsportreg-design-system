@@ -285,7 +285,7 @@
         "description": "Primary button hover "
       },
       "blue": {
-        "value": "linear-gradient(90deg, {color.hagerty.default} 0%, {color.hagerty.bright} 100%)",
+        "value": "linear-gradient(90deg, {color.hagerty.default-deprecate} 0%, {color.hagerty.bright-deprecate} 100%)",
         "type": "color"
       },
       "gray": {
@@ -423,15 +423,15 @@
       }
     },
     "hagerty": {
-      "default": {
+      "default-deprecate": {
         "value": "#007BB3",
         "type": "color"
       },
-      "bright": {
+      "bright-deprecate": {
         "value": "#0089C7",
         "type": "color"
       },
-      "light": {
+      "light-deprecate": {
         "value": "#EAF9FF",
         "type": "color"
       }
@@ -854,51 +854,51 @@
     },
     "grayLight": {
       "100": {
-        "value": "hsl(0, 0%, 99.0%)",
+        "value": "#FCFCFC",
         "type": "color"
       },
       "200": {
-        "value": "hsl(0, 0%, 97.3%)",
+        "value": "#F9F9F9",
         "type": "color"
       },
       "300": {
-        "value": "hsl(0, 0%, 95.1%)",
+        "value": "#F0F0F0",
         "type": "color"
       },
       "400": {
-        "value": "hsl(0, 0%, 93.0%)",
+        "value": "#E8E8E8",
         "type": "color"
       },
       "500": {
-        "value": "hsl(0, 0%, 90.9%)",
+        "value": "#E0E0E0",
         "type": "color"
       },
       "600": {
-        "value": "hsl(0, 0%, 88.7%)",
+        "value": "#D9D9D9",
         "type": "color"
       },
       "700": {
-        "value": "hsl(0, 0%, 85.8%)",
+        "value": "#CECECE",
         "type": "color"
       },
       "800": {
-        "value": "hsl(0, 0%, 78.0%)",
+        "value": "#BBBBBB",
         "type": "color"
       },
       "900": {
-        "value": "hsl(0, 0%, 56.1%)",
+        "value": "#8D8D8D",
         "type": "color"
       },
       "1000": {
-        "value": "hsl(0, 0%, 52.3%)",
+        "value": "#838383",
         "type": "color"
       },
       "1100": {
-        "value": "hsl(0, 0%, 43.5%)",
+        "value": "#646464",
         "type": "color"
       },
       "1200": {
-        "value": "hsl(0, 0%, 9.0%)",
+        "value": "#202020",
         "type": "color"
       }
     },
@@ -1328,27 +1328,27 @@
         "type": "color"
       },
       "700": {
-        "value": "hsl(359, 74.2%, 81.7%)",
+        "value": "#F4A9AA",
         "type": "color"
       },
       "800": {
-        "value": "hsl(359, 69.5%, 74.3%)",
+        "value": "#EB8E90",
         "type": "color"
       },
       "900": {
-        "value": "hsl(358, 75.0%, 59.0%)",
+        "value": "#E5484D",
         "type": "color"
       },
       "1000": {
-        "value": "hsl(358, 69.4%, 55.2%)",
+        "value": "#DC3E42",
         "type": "color"
       },
       "1100": {
-        "value": "hsl(358, 65.0%, 48.7%)",
+        "value": "#CE2C31",
         "type": "color"
       },
       "1200": {
-        "value": "hsl(354, 50.0%, 14.6%)",
+        "value": "#641723",
         "type": "color"
       }
     },
