@@ -9,8 +9,8 @@
         "value": "{color.gray.1100}",
         "type": "color"
       },
-      "action-deprecate": {
-        "value": "{color.base.black}",
+      "action": {
+        "value": "{color.cobalt.900}",
         "type": "color"
       },
       "disabled-deprecate": {
