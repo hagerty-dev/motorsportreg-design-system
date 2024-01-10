@@ -2,4 +2,4 @@
 
 # MotorsportReg Design System
 
-Add notes about repo
+Add notes about repo.
