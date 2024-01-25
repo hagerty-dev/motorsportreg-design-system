@@ -2,11 +2,11 @@
   "size": {
     "border": {
       "input-focus": {
-        "value": "{size.25}",
+        "value": "{size.12}",
         "type": "sizing"
       },
       "input-checked": {
-        "value": "{size.25}",
+        "value": "{size.12}",
         "type": "sizing"
       },
       "input": {
@@ -22,7 +22,7 @@
         "type": "sizing"
       },
       "input-error-focus": {
-        "value": "{size.25}",
+        "value": "{size.12}",
         "type": "sizing",
         "description": "Summary"
       },

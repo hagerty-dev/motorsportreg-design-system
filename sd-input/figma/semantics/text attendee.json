@@ -1,8 +1,8 @@
 {
   "font": {
     "family": {
-      "primary": {
-        "value": "{font.family.brand}",
+      "default": {
+        "value": "{font.family.fallback}",
         "type": "fontFamilies"
       }
     }

@@ -1,0 +1,22 @@
+{
+  "color": {
+    "input": {
+      "background-checked": {
+        "value": "{color.base.black}",
+        "type": "color"
+      },
+      "border-focus": {
+        "value": "{color.base.black}",
+        "type": "color"
+      },
+      "border-checked": {
+        "value": "{color.base.black}",
+        "type": "color"
+      },
+      "focus-ring": {
+        "value": "{color.gray.600}",
+        "type": "color"
+      }
+    }
+  }
+}

@@ -136,7 +136,7 @@
     },
     "family": {
       "brand": {
-        "value": "GT America,Helvetica,Helvetica Neue,Aria,sans-serif",
+        "value": "Helvetica Neue,Helvetica,Aria,sans-serif",
         "type": "fontFamilies"
       },
       "sansSerif": {

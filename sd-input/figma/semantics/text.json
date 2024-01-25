@@ -3,7 +3,7 @@
     "input": {
       "value-deprecate": {
         "value": {
-          "fontFamily": "{font.family.primary}",
+          "fontFamily": "{font.family.default}",
           "fontWeight": "{font.weight.regular}",
           "lineHeight": "{line.height.loose}",
           "fontSize": "{font.size.100}"
@@ -12,7 +12,7 @@
       },
       "value-small-deprecate": {
         "value": {
-          "fontFamily": "{font.family.primary}",
+          "fontFamily": "{font.family.default}",
           "fontWeight": "{font.weight.regular}",
           "lineHeight": "{line.height.standard}",
           "fontSize": "{font.size.87}"
@@ -21,7 +21,7 @@
       },
       "label-deprecate": {
         "value": {
-          "fontFamily": "{font.family.primary}",
+          "fontFamily": "{font.family.default}",
           "fontWeight": "{font.weight.medium}",
           "lineHeight": "{line.height.extra}",
           "fontSize": "{font.size.87}"
@@ -30,7 +30,7 @@
       },
       "label-small-deprecate": {
         "value": {
-          "fontFamily": "{font.family.primary}",
+          "fontFamily": "{font.family.default}",
           "fontWeight": "{font.weight.medium}",
           "lineHeight": "{line.height.extra}",
           "fontSize": "{font.size.80}"
@@ -39,7 +39,7 @@
       },
       "optional-deprecate": {
         "value": {
-          "fontFamily": "{font.family.primary}",
+          "fontFamily": "{font.family.default}",
           "fontWeight": "{font.weight.regular}",
           "lineHeight": "{line.height.extra}",
           "fontSize": "{font.size.75}"
@@ -48,7 +48,7 @@
       },
       "message-deprecate": {
         "value": {
-          "fontFamily": "{font.family.primary}",
+          "fontFamily": "{font.family.default}",
           "fontWeight": "{font.weight.regular}",
           "lineHeight": "{line.height.extra}",
           "fontSize": "{font.size.80}"
@@ -61,33 +61,37 @@
     "family": {
       "input": {
         "input": {
-          "value": "{font.family.primary}",
+          "value": "{font.family.default}",
           "type": "fontFamilies"
         },
         "label": {
-          "value": "{font.family.primary}",
+          "value": "{font.family.default}",
           "type": "fontFamilies"
         },
         "message": {
-          "value": "{font.family.primary}",
+          "value": "{font.family.default}",
           "type": "fontFamilies"
         },
         "help": {
-          "value": "{font.family.primary}",
+          "value": "{font.family.default}",
           "type": "fontFamilies"
         },
         "optional": {
-          "value": "{font.family.primary}",
+          "value": "{font.family.default}",
           "type": "fontFamilies"
         },
         "legend": {
-          "value": "{font.family.primary}",
+          "value": "{font.family.default}",
           "type": "fontFamilies"
         },
         "option": {
-          "value": "{font.family.primary}",
+          "value": "{font.family.default}",
           "type": "fontFamilies"
         }
+      },
+      "default": {
+        "value": "{font.family.sansSerif}",
+        "type": "fontFamilies"
       }
     },
     "weight": {

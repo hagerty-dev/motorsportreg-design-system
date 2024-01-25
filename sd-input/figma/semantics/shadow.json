@@ -114,6 +114,14 @@
             "spread": "{size.border.input-focus}",
             "color": "{color.input.border-focus}",
             "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "{size.border.focus-ring}",
+            "color": "{color.input.focus-ring}",
+            "type": "dropShadow"
           }
         ],
         "type": "boxShadow"
@@ -126,6 +134,14 @@
             "blur": "0",
             "spread": "{size.border.input-error-focus}",
             "color": "{color.input.border-error}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "{size.border.focus-ring-error}",
+            "color": "{color.input.focus-ring-error}",
             "type": "dropShadow"
           }
         ],
