@@ -809,9 +809,6 @@
       "color.red.light-deprecate": "dec6ef2cec57b42627540f62068f0065c18ab5df",
       "color.green.medium-deprecate": "8367f158690b378a4ff18b27529a59ea357abe2a",
       "color.green.light-deprecate": "4da760f9dbbc4852e464ee00c9bb096a5693c964",
-      "color.hagerty.default-deprecate": "aebaee58ad576646d6a027b570f47f74ce812ebd",
-      "color.hagerty.bright-deprecate": "2b06bb0d29b4580d32a3148797cccafbdd36ee28",
-      "color.hagerty.light-deprecate": "ee8bafe35cca2857a84180895688fe244ddc344f",
       "color.primary.default-deprecate": "089e9468fb64323414122c6f1d8fe37e8f9477fc",
       "color.primary.medium-deprecate": "b4c76432c9841b58f751b6fdd50c77deb0326561",
       "color.primary.light-deprecate": "7b5f5b2c22de032619155aafb770fe5b837176fd",
@@ -1393,8 +1390,10 @@
       "space.1000": "6afbfeb7f13267cb25bdb2a9be41be135d540901",
       "space.1100": "634a75b6bd1b2d74d559c91292b171f89f9284a1",
       "space.1200": "9d570ec7bbd86e12243655bacdfd5bee60cfe51a",
-      "space.none-deprecate": "713343bae0f3c9cc5f3a9bfc158611c318fb6037",
-      "space.base": "2e9c548af2502b08868478aa3a1a3984d58f48c3"
+      "space.base": "2e9c548af2502b08868478aa3a1a3984d58f48c3",
+      "color.hagerty.default": "aebaee58ad576646d6a027b570f47f74ce812ebd",
+      "color.hagerty.bright": "2b06bb0d29b4580d32a3148797cccafbdd36ee28",
+      "color.hagerty.light": "ee8bafe35cca2857a84180895688fe244ddc344f"
     },
     "group": "Core"
   },

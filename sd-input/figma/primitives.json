@@ -236,48 +236,6 @@
     }
   },
   "color": {
-    "gray": {
-      "100-deprecate": {
-        "value": "#FCFCFD",
-        "type": "color"
-      },
-      "200-deprecate": {
-        "value": "#F4F6F8",
-        "type": "color"
-      },
-      "300-deprecate": {
-        "value": "#DEE0E2",
-        "type": "color"
-      },
-      "400-deprecate": {
-        "value": "#C8CACB",
-        "type": "color"
-      },
-      "500-deprecate": {
-        "value": "#B1B5B9",
-        "type": "color"
-      },
-      "600-deprecate": {
-        "value": "#8E949A",
-        "type": "color"
-      },
-      "700-deprecate": {
-        "value": "#6F757C",
-        "type": "color"
-      },
-      "800-deprecate": {
-        "value": "#545C63",
-        "type": "color"
-      },
-      "900-deprecate": {
-        "value": "#484C51",
-        "type": "color"
-      },
-      "1000-deprecate": {
-        "value": "#303336",
-        "type": "color"
-      }
-    },
     "gradient": {
       "dark": {
         "value": "linear-gradient(90deg, {color.base.black} 0%, {color.gray.1000} 100%)",
@@ -285,51 +243,13 @@
         "description": "Primary button hover "
       },
       "blue": {
-        "value": "linear-gradient(90deg, {color.hagerty.default-deprecate} 0%, {color.hagerty.bright-deprecate} 100%)",
+        "value": "linear-gradient(90deg, {color.hagerty.default} 0%, {color.hagerty.bright} 100%)",
         "type": "color"
       },
       "gray": {
         "value": "linear-gradient(90deg, {color.gray.300} 0%, {color.gray.400} 100%)",
         "type": "color",
         "description": "on-dark button hover states"
-      }
-    },
-    "transparency": {
-      "3-deprecate": {
-        "value": "rgba({color.base.black},0.03)",
-        "type": "color"
-      },
-      "5-deprecate": {
-        "value": "rgba({color.base.black},0.05)",
-        "type": "color"
-      },
-      "8-deprecate": {
-        "value": "rgba({color.base.black},0.08)",
-        "type": "color"
-      },
-      "10-deprecate": {
-        "value": "rgba({color.base.black},0.1)",
-        "type": "color"
-      },
-      "16-deprecate": {
-        "value": "rgba({color.base.black},0.16)",
-        "type": "color"
-      },
-      "18-deprecate": {
-        "value": "rgba({color.base.black},0.18)",
-        "type": "color"
-      },
-      "70-deprecate": {
-        "value": "rgba({color.base.black},0.7)",
-        "type": "color"
-      },
-      "90-deprecate": {
-        "value": "rgba({color.base.black},0.9)",
-        "type": "color"
-      },
-      "00": {
-        "value": "rgba({color.base.black},0)",
-        "type": "color"
       }
     },
     "base": {
@@ -342,111 +262,17 @@
         "type": "color"
       }
     },
-    "yellow": {
-      "medium-deprecate": {
-        "value": "#E6C005",
-        "type": "color"
-      },
-      "light-deprecate": {
-        "value": "#FDFABA",
-        "type": "color"
-      }
-    },
-    "blue": {
-      "medium-deprecate": {
-        "value": "#008CB8",
-        "type": "color"
-      },
-      "light-deprecate": {
-        "value": "#D6F5FF",
-        "type": "color"
-      }
-    },
-    "red": {
-      "100-deprecate": {
-        "value": "#FEF9F8",
-        "type": "color"
-      },
-      "200-deprecate": {
-        "value": "#FDE9E8",
-        "type": "color"
-      },
-      "300-deprecate": {
-        "value": "#F9C9C5",
-        "type": "color"
-      },
-      "400-deprecate": {
-        "value": "#F6A9A3",
-        "type": "color"
-      },
-      "500-deprecate": {
-        "value": "#F2867D",
-        "type": "color"
-      },
-      "600-deprecate": {
-        "value": "#ED594C",
-        "type": "color"
-      },
-      "700-deprecate": {
-        "value": "#D43325",
-        "type": "color"
-      },
-      "800-deprecate": {
-        "value": "#B42B1F",
-        "type": "color"
-      },
-      "900-deprecate": {
-        "value": "#912319",
-        "type": "color"
-      },
-      "1000-deprecate": {
-        "value": "#6C1A13",
-        "type": "color"
-      },
-      "medium-deprecate": {
-        "value": "#BD2D00",
-        "type": "color"
-      },
-      "light-deprecate": {
-        "value": "#FFE2E0",
-        "type": "color"
-      }
-    },
-    "green": {
-      "medium-deprecate": {
-        "value": "#00AD82",
-        "type": "color"
-      },
-      "light-deprecate": {
-        "value": "#D6FFF5",
-        "type": "color"
-      }
-    },
     "hagerty": {
-      "default-deprecate": {
+      "default": {
         "value": "#007BB3",
         "type": "color"
       },
-      "bright-deprecate": {
+      "bright": {
         "value": "#0089C7",
         "type": "color"
       },
-      "light-deprecate": {
+      "light": {
         "value": "#EAF9FF",
-        "type": "color"
-      }
-    },
-    "primary": {
-      "default-deprecate": {
-        "value": "{color.base.black}",
-        "type": "color"
-      },
-      "medium-deprecate": {
-        "value": "{color.gray.900}",
-        "type": "color"
-      },
-      "light-deprecate": {
-        "value": "{color.gray.200}",
         "type": "color"
       }
     },
@@ -2858,10 +2684,6 @@
       "value": "{space.base} * 6",
       "type": "spacing"
     },
-    "none-deprecate": {
-      "value": "0px",
-      "type": "spacing"
-    },
     "base": {
       "value": "16",
       "type": "spacing",
@@ -2985,127 +2807,6 @@
           "blur": "64",
           "spread": "-12",
           "color": "{color.overlay.black.700}",
-          "type": "dropShadow"
-        }
-      ],
-      "type": "boxShadow"
-    },
-    "100-deprecate": {
-      "value": {
-        "x": "0",
-        "y": "1",
-        "blur": "2",
-        "spread": "0",
-        "color": "{color.transparency.3-deprecate}",
-        "type": "dropShadow"
-      },
-      "type": "boxShadow"
-    },
-    "200-deprecate": {
-      "value": [
-        {
-          "x": "0",
-          "y": "1",
-          "blur": "3",
-          "spread": "0",
-          "color": "{color.transparency.10-deprecate}",
-          "type": "dropShadow"
-        },
-        {
-          "x": "0",
-          "y": "1",
-          "blur": "2",
-          "spread": "0",
-          "color": "{color.transparency.5-deprecate}",
-          "type": "dropShadow"
-        }
-      ],
-      "type": "boxShadow"
-    },
-    "300-deprecate": {
-      "value": [
-        {
-          "x": "0",
-          "y": "4",
-          "blur": "8",
-          "spread": "-2",
-          "color": "{color.transparency.8-deprecate}",
-          "type": "dropShadow"
-        },
-        {
-          "x": "0",
-          "y": "2",
-          "blur": "4",
-          "spread": "-2",
-          "color": "{color.transparency.3-deprecate}",
-          "type": "dropShadow"
-        }
-      ],
-      "type": "boxShadow"
-    },
-    "400-deprecate": {
-      "value": [
-        {
-          "x": "0",
-          "y": "12",
-          "blur": "16",
-          "spread": "-4",
-          "color": "{color.transparency.8-deprecate}",
-          "type": "dropShadow"
-        },
-        {
-          "x": "0",
-          "y": "4",
-          "blur": "6",
-          "spread": "-2",
-          "color": "{color.transparency.3-deprecate}",
-          "type": "dropShadow"
-        }
-      ],
-      "type": "boxShadow"
-    },
-    "500-deprecate": {
-      "value": [
-        {
-          "x": "0",
-          "y": "20",
-          "blur": "24",
-          "spread": "-4",
-          "color": "{color.transparency.8-deprecate}",
-          "type": "dropShadow"
-        },
-        {
-          "x": "0",
-          "y": "8",
-          "blur": "8",
-          "spread": "-4",
-          "color": "{color.transparency.3-deprecate}",
-          "type": "dropShadow"
-        }
-      ],
-      "type": "boxShadow"
-    },
-    "600-deprecate": {
-      "value": [
-        {
-          "x": "0",
-          "y": "24",
-          "blur": "48",
-          "spread": "-12",
-          "color": "{color.transparency.18-deprecate}",
-          "type": "dropShadow"
-        }
-      ],
-      "type": "boxShadow"
-    },
-    "700-deprecate": {
-      "value": [
-        {
-          "x": "0",
-          "y": "32",
-          "blur": "64",
-          "spread": "-12",
-          "color": "{color.transparency.16-deprecate}",
           "type": "dropShadow"
         }
       ],
