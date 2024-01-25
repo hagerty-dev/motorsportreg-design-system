@@ -3,31 +3,31 @@
     "family": {
       "input": {
         "input": {
-          "value": "{font.family.default}",
+          "value": "{font.family.sansSerif}",
           "type": "fontFamilies"
         },
         "label": {
-          "value": "{font.family.default}",
+          "value": "{font.family.sansSerif}",
           "type": "fontFamilies"
         },
         "message": {
-          "value": "{font.family.default}",
+          "value": "{font.family.sansSerif}",
           "type": "fontFamilies"
         },
         "help": {
-          "value": "{font.family.default}",
+          "value": "{font.family.sansSerif}",
           "type": "fontFamilies"
         },
         "optional": {
-          "value": "{font.family.default}",
+          "value": "{font.family.sansSerif}",
           "type": "fontFamilies"
         },
         "legend": {
-          "value": "{font.family.default}",
+          "value": "{font.family.sansSerif}",
           "type": "fontFamilies"
         },
         "option": {
-          "value": "{font.family.default}",
+          "value": "{font.family.sansSerif}",
           "type": "fontFamilies"
         }
       },
@@ -79,7 +79,7 @@
           "type": "fontSizes"
         },
         "message": {
-          "value": "{font.size.80}",
+          "value": "{font.size.75}",
           "type": "fontSizes"
         },
         "help": {
@@ -113,7 +113,7 @@
           "type": "lineHeights"
         },
         "message": {
-          "value": "{line.height.extra}",
+          "value": "{line.height.standard}",
           "type": "lineHeights"
         },
         "help": {
