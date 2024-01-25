@@ -3,20 +3,6 @@
     "id": "fb86c28da832dc6057ac9512f2ad9687345fd214",
     "name": "Light",
     "selectedTokenSets": {
-      "components/button": "enabled",
-      "components/forms": "enabled",
-      "components/alert": "enabled",
-      "components/tooltip": "enabled",
-      "components/avatar": "enabled",
-      "components/modal": "enabled",
-      "components/logo": "enabled",
-      "components/image": "enabled",
-      "components/menu": "enabled",
-      "components/pagination": "enabled",
-      "components/datepickers": "enabled",
-      "components/filters": "enabled",
-      "components/toggles": "enabled",
-      "components/text": "enabled",
       "semantics/color": "enabled",
       "semantics/border": "enabled",
       "primitives": "source",
@@ -24,7 +10,8 @@
       "semantics/text": "enabled",
       "semantics/space": "enabled",
       "semantics/shadow": "enabled",
-      "semantics/size": "enabled"
+      "semantics/size": "enabled",
+      "semantics/typography": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaCollectionId": "VariableCollectionId:3114:24767",
@@ -37,20 +24,6 @@
     "name": "Dark",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "components/button": "enabled",
-      "components/text": "enabled",
-      "components/forms": "enabled",
-      "components/alert": "enabled",
-      "components/tooltip": "enabled",
-      "components/avatar": "enabled",
-      "components/modal": "enabled",
-      "components/logo": "enabled",
-      "components/image": "enabled",
-      "components/menu": "enabled",
-      "components/pagination": "enabled",
-      "components/datepickers": "enabled",
-      "components/filters": "enabled",
-      "components/toggles": "enabled",
       "semantics/color": "enabled",
       "semantics/border": "enabled",
       "primitives": "source",
@@ -59,7 +32,8 @@
       "semantics/text": "enabled",
       "semantics/space": "enabled",
       "semantics/shadow": "enabled",
-      "semantics/size": "enabled"
+      "semantics/size": "enabled",
+      "semantics/typography": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:3114:24767",
     "$figmaModeId": "3114:10",
@@ -71,7 +45,8 @@
     "name": "Default",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "primitives": "enabled"
+      "primitives": "enabled",
+      "semantics/typography": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:3114:25325",
     "$figmaModeId": "3114:11",
@@ -85,7 +60,8 @@
     "selectedTokenSets": {
       "primitives": "source",
       "semantics/color attendee": "enabled",
-      "semantics/text attendee": "enabled"
+      "semantics/text attendee": "enabled",
+      "semantics/typography": "disabled"
     },
     "group": "Brands"
   },
@@ -94,7 +70,8 @@
     "name": "Product",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "primitives": "source"
+      "primitives": "source",
+      "semantics/typography": "disabled"
     },
     "group": "Brands"
   }
