@@ -45,8 +45,7 @@
     "name": "Default",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "primitives": "enabled",
-      "semantics/typography": "disabled"
+      "primitives": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:3114:25325",
     "$figmaModeId": "3114:11",
@@ -60,8 +59,7 @@
     "selectedTokenSets": {
       "primitives": "source",
       "semantics/color attendee": "enabled",
-      "semantics/text attendee": "enabled",
-      "semantics/typography": "disabled"
+      "semantics/text attendee": "enabled"
     },
     "group": "Brands"
   },
@@ -70,8 +68,7 @@
     "name": "Product",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "primitives": "source",
-      "semantics/typography": "disabled"
+      "primitives": "source"
     },
     "group": "Brands"
   }
