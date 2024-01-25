@@ -17,6 +17,12 @@
         "value": "{color.gray.600}",
         "type": "color"
       }
+    },
+    "text": {
+      "action": {
+        "value": "{color.base.black}",
+        "type": "color"
+      }
     }
   }
 }

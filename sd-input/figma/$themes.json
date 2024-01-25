@@ -24,9 +24,7 @@
       "semantics/text": "enabled",
       "semantics/space": "enabled",
       "semantics/shadow": "enabled",
-      "semantics/size": "enabled",
-      "semantics/color attendee": "disabled",
-      "semantics/text attendee": "disabled"
+      "semantics/size": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaCollectionId": "VariableCollectionId:3114:24767",
@@ -61,9 +59,7 @@
       "semantics/text": "enabled",
       "semantics/space": "enabled",
       "semantics/shadow": "enabled",
-      "semantics/size": "enabled",
-      "semantics/color attendee": "disabled",
-      "semantics/text attendee": "disabled"
+      "semantics/size": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:3114:24767",
     "$figmaModeId": "3114:10",
@@ -75,9 +71,7 @@
     "name": "Default",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "primitives": "enabled",
-      "semantics/color attendee": "disabled",
-      "semantics/text attendee": "disabled"
+      "primitives": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:3114:25325",
     "$figmaModeId": "3114:11",
@@ -100,9 +94,7 @@
     "name": "Product",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "primitives": "source",
-      "semantics/color attendee": "disabled",
-      "semantics/text attendee": "disabled"
+      "primitives": "source"
     },
     "group": "Brands"
   }
