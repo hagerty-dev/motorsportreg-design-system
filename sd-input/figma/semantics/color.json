@@ -13,28 +13,8 @@
         "value": "{color.cobalt.900}",
         "type": "color"
       },
-      "disabled-deprecate": {
-        "value": "{color.gray.700}",
-        "type": "color"
-      },
       "nonessential": {
         "value": "{color.gray.1000}",
-        "type": "color"
-      },
-      "default--ondark-deprecate": {
-        "value": "{color.base.white}",
-        "type": "color"
-      },
-      "subtle--ondark-deprecate": {
-        "value": "{color.gray.500}",
-        "type": "color"
-      },
-      "action--ondark-deprecate": {
-        "value": "{color.base.white}",
-        "type": "color"
-      },
-      "nonessential--ondark-deprecate": {
-        "value": "{color.gray.600}",
         "type": "color"
       },
       "help": {
@@ -47,12 +27,8 @@
       }
     },
     "icon": {
-      "primary": {
-        "value": "{color.gray.1200}",
-        "type": "color"
-      },
-      "inverse-deprecate": {
-        "value": "{color.base.white}",
+      "default": {
+        "value": "{color.base.black}",
         "type": "color"
       },
       "subtle": {
