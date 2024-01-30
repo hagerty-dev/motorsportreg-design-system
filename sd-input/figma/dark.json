@@ -98,52 +98,54 @@
       "1200": {
         "value": "#eeeeee",
         "type": "color"
-      },
-      "a100": {
+      }
+    },
+    "grayAlpha": {
+      "100": {
         "value": "#00000000",
         "type": "color"
       },
-      "a200": {
+      "200": {
         "value": "#ffffff09",
         "type": "color"
       },
-      "a300": {
+      "300": {
         "value": "#ffffff12",
         "type": "color"
       },
-      "a400": {
+      "400": {
         "value": "#ffffff1b",
         "type": "color"
       },
-      "a500": {
+      "500": {
         "value": "#ffffff22",
         "type": "color"
       },
-      "a600": {
+      "600": {
         "value": "#ffffff2c",
         "type": "color"
       },
-      "a700": {
+      "700": {
         "value": "#ffffff3b",
         "type": "color"
       },
-      "a800": {
+      "800": {
         "value": "#ffffff55",
         "type": "color"
       },
-      "a900": {
+      "900": {
         "value": "#ffffff64",
         "type": "color"
       },
-      "a1000": {
+      "1000": {
         "value": "#ffffff72",
         "type": "color"
       },
-      "a1100": {
+      "1100": {
         "value": "#ffffffaf",
         "type": "color"
       },
-      "a1200": {
+      "1200": {
         "value": "#ffffffed",
         "type": "color"
       }
