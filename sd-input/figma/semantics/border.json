@@ -35,7 +35,7 @@
   "border": {
     "radius": {
       "input": {
-        "value": "{border.radius.150}",
+        "value": "{border.radius.200}",
         "type": "borderRadius"
       },
       "input-full": {
