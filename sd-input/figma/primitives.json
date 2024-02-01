@@ -139,7 +139,7 @@
         "value": "Helvetica Neue,Helvetica,Aria,sans-serif",
         "type": "fontFamilies"
       },
-      "sansSerif": {
+      "sans-serif": {
         "value": "Inter,Helvetica,Helvetica Neue,Aria,sans-serif",
         "type": "fontFamilies"
       },

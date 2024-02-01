@@ -3,36 +3,36 @@
     "family": {
       "input": {
         "input": {
-          "value": "{font.family.sansSerif}",
+          "value": "{font.family.sans-serif}",
           "type": "fontFamilies"
         },
         "label": {
-          "value": "{font.family.sansSerif}",
+          "value": "{font.family.sans-serif}",
           "type": "fontFamilies"
         },
         "message": {
-          "value": "{font.family.sansSerif}",
+          "value": "{font.family.sans-serif}",
           "type": "fontFamilies"
         },
         "help": {
-          "value": "{font.family.sansSerif}",
+          "value": "{font.family.sans-serif}",
           "type": "fontFamilies"
         },
         "optional": {
-          "value": "{font.family.sansSerif}",
+          "value": "{font.family.sans-serif}",
           "type": "fontFamilies"
         },
         "legend": {
-          "value": "{font.family.sansSerif}",
+          "value": "{font.family.sans-serif}",
           "type": "fontFamilies"
         },
         "option": {
-          "value": "{font.family.sansSerif}",
+          "value": "{font.family.sans-serif}",
           "type": "fontFamilies"
         }
       },
       "default": {
-        "value": "{font.family.sansSerif}",
+        "value": "{font.family.sans-serif}",
         "type": "fontFamilies"
       }
     },

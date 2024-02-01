@@ -103,7 +103,6 @@
       "color.input.selection": "69fb36d840f0387703e9aae07db28db987a4a05a",
       "color.input.error-ring": "ba5fc9e86a9ec86a21a9cbe0d236d7e4f234ffdd",
       "color.input.text.label": "a30876dc01254773bd2a713403bb10872779ee94",
-      "color.input.text.error": "df8a6a166983cec01043261375f39f2448d8735f",
       "color.input.text.input": "e20a469bf49670503a07ec0126be2bb7dec7e08b",
       "color.input.text.help": "9d3d1195bccf9f766a3f1d83543175d56ba697d7",
       "color.input.text.optional": "af4453fdefd50407b48c99ecf6540aedbc71340e",
@@ -378,7 +377,8 @@
       "color.cobalt.1200": "fd374ae2646cfe60ed318356be9a97a6a80a6354",
       "color.loContrast": "947c05f91641da01eb781ed62c0a9f0bc4f74897",
       "color.hiContrast": "6643bea3532537dc5f73bd03c12cb7b019e03ae3",
-      "color.icon.default": "9673388b920ea2b08f6817968a3bc4b3a622c90f"
+      "color.icon.default": "9673388b920ea2b08f6817968a3bc4b3a622c90f",
+      "color.input.text.message": "df8a6a166983cec01043261375f39f2448d8735f"
     },
     "group": "Mode"
   },
@@ -480,7 +480,6 @@
       "color.input.selection": "69fb36d840f0387703e9aae07db28db987a4a05a",
       "color.input.error-ring": "ba5fc9e86a9ec86a21a9cbe0d236d7e4f234ffdd",
       "color.input.text.label": "a30876dc01254773bd2a713403bb10872779ee94",
-      "color.input.text.error": "df8a6a166983cec01043261375f39f2448d8735f",
       "color.input.text.input": "e20a469bf49670503a07ec0126be2bb7dec7e08b",
       "color.input.text.help": "9d3d1195bccf9f766a3f1d83543175d56ba697d7",
       "color.input.text.optional": "af4453fdefd50407b48c99ecf6540aedbc71340e",
@@ -743,7 +742,8 @@
       "color.yellow.1200": "57d8ccadf55f1979f0de72c200bec4ee0e1fe4e6",
       "color.loContrast": "947c05f91641da01eb781ed62c0a9f0bc4f74897",
       "color.hiContrast": "6643bea3532537dc5f73bd03c12cb7b019e03ae3",
-      "color.icon.default": "9673388b920ea2b08f6817968a3bc4b3a622c90f"
+      "color.icon.default": "9673388b920ea2b08f6817968a3bc4b3a622c90f",
+      "color.input.text.message": "df8a6a166983cec01043261375f39f2448d8735f"
     },
     "group": "Mode"
   },

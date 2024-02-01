@@ -241,7 +241,7 @@
           "value": "{color.text.primary}",
           "type": "color"
         },
-        "error": {
+        "message": {
           "value": "{color.ui.critical}",
           "type": "color"
         },
