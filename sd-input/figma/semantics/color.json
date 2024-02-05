@@ -224,11 +224,11 @@
         "type": "color"
       },
       "focus-ring-error": {
-        "value": "{color.red.600}",
+        "value": "{color.red.400}",
         "type": "color"
       },
-      "selection": {
-        "value": "{color.cobalt.500}",
+      "background-selected": {
+        "value": "{color.gray.200}",
         "type": "color"
       },
       "error-ring": {

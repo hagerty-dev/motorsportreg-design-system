@@ -2,11 +2,11 @@
   "size": {
     "border": {
       "input-focus": {
-        "value": "{size.12}",
+        "value": "{size.20}",
         "type": "sizing"
       },
       "input-checked": {
-        "value": "{size.12}",
+        "value": "{size.20}",
         "type": "sizing"
       },
       "input": {
@@ -18,16 +18,20 @@
         "type": "sizing"
       },
       "focus-ring": {
-        "value": "{size.50}",
+        "value": "{size.65}",
         "type": "sizing"
       },
       "input-error-focus": {
-        "value": "{size.12}",
+        "value": "{size.20}",
         "type": "sizing",
         "description": "Summary"
       },
       "focus-ring-error": {
-        "value": "{size.50}",
+        "value": "{size.65}",
+        "type": "sizing"
+      },
+      "input-error": {
+        "value": "{size.12}",
         "type": "sizing"
       }
     }

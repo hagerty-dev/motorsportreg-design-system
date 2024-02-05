@@ -1,7 +1,7 @@
 {
   "size": {
     "input": {
-      "max-witdh": {
+      "min-witdh": {
         "value": "375",
         "type": "sizing"
       },
