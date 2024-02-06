@@ -105,7 +105,7 @@
         },
         "type": "boxShadow"
       },
-      "input-focus": {
+      "input-focus-selected": {
         "value": [
           {
             "x": "0",
@@ -113,6 +113,48 @@
             "blur": "0",
             "spread": "{size.border.input-focus}",
             "color": "{color.input.border-focus}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "{size.border.focus-ring}",
+            "color": "{color.input.focus-ring}",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "input-focus": {
+        "value": [
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "{size.border.input-focus-selected}",
+            "color": "{color.input.border-focus}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "{size.border.focus-ring}",
+            "color": "{color.input.focus-ring}",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "input-pressed": {
+        "value": [
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "{size.border.input-focus-selected}",
+            "color": "{color.input.border-hover}",
             "type": "dropShadow"
           },
           {

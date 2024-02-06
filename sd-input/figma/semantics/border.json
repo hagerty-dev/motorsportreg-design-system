@@ -5,6 +5,10 @@
         "value": "{size.20}",
         "type": "sizing"
       },
+      "input-focus-selected": {
+        "value": "{size.12}",
+        "type": "sizing"
+      },
       "input-checked": {
         "value": "{size.20}",
         "type": "sizing"
