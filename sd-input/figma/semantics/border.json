@@ -5,7 +5,7 @@
         "value": "{size.20}",
         "type": "sizing"
       },
-      "input-focus-selected": {
+      "input-focus-checked": {
         "value": "{size.12}",
         "type": "sizing"
       },
@@ -48,6 +48,10 @@
       },
       "input-full": {
         "value": "{border.radius.full}",
+        "type": "borderRadius"
+      },
+      "input-rounded": {
+        "value": "{border.radius.100}",
         "type": "borderRadius"
       }
     },

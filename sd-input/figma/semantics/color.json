@@ -227,10 +227,6 @@
         "value": "{color.red.400}",
         "type": "color"
       },
-      "background-selected": {
-        "value": "{color.gray.200}",
-        "type": "color"
-      },
       "error-ring": {
         "value": "{color.ui.critical}",
         "type": "color",
@@ -279,6 +275,10 @@
           "value": "{color.cobalt.900}",
           "type": "color"
         }
+      },
+      "icon": {
+        "value": "{color.loContrast}",
+        "type": "color"
       }
     }
   }

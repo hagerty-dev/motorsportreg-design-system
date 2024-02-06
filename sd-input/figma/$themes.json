@@ -47,7 +47,6 @@
       "size.border.input-error-focus": "42574d9d2af1d1fd5e1285a33f92c851130576e4",
       "size.border.focus-ring-error": "17b3212b5cc2674bbc181ff67ef33f86eb9f8f52",
       "border.radius.input": "0d1815d07c80a903f53152d8f1076b6835ae810a",
-      "border.radius.input-full": "abd92d36000728c19b0c299501569777ffc2e8fa",
       "border.width.error-ring": "ea73452187b8de91b1ec1b8b05783d6f1d9d65b7",
       "color.text.primary": "9a37fb6da75810b9beb5f7f6204ca631120d404a",
       "color.text.subtle": "a7933adbd8295b540a5a67e65c34c954a8394ad4",
@@ -377,8 +376,8 @@
       "color.hiContrast": "6643bea3532537dc5f73bd03c12cb7b019e03ae3",
       "color.icon.default": "9673388b920ea2b08f6817968a3bc4b3a622c90f",
       "color.input.text.message": "df8a6a166983cec01043261375f39f2448d8735f",
-      "color.input.background-selected": "69fb36d840f0387703e9aae07db28db987a4a05a",
-      "size.input.min-witdh": "ebf61a13b15972e1e73985b30f3d1fcea906e1ad"
+      "size.input.min-witdh": "ebf61a13b15972e1e73985b30f3d1fcea906e1ad",
+      "border.radius.input-full": "abd92d36000728c19b0c299501569777ffc2e8fa"
     },
     "group": "Mode"
   },
@@ -428,7 +427,6 @@
       "size.border.input-error-focus": "42574d9d2af1d1fd5e1285a33f92c851130576e4",
       "size.border.focus-ring-error": "17b3212b5cc2674bbc181ff67ef33f86eb9f8f52",
       "border.radius.input": "0d1815d07c80a903f53152d8f1076b6835ae810a",
-      "border.radius.input-full": "abd92d36000728c19b0c299501569777ffc2e8fa",
       "border.width.error-ring": "ea73452187b8de91b1ec1b8b05783d6f1d9d65b7",
       "color.text.subtle": "a7933adbd8295b540a5a67e65c34c954a8394ad4",
       "color.text.action": "21bfdad9f1c6ab8fb94d5019858a328e50c3deef",
@@ -742,8 +740,8 @@
       "color.hiContrast": "6643bea3532537dc5f73bd03c12cb7b019e03ae3",
       "color.icon.default": "9673388b920ea2b08f6817968a3bc4b3a622c90f",
       "color.input.text.message": "df8a6a166983cec01043261375f39f2448d8735f",
-      "color.input.background-selected": "69fb36d840f0387703e9aae07db28db987a4a05a",
-      "size.input.min-witdh": "ebf61a13b15972e1e73985b30f3d1fcea906e1ad"
+      "size.input.min-witdh": "ebf61a13b15972e1e73985b30f3d1fcea906e1ad",
+      "border.radius.input-full": "abd92d36000728c19b0c299501569777ffc2e8fa"
     },
     "group": "Mode"
   },
