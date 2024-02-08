@@ -3,7 +3,7 @@
     "app": {
       "background": {
         "primary": {
-          "value": "{color.gray.100}",
+          "value": "{color.gray.200}",
           "type": "color"
         }
       }
@@ -11,7 +11,7 @@
     "container": {
       "background": {
         "primary": {
-          "value": "{color.gray.100}",
+          "value": "{color.gray.200}",
           "type": "color"
         }
       }
@@ -24,7 +24,7 @@
     },
     "input": {
       "background": {
-        "value": "{color.gray.100}",
+        "value": "{color.gray.200}",
         "type": "color"
       }
     }
