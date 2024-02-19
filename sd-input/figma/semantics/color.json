@@ -179,6 +179,10 @@
         "secondary": {
           "value": "{color.gray.200}",
           "type": "color"
+        },
+        "tertiary": {
+          "value": "{color.gray.100}",
+          "type": "color"
         }
       }
     },
