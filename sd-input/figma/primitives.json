@@ -27,6 +27,10 @@
         "value": "8px",
         "type": "borderRadius"
       },
+      "250": {
+        "value": "10px",
+        "type": "borderRadius"
+      },
       "300": {
         "value": "16px",
         "type": "borderRadius"
