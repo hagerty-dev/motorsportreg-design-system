@@ -11,8 +11,7 @@
       "semantics/space": "enabled",
       "semantics/shadow": "enabled",
       "semantics/size": "enabled",
-      "semantics/typography": "enabled",
-      "semantics/color mutable": "disabled"
+      "semantics/typography": "enabled"
     },
     "$figmaStyleReferences": {
       "text.input.value-deprecate": "S:2820c16773c51d5d64648a9357223a1bf2bf4f17,",
@@ -843,8 +842,7 @@
     "name": "Default",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "primitives": "enabled",
-      "semantics/color mutable": "disabled"
+      "primitives": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:3714:1939",
     "$figmaModeId": "3714:2",
@@ -938,8 +936,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "primitives": "source",
-      "semantics/color attendee": "enabled",
-      "semantics/color mutable": "disabled"
+      "semantics/color attendee": "enabled"
     },
     "group": "Brands",
     "$figmaCollectionId": "VariableCollectionId:3714:2020",
