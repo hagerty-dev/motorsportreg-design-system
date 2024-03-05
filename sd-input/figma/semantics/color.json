@@ -42,7 +42,7 @@
         "type": "color"
       },
       "background-critical": {
-        "value": "{color.tomato.300}",
+        "value": "{color.red.400}",
         "type": "color"
       },
       "background-warning": {
@@ -178,10 +178,6 @@
         },
         "secondary": {
           "value": "{color.gray.200}",
-          "type": "color"
-        },
-        "tertiary": {
-          "value": "{color.gray.100}",
           "type": "color"
         }
       }

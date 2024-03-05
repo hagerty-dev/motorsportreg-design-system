@@ -30,10 +30,6 @@
           "value": "{font.family.sans-serif}",
           "type": "fontFamilies"
         }
-      },
-      "default": {
-        "value": "{font.family.sans-serif}",
-        "type": "fontFamilies"
       }
     },
     "weight": {

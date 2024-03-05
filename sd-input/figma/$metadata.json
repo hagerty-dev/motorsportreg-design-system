@@ -5,11 +5,10 @@
     "dark",
     "semantics/color",
     "semantics/color attendee",
+    "semantics/color mutable",
     "semantics/border",
     "semantics/shadow",
-    "semantics/mutable",
     "semantics/text",
-    "semantics/text attendee",
     "semantics/space",
     "semantics/size",
     "semantics/typography"
