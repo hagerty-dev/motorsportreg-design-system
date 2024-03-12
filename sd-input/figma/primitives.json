@@ -92,6 +92,11 @@
         "type": "fontSizes",
         "description": "20px / 1.25rem"
       },
+      "140": {
+        "value": "roundTo({font.size.base} * 1.4)",
+        "type": "fontSizes",
+        "description": "22px / 1.4rem (round to)"
+      },
       "150": {
         "value": "{font.size.base} * 1.5",
         "type": "fontSizes",
