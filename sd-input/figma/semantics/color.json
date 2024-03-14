@@ -81,11 +81,11 @@
     "action": {
       "background": {
         "primary": {
-          "value": "{color.hiContrast}",
+          "value": "{color.cobalt.900}",
           "type": "color"
         },
         "primary-hover": {
-          "value": "{color.indigo.1200}",
+          "value": "{color.cobalt.1000}",
           "type": "color"
         },
         "primary-disabled": {
