@@ -2,15 +2,15 @@
   "color": {
     "input": {
       "background-checked": {
-        "value": "{color.hiContrast}",
+        "value": "{color.ui.primary}",
         "type": "color"
       },
       "border-focus": {
-        "value": "{color.hiContrast}",
+        "value": "{color.ui.primary}",
         "type": "color"
       },
       "border-checked": {
-        "value": "{color.hiContrast}",
+        "value": "{color.ui.primary}",
         "type": "color"
       },
       "focus-ring": {
@@ -20,20 +20,26 @@
     },
     "text": {
       "action": {
-        "value": "{color.hiContrast}",
+        "value": "{color.ui.primary}",
         "type": "color"
       }
     },
     "action": {
       "background": {
         "primary": {
-          "value": "{color.hiContrast}",
+          "value": "{color.ui.primary}",
           "type": "color"
         },
         "primary-hover": {
           "value": "{color.gray.1200}",
           "type": "color"
         }
+      }
+    },
+    "ui": {
+      "primary": {
+        "value": "{color.hiContrast}",
+        "type": "color"
       }
     }
   }

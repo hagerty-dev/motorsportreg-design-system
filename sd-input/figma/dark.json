@@ -1251,11 +1251,11 @@
       }
     },
     "loContrast": {
-      "value": "{color.base.black}",
+      "value": "#000",
       "type": "color"
     },
     "hiContrast": {
-      "value": "{color.base.white}",
+      "value": "#fff",
       "type": "color"
     }
   }

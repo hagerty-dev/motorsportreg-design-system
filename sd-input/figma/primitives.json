@@ -168,31 +168,31 @@
         "type": "fontWeights",
         "description": "550 Variable font"
       },
+      "semi-bold": {
+        "value": "Semi Bold",
+        "type": "fontWeights"
+      },
       "bold": {
         "value": "Bold",
         "type": "fontWeights",
         "description": "700"
       },
       "extended": {
-        "medium": {
+        "medium-deprecate": {
           "value": "Extended Medium",
           "type": "fontWeights",
           "description": "500"
         },
-        "regular": {
+        "regular-deprecate": {
           "value": "Extended Regular",
           "type": "fontWeights",
           "description": "400"
         },
-        "bold": {
+        "bold-deprecate": {
           "value": "Extended Bold",
           "type": "fontWeights",
           "description": "700"
         }
-      },
-      "semi-bold": {
-        "value": "Semi Bold",
-        "type": "fontWeights"
       }
     }
   },
@@ -247,7 +247,7 @@
   "color": {
     "gradient": {
       "dark": {
-        "value": "linear-gradient(90deg, {color.base.black} 0%, {color.gray.1000} 100%)",
+        "value": "linear-gradient(90deg, {color.base.black-depercate} 0%, {color.gray.1000} 100%)",
         "type": "color",
         "description": "Primary button hover "
       },
@@ -262,11 +262,11 @@
       }
     },
     "base": {
-      "white": {
+      "white-depercate": {
         "value": "#fff",
         "type": "color"
       },
-      "black": {
+      "black-depercate": {
         "value": "#000",
         "type": "color"
       }
@@ -397,12 +397,12 @@
       "value": "roundTo({size.base} * 0.19,1)",
       "type": "sizing"
     },
-    "22": {
-      "value": "roundTo({size.base} * 0.375)",
-      "type": "sizing"
-    },
     "25": {
       "value": "{size.base} * 0.25",
+      "type": "sizing"
+    },
+    "35": {
+      "value": "roundTo({size.base} * 0.375)",
       "type": "sizing"
     },
     "50": {
