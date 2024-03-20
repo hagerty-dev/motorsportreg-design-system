@@ -9,12 +9,12 @@
         "value": "{color.gray.1100}",
         "type": "color"
       },
-      "action": {
-        "value": "{color.ui.primary}",
-        "type": "color"
-      },
       "nonessential": {
         "value": "{color.gray.1000}",
+        "type": "color"
+      },
+      "action": {
+        "value": "{color.ui.primary}",
         "type": "color"
       },
       "help-deprecate": {
@@ -28,37 +28,21 @@
     },
     "icon": {
       "default": {
-        "value": "{color.base.black-depercate}",
+        "value": "{color.base.hiContrast}",
         "type": "color"
       },
       "subtle": {
-        "value": "{color.gray.700}",
+        "value": "{color.gray.1100}",
         "type": "color"
       }
     },
     "ui": {
+      "primary": {
+        "value": "{color.cobalt.900}",
+        "type": "color"
+      },
       "critical": {
-        "value": "{color.tomato.1000}",
-        "type": "color"
-      },
-      "background-critical": {
-        "value": "{color.red.400}",
-        "type": "color"
-      },
-      "background-warning": {
-        "value": "{color.yellow.400}",
-        "type": "color"
-      },
-      "background-informative": {
-        "value": "{color.blue.400}",
-        "type": "color"
-      },
-      "background-success": {
-        "value": "{color.green.400}",
-        "type": "color"
-      },
-      "background-unknown": {
-        "value": "{color.gray.400}",
+        "value": "{color.tomato.1100}",
         "type": "color"
       },
       "success": {
@@ -66,7 +50,7 @@
         "type": "color"
       },
       "warning": {
-        "value": "{color.yellow.1100}",
+        "value": "{color.amber.1100}",
         "type": "color"
       },
       "informative": {
@@ -77,8 +61,24 @@
         "value": "{color.gray.1100}",
         "type": "color"
       },
-      "primary": {
-        "value": "{color.cobalt.900}",
+      "background-critical": {
+        "value": "{color.tomato.200}",
+        "type": "color"
+      },
+      "background-success": {
+        "value": "{color.green.200}",
+        "type": "color"
+      },
+      "background-warning": {
+        "value": "{color.amber.200}",
+        "type": "color"
+      },
+      "background-informative": {
+        "value": "{color.blue.200}",
+        "type": "color"
+      },
+      "background-unknown": {
+        "value": "{color.gray.200}",
         "type": "color"
       }
     },
