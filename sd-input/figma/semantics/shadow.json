@@ -32,7 +32,7 @@
             "y": "0",
             "blur": "0",
             "spread": "2",
-            "color": "{color.loContrast}",
+            "color": "{color.base.loContrast}",
             "type": "dropShadow"
           },
           {

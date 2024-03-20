@@ -1250,13 +1250,155 @@
         "type": "color"
       }
     },
-    "loContrast": {
-      "value": "#fff",
-      "type": "color"
+    "base": {
+      "loContrast": {
+        "value": "#fff",
+        "type": "color"
+      },
+      "hiContrast": {
+        "value": "#000",
+        "type": "color"
+      },
+      "white-depercate": {
+        "value": "#fff",
+        "type": "color"
+      },
+      "black-depercate": {
+        "value": "#000",
+        "type": "color"
+      }
     },
-    "hiContrast": {
-      "value": "#000",
-      "type": "color"
+    "gradient": {
+      "dark": {
+        "value": "linear-gradient(90deg, {color.base.black-depercate} 0%, {color.gray.1000} 100%)",
+        "type": "color",
+        "description": "Primary button hover "
+      },
+      "blue": {
+        "value": "linear-gradient(90deg, {color.hagerty.default} 0%, {color.hagerty.bright} 100%)",
+        "type": "color"
+      },
+      "gray": {
+        "value": "linear-gradient(90deg, {color.gray.300} 0%, {color.gray.400} 100%)",
+        "type": "color",
+        "description": "on-dark button hover states"
+      }
+    },
+    "hagerty": {
+      "default": {
+        "value": "#007BB3",
+        "type": "color"
+      },
+      "bright": {
+        "value": "#0089C7",
+        "type": "color"
+      },
+      "light": {
+        "value": "#EAF9FF",
+        "type": "color"
+      }
+    },
+    "overlay": {
+      "black": {
+        "100": {
+          "value": "hsla(0, 0%, 0%, 0.012)",
+          "type": "color"
+        },
+        "200": {
+          "value": "hsla(0, 0%, 0%, 0.027)",
+          "type": "color"
+        },
+        "300": {
+          "value": "hsla(0, 0%, 0%, 0.047)",
+          "type": "color"
+        },
+        "400": {
+          "value": "hsla(0, 0%, 0%, 0.071)",
+          "type": "color"
+        },
+        "500": {
+          "value": "hsla(0, 0%, 0%, 0.090)",
+          "type": "color"
+        },
+        "600": {
+          "value": "hsla(0, 0%, 0%, 0.114)",
+          "type": "color"
+        },
+        "700": {
+          "value": "hsla(0, 0%, 0%, 0.141)",
+          "type": "color"
+        },
+        "800": {
+          "value": "hsla(0, 0%, 0%, 0.220)",
+          "type": "color"
+        },
+        "900": {
+          "value": "hsla(0, 0%, 0%, 0.439)",
+          "type": "color"
+        },
+        "1000": {
+          "value": "hsla(0, 0%, 0%, 0.478)",
+          "type": "color"
+        },
+        "1100": {
+          "value": "hsla(0, 0%, 0%, 0.565)",
+          "type": "color"
+        },
+        "1200": {
+          "value": "hsla(0, 0%, 0%, 0.910)",
+          "type": "color"
+        }
+      },
+      "white": {
+        "100": {
+          "value": "hsla(0, 0%, 100%, 0)",
+          "type": "color"
+        },
+        "200": {
+          "value": "hsla(0, 0%, 100%, 0.013)",
+          "type": "color"
+        },
+        "300": {
+          "value": "hsla(0, 0%, 100%, 0.034)",
+          "type": "color"
+        },
+        "400": {
+          "value": "hsla(0, 0%, 100%, 0.056)",
+          "type": "color"
+        },
+        "500": {
+          "value": "hsla(0, 0%, 100%, 0.086)",
+          "type": "color"
+        },
+        "600": {
+          "value": "hsla(0, 0%, 100%, 0.124)",
+          "type": "color"
+        },
+        "700": {
+          "value": "hsla(0, 0%, 100%, 0.176)",
+          "type": "color"
+        },
+        "800": {
+          "value": "hsla(0, 0%, 100%, 0.249)",
+          "type": "color"
+        },
+        "900": {
+          "value": "hsla(0, 0%, 100%, 0.386)",
+          "type": "color"
+        },
+        "1000": {
+          "value": "hsla(0, 0%, 100%, 0.446)",
+          "type": "color"
+        },
+        "1100": {
+          "value": "hsla(0, 0%, 100%, 0.592)",
+          "type": "color"
+        },
+        "1200": {
+          "value": "hsla(0, 0%, 100%, 0.923)",
+          "type": "color"
+        }
+      }
     }
   }
 }

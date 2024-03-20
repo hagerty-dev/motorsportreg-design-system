@@ -38,7 +38,7 @@
     },
     "ui": {
       "primary": {
-        "value": "{color.hiContrast}",
+        "value": "{color.base.hiContrast}",
         "type": "color"
       }
     }

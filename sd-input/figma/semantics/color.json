@@ -2,7 +2,7 @@
   "color": {
     "text": {
       "primary": {
-        "value": "{color.hiContrast}",
+        "value": "{color.base.hiContrast}",
         "type": "color"
       },
       "subtle": {
@@ -101,7 +101,7 @@
           "type": "color"
         },
         "basic": {
-          "value": "{color.loContrast}",
+          "value": "{color.base.loContrast}",
           "type": "color"
         },
         "basic-hover": {
@@ -141,11 +141,11 @@
       },
       "content": {
         "primary": {
-          "value": "{color.loContrast}",
+          "value": "{color.base.loContrast}",
           "type": "color"
         },
         "basic": {
-          "value": "{color.hiContrast}",
+          "value": "{color.base.hiContrast}",
           "type": "color"
         },
         "disabled": {
@@ -157,7 +157,7 @@
     "app": {
       "background": {
         "primary": {
-          "value": "{color.loContrast}",
+          "value": "{color.base.loContrast}",
           "type": "color"
         },
         "secondary": {
@@ -177,7 +177,7 @@
       },
       "background": {
         "primary": {
-          "value": "{color.loContrast}",
+          "value": "{color.base.loContrast}",
           "type": "color"
         },
         "secondary": {
@@ -188,7 +188,7 @@
     },
     "input": {
       "background": {
-        "value": "{color.loContrast}",
+        "value": "{color.base.loContrast}",
         "type": "color"
       },
       "background-checked": {
@@ -281,7 +281,7 @@
         }
       },
       "icon": {
-        "value": "{color.loContrast}",
+        "value": "{color.base.loContrast}",
         "type": "color"
       }
     }
