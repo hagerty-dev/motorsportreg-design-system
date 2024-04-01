@@ -1250,13 +1250,15 @@
         "type": "color"
       }
     },
-    "loContrast": {
-      "value": "#000",
-      "type": "color"
-    },
-    "hiContrast": {
-      "value": "#fff",
-      "type": "color"
+    "base": {
+      "loContrast": {
+        "value": "#000",
+        "type": "color"
+      },
+      "hiContrast": {
+        "value": "#fff",
+        "type": "color"
+      }
     }
   }
 }
