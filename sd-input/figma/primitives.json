@@ -123,7 +123,7 @@
         "description": "40px / 2.5rem"
       },
       "300": {
-        "value": "{font.size.base} *3",
+        "value": "{font.size.base} * 3",
         "type": "fontSizes",
         "description": "48px / 3rem"
       },
