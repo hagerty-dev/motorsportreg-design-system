@@ -145,15 +145,15 @@
     },
     "family": {
       "brand": {
-        "value": "Helvetica Neue,Helvetica,Aria,sans-serif",
+        "value": "\"Helvetica Neue\",sans-serif",
         "type": "fontFamilies"
       },
       "sans-serif": {
-        "value": "Inter,Helvetica Neue,Arial,sans-serif",
+        "value": "Inter,\"Helvetica Neue\",sans-serif",
         "type": "fontFamilies"
       },
       "fallback": {
-        "value": "Helvetica Neue,Arial,sans-serif",
+        "value": "\"Helvetica Neue\",sans-serif",
         "type": "fontFamilies"
       }
     },
@@ -161,16 +161,17 @@
       "regular": {
         "value": "Regular",
         "type": "fontWeights",
-        "description": "450 Variable Font"
+        "description": "425"
       },
       "medium": {
         "value": "Medium",
         "type": "fontWeights",
-        "description": "550 Variable font"
+        "description": "525"
       },
       "semi-bold": {
         "value": "Semi Bold",
-        "type": "fontWeights"
+        "type": "fontWeights",
+        "description": "600"
       },
       "bold": {
         "value": "Bold",
