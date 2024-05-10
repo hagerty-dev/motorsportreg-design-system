@@ -6,6 +6,8 @@
     "semantics/color",
     "semantics/color attendee",
     "semantics/color mutable",
+    "semantics/font",
+    "semantics/font attendee",
     "semantics/border",
     "semantics/shadow",
     "semantics/text",

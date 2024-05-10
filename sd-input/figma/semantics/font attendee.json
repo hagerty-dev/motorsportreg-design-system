@@ -1,0 +1,26 @@
+{
+  "font": {
+    "family": {
+      "value": "{font.family.brand}",
+      "type": "fontFamilies"
+    },
+    "weight": {
+      "normal": {
+        "value": "{font.weight.400}",
+        "type": "fontWeights"
+      },
+      "thick": {
+        "value": "{font.weight.700}",
+        "type": "fontWeights"
+      },
+      "thicker": {
+        "value": "{font.weight.700}",
+        "type": "fontWeights"
+      },
+      "thickest": {
+        "value": "{font.weight.700}",
+        "type": "fontWeights"
+      }
+    }
+  }
+}
