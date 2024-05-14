@@ -3,31 +3,31 @@
     "family": {
       "input": {
         "input": {
-          "value": "{font.family.sans-serif}",
+          "value": "{font.family.inter}",
           "type": "fontFamilies"
         },
         "label": {
-          "value": "{font.family.sans-serif}",
+          "value": "{font.family.inter}",
           "type": "fontFamilies"
         },
         "message": {
-          "value": "{font.family.sans-serif}",
+          "value": "{font.family.inter}",
           "type": "fontFamilies"
         },
         "help": {
-          "value": "{font.family.sans-serif}",
+          "value": "{font.family.inter}",
           "type": "fontFamilies"
         },
         "optional": {
-          "value": "{font.family.sans-serif}",
+          "value": "{font.family.inter}",
           "type": "fontFamilies"
         },
         "legend": {
-          "value": "{font.family.sans-serif}",
+          "value": "{font.family.inter}",
           "type": "fontFamilies"
         },
         "option": {
-          "value": "{font.family.sans-serif}",
+          "value": "{font.family.inter}",
           "type": "fontFamilies"
         }
       }

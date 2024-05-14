@@ -2,40 +2,40 @@
   "size": {
     "border": {
       "input-focus": {
-        "value": "{size.20}",
+        "value": "1.5",
         "type": "sizing"
       },
       "input-focus-checked": {
-        "value": "{size.12}",
+        "value": "1",
         "type": "sizing"
       },
       "input-checked": {
-        "value": "{size.20}",
+        "value": "1.5",
         "type": "sizing"
       },
       "input": {
-        "value": "{size.12}",
+        "value": "1",
         "type": "sizing"
       },
       "input-hover": {
-        "value": "{size.12}",
+        "value": "1",
         "type": "sizing"
       },
       "focus-ring": {
-        "value": "{size.65}",
+        "value": "5",
         "type": "sizing"
       },
       "input-error-focus": {
-        "value": "{size.20}",
+        "value": "1.5",
         "type": "sizing",
         "description": "Summary"
       },
       "focus-ring-error": {
-        "value": "{size.65}",
+        "value": "5",
         "type": "sizing"
       },
       "input-error": {
-        "value": "{size.12}",
+        "value": "1",
         "type": "sizing"
       }
     }
@@ -60,6 +60,46 @@
         "value": "{border.width.150}",
         "type": "borderWidth",
         "description": "Border around summary of error messages at top op form"
+      }
+    },
+    "radius-new": {
+      "100": {
+        "value": "3px",
+        "type": "borderRadius"
+      },
+      "150": {
+        "value": "6px",
+        "type": "borderRadius"
+      },
+      "200": {
+        "value": "8px",
+        "type": "borderRadius"
+      },
+      "250": {
+        "value": "10px",
+        "type": "borderRadius"
+      },
+      "300": {
+        "value": "16px",
+        "type": "borderRadius"
+      },
+      "400": {
+        "value": "32px",
+        "type": "borderRadius"
+      },
+      "circle-deprecate": {
+        "value": "1000px",
+        "type": "borderRadius",
+        "description": "Circles 50%"
+      },
+      "full": {
+        "value": "999px",
+        "type": "borderRadius"
+      },
+      "none": {
+        "value": "0px",
+        "type": "borderRadius",
+        "description": "No border radius"
       }
     }
   }

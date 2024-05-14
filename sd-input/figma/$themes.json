@@ -989,7 +989,7 @@
       "semantics/space": "enabled",
       "semantics/size": "enabled",
       "semantics/typography": "enabled",
-      "semantics/font attendee": "enabled"
+      "semantics/font": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:2086:5031",
     "$figmaModeId": "2086:4",
