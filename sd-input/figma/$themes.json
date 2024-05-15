@@ -907,7 +907,6 @@
       "border.radius.input": "5449f37baabb6bca223cd9d87330e47ecac28812",
       "border.radius.input-full": "8b921caa2b44b63e431b4a04a7f3aec1edc77693",
       "border.radius.input-rounded": "19355236bbc3a3299ed0c64cb21fae253f0afeda",
-      "border.width.error-ring": "06e30eebbbd7203c4bdc240b512c549fafe649a8",
       "color.text.primary": "47d3bee819242793bf8b1ff4b2686e614675f237",
       "color.text.subtle": "ac3fb52588bcd963ee087d07897db7e94649e410",
       "color.text.nonessential": "470ad015b276aef64bedf3951dcd80ffe3667d3a",
@@ -971,7 +970,8 @@
       "color.input.text.placeholder-focus": "8069c97057de741281f3239d031a271b08e03748",
       "color.input.range.track": "2b6d5a1a485433cb5e00ff0ce315042a94541f37",
       "color.input.range.thumb": "a21d3473b47c0adb72e0d98266eebb427156dcab",
-      "color.input.icon": "222e45e0dbb016658f8577ced6e04264f61746e0"
+      "color.input.icon": "222e45e0dbb016658f8577ced6e04264f61746e0",
+      "border-width.error-ring": "06e30eebbbd7203c4bdc240b512c549fafe649a8"
     },
     "group": "Experience"
   },
@@ -1022,7 +1022,6 @@
       "border.radius.input": "5449f37baabb6bca223cd9d87330e47ecac28812",
       "border.radius.input-full": "8b921caa2b44b63e431b4a04a7f3aec1edc77693",
       "border.radius.input-rounded": "19355236bbc3a3299ed0c64cb21fae253f0afeda",
-      "border.width.error-ring": "06e30eebbbd7203c4bdc240b512c549fafe649a8",
       "color.input.background-checked": "6566549054a4f751d187bbbd4e44f25c636864d2",
       "color.input.border-focus": "3a9a4c2c104d661dedaea7b255bf5adabf1f79c0",
       "color.input.border-checked": "0281994801406f5ff8ec53b0a1d7e9c6f5fe74db",
@@ -1086,7 +1085,8 @@
       "color.input.text.placeholder-focus": "8069c97057de741281f3239d031a271b08e03748",
       "color.input.range.track": "2b6d5a1a485433cb5e00ff0ce315042a94541f37",
       "color.input.range.thumb": "a21d3473b47c0adb72e0d98266eebb427156dcab",
-      "color.input.icon": "222e45e0dbb016658f8577ced6e04264f61746e0"
+      "color.input.icon": "222e45e0dbb016658f8577ced6e04264f61746e0",
+      "border-width.error-ring": "06e30eebbbd7203c4bdc240b512c549fafe649a8"
     },
     "group": "Experience"
   }

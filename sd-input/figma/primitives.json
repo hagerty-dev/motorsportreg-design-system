@@ -202,20 +202,35 @@
       }
     },
     "weight": {
+      "300": {
+        "value": "300",
+        "type": "fontWeights",
+        "description": "300"
+      },
       "325": {
         "value": "300",
         "type": "fontWeights",
         "description": "325"
+      },
+      "400": {
+        "value": "400",
+        "type": "fontWeights",
+        "description": "400"
       },
       "425": {
         "value": "400",
         "type": "fontWeights",
         "description": "425"
       },
-      "525": {
+      "500": {
         "value": "500",
         "type": "fontWeights",
         "description": "500"
+      },
+      "525": {
+        "value": "500",
+        "type": "fontWeights",
+        "description": "525"
       },
       "600": {
         "value": "600",
@@ -226,76 +241,71 @@
         "value": "700",
         "type": "fontWeights",
         "description": "700"
-      },
-      "regular-deprecate": {
-        "value": "400",
-        "type": "fontWeights",
-        "description": "425"
       }
     },
     "font-size-new": {
       "75": {
-        "value": "{type-base} * 0.75",
+        "value": "{rem-base} * 0.75",
         "type": "fontSizes"
       },
       "80": {
-        "value": "roundTo({type-base} * 0.813)",
+        "value": "roundTo({rem-base} * 0.813)",
         "type": "fontSizes"
       },
       "87": {
-        "value": "{type-base} * 0.875",
+        "value": "{rem-base} * 0.875",
         "type": "fontSizes"
       },
       "94": {
-        "value": "roundTo({type-base} * 0.938)",
+        "value": "roundTo({rem-base} * 0.938)",
         "type": "fontSizes"
       },
       "100": {
-        "value": "{type-base} * 1",
+        "value": "{rem-base} * 1",
         "type": "fontSizes"
       },
       "112": {
-        "value": "{type-base} * 1.125",
+        "value": "{rem-base} * 1.125",
         "type": "fontSizes"
       },
       "125": {
-        "value": "{type-base} * 1.25",
+        "value": "{rem-base} * 1.25",
         "type": "fontSizes"
       },
       "140": {
-        "value": "roundTo({type-base} * 1.4)",
+        "value": "roundTo({rem-base} * 1.4)",
         "type": "fontSizes"
       },
       "150": {
-        "value": "{type-base} * 1.5",
+        "value": "{rem-base} * 1.5",
         "type": "fontSizes"
       },
       "175": {
-        "value": "{type-base} * 1.75",
+        "value": "{rem-base} * 1.75",
         "type": "fontSizes"
       },
       "200": {
-        "value": "{type-base} * 2",
+        "value": "{rem-base} * 2",
         "type": "fontSizes"
       },
       "225": {
-        "value": "{type-base} * 2.25",
+        "value": "{rem-base} * 2.25",
         "type": "fontSizes"
       },
       "250": {
-        "value": "{type-base} * 2.5",
+        "value": "{rem-base} * 2.5",
         "type": "fontSizes"
       },
       "300": {
-        "value": "{type-base} *3",
+        "value": "{rem-base} *3",
         "type": "fontSizes"
       },
       "350": {
-        "value": "{type-base} * 3.5",
+        "value": "{rem-base} * 3.5",
         "type": "fontSizes"
       },
       "400": {
-        "value": "{type-base} * 4",
+        "value": "{rem-base} * 4",
         "type": "fontSizes"
       }
     }
@@ -705,7 +715,7 @@
       "type": "sizing"
     }
   },
-  "type-base": {
+  "rem-base": {
     "value": "16",
     "type": "number",
     "description": "1rem"

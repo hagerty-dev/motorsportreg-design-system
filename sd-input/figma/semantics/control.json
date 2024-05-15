@@ -1,0 +1,265 @@
+{
+  "color": {
+    "control": {
+      "background": {
+        "value": "{color.base.loContrast}",
+        "type": "color"
+      },
+      "background-checked": {
+        "value": "{color.ui.primary}",
+        "type": "color"
+      },
+      "background-disabled": {
+        "value": "{color.gray.300}",
+        "type": "color"
+      },
+      "border": {
+        "value": "{color.gray.800}",
+        "type": "color"
+      },
+      "border-hover": {
+        "value": "{color.gray.1000}",
+        "type": "color"
+      },
+      "border-focus": {
+        "value": "{color.ui.primary}",
+        "type": "color"
+      },
+      "border-checked": {
+        "value": "{color.ui.primary}",
+        "type": "color"
+      },
+      "focus-ring": {
+        "value": "{color.cobalt.500}",
+        "type": "color"
+      },
+      "border-error": {
+        "value": "{color.ui.critical}",
+        "type": "color"
+      },
+      "border-hover-error": {
+        "value": "{color.tomato.1100}",
+        "type": "color"
+      },
+      "focus-ring-error": {
+        "value": "{color.red.400}",
+        "type": "color"
+      },
+      "error-ring": {
+        "value": "{color.ui.critical}",
+        "type": "color",
+        "description": "Border around summary of error messages at top op form"
+      },
+      "text": {
+        "label": {
+          "value": "{color.text.primary}",
+          "type": "color"
+        },
+        "message": {
+          "value": "{color.ui.critical}",
+          "type": "color"
+        },
+        "control": {
+          "value": "{color.text.primary}",
+          "type": "color"
+        },
+        "help": {
+          "value": "{color.text.subtle}",
+          "type": "color"
+        },
+        "optional": {
+          "value": "{color.text.subtle}",
+          "type": "color"
+        },
+        "placeholder": {
+          "value": "{color.text.nonessential}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{color.gray.900}",
+          "type": "color"
+        },
+        "placeholder-focus": {
+          "value": "{color.gray.800}",
+          "type": "color"
+        }
+      },
+      "range": {
+        "track": {
+          "value": "{color.gray.700}",
+          "type": "color"
+        },
+        "thumb": {
+          "value": "{color.cobalt.900}",
+          "type": "color"
+        }
+      },
+      "icon": {
+        "value": "{color.base.loContrast}",
+        "type": "color"
+      }
+    }
+  },
+  "border-radius": {
+    "control": {
+      "value": "{border.radius.200}",
+      "type": "borderRadius"
+    },
+    "control-full": {
+      "value": "{border.radius.full}",
+      "type": "borderRadius"
+    },
+    "control-rounded": {
+      "value": "{border.radius.100}",
+      "type": "borderRadius"
+    }
+  },
+  "border-width": {
+    "error-ring": {
+      "value": "{border.width.150}",
+      "type": "borderWidth",
+      "description": "Border around summary of error messages at top op form"
+    }
+  },
+  "shadow": {
+    "control-hover": {
+      "value": {
+        "x": "0",
+        "y": "0",
+        "blur": "0",
+        "spread": "1",
+        "color": "{color.control.border-hover}",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "control": {
+      "value": {
+        "x": "0",
+        "y": "0",
+        "blur": "0",
+        "spread": "1",
+        "color": "{color.control.border}",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "control-checked": {
+      "value": {
+        "x": "0",
+        "y": "0",
+        "blur": "0",
+        "spread": "1.5",
+        "color": "{color.control.border-checked}",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "control-error": {
+      "value": {
+        "x": "0",
+        "y": "0",
+        "blur": "0",
+        "spread": "1",
+        "color": "{color.control.border-error}",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "control-hover-error": {
+      "value": {
+        "x": "0",
+        "y": "0",
+        "blur": "0",
+        "spread": "1",
+        "color": "{color.control.border-hover-error}",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "control-focus-checked": {
+      "value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "1.5",
+          "color": "{color.control.border-focus}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "4",
+          "color": "{color.control.focus-ring}",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "control-focus": {
+      "value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "1",
+          "color": "{color.control.border-focus}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "4",
+          "color": "{color.control.focus-ring}",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "control-pressed": {
+      "value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "1",
+          "color": "{color.control.border-hover}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "4",
+          "color": "{color.control.focus-ring}",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "control-focus-error": {
+      "value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "1.5",
+          "color": "{color.control.border-error}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "4",
+          "color": "{color.control.focus-ring-error}",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow"
+    }
+  }
+}

@@ -35,7 +35,7 @@
     "weight": {
       "input": {
         "input": {
-          "value": "{font.weight.regular-deprecate}",
+          "value": "{font.weight.400}",
           "type": "fontWeights"
         },
         "label": {
@@ -43,15 +43,15 @@
           "type": "fontWeights"
         },
         "message": {
-          "value": "{font.weight.regular-deprecate}",
+          "value": "{font.weight.400}",
           "type": "fontWeights"
         },
         "help": {
-          "value": "{font.weight.regular-deprecate}",
+          "value": "{font.weight.400}",
           "type": "fontWeights"
         },
         "optional": {
-          "value": "{font.weight.regular-deprecate}",
+          "value": "{font.weight.400}",
           "type": "fontWeights"
         },
         "legend": {
@@ -59,7 +59,7 @@
           "type": "fontWeights"
         },
         "option": {
-          "value": "{font.weight.regular-deprecate}",
+          "value": "{font.weight.400}",
           "type": "fontWeights"
         }
       }
