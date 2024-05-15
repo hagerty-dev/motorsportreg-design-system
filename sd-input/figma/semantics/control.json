@@ -5,7 +5,7 @@
         "value": "{color.base.loContrast}",
         "type": "color"
       },
-      "background-checked": {
+      "background-selected": {
         "value": "{color.ui.primary}",
         "type": "color"
       },
@@ -25,7 +25,7 @@
         "value": "{color.ui.primary}",
         "type": "color"
       },
-      "border-checked": {
+      "border-selected": {
         "value": "{color.ui.primary}",
         "type": "color"
       },
@@ -150,7 +150,7 @@
         "y": "0",
         "blur": "0",
         "spread": "1.5",
-        "color": "{color.control.border-checked}",
+        "color": "{color.control.border-selected}",
         "type": "dropShadow"
       },
       "type": "boxShadow"
