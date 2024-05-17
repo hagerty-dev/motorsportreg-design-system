@@ -9,6 +9,14 @@
         "value": "{color.ui.primary}",
         "type": "color"
       },
+      "background-selected-hovered": {
+        "value": "{color.ui.primary}",
+        "type": "color"
+      },
+      "background-selected-active": {
+        "value": "{color.ui.primary}",
+        "type": "color"
+      },
       "background-disabled": {
         "value": "{color.gray.300}",
         "type": "color"
@@ -29,7 +37,7 @@
         "value": "{color.ui.primary}",
         "type": "color"
       },
-      "focus-ring": {
+      "border-focus-ring": {
         "value": "{color.cobalt.500}",
         "type": "color"
       },
@@ -41,7 +49,7 @@
         "value": "{color.tomato.1100}",
         "type": "color"
       },
-      "focus-ring-error": {
+      "border-focus-ring-error": {
         "value": "{color.red.400}",
         "type": "color"
       },
@@ -192,7 +200,7 @@
           "y": "0",
           "blur": "0",
           "spread": "4",
-          "color": "{color.control.focus-ring}",
+          "color": "{color.control.border-focus-ring}",
           "type": "dropShadow"
         }
       ],
@@ -213,7 +221,7 @@
           "y": "0",
           "blur": "0",
           "spread": "4",
-          "color": "{color.control.focus-ring}",
+          "color": "{color.control.border-focus-ring}",
           "type": "dropShadow"
         }
       ],
@@ -234,7 +242,7 @@
           "y": "0",
           "blur": "0",
           "spread": "4",
-          "color": "{color.control.focus-ring}",
+          "color": "{color.control.border-focus-ring}",
           "type": "dropShadow"
         }
       ],
@@ -255,7 +263,7 @@
           "y": "0",
           "blur": "0",
           "spread": "4",
-          "color": "{color.control.focus-ring-error}",
+          "color": "{color.control.border-focus-ring-error}",
           "type": "dropShadow"
         }
       ],
