@@ -4,7 +4,10 @@
     "name": "Light",
     "selectedTokenSets": {
       "semantics/color": "enabled",
-      "light": "enabled"
+      "light": "enabled",
+      "semantics/color-new": "enabled",
+      "semantics/surface": "enabled",
+      "semantics/control": "enabled"
     },
     "$figmaStyleReferences": {
       "text.input.value-deprecate": "S:2820c16773c51d5d64648a9357223a1bf2bf4f17,",
