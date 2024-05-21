@@ -21,7 +21,7 @@
       "type": "color"
     },
     "border-critical": {
-      "value": "{color.tomato.900}",
+      "value": "{color.tomato.600}",
       "type": "color"
     },
     "background": {
@@ -38,6 +38,18 @@
     },
     "background-active": {
       "value": "{color.gray.400}",
+      "type": "color"
+    },
+    "background-critical": {
+      "value": "{color.tomato.200}",
+      "type": "color"
+    },
+    "background-critical-hover": {
+      "value": "{color.tomato.300}",
+      "type": "color"
+    },
+    "background-critical-active": {
+      "value": "{color.tomato.400}",
       "type": "color"
     },
     "fill": {
@@ -69,7 +81,7 @@
       "type": "color"
     },
     "fill-brand": {
-      "value": "{color.base.hiContrast}",
+      "value": "{color.cobalt.900}",
       "type": "color"
     },
     "fill-brand-disabled": {
@@ -77,23 +89,35 @@
       "type": "color"
     },
     "fill-brand-hover": {
-      "value": "{color.gray.1200}",
+      "value": "{color.cobalt.1000}",
       "type": "color"
     },
     "fill-brand-active": {
-      "value": "{color.gray.1100}",
+      "value": "{color.cobalt.1000}",
       "type": "color"
     },
     "fill-brand-selected": {
-      "value": "{color.base.hiContrast}",
+      "value": "{color.cobalt.900}",
       "type": "color"
     },
     "fill-brand-selected-hover": {
-      "value": "{color.base.hiContrast}",
+      "value": "{color.cobalt.900}",
       "type": "color"
     },
     "fill-brand-selected-active": {
-      "value": "{color.base.hiContrast}",
+      "value": "{color.cobalt.900}",
+      "type": "color"
+    },
+    "fill-critical": {
+      "value": "{color.tomato.900}",
+      "type": "color"
+    },
+    "fill-critical-hover": {
+      "value": "{color.tomato.1000}",
+      "type": "color"
+    },
+    "fill-critical-active": {
+      "value": "{color.tomato.1100}",
       "type": "color"
     },
     "text": {
@@ -103,6 +127,22 @@
       },
       "brand-fill": {
         "value": "{color.base.loContrast}",
+        "type": "color"
+      },
+      "critical": {
+        "value": "{color.tomato.1100}",
+        "type": "color"
+      },
+      "critical-hover": {
+        "value": "{color.tomato.1200}",
+        "type": "color"
+      },
+      "critical-active": {
+        "value": "{color.tomato.1200}",
+        "type": "color"
+      },
+      "critical-fill": {
+        "value": "{color.tomato.100}",
         "type": "color"
       }
     }

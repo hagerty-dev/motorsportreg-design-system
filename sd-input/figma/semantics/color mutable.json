@@ -28,5 +28,11 @@
         "type": "color"
       }
     }
+  },
+  "elevation": {
+    "surface-overlay": {
+      "value": "{color.gray.200}",
+      "type": "color"
+    }
   }
 }

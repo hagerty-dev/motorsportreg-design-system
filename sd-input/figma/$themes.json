@@ -437,7 +437,10 @@
     "selectedTokenSets": {
       "semantics/color": "enabled",
       "dark": "enabled",
-      "semantics/color mutable": "enabled"
+      "semantics/color mutable": "enabled",
+      "semantics/color-new": "enabled",
+      "semantics/surface": "enabled",
+      "semantics/control": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:3825:4017",
     "$figmaModeId": "3825:2",
