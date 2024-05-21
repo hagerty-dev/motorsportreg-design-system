@@ -20,6 +20,14 @@
       "primary": {
         "value": "{color.gray.1200}",
         "type": "color"
+      },
+      "brand-fill": {
+        "value": "{color.base.hiContrast}",
+        "type": "color"
+      },
+      "critical-fill": {
+        "value": "{color.base.hiContrast}",
+        "type": "color"
       }
     },
     "input": {
