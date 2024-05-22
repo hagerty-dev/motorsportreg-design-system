@@ -1086,7 +1086,8 @@
       "semantics/space": "enabled",
       "semantics/size": "enabled",
       "semantics/typography": "enabled",
-      "semantics/font": "enabled"
+      "semantics/font": "enabled",
+      "semantics/color-new attendee": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:3825:4468",
     "$figmaModeId": "3825:5",

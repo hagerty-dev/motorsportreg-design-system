@@ -24,10 +24,6 @@
       "brand-fill": {
         "value": "{color.base.hiContrast}",
         "type": "color"
-      },
-      "critical-fill": {
-        "value": "{color.base.hiContrast}",
-        "type": "color"
       }
     },
     "input": {
@@ -40,6 +36,10 @@
   "elevation": {
     "surface-overlay": {
       "value": "{color.gray.200}",
+      "type": "color"
+    },
+    "surface": {
+      "value": "{color.gray.100}",
       "type": "color"
     }
   }
