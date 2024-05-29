@@ -1,0 +1,10 @@
+{
+  "color": {
+    "text": {
+      "brand-on-fill": {
+        "value": "{color.base.loContrast}",
+        "type": "color"
+      }
+    }
+  }
+}

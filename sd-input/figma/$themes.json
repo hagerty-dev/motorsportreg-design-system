@@ -7,7 +7,8 @@
       "light": "enabled",
       "semantics/color-new": "enabled",
       "semantics/surface": "enabled",
-      "semantics/control": "enabled"
+      "semantics/control": "enabled",
+      "semantics/color mutable attendee": "disabled"
     },
     "$figmaStyleReferences": {
       "text.input.value-deprecate": "S:2820c16773c51d5d64648a9357223a1bf2bf4f17,",
@@ -855,7 +856,8 @@
     "name": "Default",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "primitives": "enabled"
+      "primitives": "enabled",
+      "semantics/color mutable attendee": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:3825:4415",
     "$figmaModeId": "3825:3",
@@ -971,7 +973,8 @@
       "semantics/space": "enabled",
       "semantics/size": "enabled",
       "semantics/typography": "enabled",
-      "semantics/font": "enabled"
+      "semantics/font": "enabled",
+      "semantics/color mutable attendee": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:3825:4468",
     "$figmaModeId": "3825:4",
@@ -1087,7 +1090,8 @@
       "semantics/size": "enabled",
       "semantics/typography": "enabled",
       "semantics/font": "enabled",
-      "semantics/color-new attendee": "enabled"
+      "semantics/color-new attendee": "enabled",
+      "semantics/color mutable attendee": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:3825:4468",
     "$figmaModeId": "3825:5",

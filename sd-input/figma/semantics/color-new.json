@@ -197,7 +197,11 @@
         "value": "{color.gray.900}",
         "type": "color"
       },
-      "brand-fill": {
+      "brand": {
+        "value": "{color.brand}",
+        "type": "color"
+      },
+      "brand-on-fill": {
         "value": "{color.base.loContrast}",
         "type": "color"
       },
@@ -273,23 +277,23 @@
         "value": "{color.blue.1200}",
         "type": "color"
       },
-      "critical-fill": {
+      "critical-on-fill": {
         "value": "{color.tomato.100}",
         "type": "color"
       },
-      "warning-fill": {
+      "warning-on-fill": {
         "value": "{color.orange.100}",
         "type": "color"
       },
-      "success-fill": {
+      "success-on-fill": {
         "value": "{color.grass.100}",
         "type": "color"
       },
-      "caution-fill": {
+      "caution-on-fill": {
         "value": "{color.amber.100}",
         "type": "color"
       },
-      "info-fill": {
+      "info-on-fill": {
         "value": "{color.blue.100}",
         "type": "color"
       }

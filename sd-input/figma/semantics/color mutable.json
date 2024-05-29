@@ -21,7 +21,7 @@
         "value": "{color.gray.1200}",
         "type": "color"
       },
-      "brand-fill": {
+      "brand-on-fill": {
         "value": "{color.base.hiContrast}",
         "type": "color"
       }
