@@ -28,20 +28,16 @@
       "value": "{color.tomato.600}",
       "type": "color"
     },
-    "border-warning": {
-      "value": "{color.orange.600}",
-      "type": "color"
-    },
     "border-success": {
       "value": "{color.grass.600}",
       "type": "color"
     },
-    "border-caution": {
-      "value": "{color.amber.600}",
+    "border-warning": {
+      "value": "{color.amber.700}",
       "type": "color"
     },
     "border-info": {
-      "value": "{color.blue.600}",
+      "value": "{color.blue.700}",
       "type": "color"
     },
     "background": {
@@ -100,42 +96,6 @@
       "value": "{color.tomato.400}",
       "type": "color"
     },
-    "background-warning": {
-      "value": "{color.orange.200}",
-      "type": "color"
-    },
-    "background-warning-hover": {
-      "value": "{color.orange.300}",
-      "type": "color"
-    },
-    "background-warning-active": {
-      "value": "{color.orange.400}",
-      "type": "color"
-    },
-    "background-warning-whisper": {
-      "value": "{color.orange.200}",
-      "type": "color"
-    },
-    "background-warning-whisper-hover": {
-      "value": "{color.orange.300}",
-      "type": "color"
-    },
-    "background-warning-whisper-active": {
-      "value": "{color.orange.400}",
-      "type": "color"
-    },
-    "background-warning-loud": {
-      "value": "{color.orange.200}",
-      "type": "color"
-    },
-    "background-warning-loud-hover": {
-      "value": "{color.orange.300}",
-      "type": "color"
-    },
-    "background-warning-loud-active": {
-      "value": "{color.orange.400}",
-      "type": "color"
-    },
     "background-success": {
       "value": "{color.grass.200}",
       "type": "color"
@@ -172,39 +132,39 @@
       "value": "{color.grass.400}",
       "type": "color"
     },
-    "background-caution": {
+    "background-warning": {
       "value": "{color.amber.200}",
       "type": "color"
     },
-    "background-caution-hover": {
+    "background-warning-hover": {
       "value": "{color.amber.300}",
       "type": "color"
     },
-    "background-caution-active": {
+    "background-warning-active": {
       "value": "{color.amber.400}",
       "type": "color"
     },
-    "background-caution-whisper": {
+    "background-warning-whisper": {
       "value": "{color.amber.200}",
       "type": "color"
     },
-    "background-caution-whisper-hover": {
+    "background-warning-whisper-hover": {
       "value": "{color.amber.300}",
       "type": "color"
     },
-    "background-caution-whisper-active": {
+    "background-warning-whisper-active": {
       "value": "{color.amber.400}",
       "type": "color"
     },
-    "background-caution-loud": {
+    "background-warning-loud": {
       "value": "{color.amber.200}",
       "type": "color"
     },
-    "background-caution-loud-hover": {
+    "background-warning-loud-hover": {
       "value": "{color.amber.300}",
       "type": "color"
     },
-    "background-caution-loud-active": {
+    "background-warning-loud-active": {
       "value": "{color.amber.400}",
       "type": "color"
     },
@@ -329,6 +289,10 @@
         "value": "{color.cobalt.900}",
         "type": "color"
       },
+      "link-decoration": {
+        "value": "{color.gray.800}",
+        "type": "color"
+      },
       "link-hover": {
         "value": "{color.cobalt.1000}",
         "type": "color"
@@ -349,16 +313,16 @@
         "value": "{color.tomato.1200}",
         "type": "color"
       },
-      "warning": {
-        "value": "{color.orange.1100}",
+      "caution": {
+        "value": "{color.amber.1100}",
         "type": "color"
       },
-      "warning-hover": {
-        "value": "{color.orange.1200}",
+      "caution-hover": {
+        "value": "{color.amber.1200}",
         "type": "color"
       },
-      "warning-active": {
-        "value": "{color.orange.1200}",
+      "caution-active": {
+        "value": "{color.amber.1200}",
         "type": "color"
       },
       "success": {
@@ -371,18 +335,6 @@
       },
       "success-active": {
         "value": "{color.grass.1200}",
-        "type": "color"
-      },
-      "caution": {
-        "value": "{color.amber.1100}",
-        "type": "color"
-      },
-      "caution-hover": {
-        "value": "{color.amber.1200}",
-        "type": "color"
-      },
-      "caution-active": {
-        "value": "{color.amber.1200}",
         "type": "color"
       },
       "info": {
