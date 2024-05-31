@@ -21,7 +21,7 @@
         "value": "{color.gray.1200}",
         "type": "color"
       },
-      "brand-on-fill": {
+      "brand-on-background": {
         "value": "{color.base.hiContrast}",
         "type": "color"
       }
@@ -31,6 +31,10 @@
         "value": "{color.gray.200}",
         "type": "color"
       }
+    },
+    "background": {
+      "value": "{color.gray.100}",
+      "type": "color"
     }
   },
   "elevation": {

@@ -4,27 +4,27 @@
       "value": "{color.base.hiContrast}",
       "type": "color"
     },
-    "fill-brand": {
+    "background-brand": {
       "value": "{color.brand}",
       "type": "color"
     },
-    "fill-brand-hover": {
+    "background-brand-hover": {
       "value": "{color.gray.1200}",
       "type": "color"
     },
-    "fill-brand-active": {
+    "background-brand-active": {
       "value": "{color.gray.1200}",
       "type": "color"
     },
-    "fill-brand-selected": {
+    "background-brand-selected": {
       "value": "{color.base.hiContrast}",
       "type": "color"
     },
-    "fill-brand-selected-hover": {
+    "background-brand-selected-hover": {
       "value": "{color.base.hiContrast}",
       "type": "color"
     },
-    "fill-brand-selected-active": {
+    "background-brand-selected-active": {
       "value": "{color.base.hiContrast}",
       "type": "color"
     },
