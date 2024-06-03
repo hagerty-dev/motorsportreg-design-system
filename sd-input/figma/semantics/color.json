@@ -44,10 +44,6 @@
       "value": "{color.base.loContrast}",
       "type": "color"
     },
-    "background-transparent": {
-      "value": "rgba(0, 0, 0, 0)",
-      "type": "color"
-    },
     "background-disabled": {
       "value": "{color.gray.200}",
       "type": "color"
@@ -70,6 +66,10 @@
     },
     "background-selected-active": {
       "value": "{color.gray.700}",
+      "type": "color"
+    },
+    "background-transparent": {
+      "value": "rgba(0, 0, 0, 0)",
       "type": "color"
     },
     "background-brand": {
@@ -133,7 +133,7 @@
       "type": "color"
     },
     "background-critical-loud-active": {
-      "value": "{color.tomato.1000}",
+      "value": "{color.tomato.1100}",
       "type": "color"
     },
     "background-success": {
@@ -169,7 +169,7 @@
       "type": "color"
     },
     "background-success-loud-active": {
-      "value": "{color.grass.1000}",
+      "value": "{color.grass.1100}",
       "type": "color"
     },
     "background-warning": {
@@ -201,11 +201,11 @@
       "type": "color"
     },
     "background-warning-loud-hover": {
-      "value": "{color.amber.700}",
+      "value": "{color.amber.1000}",
       "type": "color"
     },
     "background-warning-loud-active": {
-      "value": "{color.amber.800}",
+      "value": "{color.amber.1000}",
       "type": "color"
     },
     "background-info": {
@@ -237,11 +237,11 @@
       "type": "color"
     },
     "background-info-loud-hover": {
-      "value": "{color.blue.700}",
+      "value": "{color.blue.1000}",
       "type": "color"
     },
     "background-info-loud-active": {
-      "value": "{color.blue.800}",
+      "value": "{color.blue.1100}",
       "type": "color"
     },
     "text": {

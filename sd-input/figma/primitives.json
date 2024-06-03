@@ -192,12 +192,12 @@
       }
     },
     "family": {
-      "helvetica-neue": {
+      "helvetica-neue-deprecated": {
         "value": "'Helvetica Neue',sans-serif",
         "type": "fontFamilies"
       },
       "inter": {
-        "value": "Inter,'Helvetica Neue',sans-serif",
+        "value": "Inter,sans-serif",
         "type": "fontFamilies"
       }
     },
