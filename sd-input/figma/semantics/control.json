@@ -60,7 +60,7 @@
       },
       "text": {
         "label": {
-          "value": "{color.text.primary}",
+          "value": "{color.text}",
           "type": "color"
         },
         "message": {
@@ -68,7 +68,7 @@
           "type": "color"
         },
         "control": {
-          "value": "{color.text.primary}",
+          "value": "{color.text}",
           "type": "color"
         },
         "help": {

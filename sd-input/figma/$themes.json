@@ -20,7 +20,6 @@
     "$figmaCollectionId": "VariableCollectionId:3825:4017",
     "$figmaModeId": "3825:1",
     "$figmaVariableReferences": {
-      "color.text.primary": "37527964fbe94fd67f6bf7e630526eacb956c56e",
       "color.text.subtle": "4d28088354f42db75e23fa0aeb85691a09bfb123",
       "color.text.nonessential": "634fc4e1123990b148390dea008b9c597a6132c5",
       "color.text.action": "20a520849b32d72f013e8e2999303cf47fed9d90",
@@ -426,7 +425,8 @@
       "color.overlay.white.900": "a3ba9dd02773d6f5893c2bfca73e4660407f0373",
       "color.overlay.white.1000": "0895f5ee42e63480ffab69e0f84830ba9a9fd758",
       "color.overlay.white.1100": "1fca93660d29ca68b2f0f67d22f77c8de5d7b6c0",
-      "color.overlay.white.1200": "0260e612ce0f7618757808655680f7c649f79621"
+      "color.overlay.white.1200": "0260e612ce0f7618757808655680f7c649f79621",
+      "color.text": "37527964fbe94fd67f6bf7e630526eacb956c56e"
     },
     "group": "Mode"
   },
@@ -447,7 +447,6 @@
     "$figmaVariableReferences": {
       "color.app.background.primary": "79b4c525ba848f5982b2f70a06bc4a10907f7e9f",
       "color.container.background.primary": "a6e6526c12ce8784364b6ffbb3698fc17331a738",
-      "color.text.primary": "37527964fbe94fd67f6bf7e630526eacb956c56e",
       "color.input.background": "1fd6671020d72de49086b0dae76aed2a10c17ba4",
       "color.text.subtle": "4d28088354f42db75e23fa0aeb85691a09bfb123",
       "color.text.nonessential": "634fc4e1123990b148390dea008b9c597a6132c5",
@@ -846,7 +845,8 @@
       "color.overlay.white.900": "a3ba9dd02773d6f5893c2bfca73e4660407f0373",
       "color.overlay.white.1000": "0895f5ee42e63480ffab69e0f84830ba9a9fd758",
       "color.overlay.white.1100": "1fca93660d29ca68b2f0f67d22f77c8de5d7b6c0",
-      "color.overlay.white.1200": "0260e612ce0f7618757808655680f7c649f79621"
+      "color.overlay.white.1200": "0260e612ce0f7618757808655680f7c649f79621",
+      "color.text": "37527964fbe94fd67f6bf7e630526eacb956c56e"
     },
     "group": "Mode"
   },
@@ -1006,7 +1006,6 @@
       "border.radius.input-full": "9b9d8e3c20ae29dbe9c5ff9d4f8c4e1bbd4a4369",
       "border.radius.input-rounded": "d0c7d934169d9c0e0b66e4fc9f52eb409d57b7a7",
       "border.width.error-ring": "1cdd62c0a12b4c74e6942c0e1bfe3ba474de9764",
-      "color.text.primary": "dbca2ee2d7eeb686a64ac73824d4f1fbe16c4041",
       "color.text.subtle": "71634687978bb26303b7cff209cf722d26afda3e",
       "color.text.nonessential": "31271740eea4c2a29dcf18c46695e30113a54484",
       "color.text.action": "b8d3644fc3b04785b595dcf517ac95c7ec74319f",
@@ -1069,7 +1068,8 @@
       "color.input.text.placeholder-focus": "7aa1ecd8e43b73ed91146aed9dcb75d3108e3bc7",
       "color.input.range.track": "ed20463ec0e735927b8e60895609a8c8e8ef7362",
       "color.input.range.thumb": "a76fc84c8202777c234f7fc08d6ca95d7c9cc39b",
-      "color.input.icon": "1c99b76b0cfcafde20fe8b7e08d150b8a2707058"
+      "color.input.icon": "1c99b76b0cfcafde20fe8b7e08d150b8a2707058",
+      "color.text": "dbca2ee2d7eeb686a64ac73824d4f1fbe16c4041"
     },
     "group": "Experience"
   },
@@ -1130,7 +1130,6 @@
       "color.action.background.primary": "7b131236fe3b73ce4dd1a444a829a84722b52d9e",
       "color.action.background.primary-hover": "12341ffe85d8a6053146ab8b974db08ad8e63a0a",
       "color.ui.primary": "32da4565a4dca17a0c84b889d86a9ef24e286bff",
-      "color.text.primary": "dbca2ee2d7eeb686a64ac73824d4f1fbe16c4041",
       "color.text.subtle": "71634687978bb26303b7cff209cf722d26afda3e",
       "color.text.nonessential": "31271740eea4c2a29dcf18c46695e30113a54484",
       "color.text.help-deprecate": "6e6f3244a8a4b5a52923d3918800e852499de0f1",
@@ -1185,7 +1184,8 @@
       "color.input.text.placeholder-focus": "7aa1ecd8e43b73ed91146aed9dcb75d3108e3bc7",
       "color.input.range.track": "ed20463ec0e735927b8e60895609a8c8e8ef7362",
       "color.input.range.thumb": "a76fc84c8202777c234f7fc08d6ca95d7c9cc39b",
-      "color.input.icon": "1c99b76b0cfcafde20fe8b7e08d150b8a2707058"
+      "color.input.icon": "1c99b76b0cfcafde20fe8b7e08d150b8a2707058",
+      "color.text": "dbca2ee2d7eeb686a64ac73824d4f1fbe16c4041"
     },
     "group": "Experience"
   }

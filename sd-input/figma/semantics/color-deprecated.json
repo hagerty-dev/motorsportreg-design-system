@@ -238,7 +238,7 @@
       },
       "text": {
         "label": {
-          "value": "{color.text.primary}",
+          "value": "{color.text}",
           "type": "color"
         },
         "message": {
@@ -246,7 +246,7 @@
           "type": "color"
         },
         "input": {
-          "value": "{color.text.primary}",
+          "value": "{color.text}",
           "type": "color"
         },
         "help": {

@@ -1,23 +1,47 @@
 {
   "color": {
     "text": {
-      "primary": {
-        "value": "{color.gray.1200}",
-        "type": "color"
-      },
-      "brand-on-background": {
-        "value": "{color.base.hiContrast}",
-        "type": "color"
-      }
+      "value": "{color.gray.1200}",
+      "type": "color"
     },
-    "input": {
-      "background": {
-        "value": "{color.gray.200}",
-        "type": "color"
-      }
+    "text-critical-on-background": {
+      "value": "{color.base.hiContrast}",
+      "type": "color"
+    },
+    "text-info-on-background": {
+      "value": "{color.base.hiContrast}",
+      "type": "color"
+    },
+    "text-success-on-background": {
+      "value": "{color.base.hiContrast}",
+      "type": "color"
+    },
+    "text-caution-on-background": {
+      "value": "{color.amber.100}",
+      "type": "color"
     },
     "background": {
       "value": "{color.gray.100}",
+      "type": "color"
+    },
+    "icon-warning-on-background": {
+      "value": "{color.amber.100}",
+      "type": "color"
+    },
+    "icon-brand-on-background": {
+      "value": "{color.base.hiContrast}",
+      "type": "color"
+    },
+    "icon-critical-on-background": {
+      "value": "{color.base.hiContrast}",
+      "type": "color"
+    },
+    "icon-success-on-background": {
+      "value": "{color.base.hiContrast}",
+      "type": "color"
+    },
+    "icon-info-on-background": {
+      "value": "{color.base.hiContrast}",
       "type": "color"
     }
   },
