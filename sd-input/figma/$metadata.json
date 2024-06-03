@@ -3,7 +3,6 @@
     "primitives",
     "light",
     "dark",
-    "semantics/color-deprecated",
     "semantics/color",
     "semantics/color attendee",
     "semantics/surface",
@@ -16,6 +15,7 @@
     "semantics/text",
     "semantics/space",
     "semantics/size",
-    "semantics/typography"
+    "semantics/typography",
+    "semantics/color-deprecated"
   ]
 }
