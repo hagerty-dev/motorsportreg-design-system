@@ -1,21 +1,5 @@
 {
   "color": {
-    "app": {
-      "background": {
-        "primary": {
-          "value": "{color.gray.200}",
-          "type": "color"
-        }
-      }
-    },
-    "container": {
-      "background": {
-        "primary": {
-          "value": "{color.gray.200}",
-          "type": "color"
-        }
-      }
-    },
     "text": {
       "primary": {
         "value": "{color.gray.1200}",
