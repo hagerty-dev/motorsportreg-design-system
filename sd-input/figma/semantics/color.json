@@ -336,16 +336,12 @@
       "value": "{color.tomato.100}",
       "type": "color"
     },
-    "text-warning-on-background": {
+    "text-caution-on-background": {
       "value": "{color.orange.1200}",
       "type": "color"
     },
     "text-success-on-background": {
       "value": "{color.grass.100}",
-      "type": "color"
-    },
-    "text-caution-on-background": {
-      "value": "{color.amber.100}",
       "type": "color"
     },
     "text-info-on-background": {
