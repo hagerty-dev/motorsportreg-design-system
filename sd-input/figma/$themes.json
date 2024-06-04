@@ -4,10 +4,10 @@
     "name": "Light",
     "selectedTokenSets": {
       "light": "enabled",
-      "semantics/surface": "enabled",
       "semantics/control": "enabled",
       "semantics/color-deprecated": "enabled",
-      "semantics/color": "enabled"
+      "semantics/color": "enabled",
+      "semantics/elevation": "enabled"
     },
     "$figmaStyleReferences": {
       "text.input.value-deprecate": "S:2820c16773c51d5d64648a9357223a1bf2bf4f17,",
@@ -437,10 +437,10 @@
     "selectedTokenSets": {
       "dark": "enabled",
       "semantics/color mutable": "enabled",
-      "semantics/surface": "enabled",
       "semantics/control": "enabled",
       "semantics/color-deprecated": "enabled",
-      "semantics/color": "enabled"
+      "semantics/color": "enabled",
+      "semantics/elevation": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:3825:4017",
     "$figmaModeId": "3825:2",

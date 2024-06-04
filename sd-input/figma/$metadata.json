@@ -3,7 +3,7 @@
     "primitives",
     "light",
     "dark",
-    "semantics/surface",
+    "semantics/elevation",
     "semantics/color",
     "semantics/color mutable",
     "semantics/color attendee",
