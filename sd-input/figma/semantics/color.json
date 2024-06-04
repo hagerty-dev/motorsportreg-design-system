@@ -292,28 +292,36 @@
       "value": "{color.tomato.1100}",
       "type": "color"
     },
-    "text-critical-hover": {
-      "value": "{color.tomato.1200}",
+    "text-critical-link": {
+      "value": "{color.text-critical}",
       "type": "color"
     },
-    "text-critical-active": {
-      "value": "{color.tomato.1200}",
+    "text-critical-link-decoration": {
+      "value": "{color.border-critical}",
+      "type": "color"
+    },
+    "text-critical-link-decoration-hover": {
+      "value": "{color.text-critical-link}",
       "type": "color"
     },
     "text-critical-on-background": {
       "value": "{color.base.loContrast}",
       "type": "color"
     },
-    "text-caution": {
+    "text-warning": {
       "value": "{color.amber.1100}",
       "type": "color"
     },
-    "text-caution-hover": {
-      "value": "{color.amber.1200}",
+    "text-warning-link": {
+      "value": "{color.text-warning}",
       "type": "color"
     },
-    "text-caution-active": {
-      "value": "{color.amber.1200}",
+    "text-warning-link-decoration": {
+      "value": "{color.border-warning}",
+      "type": "color"
+    },
+    "text-warning-link-decoration-hover": {
+      "value": "{color.text-warning-link}",
       "type": "color"
     },
     "text-caution-on-background": {
@@ -324,12 +332,16 @@
       "value": "{color.grass.1100}",
       "type": "color"
     },
-    "text-success-hover": {
-      "value": "{color.grass.1200}",
+    "text-success-link": {
+      "value": "{color.text-success}",
       "type": "color"
     },
-    "text-success-active": {
-      "value": "{color.grass.1200}",
+    "text-success-link-decoration": {
+      "value": "{color.border-success}",
+      "type": "color"
+    },
+    "text-success-link-decoration-hover": {
+      "value": "{color.text-success-link}",
       "type": "color"
     },
     "text-success-on-background": {
@@ -340,12 +352,16 @@
       "value": "{color.blue.1100}",
       "type": "color"
     },
-    "text-info-hover": {
-      "value": "{color.blue.1200}",
+    "text-info-link": {
+      "value": "{color.text-info}",
       "type": "color"
     },
-    "text-info-active": {
-      "value": "{color.blue.1200}",
+    "text-info-link-decoration": {
+      "value": "{color.border-info}",
+      "type": "color"
+    },
+    "text-info-link-decoration-hover": {
+      "value": "{color.text-info-link}",
       "type": "color"
     },
     "text-info-on-background": {
