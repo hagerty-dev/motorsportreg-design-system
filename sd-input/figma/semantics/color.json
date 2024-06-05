@@ -324,7 +324,7 @@
       "value": "{color.text-warning-link}",
       "type": "color"
     },
-    "text-caution-on-background": {
+    "text-warning-on-background": {
       "value": "{color.amber.1200}",
       "type": "color"
     },

@@ -16,7 +16,7 @@
       "value": "{color.base.hiContrast}",
       "type": "color"
     },
-    "text-caution-on-background": {
+    "text-warning-on-background": {
       "value": "{color.amber.100}",
       "type": "color"
     },
