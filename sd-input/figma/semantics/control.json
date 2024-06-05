@@ -128,7 +128,7 @@
   },
   "border-width": {
     "error-ring": {
-      "value": "{border.width.150}",
+      "value": "{border.width-old.150}",
       "type": "borderWidth",
       "description": "Border around summary of error messages at top op form"
     }

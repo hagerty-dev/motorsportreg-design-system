@@ -6,7 +6,7 @@
         "type": "sizing"
       },
       "box": {
-        "value": "{size.250}",
+        "value": "{size-depercated.250}",
         "type": "sizing"
       }
     }
