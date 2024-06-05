@@ -47,10 +47,14 @@
   },
   "elevation": {
     "surface-overlay": {
-      "value": "{color.gray.200}",
+      "value": "{color.gray.100}",
       "type": "color"
     },
     "surface": {
+      "value": "{color.gray.100}",
+      "type": "color"
+    },
+    "surface-raised": {
       "value": "{color.gray.100}",
       "type": "color"
     }

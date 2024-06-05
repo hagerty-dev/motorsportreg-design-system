@@ -1,11 +1,11 @@
 {
   "color": {
-    "brand": {
-      "value": "{color.cobalt.900}",
-      "type": "color"
-    },
     "scrim": {
       "value": "{color.overlay.black.700}",
+      "type": "color"
+    },
+    "background-transparent": {
+      "value": "rgba(0, 0, 0, 0)",
       "type": "color"
     },
     "border": {
@@ -68,12 +68,8 @@
       "value": "{color.gray.700}",
       "type": "color"
     },
-    "background-transparent": {
-      "value": "rgba(0, 0, 0, 0)",
-      "type": "color"
-    },
     "background-brand": {
-      "value": "{color.brand}",
+      "value": "{color.cobalt.900}",
       "type": "color"
     },
     "background-brand-disabled": {
@@ -261,7 +257,7 @@
       "type": "color"
     },
     "text-brand": {
-      "value": "{color.brand}",
+      "value": "{color.cobalt.900}",
       "type": "color"
     },
     "text-brand-on-background": {
@@ -393,7 +389,7 @@
       "type": "color"
     },
     "icon-brand": {
-      "value": "{color.brand}",
+      "value": "{color.cobalt.900}",
       "type": "color"
     },
     "icon-brand-on-background": {
