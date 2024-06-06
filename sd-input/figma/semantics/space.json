@@ -2,47 +2,47 @@
   "space": {
     "input": {
       "outer-gap": {
-        "value": "{space-old.100}",
+        "value": "{space-deprecated.100}",
         "type": "spacing"
       },
       "outer-padding-bottom": {
-        "value": "{space-old.300}",
+        "value": "{space-deprecated.300}",
         "type": "spacing"
       },
       "wrapper-gap": {
-        "value": "{space-old.100}",
+        "value": "{space-deprecated.100}",
         "type": "spacing"
       },
       "input-gap": {
-        "value": "{space-old.0}",
+        "value": "{space-deprecated.0}",
         "type": "spacing"
       },
       "messages-gap": {
-        "value": "{space-old.100}",
+        "value": "{space-deprecated.100}",
         "type": "spacing"
       },
       "label-gap": {
-        "value": "{space-old.50}",
+        "value": "{space-deprecated.50}",
         "type": "spacing"
       },
       "message-gap": {
-        "value": "{space-old.50}",
+        "value": "{space-deprecated.50}",
         "type": "spacing"
       },
       "input-padding-top": {
-        "value": "{space-old.100}",
+        "value": "{space-deprecated.100}",
         "type": "spacing"
       },
       "input-padding-bottom": {
-        "value": "{space-old.100}",
+        "value": "{space-deprecated.100}",
         "type": "spacing"
       },
       "input-padding-left": {
-        "value": "{space-old.150}",
+        "value": "{space-deprecated.150}",
         "type": "spacing"
       },
       "input-padding-right": {
-        "value": "{space-old.150}",
+        "value": "{space-deprecated.150}",
         "type": "spacing"
       },
       "input": {
@@ -50,15 +50,15 @@
         "type": "spacing"
       },
       "options-gap": {
-        "value": "{space-old.150}",
+        "value": "{space-deprecated.150}",
         "type": "spacing"
       },
       "legend-gap": {
-        "value": "{space-old.100}",
+        "value": "{space-deprecated.100}",
         "type": "spacing"
       },
       "fieldset-gap": {
-        "value": "{space-old.100}",
+        "value": "{space-deprecated.100}",
         "type": "spacing"
       }
     }

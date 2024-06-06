@@ -5,18 +5,18 @@
         "100": {
           "small": {
             "value": {
-              "fontFamily": "{font.family.helvetica-neue-deprecated}",
-              "fontSize": "{font.size.225}",
-              "lineHeight": "{line.height.tight}"
+              "fontFamily": "{font-family.helvetica-neue-deprecated}",
+              "fontSize": "{font-size-deprecated.225}",
+              "lineHeight": "{line-height-deprecated.tight}"
             },
             "type": "typography",
             "description": "Heading"
           },
           "large": {
             "value": {
-              "fontFamily": "{font.family.helvetica-neue-deprecated}",
-              "fontSize": "{font.size.250}",
-              "lineHeight": "{line.height.tight}"
+              "fontFamily": "{font-family.helvetica-neue-deprecated}",
+              "fontSize": "{font-size-deprecated.250}",
+              "lineHeight": "{line-height-deprecated.tight}"
             },
             "type": "typography"
           }
@@ -24,10 +24,10 @@
         "200": {
           "small": {
             "value": {
-              "fontFamily": "{font.family.helvetica-neue-deprecated}",
+              "fontFamily": "{font-family.helvetica-neue-deprecated}",
               "fontWeight": "",
-              "lineHeight": "{line.height.tight}",
-              "fontSize": "{font.size.200}",
+              "lineHeight": "{line-height-deprecated.tight}",
+              "fontSize": "{font-size-deprecated.200}",
               "letterSpacing": "",
               "paragraphSpacing": "",
               "textDecoration": "",
@@ -37,10 +37,10 @@
           },
           "large": {
             "value": {
-              "fontFamily": "{font.family.helvetica-neue-deprecated}",
+              "fontFamily": "{font-family.helvetica-neue-deprecated}",
               "fontWeight": "",
-              "lineHeight": "{line.height.tight}",
-              "fontSize": "{font.size.225}",
+              "lineHeight": "{line-height-deprecated.tight}",
+              "fontSize": "{font-size-deprecated.225}",
               "letterSpacing": "",
               "paragraphSpacing": "",
               "textDecoration": "",
@@ -52,10 +52,10 @@
         "300": {
           "small": {
             "value": {
-              "fontFamily": "{font.family.helvetica-neue-deprecated}",
+              "fontFamily": "{font-family.helvetica-neue-deprecated}",
               "fontWeight": "",
-              "lineHeight": "{line.height.tight}",
-              "fontSize": "{font.size.175}",
+              "lineHeight": "{line-height-deprecated.tight}",
+              "fontSize": "{font-size-deprecated.175}",
               "letterSpacing": "",
               "paragraphSpacing": "",
               "textDecoration": "",
@@ -65,10 +65,10 @@
           },
           "large": {
             "value": {
-              "fontFamily": "{font.family.helvetica-neue-deprecated}",
+              "fontFamily": "{font-family.helvetica-neue-deprecated}",
               "fontWeight": "",
-              "lineHeight": "{line.height.tight}",
-              "fontSize": "{font.size.200}",
+              "lineHeight": "{line-height-deprecated.tight}",
+              "fontSize": "{font-size-deprecated.200}",
               "letterSpacing": "",
               "paragraphSpacing": "",
               "textDecoration": "",
@@ -80,10 +80,10 @@
         "400": {
           "small": {
             "value": {
-              "fontFamily": "{font.family.helvetica-neue-deprecated}",
+              "fontFamily": "{font-family.helvetica-neue-deprecated}",
               "fontWeight": "",
-              "lineHeight": "{line.height.tight}",
-              "fontSize": "{font.size.150}",
+              "lineHeight": "{line-height-deprecated.tight}",
+              "fontSize": "{font-size-deprecated.150}",
               "letterSpacing": "",
               "paragraphSpacing": "",
               "textDecoration": "",
@@ -93,10 +93,10 @@
           },
           "large": {
             "value": {
-              "fontFamily": "{font.family.helvetica-neue-deprecated}",
+              "fontFamily": "{font-family.helvetica-neue-deprecated}",
               "fontWeight": "",
-              "lineHeight": "{line.height.tight}",
-              "fontSize": "{font.size.175}",
+              "lineHeight": "{line-height-deprecated.tight}",
+              "fontSize": "{font-size-deprecated.175}",
               "letterSpacing": "",
               "paragraphSpacing": "",
               "textDecoration": "",
@@ -107,10 +107,10 @@
         },
         "500": {
           "value": {
-            "fontFamily": "{font.family.helvetica-neue-deprecated}",
+            "fontFamily": "{font-family.helvetica-neue-deprecated}",
             "fontWeight": "",
-            "lineHeight": "{line.height.tight}",
-            "fontSize": "{font.size.150}",
+            "lineHeight": "{line-height-deprecated.tight}",
+            "fontSize": "{font-size-deprecated.150}",
             "letterSpacing": "",
             "paragraphSpacing": "",
             "textDecoration": "",
@@ -120,10 +120,10 @@
         },
         "600": {
           "value": {
-            "fontFamily": "{font.family.helvetica-neue-deprecated}",
+            "fontFamily": "{font-family.helvetica-neue-deprecated}",
             "fontWeight": "",
-            "lineHeight": "{line.height.tight}",
-            "fontSize": "{font.size.125}",
+            "lineHeight": "{line-height-deprecated.tight}",
+            "fontSize": "{font-size-deprecated.125}",
             "letterSpacing": "",
             "paragraphSpacing": "",
             "textDecoration": "",
@@ -138,10 +138,10 @@
         "100": {
           "small": {
             "value": {
-              "fontFamily": "{font.family.helvetica-neue-deprecated}",
+              "fontFamily": "{font-family.helvetica-neue-deprecated}",
               "fontWeight": "",
-              "lineHeight": "{line.height.tight}",
-              "fontSize": "{font.size.350}",
+              "lineHeight": "{line-height-deprecated.tight}",
+              "fontSize": "{font-size-deprecated.350}",
               "letterSpacing": "",
               "paragraphSpacing": "",
               "textDecoration": "",
@@ -151,10 +151,10 @@
           },
           "large": {
             "value": {
-              "fontFamily": "{font.family.helvetica-neue-deprecated}",
+              "fontFamily": "{font-family.helvetica-neue-deprecated}",
               "fontWeight": "",
-              "lineHeight": "{line.height.tight}",
-              "fontSize": "{font.size.400}",
+              "lineHeight": "{line-height-deprecated.tight}",
+              "fontSize": "{font-size-deprecated.400}",
               "letterSpacing": "",
               "paragraphSpacing": "",
               "textDecoration": "",
@@ -166,10 +166,10 @@
         "200": {
           "small": {
             "value": {
-              "fontFamily": "{font.family.helvetica-neue-deprecated}",
+              "fontFamily": "{font-family.helvetica-neue-deprecated}",
               "fontWeight": "",
-              "lineHeight": "{line.height.tight}",
-              "fontSize": "{font.size.300}",
+              "lineHeight": "{line-height-deprecated.tight}",
+              "fontSize": "{font-size-deprecated.300}",
               "letterSpacing": "",
               "paragraphSpacing": "",
               "textDecoration": "",
@@ -179,10 +179,10 @@
           },
           "large": {
             "value": {
-              "fontFamily": "{font.family.helvetica-neue-deprecated}",
+              "fontFamily": "{font-family.helvetica-neue-deprecated}",
               "fontWeight": "",
-              "lineHeight": "{line.height.tight}",
-              "fontSize": "{font.size.350}",
+              "lineHeight": "{line-height-deprecated.tight}",
+              "fontSize": "{font-size-deprecated.350}",
               "letterSpacing": "",
               "paragraphSpacing": "",
               "textDecoration": "",
@@ -194,10 +194,10 @@
         "300": {
           "small": {
             "value": {
-              "fontFamily": "{font.family.helvetica-neue-deprecated}",
+              "fontFamily": "{font-family.helvetica-neue-deprecated}",
               "fontWeight": "",
-              "lineHeight": "{line.height.tight}",
-              "fontSize": "{font.size.250}",
+              "lineHeight": "{line-height-deprecated.tight}",
+              "fontSize": "{font-size-deprecated.250}",
               "letterSpacing": "",
               "paragraphSpacing": "",
               "textDecoration": "",
@@ -207,10 +207,10 @@
           },
           "large": {
             "value": {
-              "fontFamily": "{font.family.helvetica-neue-deprecated}",
+              "fontFamily": "{font-family.helvetica-neue-deprecated}",
               "fontWeight": "",
-              "lineHeight": "{line.height.tight}",
-              "fontSize": "{font.size.300}",
+              "lineHeight": "{line-height-deprecated.tight}",
+              "fontSize": "{font-size-deprecated.300}",
               "letterSpacing": "",
               "paragraphSpacing": "",
               "textDecoration": "",
@@ -226,10 +226,10 @@
         "100": {
           "small": {
             "value": {
-              "fontFamily": "{font.family.helvetica-neue-deprecated}",
+              "fontFamily": "{font-family.helvetica-neue-deprecated}",
               "fontWeight": "",
-              "lineHeight": "{line.height.standard}",
-              "fontSize": "{font.size.150}",
+              "lineHeight": "{line-height-deprecated.standard}",
+              "fontSize": "{font-size-deprecated.150}",
               "letterSpacing": "",
               "paragraphSpacing": "",
               "textDecoration": "",
@@ -239,10 +239,10 @@
           },
           "large": {
             "value": {
-              "fontFamily": "{font.family.helvetica-neue-deprecated}",
+              "fontFamily": "{font-family.helvetica-neue-deprecated}",
               "fontWeight": "",
-              "lineHeight": "{line.height.standard}",
-              "fontSize": "{font.size.175}",
+              "lineHeight": "{line-height-deprecated.standard}",
+              "fontSize": "{font-size-deprecated.175}",
               "letterSpacing": "",
               "paragraphSpacing": "",
               "textDecoration": "",
@@ -254,10 +254,10 @@
         "200": {
           "small": {
             "value": {
-              "fontFamily": "{font.family.helvetica-neue-deprecated}",
+              "fontFamily": "{font-family.helvetica-neue-deprecated}",
               "fontWeight": "",
-              "lineHeight": "{line.height.standard}",
-              "fontSize": "{font.size.125}",
+              "lineHeight": "{line-height-deprecated.standard}",
+              "fontSize": "{font-size-deprecated.125}",
               "letterSpacing": "",
               "paragraphSpacing": "",
               "textDecoration": "",
@@ -267,10 +267,10 @@
           },
           "large": {
             "value": {
-              "fontFamily": "{font.family.helvetica-neue-deprecated}",
+              "fontFamily": "{font-family.helvetica-neue-deprecated}",
               "fontWeight": "",
-              "lineHeight": "{line.height.standard}",
-              "fontSize": "{font.size.150}",
+              "lineHeight": "{line-height-deprecated.standard}",
+              "fontSize": "{font-size-deprecated.150}",
               "letterSpacing": "",
               "paragraphSpacing": "",
               "textDecoration": "",
@@ -281,10 +281,10 @@
         },
         "300": {
           "value": {
-            "fontFamily": "{font.family.helvetica-neue-deprecated}",
+            "fontFamily": "{font-family.helvetica-neue-deprecated}",
             "fontWeight": "",
-            "lineHeight": "{line.height.standard}",
-            "fontSize": "{font.size.125}",
+            "lineHeight": "{line-height-deprecated.standard}",
+            "fontSize": "{font-size-deprecated.125}",
             "letterSpacing": "",
             "paragraphSpacing": "",
             "textDecoration": "",
@@ -298,10 +298,10 @@
       "level": {
         "100": {
           "value": {
-            "fontFamily": "{font.family.helvetica-neue-deprecated}",
+            "fontFamily": "{font-family.helvetica-neue-deprecated}",
             "fontWeight": "",
-            "lineHeight": "{line.height.loose}",
-            "fontSize": "{font.size.125}",
+            "lineHeight": "{line-height-deprecated.loose}",
+            "fontSize": "{font-size-deprecated.125}",
             "letterSpacing": "",
             "paragraphSpacing": "",
             "textDecoration": "",
@@ -311,10 +311,10 @@
         },
         "200": {
           "value": {
-            "fontFamily": "{font.family.helvetica-neue-deprecated}",
+            "fontFamily": "{font-family.helvetica-neue-deprecated}",
             "fontWeight": "",
-            "lineHeight": "{line.height.loose}",
-            "fontSize": "{font.size.112}",
+            "lineHeight": "{line-height-deprecated.loose}",
+            "fontSize": "{font-size-deprecated.112}",
             "letterSpacing": "",
             "paragraphSpacing": "",
             "textDecoration": "",
@@ -324,10 +324,10 @@
         },
         "300": {
           "value": {
-            "fontFamily": "{font.family.helvetica-neue-deprecated}",
+            "fontFamily": "{font-family.helvetica-neue-deprecated}",
             "fontWeight": "",
-            "lineHeight": "{line.height.loose}",
-            "fontSize": "{font.size.100}",
+            "lineHeight": "{line-height-deprecated.loose}",
+            "fontSize": "{font-size-deprecated.100}",
             "letterSpacing": "",
             "paragraphSpacing": "",
             "textDecoration": "",
@@ -337,10 +337,10 @@
         },
         "400": {
           "value": {
-            "fontFamily": "{font.family.helvetica-neue-deprecated}",
+            "fontFamily": "{font-family.helvetica-neue-deprecated}",
             "fontWeight": "",
-            "lineHeight": "{line.height.loose}",
-            "fontSize": "{font.size.94}",
+            "lineHeight": "{line-height-deprecated.loose}",
+            "fontSize": "{font-size-deprecated.94}",
             "letterSpacing": "",
             "paragraphSpacing": "",
             "textDecoration": "",

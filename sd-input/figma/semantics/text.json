@@ -3,31 +3,31 @@
     "family": {
       "input": {
         "input": {
-          "value": "{font.family.inter}",
+          "value": "{font-family.Inter}",
           "type": "fontFamilies"
         },
         "label": {
-          "value": "{font.family.inter}",
+          "value": "{font-family.Inter}",
           "type": "fontFamilies"
         },
         "message": {
-          "value": "{font.family.inter}",
+          "value": "{font-family.Inter}",
           "type": "fontFamilies"
         },
         "help": {
-          "value": "{font.family.inter}",
+          "value": "{font-family.Inter}",
           "type": "fontFamilies"
         },
         "optional": {
-          "value": "{font.family.inter}",
+          "value": "{font-family.Inter}",
           "type": "fontFamilies"
         },
         "legend": {
-          "value": "{font.family.inter}",
+          "value": "{font-family.Inter}",
           "type": "fontFamilies"
         },
         "option": {
-          "value": "{font.family.inter}",
+          "value": "{font-family.Inter}",
           "type": "fontFamilies"
         }
       }
@@ -35,31 +35,31 @@
     "weight": {
       "input": {
         "input": {
-          "value": "{font.weight.400}",
+          "value": "{font-weight.400}",
           "type": "fontWeights"
         },
         "label": {
-          "value": "{font.weight.525}",
+          "value": "{font-weight.525}",
           "type": "fontWeights"
         },
         "message": {
-          "value": "{font.weight.400}",
+          "value": "{font-weight.400}",
           "type": "fontWeights"
         },
         "help": {
-          "value": "{font.weight.400}",
+          "value": "{font-weight.400}",
           "type": "fontWeights"
         },
         "optional": {
-          "value": "{font.weight.400}",
+          "value": "{font-weight.400}",
           "type": "fontWeights"
         },
         "legend": {
-          "value": "{font.weight.525}",
+          "value": "{font-weight.525}",
           "type": "fontWeights"
         },
         "option": {
-          "value": "{font.weight.400}",
+          "value": "{font-weight.400}",
           "type": "fontWeights"
         }
       }
@@ -67,31 +67,31 @@
     "size": {
       "input": {
         "input": {
-          "value": "{font.size.87}",
+          "value": "{font-size-deprecated.87}",
           "type": "fontSizes"
         },
         "label": {
-          "value": "{font.size.80}",
+          "value": "{font-size-deprecated.80}",
           "type": "fontSizes"
         },
         "message": {
-          "value": "{font.size.75}",
+          "value": "{font-size-deprecated.75}",
           "type": "fontSizes"
         },
         "help": {
-          "value": "{font.size.80}",
+          "value": "{font-size-deprecated.80}",
           "type": "fontSizes"
         },
         "optional": {
-          "value": "{font.size.75}",
+          "value": "{font-size-deprecated.75}",
           "type": "fontSizes"
         },
         "legend": {
-          "value": "{font.size.80}",
+          "value": "{font-size-deprecated.80}",
           "type": "fontSizes"
         },
         "option": {
-          "value": "{font.size.87}",
+          "value": "{font-size-deprecated.87}",
           "type": "fontSizes"
         }
       }
@@ -101,27 +101,27 @@
     "height": {
       "input": {
         "input": {
-          "value": "{line.height.loose}",
+          "value": "{line-height-deprecated.loose}",
           "type": "lineHeights"
         },
         "label": {
-          "value": "{line.height.extra}",
+          "value": "{line-height-deprecated.extra}",
           "type": "lineHeights"
         },
         "message": {
-          "value": "{line.height.standard}",
+          "value": "{line-height-deprecated.standard}",
           "type": "lineHeights"
         },
         "help": {
-          "value": "{line.height.extra}",
+          "value": "{line-height-deprecated.extra}",
           "type": "lineHeights"
         },
         "optional": {
-          "value": "{line.height.extra}",
+          "value": "{line-height-deprecated.extra}",
           "type": "lineHeights"
         },
         "option": {
-          "value": "{line.height.loose}",
+          "value": "{line-height-deprecated.loose}",
           "type": "lineHeights"
         },
         "legend": {

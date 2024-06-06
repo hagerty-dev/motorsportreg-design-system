@@ -24,6 +24,10 @@
       "value": "{color.gray.400}",
       "type": "color"
     },
+    "border-brand": {
+      "value": "{color.cobalt.900}",
+      "type": "color"
+    },
     "border-critical": {
       "value": "{color.tomato.700}",
       "type": "color"

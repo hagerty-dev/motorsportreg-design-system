@@ -43,21 +43,21 @@
   "border": {
     "radius": {
       "input": {
-        "value": "{border.radius.200}",
+        "value": "{border-radius-deprecated.200}",
         "type": "borderRadius"
       },
       "input-full": {
-        "value": "{border.radius.full}",
+        "value": "{border-radius-deprecated.full}",
         "type": "borderRadius"
       },
       "input-rounded": {
-        "value": "{border.radius.100}",
+        "value": "{border-radius-deprecated.100}",
         "type": "borderRadius"
       }
     },
     "width": {
       "error-ring": {
-        "value": "{border.width-old.150}",
+        "value": "{border-width-deprecated.150}",
         "type": "borderWidth",
         "description": "Border around summary of error messages at top op form"
       }
