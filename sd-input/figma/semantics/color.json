@@ -1,7 +1,7 @@
 {
   "color": {
     "scrim": {
-      "value": "{color.overlay.black.700}",
+      "value": "{color.overlay.black.600}",
       "type": "color"
     },
     "background-transparent": {

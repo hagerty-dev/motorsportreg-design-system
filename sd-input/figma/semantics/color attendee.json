@@ -24,19 +24,13 @@
       "value": "{color.base.hiContrast}",
       "type": "color"
     },
-    "text": {
-      "link": {
-        "value": "{color.base.hiContrast}",
-        "type": "color"
-      },
-      "link-hover": {
-        "value": "{color.base.hiContrast}",
-        "type": "color"
-      },
-      "link-active": {
-        "value": "{color.base.hiContrast}",
-        "type": "color"
-      }
+    "text-brand": {
+      "value": "{color.gray.1200}",
+      "type": "color"
+    },
+    "text-link": {
+      "value": "{color.gray.1200}",
+      "type": "color"
     }
   }
 }

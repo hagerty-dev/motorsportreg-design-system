@@ -43,6 +43,10 @@
     "icon-info-on-background": {
       "value": "{color.base.hiContrast}",
       "type": "color"
+    },
+    "scrim": {
+      "value": "{color.overlay.black.800}",
+      "type": "color"
     }
   },
   "elevation": {
