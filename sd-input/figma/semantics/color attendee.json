@@ -1,7 +1,7 @@
 {
   "color": {
     "background-brand": {
-      "value": "{color.brand}",
+      "value": "{color.base.hiContrast}",
       "type": "color"
     },
     "background-brand-hover": {
