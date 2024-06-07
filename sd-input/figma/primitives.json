@@ -651,7 +651,7 @@
           "y": "0",
           "blur": "0",
           "spread": "1",
-          "color": "{color.grayAlpha.600}",
+          "color": "{color.grayAlpha.300}",
           "type": "dropShadow"
         },
         {
