@@ -45,7 +45,7 @@
       "type": "color"
     },
     "background": {
-      "value": "{color.base.loContrast}",
+      "value": "{color.gray.100}",
       "type": "color"
     },
     "background-disabled": {

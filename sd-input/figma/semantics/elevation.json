@@ -1,7 +1,7 @@
 {
   "elevation": {
     "surface": {
-      "value": "{color.base.loContrast}",
+      "value": "{color.gray.100}",
       "type": "color",
       "description": "Primary background for the UI."
     },
@@ -15,7 +15,7 @@
       "description": "Active (on press) UI element background"
     },
     "surface-raised": {
-      "value": "{color.base.loContrast}",
+      "value": "{color.gray.100}",
       "type": "color",
       "description": "Background of alternative cards."
     },
@@ -28,10 +28,13 @@
       "type": "color",
       "description": "Active (on press) UI element background"
     },
-    "surface-overlay": {
-      "value": "{color.base.loContrast}",
-      "type": "color",
-      "description": "Background of UI elements such as cards, modals, dialogs, and dropdown menus."
+    "surface-overlay-large": {
+      "value": "{color.gray.100}",
+      "type": "color"
+    },
+    "surface-overlay-small": {
+      "value": "{color.gray.100}",
+      "type": "color"
     },
     "surface-sunken": {
       "value": "{color.gray.200}",
@@ -46,7 +49,11 @@
       "value": "{elevation.100}",
       "type": "boxShadow"
     },
-    "shadow-overlay": {
+    "shadow-overlay-large": {
+      "value": "{elevation.600}",
+      "type": "boxShadow"
+    },
+    "shadow-overlay-small": {
       "value": "{elevation.500}",
       "type": "boxShadow"
     }
