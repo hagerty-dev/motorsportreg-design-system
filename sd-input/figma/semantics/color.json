@@ -282,7 +282,7 @@
       "type": "color"
     },
     "text": {
-      "value": "{color.base.hiContrast-deprecated}",
+      "value": "{color.gray.1200}",
       "type": "color"
     },
     "text-contrast": {
@@ -303,10 +303,6 @@
     },
     "text-brand": {
       "value": "{color.cobalt.900}",
-      "type": "color"
-    },
-    "text-brand-on-background": {
-      "value": "{color.base.loContrast-deprecated}",
       "type": "color"
     },
     "text-link": {
@@ -345,10 +341,6 @@
       "value": "{color.text-critical-link}",
       "type": "color"
     },
-    "text-critical-on-background": {
-      "value": "{color.base.loContrast-deprecated}",
-      "type": "color"
-    },
     "text-warning": {
       "value": "{color.amber.1100}",
       "type": "color"
@@ -385,10 +377,6 @@
       "value": "{color.text-success-link}",
       "type": "color"
     },
-    "text-success-on-background": {
-      "value": "{color.base.loContrast-deprecated}",
-      "type": "color"
-    },
     "text-info": {
       "value": "{color.blue.1100}",
       "type": "color"
@@ -403,10 +391,6 @@
     },
     "text-info-link-decoration-hover": {
       "value": "{color.text-info-link}",
-      "type": "color"
-    },
-    "text-info-on-background": {
-      "value": "{color.base.loContrast-deprecated}",
       "type": "color"
     },
     "icon": {
@@ -441,24 +425,12 @@
       "value": "{color.cobalt.900}",
       "type": "color"
     },
-    "icon-brand-on-background": {
-      "value": "{color.base.loContrast-deprecated}",
-      "type": "color"
-    },
     "icon-critical": {
       "value": "{color.tomato.1100}",
       "type": "color"
     },
-    "icon-critical-on-background": {
-      "value": "{color.base.loContrast-deprecated}",
-      "type": "color"
-    },
     "icon-success": {
       "value": "{color.grass.1100}",
-      "type": "color"
-    },
-    "icon-success-on-background": {
-      "value": "{color.base.loContrast-deprecated}",
       "type": "color"
     },
     "icon-warning": {
@@ -471,10 +443,6 @@
     },
     "icon-info": {
       "value": "{color.blue.1100}",
-      "type": "color"
-    },
-    "icon-info-on-background": {
-      "value": "{color.base.loContrast-deprecated}",
       "type": "color"
     },
     "accent-1": {

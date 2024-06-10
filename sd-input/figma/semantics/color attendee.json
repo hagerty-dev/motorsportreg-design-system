@@ -1,7 +1,7 @@
 {
   "color": {
     "background-brand": {
-      "value": "{color.base.hiContrast-deprecated}",
+      "value": "{color.gray.1200}",
       "type": "color"
     },
     "background-brand-hover": {
@@ -30,14 +30,6 @@
     },
     "text-link": {
       "value": "{color.gray.1200}",
-      "type": "color"
-    },
-    "text-contrast": {
-      "value": "{color.gray.100}",
-      "type": "color"
-    },
-    "icon-contrast": {
-      "value": "{color.gray.100}",
       "type": "color"
     }
   }
