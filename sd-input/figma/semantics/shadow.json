@@ -1,19 +1,19 @@
 {
   "shadow": {
     "raised": {
-      "value": "{elevation.200}",
+      "value": "{shadow.200}",
       "type": "boxShadow"
     },
     "raised-hover": {
-      "value": "{elevation.100}",
+      "value": "{shadow.100}",
       "type": "boxShadow"
     },
     "overlay-large": {
-      "value": "{elevation.600}",
+      "value": "{shadow.600}",
       "type": "boxShadow"
     },
     "overlay-small": {
-      "value": "{elevation.500}",
+      "value": "{shadow.500}",
       "type": "boxShadow"
     }
   }
