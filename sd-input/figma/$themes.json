@@ -6,8 +6,7 @@
       "light": "enabled",
       "semantics/control": "enabled",
       "semantics/color-deprecated": "enabled",
-      "semantics/color": "enabled",
-      "semantics/elevation": "enabled"
+      "semantics/color": "enabled"
     },
     "$figmaStyleReferences": {
       "text.input.value-deprecate": "S:2820c16773c51d5d64648a9357223a1bf2bf4f17,",
@@ -439,8 +438,7 @@
       "semantics/color mutable": "enabled",
       "semantics/control": "enabled",
       "semantics/color-deprecated": "enabled",
-      "semantics/color": "enabled",
-      "semantics/elevation": "enabled"
+      "semantics/color": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:3825:4017",
     "$figmaModeId": "3825:2",

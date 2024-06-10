@@ -44,6 +44,43 @@
       "value": "{color.blue.700}",
       "type": "color"
     },
+    "surface": {
+      "value": "{color.gray.100}",
+      "type": "color",
+      "description": "Primary background for the UI."
+    },
+    "surface-hover": {
+      "value": "{color.gray.200}",
+      "type": "color"
+    },
+    "surface-active": {
+      "value": "{color.gray.300}",
+      "type": "color",
+      "description": "Active (on press) UI element background"
+    },
+    "surface-raised": {
+      "value": "{color.gray.100}",
+      "type": "color",
+      "description": "Primary background for the UI."
+    },
+    "surface-raised-hover": {
+      "value": "{color.gray.200}",
+      "type": "color"
+    },
+    "surface-raised-active": {
+      "value": "{color.gray.300}",
+      "type": "color",
+      "description": "Active (on press) UI element background"
+    },
+    "surface-overlay": {
+      "value": "{color.gray.100}",
+      "type": "color"
+    },
+    "surface-sunken": {
+      "value": "{color.gray.200}",
+      "type": "color",
+      "description": "A secondary background for the UI."
+    },
     "background": {
       "value": "{color.gray.100}",
       "type": "color"
