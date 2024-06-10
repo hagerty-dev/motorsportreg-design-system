@@ -394,8 +394,6 @@
       "color.sky.1000": "3b1911abd185ad1e71a5b0585734b6f25e076b12",
       "color.sky.1100": "b3bb209160ca2bce9785d3e516bd6fdee9b3a337",
       "color.sky.1200": "a71afb69debbd153ac2335dbad7ca0aa1dc606fa",
-      "color.base.loContrast": "2e5c6879602c8cc20fc9ac40033e9aa4cead77f6",
-      "color.base.hiContrast": "f5daa18a75fd8eabaefcdb65016f4258700b90a5",
       "color.base.white-depercate": "b55ee2e76ce708422be4c8d529e6f06bf12ee659",
       "color.base.black-depercate": "7251d45248cdd8908ad6e4902a89df254fe94417",
       "color.hagerty.default": "23e4da68d470eb93cd47a11da0c1470e9c11f0c1",
@@ -425,7 +423,9 @@
       "color.overlay.white.1000": "0895f5ee42e63480ffab69e0f84830ba9a9fd758",
       "color.overlay.white.1100": "1fca93660d29ca68b2f0f67d22f77c8de5d7b6c0",
       "color.overlay.white.1200": "0260e612ce0f7618757808655680f7c649f79621",
-      "color.text": "37527964fbe94fd67f6bf7e630526eacb956c56e"
+      "color.text": "37527964fbe94fd67f6bf7e630526eacb956c56e",
+      "color.base.loContrast-deprecated": "2e5c6879602c8cc20fc9ac40033e9aa4cead77f6",
+      "color.base.hiContrast-deprecated": "f5daa18a75fd8eabaefcdb65016f4258700b90a5"
     },
     "group": "Mode"
   },
@@ -818,8 +818,6 @@
       "color.sky.1000": "3b1911abd185ad1e71a5b0585734b6f25e076b12",
       "color.sky.1100": "b3bb209160ca2bce9785d3e516bd6fdee9b3a337",
       "color.sky.1200": "a71afb69debbd153ac2335dbad7ca0aa1dc606fa",
-      "color.base.loContrast": "2e5c6879602c8cc20fc9ac40033e9aa4cead77f6",
-      "color.base.hiContrast": "f5daa18a75fd8eabaefcdb65016f4258700b90a5",
       "color.overlay.black.100": "231f3b6dec92447b1f8255f55526befb8f55b78c",
       "color.overlay.black.200": "60eca00fad082cf38971e9b21495cf4703764462",
       "color.overlay.black.300": "8b98af83bd7f1d0b6963cf041c7690a0721a558e",
@@ -844,7 +842,9 @@
       "color.overlay.white.1000": "0895f5ee42e63480ffab69e0f84830ba9a9fd758",
       "color.overlay.white.1100": "1fca93660d29ca68b2f0f67d22f77c8de5d7b6c0",
       "color.overlay.white.1200": "0260e612ce0f7618757808655680f7c649f79621",
-      "color.text": "37527964fbe94fd67f6bf7e630526eacb956c56e"
+      "color.text": "37527964fbe94fd67f6bf7e630526eacb956c56e",
+      "color.base.loContrast-deprecated": "2e5c6879602c8cc20fc9ac40033e9aa4cead77f6",
+      "color.base.hiContrast-deprecated": "f5daa18a75fd8eabaefcdb65016f4258700b90a5"
     },
     "group": "Mode"
   },
@@ -1084,9 +1084,9 @@
       "semantics/size": "enabled",
       "semantics/typography": "enabled",
       "semantics/font": "enabled",
-      "semantics/color mutable attendee": "enabled",
       "semantics/color-deprecated": "enabled",
-      "semantics/color attendee": "enabled"
+      "semantics/color attendee": "enabled",
+      "semantics/color": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:3825:4468",
     "$figmaModeId": "3825:5",

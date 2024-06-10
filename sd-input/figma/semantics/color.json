@@ -9,7 +9,7 @@
       "type": "color"
     },
     "border": {
-      "value": "{color.grayAlpha.700}",
+      "value": "{color.gray.700}",
       "type": "color"
     },
     "border-subtle": {
@@ -282,7 +282,11 @@
       "type": "color"
     },
     "text": {
-      "value": "{color.base.hiContrast}",
+      "value": "{color.base.hiContrast-deprecated}",
+      "type": "color"
+    },
+    "text-contrast": {
+      "value": "#fff",
       "type": "color"
     },
     "text-subtle": {
@@ -302,7 +306,7 @@
       "type": "color"
     },
     "text-brand-on-background": {
-      "value": "{color.base.loContrast}",
+      "value": "{color.base.loContrast-deprecated}",
       "type": "color"
     },
     "text-link": {
@@ -342,7 +346,7 @@
       "type": "color"
     },
     "text-critical-on-background": {
-      "value": "{color.base.loContrast}",
+      "value": "{color.base.loContrast-deprecated}",
       "type": "color"
     },
     "text-warning": {
@@ -382,7 +386,7 @@
       "type": "color"
     },
     "text-success-on-background": {
-      "value": "{color.base.loContrast}",
+      "value": "{color.base.loContrast-deprecated}",
       "type": "color"
     },
     "text-info": {
@@ -402,11 +406,15 @@
       "type": "color"
     },
     "text-info-on-background": {
-      "value": "{color.base.loContrast}",
+      "value": "{color.base.loContrast-deprecated}",
       "type": "color"
     },
     "icon": {
-      "value": "{color.base.hiContrast}",
+      "value": "{color.base.hiContrast-deprecated}",
+      "type": "color"
+    },
+    "icon-contrast": {
+      "value": "#fff",
       "type": "color"
     },
     "icon-hover": {
@@ -434,7 +442,7 @@
       "type": "color"
     },
     "icon-brand-on-background": {
-      "value": "{color.base.loContrast}",
+      "value": "{color.base.loContrast-deprecated}",
       "type": "color"
     },
     "icon-critical": {
@@ -442,7 +450,7 @@
       "type": "color"
     },
     "icon-critical-on-background": {
-      "value": "{color.base.loContrast}",
+      "value": "{color.base.loContrast-deprecated}",
       "type": "color"
     },
     "icon-success": {
@@ -450,7 +458,7 @@
       "type": "color"
     },
     "icon-success-on-background": {
-      "value": "{color.base.loContrast}",
+      "value": "{color.base.loContrast-deprecated}",
       "type": "color"
     },
     "icon-warning": {
@@ -466,7 +474,19 @@
       "type": "color"
     },
     "icon-info-on-background": {
-      "value": "{color.base.loContrast}",
+      "value": "{color.base.loContrast-deprecated}",
+      "type": "color"
+    },
+    "accent-1": {
+      "value": "{color.cobalt.100}",
+      "type": "color"
+    },
+    "accent-9": {
+      "value": "{color.cobalt.900}",
+      "type": "color"
+    },
+    "accent-12": {
+      "value": "{color.cobalt.1200}",
       "type": "color"
     }
   }

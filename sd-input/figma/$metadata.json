@@ -8,7 +8,6 @@
     "semantics/control",
     "semantics/mutable",
     "semantics/color attendee",
-    "semantics/color mutable attendee",
     "semantics/font",
     "semantics/border",
     "semantics/text",

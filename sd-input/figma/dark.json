@@ -1301,11 +1301,11 @@
       }
     },
     "base": {
-      "loContrast": {
+      "loContrast-deprecated": {
         "value": "#000",
         "type": "color"
       },
-      "hiContrast": {
+      "hiContrast-deprecated": {
         "value": "#fff",
         "type": "color"
       }

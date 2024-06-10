@@ -28,7 +28,7 @@
     },
     "icon": {
       "default": {
-        "value": "{color.base.hiContrast}",
+        "value": "{color.base.hiContrast-deprecated}",
         "type": "color"
       },
       "subtle": {
@@ -101,7 +101,7 @@
           "type": "color"
         },
         "basic": {
-          "value": "{color.base.loContrast}",
+          "value": "{color.base.loContrast-deprecated}",
           "type": "color"
         },
         "basic-hover": {
@@ -141,11 +141,11 @@
       },
       "content": {
         "primary": {
-          "value": "{color.base.loContrast}",
+          "value": "{color.base.loContrast-deprecated}",
           "type": "color"
         },
         "basic": {
-          "value": "{color.base.hiContrast}",
+          "value": "{color.base.hiContrast-deprecated}",
           "type": "color"
         },
         "disabled": {
@@ -157,7 +157,7 @@
     "app": {
       "background": {
         "primary": {
-          "value": "{color.base.loContrast}",
+          "value": "{color.base.loContrast-deprecated}",
           "type": "color"
         },
         "secondary": {
@@ -177,7 +177,7 @@
       },
       "background": {
         "primary": {
-          "value": "{color.base.loContrast}",
+          "value": "{color.base.loContrast-deprecated}",
           "type": "color"
         },
         "secondary": {
@@ -188,7 +188,7 @@
     },
     "input": {
       "background": {
-        "value": "{color.base.loContrast}",
+        "value": "{color.base.loContrast-deprecated}",
         "type": "color"
       },
       "background-checked": {
@@ -281,7 +281,7 @@
         }
       },
       "icon": {
-        "value": "{color.base.loContrast}",
+        "value": "{color.base.loContrast-deprecated}",
         "type": "color"
       }
     }

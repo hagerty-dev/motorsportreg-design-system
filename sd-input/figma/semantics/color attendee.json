@@ -1,7 +1,7 @@
 {
   "color": {
     "background-brand": {
-      "value": "{color.base.hiContrast}",
+      "value": "{color.base.hiContrast-deprecated}",
       "type": "color"
     },
     "background-brand-hover": {
@@ -13,15 +13,15 @@
       "type": "color"
     },
     "background-brand-selected": {
-      "value": "{color.base.hiContrast}",
+      "value": "{color.base.hiContrast-deprecated}",
       "type": "color"
     },
     "background-brand-selected-hover": {
-      "value": "{color.base.hiContrast}",
+      "value": "{color.base.hiContrast-deprecated}",
       "type": "color"
     },
     "background-brand-selected-active": {
-      "value": "{color.base.hiContrast}",
+      "value": "{color.base.hiContrast-deprecated}",
       "type": "color"
     },
     "text-brand": {
@@ -30,6 +30,14 @@
     },
     "text-link": {
       "value": "{color.gray.1200}",
+      "type": "color"
+    },
+    "text-contrast": {
+      "value": "{color.gray.100}",
+      "type": "color"
+    },
+    "icon-contrast": {
+      "value": "{color.gray.100}",
       "type": "color"
     }
   }

@@ -2,7 +2,7 @@
   "color": {
     "input": {
       "background": {
-        "value": "{color.base.loContrast}",
+        "value": "{color.base.loContrast-deprecated}",
         "type": "color"
       },
       "background-selected": {
@@ -103,7 +103,7 @@
         }
       },
       "icon": {
-        "value": "{color.base.loContrast}",
+        "value": "{color.base.loContrast-deprecated}",
         "type": "color"
       },
       "icon-disabled": {

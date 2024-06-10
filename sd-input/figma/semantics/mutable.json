@@ -5,15 +5,15 @@
       "type": "color"
     },
     "text-critical-on-background": {
-      "value": "{color.base.hiContrast}",
+      "value": "{color.base.hiContrast-deprecated}",
       "type": "color"
     },
     "text-info-on-background": {
-      "value": "{color.base.hiContrast}",
+      "value": "{color.base.hiContrast-deprecated}",
       "type": "color"
     },
     "text-success-on-background": {
-      "value": "{color.base.hiContrast}",
+      "value": "{color.base.hiContrast-deprecated}",
       "type": "color"
     },
     "text-warning-on-background": {
@@ -29,23 +29,27 @@
       "type": "color"
     },
     "icon-brand-on-background": {
-      "value": "{color.base.hiContrast}",
+      "value": "{color.base.hiContrast-deprecated}",
       "type": "color"
     },
     "icon-critical-on-background": {
-      "value": "{color.base.hiContrast}",
+      "value": "{color.base.hiContrast-deprecated}",
       "type": "color"
     },
     "icon-success-on-background": {
-      "value": "{color.base.hiContrast}",
+      "value": "{color.base.hiContrast-deprecated}",
       "type": "color"
     },
     "icon-info-on-background": {
-      "value": "{color.base.hiContrast}",
+      "value": "{color.base.hiContrast-deprecated}",
       "type": "color"
     },
     "scrim": {
       "value": "{color.overlay.black.900}",
+      "type": "color"
+    },
+    "text-brand-on-background": {
+      "value": "{color.base.hiContrast-deprecated}",
       "type": "color"
     }
   },
