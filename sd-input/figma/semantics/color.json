@@ -9,7 +9,7 @@
       "type": "color"
     },
     "border": {
-      "value": "{color.gray.700}",
+      "value": "{color.grayAlpha.700}",
       "type": "color"
     },
     "border-subtle": {
