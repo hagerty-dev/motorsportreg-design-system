@@ -1318,36 +1318,6 @@
         "type": "color"
       }
     },
-    "gradient": {
-      "dark": {
-        "value": "linear-gradient(90deg, {color.base.black-depercate} 0%, {color.gray.1000} 100%)",
-        "type": "color",
-        "description": "Primary button hover "
-      },
-      "blue": {
-        "value": "linear-gradient(90deg, {color.hagerty.default} 0%, {color.hagerty.bright} 100%)",
-        "type": "color"
-      },
-      "gray": {
-        "value": "linear-gradient(90deg, {color.gray.300} 0%, {color.gray.400} 100%)",
-        "type": "color",
-        "description": "on-dark button hover states"
-      }
-    },
-    "hagerty": {
-      "default": {
-        "value": "#007BB3",
-        "type": "color"
-      },
-      "bright": {
-        "value": "#0089C7",
-        "type": "color"
-      },
-      "light": {
-        "value": "#EAF9FF",
-        "type": "color"
-      }
-    },
     "overlay": {
       "black": {
         "100": {
