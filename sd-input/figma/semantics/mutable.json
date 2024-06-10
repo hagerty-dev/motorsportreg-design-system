@@ -1,9 +1,5 @@
 {
   "color": {
-    "text": {
-      "value": "{color.gray.1200}",
-      "type": "color"
-    },
     "scrim": {
       "value": "{color.overlay.black.900}",
       "type": "color"
