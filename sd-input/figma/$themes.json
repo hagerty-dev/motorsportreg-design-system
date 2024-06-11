@@ -961,11 +961,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "primitives": "source",
-      "semantics/border": "enabled",
       "semantics/shadow": "enabled",
-      "semantics/text": "enabled",
-      "semantics/space": "enabled",
-      "semantics/size": "enabled",
       "semantics/typography": "enabled",
       "semantics/font": "enabled",
       "semantics/color-deprecated": "enabled",
@@ -1076,11 +1072,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "primitives": "source",
-      "semantics/border": "enabled",
       "semantics/shadow": "enabled",
-      "semantics/text": "enabled",
-      "semantics/space": "enabled",
-      "semantics/size": "enabled",
       "semantics/typography": "enabled",
       "semantics/font": "enabled",
       "semantics/color-deprecated": "enabled",

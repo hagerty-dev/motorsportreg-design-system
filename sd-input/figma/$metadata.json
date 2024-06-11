@@ -9,10 +9,6 @@
     "semantics/mutable",
     "semantics/color attendee",
     "semantics/font",
-    "semantics/border",
-    "semantics/text",
-    "semantics/space",
-    "semantics/size",
     "semantics/typography",
     "semantics/color-deprecated"
   ]
