@@ -13,7 +13,7 @@
           "y": "0",
           "blur": "0",
           "spread": "1",
-          "color": "{color.grayAlpha.600}",
+          "color": "{color.gray-a.600}",
           "type": "dropShadow"
         },
         {
@@ -50,7 +50,7 @@
           "y": "0",
           "blur": "0",
           "spread": "1",
-          "color": "{color.grayAlpha.600}",
+          "color": "{color.gray-a.600}",
           "type": "dropShadow"
         },
         {
