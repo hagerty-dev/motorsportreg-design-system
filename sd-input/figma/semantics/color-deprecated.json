@@ -62,7 +62,7 @@
         "type": "color"
       },
       "background-critical": {
-        "value": "{color.warning.200}",
+        "value": "{color.red.200}",
         "type": "color"
       },
       "background-success": {
