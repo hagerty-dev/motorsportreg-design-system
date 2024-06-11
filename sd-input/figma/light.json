@@ -1317,6 +1317,12 @@
         "value": "#000",
         "type": "color"
       }
+    },
+    "onyx": {
+      "100": {
+        "value": "#fcfcfc",
+        "type": "color"
+      }
     }
   }
 }
