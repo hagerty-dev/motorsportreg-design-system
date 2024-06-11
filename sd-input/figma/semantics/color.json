@@ -1,7 +1,7 @@
 {
   "color": {
     "scrim": {
-      "value": "{color.overlay.black.600}",
+      "value": "{color.black.a6}",
       "type": "color"
     },
     "background-transparent": {
@@ -9,132 +9,132 @@
       "type": "color"
     },
     "border": {
-      "value": "{color.gray.700}",
+      "value": "{color.gray.7}",
       "type": "color"
     },
     "border-subtle": {
-      "value": "{color.gray.600}",
+      "value": "{color.gray.6}",
       "type": "color"
     },
     "border-hover": {
-      "value": "{color.gray.800}",
+      "value": "{color.gray.8}",
       "type": "color"
     },
     "border-disabled": {
-      "value": "{color.gray.400}",
+      "value": "{color.gray.4}",
       "type": "color"
     },
     "border-brand": {
-      "value": "{color.cobalt.900}",
+      "value": "{color.accent.9}",
       "type": "color"
     },
     "border-critical": {
-      "value": "{color.warning.7}",
+      "value": "{color.critical.7}",
       "type": "color"
     },
     "border-success": {
-      "value": "{color.grass.700}",
+      "value": "{color.success.7}",
       "type": "color"
     },
     "border-warning": {
-      "value": "{color.amber.700}",
+      "value": "{color.warning.7}",
       "type": "color"
     },
     "border-info": {
-      "value": "{color.blue.700}",
+      "value": "{color.info.7}",
       "type": "color"
     },
     "surface": {
-      "value": "{color.gray.100}",
+      "value": "{color.gray.1}",
       "type": "color",
       "description": "Primary background for the UI."
     },
     "surface-hover": {
-      "value": "{color.gray.200}",
+      "value": "{color.gray.2}",
       "type": "color"
     },
     "surface-active": {
-      "value": "{color.gray.300}",
+      "value": "{color.gray.3}",
       "type": "color",
       "description": "Active (on press) UI element background"
     },
     "surface-raised": {
-      "value": "{color.gray.100}",
+      "value": "{color.gray.1}",
       "type": "color",
       "description": "Primary background for the UI."
     },
     "surface-raised-hover": {
-      "value": "{color.gray.200}",
+      "value": "{color.gray.2}",
       "type": "color"
     },
     "surface-raised-active": {
-      "value": "{color.gray.300}",
+      "value": "{color.gray.3}",
       "type": "color",
       "description": "Active (on press) UI element background"
     },
     "surface-overlay": {
-      "value": "{color.gray.100}",
+      "value": "{color.gray.1}",
       "type": "color"
     },
     "surface-sunken": {
-      "value": "{color.gray.200}",
+      "value": "{color.gray.2}",
       "type": "color",
       "description": "A secondary background for the UI."
     },
     "background": {
-      "value": "{color.gray.100}",
+      "value": "{color.gray.1}",
       "type": "color"
     },
     "background-disabled": {
-      "value": "{color.gray.200}",
+      "value": "{color.gray.2}",
       "type": "color"
     },
     "background-hover": {
-      "value": "{color.gray.300}",
+      "value": "{color.gray.3}",
       "type": "color"
     },
     "background-active": {
-      "value": "{color.gray.400}",
+      "value": "{color.gray.4}",
       "type": "color"
     },
     "background-selected": {
-      "value": "{color.gray.400}",
+      "value": "{color.gray.4}",
       "type": "color"
     },
     "background-selected-hover": {
-      "value": "{color.gray.700}",
+      "value": "{color.gray.7}",
       "type": "color"
     },
     "background-selected-active": {
-      "value": "{color.gray.700}",
+      "value": "{color.gray.7}",
       "type": "color"
     },
     "background-brand": {
-      "value": "{color.cobalt.900}",
+      "value": "{color.accent.9}",
       "type": "color"
     },
     "background-brand-disabled": {
-      "value": "{color.gray.700}",
+      "value": "{color.gray.7}",
       "type": "color"
     },
     "background-brand-hover": {
-      "value": "{color.cobalt.1000}",
+      "value": "{color.accent.10}",
       "type": "color"
     },
     "background-brand-active": {
-      "value": "{color.cobalt.1000}",
+      "value": "{color.accent.10}",
       "type": "color"
     },
     "background-brand-selected": {
-      "value": "{color.cobalt.900}",
+      "value": "{color.accent.9}",
       "type": "color"
     },
     "background-brand-selected-hover": {
-      "value": "{color.cobalt.900}",
+      "value": "{color.accent.9}",
       "type": "color"
     },
     "background-brand-selected-active": {
-      "value": "{color.cobalt.900}",
+      "value": "{color.accent.9}",
       "type": "color"
     },
     "background-critical": {
@@ -357,8 +357,8 @@
       "value": "{color.text-warning-link}",
       "type": "color"
     },
-    "text-warning-on-background": {
-      "value": "{color.warning.12}",
+    "text-warning-contrast": {
+      "value": "{color.warning.contrast}",
       "type": "color"
     },
     "text-success": {
@@ -861,7 +861,7 @@
         "type": "color"
       },
       "contrast": {
-        "value": "#ffffff",
+        "value": "#000000",
         "type": "color"
       }
     },
