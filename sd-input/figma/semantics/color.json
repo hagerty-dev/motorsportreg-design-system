@@ -437,8 +437,8 @@
       "value": "{color.warning.11}",
       "type": "color"
     },
-    "icon-warning-on-background": {
-      "value": "{color.warning.12}",
+    "icon-warning-contrast": {
+      "value": "{color.warning.contrast}",
       "type": "color"
     },
     "icon-info": {
