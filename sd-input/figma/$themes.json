@@ -960,7 +960,7 @@
       "semantics/font": "enabled",
       "semantics/color-deprecated": "enabled",
       "semantics/color": "enabled",
-      "semantics/control": "source"
+      "semantics/control": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:3825:4468",
     "$figmaModeId": "3825:4",

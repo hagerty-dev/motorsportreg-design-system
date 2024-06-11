@@ -42,11 +42,11 @@
         "type": "color"
       },
       "border-error": {
-        "value": "{color.ui.critical}",
+        "value": "{color.critical.9}",
         "type": "color"
       },
       "border-hover-error": {
-        "value": "{color.warning.1100}",
+        "value": "{color.critical.11}",
         "type": "color"
       },
       "border-focus-ring-error": {
@@ -64,7 +64,7 @@
           "type": "color"
         },
         "message": {
-          "value": "{color.ui.critical}",
+          "value": "{color.text-critical}",
           "type": "color"
         },
         "input": {
