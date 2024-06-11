@@ -42,7 +42,7 @@
         "type": "color"
       },
       "critical": {
-        "value": "{color.warning.1100}",
+        "value": "{color.tomato.900}",
         "type": "color"
       },
       "success": {
@@ -224,7 +224,7 @@
         "type": "color"
       },
       "border-hover-error": {
-        "value": "{color.warning.1100}",
+        "value": "{color.tomato.900}",
         "type": "color"
       },
       "focus-ring-error": {

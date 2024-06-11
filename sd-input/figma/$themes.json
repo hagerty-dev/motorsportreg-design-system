@@ -958,7 +958,6 @@
       "semantics/shadow": "enabled",
       "semantics/typography": "enabled",
       "semantics/font": "enabled",
-      "semantics/color-deprecated": "enabled",
       "semantics/color": "enabled",
       "semantics/control": "enabled"
     },
@@ -1070,7 +1069,6 @@
       "semantics/shadow": "enabled",
       "semantics/typography": "enabled",
       "semantics/font": "enabled",
-      "semantics/color-deprecated": "enabled",
       "semantics/color attendee": "enabled",
       "semantics/color": "enabled",
       "semantics/control": "enabled"
