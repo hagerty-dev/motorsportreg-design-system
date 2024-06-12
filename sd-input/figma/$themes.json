@@ -23,7 +23,7 @@
     "name": "Dark",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "dark": "source",
+      "dark": "enabled",
       "semantics/mutable": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:3825:4017",
