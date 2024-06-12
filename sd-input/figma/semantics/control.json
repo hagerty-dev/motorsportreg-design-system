@@ -114,21 +114,21 @@
   },
   "border-radius": {
     "input": {
-      "value": "{border-radius-deprecated.200}",
+      "value": "{border-radius.300}",
       "type": "borderRadius"
     },
     "input-full": {
-      "value": "{border-radius-deprecated.full}",
+      "value": "{border-radius.full}",
       "type": "borderRadius"
     },
     "input-rounded": {
-      "value": "{border-radius-deprecated.100}",
+      "value": "{border-radius.100}",
       "type": "borderRadius"
     }
   },
   "border-width": {
     "error-ring": {
-      "value": "{border-width-deprecated.150}",
+      "value": "{border-width.200}",
       "type": "borderWidth",
       "description": "Border around summary of error messages at top op form"
     }
@@ -320,7 +320,7 @@
         "type": "sizing"
       },
       "box": {
-        "value": "{size-deprecated.250}",
+        "value": "20",
         "type": "sizing"
       }
     }
@@ -393,31 +393,31 @@
     "size": {
       "input": {
         "input": {
-          "value": "{font-size-deprecated.87}",
+          "value": "{font-size.87}",
           "type": "fontSizes"
         },
         "label": {
-          "value": "{font-size-deprecated.80}",
+          "value": "{font-size.80}",
           "type": "fontSizes"
         },
         "message": {
-          "value": "{font-size-deprecated.75}",
+          "value": "{font-size.75}",
           "type": "fontSizes"
         },
         "help": {
-          "value": "{font-size-deprecated.80}",
+          "value": "{font-size.80}",
           "type": "fontSizes"
         },
         "optional": {
-          "value": "{font-size-deprecated.75}",
+          "value": "{font-size.75}",
           "type": "fontSizes"
         },
         "legend": {
-          "value": "{font-size-deprecated.80}",
+          "value": "{font-size.80}",
           "type": "fontSizes"
         },
         "option": {
-          "value": "{font-size-deprecated.87}",
+          "value": "{font-size.87}",
           "type": "fontSizes"
         }
       }
@@ -427,31 +427,31 @@
     "height": {
       "input": {
         "input": {
-          "value": "{line-height-deprecated.loose}",
+          "value": "{line-height.loose}",
           "type": "lineHeights"
         },
         "label": {
-          "value": "{line-height-deprecated.extra}",
+          "value": "{line-height.extra}",
           "type": "lineHeights"
         },
         "message": {
-          "value": "{line-height-deprecated.standard}",
+          "value": "{line-height.standard}",
           "type": "lineHeights"
         },
         "help": {
-          "value": "{line-height-deprecated.extra}",
+          "value": "{line-height.extra}",
           "type": "lineHeights"
         },
         "optional": {
-          "value": "{line-height-deprecated.extra}",
+          "value": "{line-height.extra}",
           "type": "lineHeights"
         },
         "option": {
-          "value": "{line-height-deprecated.loose}",
+          "value": "{line-height.loose}",
           "type": "lineHeights"
         },
         "legend": {
-          "value": "{line.height.input.optional}",
+          "value": "{line-height.extra}",
           "type": "lineHeights"
         }
       }
@@ -460,47 +460,47 @@
   "space": {
     "input": {
       "outer-gap": {
-        "value": "{space-deprecated.100}",
+        "value": "{space.200}",
         "type": "spacing"
       },
       "outer-padding-bottom": {
-        "value": "{space-deprecated.300}",
+        "value": "{space.600}",
         "type": "spacing"
       },
       "wrapper-gap": {
-        "value": "{space-deprecated.100}",
+        "value": "{space.200}",
         "type": "spacing"
       },
       "input-gap": {
-        "value": "{space-deprecated.0}",
+        "value": "{space.0}",
         "type": "spacing"
       },
       "messages-gap": {
-        "value": "{space-deprecated.100}",
+        "value": "{space.200}",
         "type": "spacing"
       },
       "label-gap": {
-        "value": "{space-deprecated.50}",
+        "value": "{space.100}",
         "type": "spacing"
       },
       "message-gap": {
-        "value": "{space-deprecated.50}",
+        "value": "{space.100}",
         "type": "spacing"
       },
       "input-padding-top": {
-        "value": "{space-deprecated.100}",
+        "value": "{space.200}",
         "type": "spacing"
       },
       "input-padding-bottom": {
-        "value": "{space-deprecated.100}",
+        "value": "{space.200}",
         "type": "spacing"
       },
       "input-padding-left": {
-        "value": "{space-deprecated.150}",
+        "value": "{space.300}",
         "type": "spacing"
       },
       "input-padding-right": {
-        "value": "{space-deprecated.150}",
+        "value": "{space.300}",
         "type": "spacing"
       },
       "input": {
@@ -508,15 +508,15 @@
         "type": "spacing"
       },
       "options-gap": {
-        "value": "{space-deprecated.150}",
+        "value": "{space.300}",
         "type": "spacing"
       },
       "legend-gap": {
-        "value": "{space-deprecated.100}",
+        "value": "{space.200}",
         "type": "spacing"
       },
       "fieldset-gap": {
-        "value": "{space-deprecated.100}",
+        "value": "{space.200}",
         "type": "spacing"
       }
     }
