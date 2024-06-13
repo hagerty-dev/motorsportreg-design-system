@@ -1,5 +1,9 @@
 {
   "shadow": {
+    "surface": {
+      "value": "{shadow.100}",
+      "type": "boxShadow"
+    },
     "raised-hover": {
       "value": "{shadow.200}",
       "type": "boxShadow"
