@@ -1444,7 +1444,7 @@
           "y": "0",
           "blur": "0",
           "spread": "1",
-          "color": "{color.border-subtle}",
+          "color": "{color.border-hover}",
           "type": "innerShadow"
         },
         {
