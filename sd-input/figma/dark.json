@@ -1424,6 +1424,19 @@
     }
   },
   "shadow": {
+    "0": {
+      "value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "{color.black.a1}",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow"
+    },
     "100": {
       "value": [
         {

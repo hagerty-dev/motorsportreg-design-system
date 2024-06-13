@@ -540,7 +540,7 @@
       "description": "1rem"
     }
   },
-  "elevation": {
+  "elevation-deprecated": {
     "100": {
       "value": [
         {
@@ -836,10 +836,9 @@
     }
   },
   "line-height": {
-    "snug": {
-      "value": "100%",
-      "type": "lineHeights",
-      "description": "1"
+    "none": {
+      "value": "0",
+      "type": "lineHeights"
     },
     "tight": {
       "value": "110%",
@@ -867,7 +866,7 @@
       "description": "1.5"
     }
   },
-  "shadow": {
+  "shadow-deprecated": {
     "100": {
       "value": [
         {

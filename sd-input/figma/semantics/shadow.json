@@ -1,23 +1,23 @@
 {
   "shadow": {
     "surface": {
-      "value": "{shadow.100}",
+      "value": "{shadow-deprecated.100}",
       "type": "boxShadow"
     },
     "raised-hover": {
-      "value": "{shadow.200}",
+      "value": "{shadow-deprecated.200}",
       "type": "boxShadow"
     },
     "raised": {
-      "value": "{shadow.300}",
+      "value": "{shadow-deprecated.300}",
       "type": "boxShadow"
     },
     "overlay-small": {
-      "value": "{shadow.500}",
+      "value": "{shadow-deprecated.500}",
       "type": "boxShadow"
     },
     "overlay-large": {
-      "value": "{shadow.600}",
+      "value": "{shadow-deprecated.600}",
       "type": "boxShadow"
     }
   }
