@@ -306,7 +306,7 @@
       "type": "color"
     },
     "text-link": {
-      "value": "{color.accent.9}",
+      "value": "{color.accent.11}",
       "type": "color"
     },
     "text-link-hover": {
@@ -322,7 +322,7 @@
       "type": "color"
     },
     "text-link-decoration-hover": {
-      "value": "{color.accent.9}",
+      "value": "{color.accent.11}",
       "type": "color"
     },
     "text-critical": {
@@ -339,6 +339,10 @@
     },
     "text-critical-link-decoration-hover": {
       "value": "{color.text-critical-link}",
+      "type": "color"
+    },
+    "text-critical-contrast": {
+      "value": "{color.critical.contrast}",
       "type": "color"
     },
     "text-warning": {
@@ -377,6 +381,10 @@
       "value": "{color.text-success-link}",
       "type": "color"
     },
+    "text-success-contrast": {
+      "value": "{color.success.contrast}",
+      "type": "color"
+    },
     "text-info": {
       "value": "{color.info.11}",
       "type": "color"
@@ -391,6 +399,10 @@
     },
     "text-info-link-decoration-hover": {
       "value": "{color.text-info-link}",
+      "type": "color"
+    },
+    "text-info-contrast": {
+      "value": "{color.info.contrast}",
       "type": "color"
     },
     "icon": {
@@ -693,6 +705,10 @@
       "12": {
         "value": "{color.tomato.1200}",
         "type": "color"
+      },
+      "contrast": {
+        "value": "#fff8f7",
+        "type": "color"
       }
     },
     "info": {
@@ -743,6 +759,10 @@
       "12": {
         "value": "{color.blue.1200}",
         "type": "color"
+      },
+      "contrast": {
+        "value": "#fbfdff",
+        "type": "color"
       }
     },
     "success": {
@@ -792,6 +812,10 @@
       },
       "12": {
         "value": "{color.grass.1200}",
+        "type": "color"
+      },
+      "contrast": {
+        "value": "#fbfefb",
         "type": "color"
       }
     },

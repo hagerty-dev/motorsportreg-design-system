@@ -1,37 +1,5 @@
 {
   "color": {
-    "background-brand": {
-      "value": "{color.accent.12}",
-      "type": "color"
-    },
-    "background-brand-hover": {
-      "value": "{color.accent.12}",
-      "type": "color"
-    },
-    "background-brand-active": {
-      "value": "{color.accent.12}",
-      "type": "color"
-    },
-    "background-brand-selected": {
-      "value": "{color.accent.12}",
-      "type": "color"
-    },
-    "background-brand-selected-hover": {
-      "value": "{color.accent.12}",
-      "type": "color"
-    },
-    "background-brand-selected-active": {
-      "value": "{color.accent.12}",
-      "type": "color"
-    },
-    "text-brand": {
-      "value": "{color.accent.12}",
-      "type": "color"
-    },
-    "text-link": {
-      "value": "{color.accent.12}",
-      "type": "color"
-    },
     "accent": {
       "1": {
         "value": "{color.onyx.100}",
