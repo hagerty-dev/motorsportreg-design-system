@@ -13,7 +13,7 @@
       "type": "color"
     },
     "border-subtle": {
-      "value": "{color.gray.6}",
+      "value": "{color.gray.5}",
       "type": "color"
     },
     "border-hover": {
