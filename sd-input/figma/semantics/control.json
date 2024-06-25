@@ -38,7 +38,7 @@
         "type": "color"
       },
       "border-focus-ring": {
-        "value": "{color.accent.5}",
+        "value": "{color.cobalt.500}",
         "type": "color"
       },
       "border-error": {
@@ -427,31 +427,31 @@
     "height": {
       "input": {
         "input": {
-          "value": "{line-height.loose}",
+          "value": "{line-height.400}",
           "type": "lineHeights"
         },
         "label": {
-          "value": "{line-height.extra}",
+          "value": "{line-height.200}",
           "type": "lineHeights"
         },
         "message": {
-          "value": "{line-height.standard}",
+          "value": "{line-height.300}",
           "type": "lineHeights"
         },
         "help": {
-          "value": "{line-height.extra}",
+          "value": "{line-height.200}",
           "type": "lineHeights"
         },
         "optional": {
-          "value": "{line-height.extra}",
+          "value": "{line-height.200}",
           "type": "lineHeights"
         },
         "option": {
-          "value": "{line-height.loose}",
+          "value": "{line-height.400}",
           "type": "lineHeights"
         },
         "legend": {
-          "value": "{line-height.extra}",
+          "value": "{line-height.200}",
           "type": "lineHeights"
         }
       }

@@ -836,31 +836,31 @@
     }
   },
   "line-height": {
-    "none": {
+    "0": {
       "value": "0",
       "type": "lineHeights"
     },
-    "tight": {
+    "100": {
       "value": "110%",
       "type": "lineHeights",
       "description": "1.1"
     },
-    "extra": {
+    "200": {
       "value": "112.5%",
       "type": "lineHeights",
       "description": "1.2"
     },
-    "standard": {
+    "300": {
       "value": "125%",
       "type": "lineHeights",
       "description": "1.25"
     },
-    "loose": {
+    "400": {
       "value": "133%",
       "type": "lineHeights",
       "description": "1.33"
     },
-    "airy": {
+    "500": {
       "value": "150%",
       "type": "lineHeights",
       "description": "1.5"
