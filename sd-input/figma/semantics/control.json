@@ -329,31 +329,31 @@
     "family": {
       "input": {
         "input": {
-          "value": "{font-family.Inter}",
+          "value": "{font-family}",
           "type": "fontFamilies"
         },
         "label": {
-          "value": "{font-family.Inter}",
+          "value": "{font-family}",
           "type": "fontFamilies"
         },
         "message": {
-          "value": "{font-family.Inter}",
+          "value": "{font-family}",
           "type": "fontFamilies"
         },
         "help": {
-          "value": "{font-family.Inter}",
+          "value": "{font-family}",
           "type": "fontFamilies"
         },
         "optional": {
-          "value": "{font-family.Inter}",
+          "value": "{font-family}",
           "type": "fontFamilies"
         },
         "legend": {
-          "value": "{font-family.Inter}",
+          "value": "{font-family}",
           "type": "fontFamilies"
         },
         "option": {
-          "value": "{font-family.Inter}",
+          "value": "{font-family}",
           "type": "fontFamilies"
         }
       }
@@ -361,31 +361,31 @@
     "weight": {
       "input": {
         "input": {
-          "value": "{font-weight.400}",
+          "value": "{font-weight.conversational}",
           "type": "fontWeights"
         },
         "label": {
-          "value": "{font-weight.525}",
+          "value": "{font-weight.elevated}",
           "type": "fontWeights"
         },
         "message": {
-          "value": "{font-weight.400}",
+          "value": "{font-weight.conversational}",
           "type": "fontWeights"
         },
         "help": {
-          "value": "{font-weight.400}",
+          "value": "{font-weight.conversational}",
           "type": "fontWeights"
         },
         "optional": {
-          "value": "{font-weight.400}",
+          "value": "{font-weight.conversational}",
           "type": "fontWeights"
         },
         "legend": {
-          "value": "{font-weight.525}",
+          "value": "{font-weight.elevated}",
           "type": "fontWeights"
         },
         "option": {
-          "value": "{font-weight.400}",
+          "value": "{font-weight.conversational}",
           "type": "fontWeights"
         }
       }
@@ -427,23 +427,23 @@
     "height": {
       "input": {
         "input": {
-          "value": "{line-height.400}",
+          "value": "{line-height.loose}",
           "type": "lineHeights"
         },
         "label": {
-          "value": "{line-height.200}",
+          "value": "{line-height.extra}",
           "type": "lineHeights"
         },
         "message": {
-          "value": "{line-height.300}",
+          "value": "{line-height.standard}",
           "type": "lineHeights"
         },
         "help": {
-          "value": "{line-height.200}",
+          "value": "{line-height.extra}",
           "type": "lineHeights"
         },
         "optional": {
-          "value": "{line-height.200}",
+          "value": "{line-height.extra}",
           "type": "lineHeights"
         },
         "option": {
@@ -451,7 +451,7 @@
           "type": "lineHeights"
         },
         "legend": {
-          "value": "{line-height.200}",
+          "value": "{line-height.extra}",
           "type": "lineHeights"
         }
       }
