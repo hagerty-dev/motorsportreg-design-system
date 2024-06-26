@@ -97,7 +97,7 @@
           "value": "{color.gray.7}",
           "type": "color"
         },
-        "thumb": {
+        "indicator": {
           "value": "{color.accent.9}",
           "type": "color"
         }

@@ -90,7 +90,6 @@
       "color.input.text.disabled": "ba2d80166803d23fd2f7dcb464c7cc30cc2ec6ef",
       "color.input.text.placeholder-focus": "ccd1fc262fc9db6962bb434a3bf9e18bff71625e",
       "color.input.range.track": "ca30cde883723ec56a2770534b45fa187958b466",
-      "color.input.range.thumb": "89a49c5842ed5310255570298d8b74b374f0084c",
       "color.input.icon": "a9975a53222a641179cc6998ee1421f23583fa17",
       "color.cobalt.100": "d628837d7a5008e5720839ec0a886fdb9322e1c4",
       "color.cobalt.200": "0ed1a176f6a545a2ed7925ae913cbba3206edccd",
@@ -429,7 +428,8 @@
       "color.warning.900": "31ff140b5fdf784eff9ca07bf29b10f403d417f7",
       "color.warning.1000": "233d1eb8b8a06624f0d915c50beda35b3e8582fb",
       "color.warning.1100": "e61e8d27515ad8bc5ad77375df70e220e081eca4",
-      "color.warning.1200": "dc0fd1c0dc7699442d929f890562ed7f6b2e8f4b"
+      "color.warning.1200": "dc0fd1c0dc7699442d929f890562ed7f6b2e8f4b",
+      "color.input.range.indicator": "89a49c5842ed5310255570298d8b74b374f0084c"
     },
     "group": "Mode"
   },
