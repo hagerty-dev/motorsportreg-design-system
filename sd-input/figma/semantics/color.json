@@ -501,6 +501,10 @@
       "value": "{color.accent.9}",
       "type": "color"
     },
+    "thumb": {
+      "value": "{color.background}",
+      "type": "color"
+    },
     "track": {
       "value": "{color.gray.4}",
       "type": "color"
