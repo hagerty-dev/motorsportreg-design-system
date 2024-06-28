@@ -4,20 +4,181 @@
       "value": "{shadow.100}",
       "type": "boxShadow"
     },
-    "surface-raised-hover": {
-      "value": "{shadow.200}",
+    "surface-disabled": {
+      "value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "1",
+          "color": "{color.border-disabled}",
+          "type": "innerShadow"
+        }
+      ],
       "type": "boxShadow"
     },
     "surface-raised": {
-      "value": "{shadow.300}",
+      "value": "{shadow.700}",
       "type": "boxShadow"
     },
-    "surface-overlay-small": {
+    "surface-raised-hover": {
       "value": "{shadow.500}",
       "type": "boxShadow"
     },
+    "surface-focus": {
+      "value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "1",
+          "color": "{color.border-subtle}",
+          "type": "innerShadow"
+        },
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "3",
+          "color": "{color.border-focus}",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "surface-overlay-small": {
+      "value": "{shadow.800}",
+      "type": "boxShadow"
+    },
     "surface-overlay-large": {
+      "value": "{shadow.900}",
+      "type": "boxShadow"
+    },
+    "background": {
+      "value": "{shadow.200}",
+      "type": "boxShadow"
+    },
+    "background-hover": {
+      "value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "1",
+          "color": "{color.border-hover}",
+          "type": "innerShadow"
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "background-disabled": {
+      "value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "1",
+          "color": "{color.border-disabled}",
+          "type": "innerShadow"
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "background-raised": {
       "value": "{shadow.600}",
+      "type": "boxShadow"
+    },
+    "background-raised-hover": {
+      "value": "{shadow.400}",
+      "type": "boxShadow"
+    },
+    "background-focus": {
+      "value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "1",
+          "color": "{color.border-brand}",
+          "type": "innerShadow"
+        },
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "3",
+          "color": "{color.border-focus}",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "critical-loud": {
+      "value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "1",
+          "color": "{color.border-critical-loud}",
+          "type": "innerShadow"
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "critical-focus": {
+      "value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "1",
+          "color": "{color.border-critical-loud}",
+          "type": "innerShadow"
+        },
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "3",
+          "color": "{color.border-critical-focus}",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "selected-focus": {
+      "value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "1.5",
+          "color": "{color.border-selected}",
+          "type": "innerShadow"
+        },
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "3",
+          "color": "{color.border-focus}",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "selected": {
+      "value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "1.5",
+          "color": "{color.border-selected}",
+          "type": "innerShadow"
+        }
+      ],
       "type": "boxShadow"
     }
   }
