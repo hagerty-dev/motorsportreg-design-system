@@ -4,19 +4,19 @@
       "value": "{shadow.100}",
       "type": "boxShadow"
     },
-    "raised-hover": {
+    "surface-raised-hover": {
       "value": "{shadow.200}",
       "type": "boxShadow"
     },
-    "raised": {
+    "surface-raised": {
       "value": "{shadow.300}",
       "type": "boxShadow"
     },
-    "overlay-small": {
+    "surface-overlay-small": {
       "value": "{shadow.500}",
       "type": "boxShadow"
     },
-    "overlay-large": {
+    "surface-overlay-large": {
       "value": "{shadow.600}",
       "type": "boxShadow"
     }
