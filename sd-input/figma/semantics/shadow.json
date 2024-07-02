@@ -179,11 +179,11 @@
     "type": "boxShadow"
   },
   "shadow-raised-subtle-hover": {
-    "value": "{shadow.300}",
+    "value": "{shadow.100}",
     "type": "boxShadow"
   },
   "shadow-raised-subtle-focus": {
-    "value": "{shadow.500}",
+    "value": "{shadow.300}",
     "type": "boxShadow"
   },
   "shadow-raised": {
@@ -191,11 +191,11 @@
     "type": "boxShadow"
   },
   "shadow-raised-hover": {
-    "value": "{shadow.400}",
+    "value": "{shadow.200}",
     "type": "boxShadow"
   },
   "shadow-raised-focus": {
-    "value": "{shadow.600}",
+    "value": "{shadow.400}",
     "type": "boxShadow"
   },
   "shadow-overlay-small": {
@@ -203,7 +203,7 @@
     "type": "boxShadow"
   },
   "shadow-overlay-large": {
-    "value": "{shadow.800}",
+    "value": "{shadow.700}",
     "type": "boxShadow"
   }
 }
