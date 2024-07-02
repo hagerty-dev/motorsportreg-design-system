@@ -1450,32 +1450,6 @@
           "y": "0",
           "blur": "0",
           "spread": "1",
-          "color": "{color.border-subtle}",
-          "type": "innerShadow"
-        }
-      ],
-      "type": "boxShadow"
-    },
-    "200": {
-      "value": [
-        {
-          "x": "0",
-          "y": "0",
-          "blur": "0",
-          "spread": "1",
-          "color": "{color.border}",
-          "type": "innerShadow"
-        }
-      ],
-      "type": "boxShadow"
-    },
-    "300": {
-      "value": [
-        {
-          "x": "0",
-          "y": "0",
-          "blur": "0",
-          "spread": "1",
           "color": "{color.border-subtle-hover}",
           "type": "innerShadow"
         },
@@ -1514,7 +1488,7 @@
       ],
       "type": "boxShadow"
     },
-    "400": {
+    "200": {
       "value": [
         {
           "x": "0",
@@ -1559,6 +1533,80 @@
       ],
       "type": "boxShadow"
     },
+    "300": {
+      "value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "1",
+          "color": "{color.border-subtle}",
+          "type": "innerShadow"
+        },
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "1",
+          "spread": "0.5",
+          "color": "{color.black.a2}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "1",
+          "blur": "2",
+          "spread": "0",
+          "color": "{color.black.a1}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "1",
+          "blur": "4",
+          "spread": "0",
+          "color": "{color.black.a5}",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "400": {
+      "value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "1",
+          "color": "{color.border}",
+          "type": "innerShadow"
+        },
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "1",
+          "spread": "0.5",
+          "color": "{color.black.a2}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "1",
+          "blur": "2",
+          "spread": "0",
+          "color": "{color.black.a1}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "1",
+          "blur": "4",
+          "spread": "0",
+          "color": "{color.black.a5}",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow"
+    },
     "500": {
       "value": [
         {
@@ -1591,6 +1639,14 @@
           "blur": "4",
           "spread": "0",
           "color": "{color.black.a5}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "4",
+          "color": "{color.border-focus}",
           "type": "dropShadow"
         }
       ],
@@ -1629,48 +1685,19 @@
           "spread": "0",
           "color": "{color.black.a5}",
           "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "4",
+          "color": "{color.border-focus}",
+          "type": "dropShadow"
         }
       ],
       "type": "boxShadow"
     },
     "700": {
-      "value": [
-        {
-          "x": "0",
-          "y": "0",
-          "blur": "0",
-          "spread": "1",
-          "color": "{color.border-subtle}",
-          "type": "innerShadow"
-        },
-        {
-          "x": "0",
-          "y": "2",
-          "blur": "3",
-          "spread": "-2",
-          "color": "{color.gray.a3}",
-          "type": "dropShadow"
-        },
-        {
-          "x": "0",
-          "y": "3",
-          "blur": "8",
-          "spread": "-2",
-          "color": "{color.black.a2}",
-          "type": "dropShadow"
-        },
-        {
-          "x": "0",
-          "y": "4",
-          "blur": "12",
-          "spread": "-4",
-          "color": "{color.black.a2}",
-          "type": "dropShadow"
-        }
-      ],
-      "type": "boxShadow"
-    },
-    "800": {
       "value": [
         {
           "x": "0",
@@ -1699,7 +1726,7 @@
       ],
       "type": "boxShadow"
     },
-    "900": {
+    "800": {
       "value": [
         {
           "x": "0",
