@@ -183,7 +183,7 @@
     "type": "boxShadow"
   },
   "shadow-raised-subtle-focus": {
-    "value": "{shadow.300}",
+    "value": "{shadow.500}",
     "type": "boxShadow"
   },
   "shadow-raised": {
@@ -195,7 +195,7 @@
     "type": "boxShadow"
   },
   "shadow-raised-focus": {
-    "value": "{shadow.400}",
+    "value": "{shadow.600}",
     "type": "boxShadow"
   },
   "shadow-overlay-small": {
@@ -204,6 +204,17 @@
   },
   "shadow-overlay-large": {
     "value": "{shadow.700}",
+    "type": "boxShadow"
+  },
+  "focus": {
+    "value": {
+      "x": "0",
+      "y": "0",
+      "blur": "0",
+      "spread": "4",
+      "color": "{color.border-focus}",
+      "type": "dropShadow"
+    },
     "type": "boxShadow"
   }
 }
