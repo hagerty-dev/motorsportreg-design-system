@@ -32,7 +32,7 @@
         "y": "0",
         "blur": "0",
         "spread": "1",
-        "color": "{color.border-brand}",
+        "color": "{color.border}",
         "type": "innerShadow"
       },
       {
@@ -204,6 +204,27 @@
   },
   "shadow-overlay-large": {
     "value": "{shadow.700}",
+    "type": "boxShadow"
+  },
+  "focus-input": {
+    "value": [
+      {
+        "x": "0",
+        "y": "0",
+        "blur": "0",
+        "spread": "1",
+        "color": "{color.border-brand}",
+        "type": "innerShadow"
+      },
+      {
+        "x": "0",
+        "y": "0",
+        "blur": "0",
+        "spread": "4",
+        "color": "{color.border-focus}",
+        "type": "dropShadow"
+      }
+    ],
     "type": "boxShadow"
   },
   "focus": {
