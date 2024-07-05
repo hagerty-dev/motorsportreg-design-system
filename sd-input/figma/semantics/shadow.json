@@ -175,7 +175,7 @@
     "type": "boxShadow"
   },
   "shadow-raised-subtle": {
-    "value": "{shadow.100}",
+    "value": "{shadow.300}",
     "type": "boxShadow"
   },
   "shadow-raised-subtle-hover": {
@@ -187,7 +187,7 @@
     "type": "boxShadow"
   },
   "shadow-raised": {
-    "value": "{shadow.200}",
+    "value": "{shadow.400}",
     "type": "boxShadow"
   },
   "shadow-raised-hover": {
