@@ -318,7 +318,7 @@
       "type": "color"
     },
     "text-link": {
-      "value": "{color.accent.11}",
+      "value": "{color.accent.9}",
       "type": "color"
     },
     "text-link-hover": {
@@ -334,7 +334,7 @@
       "type": "color"
     },
     "text-link-decoration-hover": {
-      "value": "{color.accent.11}",
+      "value": "{color.accent.9}",
       "type": "color"
     },
     "text-critical": {
