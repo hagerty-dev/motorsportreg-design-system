@@ -182,6 +182,10 @@
     "value": "{shadow.100}",
     "type": "boxShadow"
   },
+  "shadow-raised-subtle-active": {
+    "value": "{border-subtle-hover}",
+    "type": "boxShadow"
+  },
   "shadow-raised-subtle-focus": {
     "value": "{shadow.500}",
     "type": "boxShadow"
@@ -192,6 +196,10 @@
   },
   "shadow-raised-hover": {
     "value": "{shadow.200}",
+    "type": "boxShadow"
+  },
+  "shadow-raised-active": {
+    "value": "{border-hover}",
     "type": "boxShadow"
   },
   "shadow-raised-focus": {
