@@ -9,6 +9,7 @@
     "semantics/mutable",
     "semantics/color attendee",
     "semantics/font",
+    "semantics/text",
     "semantics/typography",
     "semantics/color-deprecated"
   ]
