@@ -1,1 +1,22 @@
-{}
+{
+  "text": {
+    "label": {
+      "value": {
+        "fontFamily": "{font-family}",
+        "fontWeight": "{font-weight.elevated}",
+        "fontSize": "{font-size.80}",
+        "lineHeight": "{line-height.extra}"
+      },
+      "type": "typography"
+    },
+    "input": {
+      "value": {
+        "fontFamily": "{font-family}",
+        "fontWeight": "{font-weight.elevated}",
+        "fontSize": "{font-size.87}",
+        "lineHeight": "{line-height.standard}"
+      },
+      "type": "typography"
+    }
+  }
+}
