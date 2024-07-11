@@ -1,5 +1,14 @@
 {
   "text": {
+    "input": {
+      "value": {
+        "fontFamily": "{font-family}",
+        "fontWeight": "{font-weight.elevated}",
+        "fontSize": "{font-size.87}",
+        "lineHeight": "{line-height.standard}"
+      },
+      "type": "typography"
+    },
     "label": {
       "value": {
         "fontFamily": "{font-family}",
@@ -9,7 +18,70 @@
       },
       "type": "typography"
     },
-    "input": {
+    "legend": {
+      "value": {
+        "fontFamily": "{font-family}",
+        "fontWeight": "{font-weight.elevated}",
+        "fontSize": "{font-size.80}",
+        "lineHeight": "{line-height.extra}"
+      },
+      "type": "typography"
+    },
+    "select": {
+      "value": {
+        "fontFamily": "{font-family}",
+        "fontWeight": "{font-weight.elevated}",
+        "fontSize": "{font-size.87}",
+        "lineHeight": "{line-height.standard}"
+      },
+      "type": "typography"
+    },
+    "option-label": {
+      "value": {
+        "fontFamily": "{font-family}",
+        "fontWeight": "{font-weight.conversational}",
+        "fontSize": "{font-size.87}",
+        "lineHeight": "{line-height.standard}"
+      },
+      "type": "typography"
+    },
+    "option-help": {
+      "value": {
+        "fontFamily": "{font-family}",
+        "fontWeight": "{font-weight.conversational}",
+        "fontSize": "{font-size.80}",
+        "lineHeight": "{line-height.standard}"
+      },
+      "type": "typography"
+    },
+    "help": {
+      "value": {
+        "fontFamily": "{font-family}",
+        "fontWeight": "{font-weight.conversational}",
+        "fontSize": "{font-size.80}",
+        "lineHeight": "{line-height.standard}"
+      },
+      "type": "typography"
+    },
+    "message": {
+      "value": {
+        "fontFamily": "{font-family}",
+        "fontWeight": "{font-weight.conversational}",
+        "fontSize": "{font-size-deprecated.75}",
+        "lineHeight": "{line-height.loose}"
+      },
+      "type": "typography"
+    },
+    "toggle-label": {
+      "value": {
+        "fontFamily": "{font-family}",
+        "fontWeight": "{font-weight.elevated}",
+        "fontSize": "{font-size.87}",
+        "lineHeight": "{line-height.standard}"
+      },
+      "type": "typography"
+    },
+    "button-label": {
       "value": {
         "fontFamily": "{font-family}",
         "fontWeight": "{font-weight.elevated}",

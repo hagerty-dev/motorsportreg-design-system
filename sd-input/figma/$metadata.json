@@ -5,12 +5,12 @@
     "dark",
     "semantics/color",
     "semantics/shadow",
-    "semantics/control",
     "semantics/mutable",
     "semantics/color attendee",
     "semantics/font",
     "semantics/text",
     "semantics/typography",
+    "semantics/control-deprecated",
     "semantics/color-deprecated"
   ]
 }

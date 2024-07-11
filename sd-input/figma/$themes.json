@@ -3,7 +3,8 @@
     "id": "fb86c28da832dc6057ac9512f2ad9687345fd214",
     "name": "Light",
     "selectedTokenSets": {
-      "light": "enabled"
+      "light": "enabled",
+      "semantics/control-deprecated": "disabled"
     },
     "$figmaStyleReferences": {
       "text.input.value-deprecate": "S:2820c16773c51d5d64648a9357223a1bf2bf4f17,",
@@ -24,7 +25,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "dark": "enabled",
-      "semantics/mutable": "enabled"
+      "semantics/mutable": "enabled",
+      "semantics/control-deprecated": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:3825:4017",
     "$figmaModeId": "3825:2",
@@ -438,7 +440,8 @@
     "name": "Default",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "primitives": "enabled"
+      "primitives": "enabled",
+      "semantics/control-deprecated": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:3825:4415",
     "$figmaModeId": "3825:3",
@@ -455,7 +458,7 @@
       "semantics/typography": "enabled",
       "semantics/font": "enabled",
       "semantics/color": "enabled",
-      "semantics/control": "enabled"
+      "semantics/control-deprecated": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:3825:4468",
     "$figmaModeId": "3825:4",
@@ -473,7 +476,7 @@
       "semantics/font": "enabled",
       "semantics/color attendee": "enabled",
       "semantics/color": "enabled",
-      "semantics/control": "enabled"
+      "semantics/control-deprecated": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:3825:4468",
     "$figmaModeId": "3825:5",

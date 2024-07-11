@@ -313,7 +313,7 @@
       "value": "{color.gray.9}",
       "type": "color"
     },
-    "text-placeholder": {
+    "text-focus": {
       "value": "{color.gray.8}",
       "type": "color"
     },
